@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mssql-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mssql
+  template:
+    metadata:
+      labels:
+        app: mssql
+    spec:
+      containers:
+        - name: mssql
+          image: mcr.microsoft.com/mssql/server:2022-latest
+          ports:
+            - containerPort: 1433
+          env:
+            - name: ACCEPT_EULA
+              value: "Y"
+            - name: SA_PASSWORD
+              value: "Abc123!@#"
+          volumeMounts:
+            - mountPath: /var/opt/mssql
+              name: giap-mssql-data
+      volumes:
+        - name: giap-mssql-data
+          persistentVolumeClaim:
+            claimName: mssql-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-cluster-ip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: mssql
+  ports:
+  - name: mssql
+    protocol: TCP
+    port: 1433
+    targetPort: 1433
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-loadbalancer-srv
+spec:
+  type: LoadBalancer
+  selector:
+    app: mssql
+  ports:
+  - name: mssql
+    protocol: TCP
+    port: 1533
+    targetPort: 1433

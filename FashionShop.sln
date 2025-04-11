@@ -3,15 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{3EF33527-B273-475E-9DFA-0118A98C9ADC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{99B04DAB-6821-42F8-AB1A-0CBB3642D734}"
-EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FashionShop.Frontend", "FashionShop.Frontend\FashionShop.Frontend.esproj", "{074085FE-059E-4F06-83A8-7C5CECE9462B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.UserService", "FashionShop.UserService\FashionShop.UserService.csproj", "{DB3D086A-EF15-4B66-97A5-F2D87E2B4984}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8s", "K8s", "{188C87AF-CE18-4C2F-92E1-A0718B7CF59C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.UserService", "FashionShop.UserService\FashionShop.UserService.csproj", "{8AABC259-2347-4154-830B-4031D0FC6B62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,17 +19,12 @@ Global
 		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{DB3D086A-EF15-4B66-97A5-F2D87E2B4984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB3D086A-EF15-4B66-97A5-F2D87E2B4984}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB3D086A-EF15-4B66-97A5-F2D87E2B4984}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB3D086A-EF15-4B66-97A5-F2D87E2B4984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AABC259-2347-4154-830B-4031D0FC6B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AABC259-2347-4154-830B-4031D0FC6B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AABC259-2347-4154-830B-4031D0FC6B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AABC259-2347-4154-830B-4031D0FC6B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{074085FE-059E-4F06-83A8-7C5CECE9462B} = {99B04DAB-6821-42F8-AB1A-0CBB3642D734}
-		{DB3D086A-EF15-4B66-97A5-F2D87E2B4984} = {3EF33527-B273-475E-9DFA-0118A98C9ADC}
-		{188C87AF-CE18-4C2F-92E1-A0718B7CF59C} = {3EF33527-B273-475E-9DFA-0118A98C9ADC}
 	EndGlobalSection
 EndGlobal
