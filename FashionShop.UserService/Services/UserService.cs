@@ -10,24 +10,24 @@ namespace FashionShop.UserService.Services
     {
         private readonly UserDbContext _context;
         private readonly UserManager<User> _userManager;
-        private readonly IJwtTokenService _jwtTokenService;
+        private readonly RoleManager<IdentityRole<Guid>> _roleManager;
 
-        public UserService(UserDbContext context, UserManager<User> userManager,IJwtTokenService jwtTokenService)
+        public UserService(UserDbContext context, UserManager<User> userManager,RoleManager<IdentityRole<Guid>> roleManager)
         {
             _context = context;
             _userManager = userManager;
-            _jwtTokenService = jwtTokenService;
+            _roleManager =roleManager;
         }
 
-        public async Task<bool> DeleteUserAsync(string userId)
+        public async Task<bool> DeleteUserAsync(Guid userId)
         {
-            Guid userGuid = Guid.TryParse(userId, out var temp) ? temp : Guid.Empty;
-            if (userGuid == Guid.Empty) {
+            
+            if (userId == Guid.Empty) {
                 throw new ArgumentException("Invalid user ID format. ");
 
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(a => a.Id==userGuid);
+            var user = await _context.Users.FirstOrDefaultAsync(a => a.Id==userId);
             if (user == null) { 
                 throw new ArgumentNullException(nameof(user));
             }
@@ -37,25 +37,31 @@ namespace FashionShop.UserService.Services
 
         }
 
-        public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
+        public async Task<List<UserDto>> GetAllUsersAsync()
         {
             var users = await _context.Users.ToListAsync();
-            return users.Select(user => new UserDto
+            var result = new List<UserDto>();
+            foreach (var user in users)
             {
-                Id = user.Id,
-                UserName = user.UserName,
-                Email = user.Email
-            });
+                result.Add(new UserDto
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    Email = user.Email,
+                    Roles = await _userManager.GetRolesAsync(user)  
+                });
+            }
+            return result;
         }
 
-        public async Task<UserDto> GetUserByIdAsync(string id)
+        public async Task<UserDto> GetUserByIdAsync(Guid id)
         {
-            Guid guid = Guid.TryParse(id, out var parsedGuid) ? parsedGuid : Guid.Empty;
-            if (guid == Guid.Empty)
+            
+            if (id == Guid.Empty)
             {
                 throw new ArgumentException("Invalid user ID format.");
             }
-            var user =await _context.Users.FirstOrDefaultAsync(u => u.Id == guid);
+            var user =await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
             if (user == null)
             {
                 throw new KeyNotFoundException("User not found.");
@@ -64,66 +70,60 @@ namespace FashionShop.UserService.Services
             {
                 Id = user.Id,
                 UserName = user.UserName,
-                Email = user.Email
+                Email = user.Email,
+                Roles = await _userManager.GetRolesAsync(user)
             };
         }
 
-        public async Task<(bool Success, string Message, UserDto User)> LoginUserAsync(LoginDto loginDto)
+        public async Task SeedRoleAndAdminAsync()
         {
-            var user = await _userManager.FindByEmailAsync(loginDto.Email);
-            if (user == null)
+            //create roles
+            string[] roleNames = { "Admin", "Customer" };
+            foreach (var roleName in roleNames)
             {
-                return (false, "User not found", null);
+                if (!await _roleManager.RoleExistsAsync(roleName))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole<Guid>
+                    {
+                        Name = roleName,
+                        NormalizedName = roleName.ToUpper()
+                    });
+                }
             }
-            var token = _jwtTokenService.GenerateToken(user);
-            return (true, token, new UserDto
+
+            //create admin user
+            var adminEmail = "admin@gmail.com";
+            var adminUser = await _userManager.FindByEmailAsync(adminEmail);
+            if (adminUser == null)
             {
-                Id = user.Id,
-                UserName = user.UserName,
-                Email = user.Email
-            });
+                var user = new User
+                {
+                    UserName = "admin",
+                    Email = adminEmail,
+                    NormalizedUserName = "ADMIN",
+                    NormalizedEmail = adminEmail.ToUpper(),
+
+                };
+                user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, "Admin@123");
+                var result = await _userManager.CreateAsync(user);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, "Admin");
+                }
+                else
+                {
+                    throw new Exception("Failed to create admin user.");
+                }
+            }
         }
-
-        public async Task<(bool Success, string Message, UserDto? User)> RegisterUserAsync(RegisterUserDto registerUserDto)
+        public async Task<bool> UpdateUserAsync(Guid userId, UpdateUserDto userDto)
         {
-            if(registerUserDto.Email == null || registerUserDto.Password == null || registerUserDto.UserName == null)
-            {
-                throw new ArgumentNullException("User registration data cannot be null.");
-            }
-            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == registerUserDto.Email);
-            if (existingUser != null)
-            {
-                return (false, "User already exists", null);
-            }
-            var newUser = new User
-            {
-                UserName = registerUserDto.UserName,
-                Email = registerUserDto.Email,
-                UpdatedAt = DateTime.UtcNow,
-                CreatedAt = DateTime.UtcNow,
-            };
-            var result = await _userManager.CreateAsync(newUser,registerUserDto.Password);
-            if (!result.Succeeded)
-            {
-                return (false, "User registration failed", null);
-            }
-            return (true, "User registered successfully", new UserDto
-            {
-                Id = newUser.Id,
-                UserName = newUser.UserName,
-                Email = newUser.Email
-            });
-
-        }
-
-        public async Task<bool> UpdateUserAsync(string userId, UpdateUserDto userDto)
-        {
-            Guid guid = Guid.TryParse(userId, out var parsedGuid) ? parsedGuid : Guid.Empty;
-            if (guid == Guid.Empty)
+            
+            if (userId == Guid.Empty)
             {
                 throw new ArgumentException("Invalid user ID format.");
             }
-            var user = _context.Users.FirstOrDefault(u => u.Id == guid);
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
             if (user == null)
             {
                 throw new KeyNotFoundException("User not found.");
@@ -143,6 +143,30 @@ namespace FashionShop.UserService.Services
                 throw new Exception("User update failed.");
             }
 
+        }
+
+        public async Task<bool> UpdateUserRoleAsync(UpdateUserRoleDto userRole)
+        {
+            var user = await _userManager.FindByIdAsync(userRole.UserId.ToString());
+            if (user == null)
+            {
+                throw new KeyNotFoundException("User not found.");
+            }
+            var currentRoles = await _userManager.GetRolesAsync(user);
+            //remove all roles
+            var removeResult = await _userManager.RemoveFromRolesAsync(user, currentRoles);
+            if (!removeResult.Succeeded)
+            {
+                throw new Exception("Failed to remove roles.");
+            }
+            //add new roles
+         
+            var addResult = await _userManager.AddToRolesAsync(user, userRole.Roles);
+            if (!addResult.Succeeded)
+            {
+                throw new Exception("Failed to add roles.");
+            }
+            return addResult.Succeeded;
         }
     }
 }

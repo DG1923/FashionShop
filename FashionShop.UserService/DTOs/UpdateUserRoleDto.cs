@@ -8,6 +8,6 @@ namespace FashionShop.UserService.DTOs
         [Required]
         public Guid UserId { get; set; }
         [Required]
-        public List<IdentityRole<Guid>> Roles { get; set; }
+        public List<string> Roles { get; set; }
     }
 }

@@ -16,71 +16,69 @@ namespace FashionShop.UserService.Controllers
         {
             _userService = userService;
         }
-
-        [HttpPost("register")]
-        public async Task<IActionResult> RegisterUser(RegisterUserDto registerUserDto)
-        {
-            var result = await _userService.RegisterUserAsync(registerUserDto);
-            if (result.Success)
-            {
-                return Ok(result.User);
-            }
-            return BadRequest(result.Message);
-        }
-
-        [HttpPost("login")]
-        public async Task<IActionResult> LoginUser(LoginDto loginDto)
-        {
-            var result = await _userService.LoginUserAsync(loginDto);
-            if (result.Success)
-            {
-                return Ok(result.User);
-            }
-            return BadRequest(result.Message);
-        }
-
-        [Authorize]
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetUserById(string id)
-        {
-            var user = await _userService.GetUserByIdAsync(id);
-            if (user != null)
-            {
-                return Ok(user);
-            }
-            return NotFound("User not found");
-        }
-
-        [Authorize(Roles = "Admin")]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(string id, UpdateUserDto userDto)
-        {
-            var success = await _userService.UpdateUserAsync(id, userDto);
-            if (success)
-            {
-                return NoContent();
-            }
-            return BadRequest("User update failed");
-        }
-
-        [Authorize(Roles = "Admin")]
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(string id)
-        {
-            var success = await _userService.DeleteUserAsync(id);
-            if (success)
-            {
-                return NoContent();
-            }
-            return NotFound("User not found");
-        }
-
-        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> GetAllUsers()
         {
             var users = await _userService.GetAllUsersAsync();
             return Ok(users);
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetUserById(Guid id)
+        {
+            var user = await _userService.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return Ok(user);
+        }
+        [HttpPut("{userId}")]
+        public async Task<IActionResult> UpdateUser(Guid userId, [FromBody] UpdateUserDto userDto)
+        {
+           if(userId == Guid.Empty || userDto == null)
+            {
+                return BadRequest("Invalid user ID or user data.");
+            }
+           var result = await _userService.UpdateUserAsync(userId, userDto);
+            if (result)
+            {
+                return NoContent();
+            }
+            return NotFound("User not found.");
+        }
+        [HttpDelete("{userId}")]
+        public async Task<IActionResult> DeleteUser(Guid userId)
+        {
+            if (userId == Guid.Empty)
+            {
+                return BadRequest("Invalid user ID.");
+            }
+            var result = await _userService.DeleteUserAsync(userId);
+            if (result)
+            {
+                return NoContent();
+            }
+            return NotFound("User not found.");
+        }
+        [HttpPost("update-role")]
+        public async Task<IActionResult> UpdateUserRoles([FromBody] UpdateUserRoleDto userRole)
+        {
+            if (userRole == null)
+            {
+                return BadRequest("Invalid user role data.");
+            }
+            var result = await _userService.UpdateUserRoleAsync(userRole);
+            if (result)
+            {
+                return NoContent();
+            }
+            return NotFound("User not found.");
+        }
+        [HttpPost("seed")]
+        public async Task<IActionResult> SeedRoleAndAdmin()
+        {
+            await _userService.SeedRoleAndAdminAsync();
+            return Ok("Roles and admin user seeded successfully.");
         }
     }
 }

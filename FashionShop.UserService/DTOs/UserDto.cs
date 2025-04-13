@@ -12,6 +12,6 @@ namespace FashionShop.UserService.DTOs
         [Required]
         public string Email { get; set; }
         [Required]
-        public IList<IdentityRole<Guid>> Roles { get; set; }
+        public IList<string> Roles { get; set; } = new List<string>();
     }
 }
