@@ -8,6 +8,7 @@ namespace FashionShop.UserService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -17,12 +18,15 @@ namespace FashionShop.UserService.Controllers
             _userService = userService;
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> GetAllUsers()
         {
             var users = await _userService.GetAllUsersAsync();
             return Ok(users);
         }
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<IActionResult> GetUserById(Guid id)
         {
             var user = await _userService.GetUserByIdAsync(id);
@@ -33,6 +37,7 @@ namespace FashionShop.UserService.Controllers
             return Ok(user);
         }
         [HttpPut("{userId}")]
+        [Authorize]
         public async Task<IActionResult> UpdateUser(Guid userId, [FromBody] UpdateUserDto userDto)
         {
            if(userId == Guid.Empty || userDto == null)
@@ -47,6 +52,7 @@ namespace FashionShop.UserService.Controllers
             return NotFound("User not found.");
         }
         [HttpDelete("{userId}")]
+        [Authorize]
         public async Task<IActionResult> DeleteUser(Guid userId)
         {
             if (userId == Guid.Empty)
@@ -61,6 +67,7 @@ namespace FashionShop.UserService.Controllers
             return NotFound("User not found.");
         }
         [HttpPost("update-role")]
+        [Authorize]
         public async Task<IActionResult> UpdateUserRoles([FromBody] UpdateUserRoleDto userRole)
         {
             if (userRole == null)
@@ -75,6 +82,7 @@ namespace FashionShop.UserService.Controllers
             return NotFound("User not found.");
         }
         [HttpPost("seed")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> SeedRoleAndAdmin()
         {
             await _userService.SeedRoleAndAdminAsync();

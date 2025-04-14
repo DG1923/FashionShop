@@ -1,4 +1,5 @@
 ﻿using FashionShop.UserService.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace FashionShop.UserService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RolesController : ControllerBase
     {
         private readonly UserDbContext _context;
@@ -18,13 +20,16 @@ namespace FashionShop.UserService.Controllers
         }
         // GET: api/<RolesController>
         [HttpGet]
-        public IEnumerable<IdentityRole<Guid>> Get()
+        [Authorize(Roles = "Admin")]
+        public IEnumerable<IdentityRole<Guid>> GetAllRoles()
         {
             return _context.Roles.ToList();
         }
 
         // GET api/<RolesController>/5
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
+
         public IdentityRole<Guid> Get(string id)
         {
             Guid guid = Guid.TryParse(id, out var parsedGuid) ? parsedGuid : Guid.Empty;
@@ -42,6 +47,8 @@ namespace FashionShop.UserService.Controllers
 
         // POST api/<RolesController>
         [HttpPost]
+        [Authorize(Roles = "Admin")]
+
         public void Post([FromBody] string value)
         {
             // Create a new role
@@ -56,6 +63,8 @@ namespace FashionShop.UserService.Controllers
 
         // PUT api/<RolesController>/5
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
+
         public void Put(string id, [FromBody] string value)
         {
             Guid guid = Guid.TryParse(id, out var parsedGuid) ? parsedGuid : Guid.Empty;
@@ -73,6 +82,8 @@ namespace FashionShop.UserService.Controllers
 
         // DELETE api/<RolesController>/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+
         public void Delete(string id)
         {
             Guid guid = Guid.TryParse(id, out var parsedGuid) ? parsedGuid : Guid.Empty;

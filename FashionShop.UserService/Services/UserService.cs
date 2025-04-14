@@ -115,7 +115,7 @@ namespace FashionShop.UserService.Services
                     throw new Exception("Failed to create admin user.");
                 }
             }
-        }
+        }   
         public async Task<bool> UpdateUserAsync(Guid userId, UpdateUserDto userDto)
         {
             
