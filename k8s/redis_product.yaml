@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-product-loadbalancer-srv
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 6379
+      protocol: TCP
+  selector:
+    app: redis-product
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-product
+  labels:
+    app: redis-product
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-product
+  template:
+    metadata:
+      labels:
+        app: redis-product
+    spec:
+      containers:
+      - name: redis-product
+        image: redis:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 6379
+          protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name:  redis-product-cluster-ip-srv
+spec:
+  selector:
+    app:  redis-product
+  # ClusterIP is the default ServiceType, so this field can be omitted.
+  type:  ClusterIP
+  ports:
+  - name:  redis-product
+    port:  80
+    targetPort:  6379
+    # The port that the service will expose.
+    protocol:  TCP
+---
