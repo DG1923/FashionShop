@@ -25,15 +25,17 @@ namespace FashionShop.ProductService
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<ProductDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-            //add configurations for redis
-            builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+            //add caching services
+            builder.Services.AddStackExchangeRedisCache(options =>
             {
-
-                return ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("Redis"));
+                string redisConnectionString = builder.Configuration.GetConnectionString("RedisConnection");
+                options.Configuration = redisConnectionString;
             });
             builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
-
+            builder.Services.AddScoped<IProductCategoryRepo, ProductCategoryRepo>();
+            builder.Services.AddScoped<IProductRepo, ProductRepo>();
+            builder.Services.AddScoped<IDiscountRepo, DiscountRepo>();
+            builder.Services.AddScoped<IProductVariationRepo, ProductVariationRepo>();
             //// Configure authentication
             //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //                    .AddJwtBearer(options =>

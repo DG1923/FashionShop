@@ -6,12 +6,12 @@ using System.Text.Json;
 
 namespace FashionShop.ProductService.Services
 {
-    public class ProductService : GenericRepo<Product>, IProductService
+    public class ProductRepo : GenericRepo<Product>, IProductRepo
     {
         private readonly ProductDbContext _context;
         private readonly IDistributedCache _cache;
        
-        public ProductService(ProductDbContext context, IDistributedCache cache) : base(context, cache)
+        public ProductRepo(ProductDbContext context, IDistributedCache cache) : base(context, cache)
         {
             _context = context;
             _cache = cache; 
@@ -75,6 +75,6 @@ namespace FashionShop.ProductService.Services
 
 
         }
-        // Add any additional methods specific to ProductService here
+        // Add any additional methods specific to ProductRepo here
     }
 }
