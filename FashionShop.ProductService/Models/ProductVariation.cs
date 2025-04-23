@@ -4,18 +4,16 @@ namespace FashionShop.ProductService.Models
 {
     public class ProductVariation:BaseEntity
     {
-        [Required]
-        public string Color { get; set; }
+
         [Required]
         public string Size { get; set; }
-        [Required]  
-        public decimal AdditionalPrice { get; set; }//additional price for the variation from base cost
-        [Required]
+        public string? Description { get; set; }
+        
         public int Quantity { get; set; }
-        public string? ImageUrl { get; set; }
+        public string? ImageUrlVariation { get; set; }
         //configure the relationship with Product   
-        public Product? Product { get; set; }
+        public ProductColor? ProductColor { get; set; }
         [Required]
-        public Guid ProductId { get; set; }
+        public Guid ProductColorId { get; set; }
     }
 }

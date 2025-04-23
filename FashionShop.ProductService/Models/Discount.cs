@@ -12,8 +12,11 @@ namespace FashionShop.ProductService.Models
         [Required]
         public decimal DiscountPercent { get; set; }
         [Required]
-        public bool Active { get; set; }
+        public bool IsActive { get; set; }
+
+
+
         public ICollection<Product>? Products { get; set; }
-        public bool IsActive { get; internal set; }
+
     }
 }

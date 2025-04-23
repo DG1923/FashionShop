@@ -10,7 +10,8 @@ namespace FashionShop.ProductService.Data
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<ProductVariation> ProductVariations { get; set; }
         public DbSet<Discount> Discounts { get; set; }
-
+        public DbSet<ProductColor> ProductColors { get; set; }
+        
         public ProductDbContext( DbContextOptions<ProductDbContext> options):base(options)
         {
 
@@ -40,21 +41,23 @@ namespace FashionShop.ProductService.Data
                 .WithMany(p => p.Products)
                 .HasForeignKey(p => p.ProductCategoryId);
 
-            modelBuilder.Entity<ProductVariation>()
-                .HasOne(p => p.Product)
-                .WithMany(p => p.Variations)
+            modelBuilder.Entity<Product>()
+                .HasMany(p => p.ProductColors)
+                .WithOne(p => p.Product)
                 .HasForeignKey(p => p.ProductId);
+
+            modelBuilder.Entity<ProductColor>()
+                .HasMany(p => p.ProductVariations)
+                .WithOne(p => p.ProductColor)
+                .HasForeignKey(p => p.ProductColorId);
+
 
             modelBuilder.Entity<Discount>()
                 .Property(p => p.DiscountPercent)
                 .HasColumnType("decimal(18,2)");
 
             modelBuilder.Entity<Product>()
-                .Property(p => p.Price)
-                .HasColumnType("decimal(18,2)");
-
-            modelBuilder.Entity<ProductVariation>()
-                .Property(p => p.AdditionalPrice)
+                .Property(p => p.BasePrice)
                 .HasColumnType("decimal(18,2)");
 
            

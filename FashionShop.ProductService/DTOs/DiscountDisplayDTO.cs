@@ -1,0 +1,14 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FashionShop.ProductService.DTOs
+{
+    public class DiscountDisplayDTO
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        [Required]
+        public decimal DiscountPercent { get; set; }
+        [Required]
+        public bool IsActive { get; set; }
+    }
+}

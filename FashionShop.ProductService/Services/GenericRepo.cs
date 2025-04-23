@@ -50,7 +50,21 @@ namespace FashionShop.ProductService.Services
                 // Serialize the entity to JSON
                 string jsonData = JsonSerializer.Serialize(entity);
                 // Store the JSON data in the cache
-                await _cache.SetStringAsync(cacheKey, jsonData, options);
+                try
+                {
+                    Console.WriteLine("--> Set cache for creating ...");
+                    await _cache.SetStringAsync(cacheKey, jsonData, options);
+                    Console.WriteLine("--> Set cache success !");
+                    string cacheKeyAll = $"{_cachePrefix}_all";
+                    Console.WriteLine("--> Remove cache all entity... ");
+                    await _cache.RemoveAsync(cacheKeyAll);
+                    Console.WriteLine("--> Remove cache all entity success");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"--> Set cache failed: {ex.Message}");
+                }
+
                 return true;
             }
             return false;
@@ -65,23 +79,32 @@ namespace FashionShop.ProductService.Services
             var entity =await _context.Set<T>().FindAsync(id);
             if (entity == null)
             {
-                throw new ArgumentNullException(nameof(entity));
+                return false;   
             }
             _context.Set<T>().Remove(entity);
             // Save changes to the database
             var result = await _context.SaveChangesAsync();
+            Console.WriteLine("--> Delete entity success");
             if (result <= 0)
             {
                 return false;
             }
-            // Remove the cache entry
-
             string cacheKey = $"{_cachePrefix}_{id}";
-            await _cache.RemoveAsync(cacheKey);
-            //remove all cache entries
             string cacheKeyAll = $"{_cachePrefix}_all";
-            await _cache.RemoveAsync(cacheKeyAll);
-            // Save changes to the database
+            try
+            {
+                
+                await _cache.RemoveAsync(cacheKey);
+                Console.WriteLine("--> Remove cache entity success ");
+                await _cache.RemoveAsync(cacheKeyAll);
+                Console.WriteLine("--> Remove all cache success");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"--> Remove cache failed: {ex.Message}");
+            }
+           
+           
             
             return true;
         }
@@ -96,10 +119,12 @@ namespace FashionShop.ProductService.Services
                 IEnumerable<T> cachedEntities = JsonSerializer.Deserialize<IEnumerable<T>>(cachedData);
                 if (cachedEntities != null)
                 {
+                    Console.WriteLine("--> Get cache success");
                     return cachedEntities;
-                }
-                throw new ArgumentNullException(cachedData);
+                }else 
+                    throw new ArgumentNullException(cachedData);
             }
+            Console.WriteLine("--> Get cache failed");
             // If not found in cache, fetch from database
             var entities = await _dbSet.ToListAsync();
             //create expiration time for cache
@@ -130,18 +155,20 @@ namespace FashionShop.ProductService.Services
                 T cachedEntity = JsonSerializer.Deserialize<T>(cachedData);
                 if (cachedEntity != null)
                 {
+                    Console.WriteLine("--> Get cache data success");
                     return cachedEntity;
                 }
                 throw new ArgumentNullException(cachedData);
             }
             // If not found in cache, fetch from database
-
+            Console.WriteLine("--> Not found data in cache !");
             var entity =await _dbSet.FindAsync(id);
 
             if (entity == null)
             {
                 throw new ArgumentNullException(nameof(entity));
-            }else if(entity != null)
+            }
+            else if (entity != null)
             {
                 //create expiration time for cache
                 var options = new DistributedCacheEntryOptions()
@@ -151,10 +178,19 @@ namespace FashionShop.ProductService.Services
                 // Serialize the entity to JSON
                 string jsonData = JsonSerializer.Serialize(entity);
                 // Store the JSON data in the cache
-                await _cache.SetStringAsync(cacheKey, jsonData, options);
+                try
+                {
+                    await _cache.SetStringAsync(cacheKey, jsonData, options);
+                    Console.WriteLine("--> Set Cache data success");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"--> Set cache failed: {ex.Message}");
 
+                }
+                return entity;
             }
-            return entity;
+            return null;
         }
 
 
@@ -173,6 +209,8 @@ namespace FashionShop.ProductService.Services
             }
             // Update the cache entry
             string cacheKey = $"{_cachePrefix}_{entity.Id}";
+            string cacheKeyAll = $"{_cachePrefix}_all";
+
             //create expiration time for cache
             var options = new DistributedCacheEntryOptions()
             {
@@ -180,12 +218,21 @@ namespace FashionShop.ProductService.Services
             };
             // Serialize the entity to JSON
             string jsonData = JsonSerializer.Serialize(entity);
-            // Store the JSON data in the cache
-            await _cache.SetStringAsync(cacheKey, jsonData, options);
-            //remove all cache entries
-            string cacheKeyAll = $"{_cachePrefix}_all";
-            await _cache.RemoveAsync(cacheKeyAll);
-            
+            try
+            {
+
+                // Store the JSON data in the cache
+                await _cache.SetStringAsync(cacheKey, jsonData, options);
+                Console.WriteLine("--> Set cache success");
+                //remove all cache entries
+                await _cache.RemoveAsync(cacheKeyAll);
+                Console.WriteLine("--> Remove cache all entity success");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"--> Set cache failed: {ex.Message}");
+            }
+
             return true;        
         
         }

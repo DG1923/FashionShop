@@ -82,46 +82,135 @@ namespace FashionShop.ProductService
 
         private static void SeedData(ProductDbContext dbContext)
         {
-            // Seed categories
+            // Seed Product Categories
             var category1 = new ProductCategory { Id = Guid.NewGuid(), Name = "T-Shirts", Description = "Casual t-shirts for all seasons", CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
             var category2 = new ProductCategory { Id = Guid.NewGuid(), Name = "Jeans", Description = "Durable and stylish jeans", CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
+            var category3 = new ProductCategory { Id = Guid.NewGuid(), Name = "Shoes", Description = "Comfortable and stylish shoes", CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
 
-            dbContext.ProductCategories.AddRange(category1, category2);
+            dbContext.ProductCategories.AddRange(category1, category2, category3);
 
-            // Seed discounts
-            var discount1 = new Discount { Id = Guid.NewGuid(), Name = "Summer Sale", Description = "20% off for summer collection", DiscountPercent = 20, Active = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
-            var discount2 = new Discount { Id = Guid.NewGuid(), Name = "Flash Sale", Description = "50% off for limited time", DiscountPercent = 50, Active = false, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
+            // Seed Discounts
+            var discount1 = new Discount { Id = Guid.NewGuid(), Name = "Summer Sale", Description = "20% off for summer collection", DiscountPercent = 20, IsActive = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
+            var discount2 = new Discount { Id = Guid.NewGuid(), Name = "Flash Sale", Description = "50% off for limited time", DiscountPercent = 50, IsActive = false, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
+            var discount3 = new Discount { Id = Guid.NewGuid(), Name = "Winter Sale", Description = "30% off for winter collection", DiscountPercent = 30, IsActive = true, CreatedAt = DateTime.UtcNow, UpdatedAt = DateTime.UtcNow };
 
-            dbContext.Discounts.AddRange(discount1, discount2);
+            dbContext.Discounts.AddRange(discount1, discount2, discount3);
 
-            // Seed products
-            dbContext.Products.AddRange(
-                new Product
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Basic White T-Shirt",
-                    Description = "A plain white t-shirt made from 100% cotton.",
-                    Price = 19.99m,
-                    SKU = "TSHIRT-WHITE-001",
-                    CreatedAt = DateTime.UtcNow,
-                    UpdatedAt = DateTime.UtcNow,
-                    ProductCategoryId = category1.Id,
-                    DiscountId = discount1.Id
-                },
-                new Product
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Slim Fit Jeans",
-                    Description = "Stylish slim fit jeans with a modern look.",
-                    Price = 49.99m,
-                    SKU = "JEANS-SLIM-001",
-                    CreatedAt = DateTime.UtcNow,
-                    UpdatedAt = DateTime.UtcNow,
-                    ProductCategoryId = category2.Id,
-                    DiscountId = discount2.Id
-                }
-            );
+            // Seed Products
+            var product1 = new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "Basic White T-Shirt",
+                Description = "A plain white t-shirt made from 100% cotton.",
+                BasePrice = 19.99m,
+                SKU = "TSHIRT-WHITE-001",
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow,
+                ProductCategoryId = category1.Id,
+                DiscountId = discount1.Id
+            };
+            var product2 = new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "Slim Fit Jeans",
+                Description = "Stylish slim fit jeans with a modern look.",
+                BasePrice = 49.99m,
+                SKU = "JEANS-SLIM-001",
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow,
+                ProductCategoryId = category2.Id,
+                DiscountId = discount2.Id
+            };
+            var product3 = new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "Running Shoes",
+                Description = "Lightweight running shoes for daily use.",
+                BasePrice = 69.99m,
+                SKU = "SHOES-RUN-001",
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow,
+                ProductCategoryId = category3.Id,
+                DiscountId = discount3.Id
+            };
 
+            dbContext.Products.AddRange(product1, product2, product3);
+
+            // Seed Product Colors
+            var color1 = new ProductColor
+            {
+                Id = Guid.NewGuid(),
+                ColorName = "White",
+                ColorCode = "#FFFFFF",
+                ImageUrlColor = "https://example.com/images/white.png",
+                TotalQuantityColor = 100,
+                ProductId = product1.Id,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+            var color2 = new ProductColor
+            {
+                Id = Guid.NewGuid(),
+                ColorName = "Blue",
+                ColorCode = "#0000FF",
+                ImageUrlColor = "https://example.com/images/blue.png",
+                TotalQuantityColor = 50,
+                ProductId = product2.Id,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+            var color3 = new ProductColor
+            {
+                Id = Guid.NewGuid(),
+                ColorName = "Black",
+                ColorCode = "#000000",
+                ImageUrlColor = "https://example.com/images/black.png",
+                TotalQuantityColor = 30,
+                ProductId = product3.Id,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+
+            dbContext.ProductColors.AddRange(color1, color2, color3);
+
+            // Seed Product Variations
+            var variation1 = new ProductVariation
+            {
+                Id = Guid.NewGuid(),
+               
+                Size = "M",
+                Description = "Medium size white t-shirt",
+                Quantity = 50,
+                ProductColorId = color1.Id,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+            var variation2 = new ProductVariation
+            {
+                Id = Guid.NewGuid(),
+              
+                Size = "32",
+                Description = "Blue slim fit jeans, size 32",
+                Quantity = 30,
+                ProductColorId = color2.Id,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+            var variation3 = new ProductVariation
+            {
+                Id = Guid.NewGuid(),
+                
+                Size = "10",
+                Description = "Black running shoes, size 10",
+                Quantity = 20,
+                ProductColorId = color3.Id,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+
+            dbContext.ProductVariations.AddRange(variation1, variation2, variation3);
+
+            // Save changes to the database
             dbContext.SaveChanges();
         }
     }
