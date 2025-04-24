@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FashionShop.Frontend", "FashionShop.Frontend\FashionShop.Frontend.esproj", "{074085FE-059E-4F06-83A8-7C5CECE9462B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.UserService", "FashionShop.UserService\FashionShop.UserService.csproj", "{8AABC259-2347-4154-830B-4031D0FC6B62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.ProductService", "FashionShop.ProductService\FashionShop.ProductService.csproj", "{11C263AF-A5C1-49AE-9B86-BD418D58C074}"
@@ -15,12 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{074085FE-059E-4F06-83A8-7C5CECE9462B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{8AABC259-2347-4154-830B-4031D0FC6B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8AABC259-2347-4154-830B-4031D0FC6B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AABC259-2347-4154-830B-4031D0FC6B62}.Release|Any CPU.ActiveCfg = Release|Any CPU

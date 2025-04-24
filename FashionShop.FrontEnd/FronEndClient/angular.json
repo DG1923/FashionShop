@@ -3,19 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FashionShop.Frontend": {
+    "FronEndClient": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "standalone": false
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -23,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/fashion-shop.frontend",
+            "outputPath": "dist/fron-end-client",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,16 +59,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "FashionShop.Frontend:build:production"
+              "buildTarget": "FronEndClient:build:production"
             },
             "development": {
-              "buildTarget": "FashionShop.Frontend:build:development"
+              "buildTarget": "FronEndClient:build:development"
             }
           },
-          "defaultConfiguration": "development",
-          "options": {
-            "port": 52016
-          }
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
@@ -100,8 +87,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "karmaConfig": "karma.conf.js"
+            "scripts": []
           }
         }
       }

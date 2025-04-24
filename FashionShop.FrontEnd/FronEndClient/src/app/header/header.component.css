@@ -1,0 +1,30 @@
+/* header.component.css */
+.mega-menu {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* When item is hovered */
+  .mega-menu:not(.hidden) {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* For border effect when menu item is active */
+  .border-b-2.border-blue-600 {
+    padding-bottom: 6px;
+    margin-bottom: -8px;
+  }
+  
+  /* Mobile menu accordion styles */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-item.active .accordion-content {
+    max-height: 500px;
+  }
