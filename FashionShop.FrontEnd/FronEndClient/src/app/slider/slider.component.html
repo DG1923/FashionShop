@@ -1,14 +1,14 @@
-<div class="container w-full h-10 mx-auto mt-4 mb-4">
-    <c-carousel>
+<div class="">
+    <c-carousel [interval]="2000" class="w-full md:h-[400px] h-full">
         <c-carousel-indicators />
         <c-carousel-inner>
           @for (slide of slides; track slide.src) {
             <c-carousel-item>
               <img
                 alt="{{slide.title}}"
-                class="d-block w-100"
+                class="d-block w-screen object-cover md:h-[400px]"
                 loading="lazy"
-                src="{{slide.src}}"
+                src="{{slide.src}}" 
               />
               <c-carousel-caption class="d-none d-md-block">
                 <h3>{{ slide.title }}</h3>
@@ -17,7 +17,7 @@
             </c-carousel-item>
           }
         </c-carousel-inner>
-        <c-carousel-control [routerLink] caption="Previous" direction="prev" />
-        <c-carousel-control [routerLink] caption="Next" direction="next" />
+        <c-carousel-control [routerLink] caption="<" direction="prev" />
+        <c-carousel-control [routerLink] caption=">" direction="next" />
       </c-carousel>
 </div>

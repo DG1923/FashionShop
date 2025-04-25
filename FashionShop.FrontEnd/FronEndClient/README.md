@@ -12,7 +12,7 @@ npm install swiper
 npm install --save-dev @types/swiper
 
 npm install @coreui/angular
-
+npm install primeng @primeng/themes
 ```bash
 ng serve
 ```

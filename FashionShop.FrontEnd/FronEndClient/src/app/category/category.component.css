@@ -1,0 +1,21 @@
+
+/* category.component.scss */
+/* Custom scrollbar hiding for better mobile experience */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari and Opera */
+    }
+  }
+  
+  /* Ensure smooth animations */
+  .transition-opacity {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Optimize for rendering performance */
+  .transform {
+    will-change: transform;
+  }

@@ -32,8 +32,8 @@
             
             <!-- Mega menu dropdown -->
             <div *ngIf="item.isHovered && item.columns" 
-                 class="mega-menu absolute left-0 w-full bg-white shadow-lg z-50"
-                 style="top: 100%; left: 0; right: 0; width: 100vw; ">
+                 class="mega-menu absolute left-0 w-full bg-white z-1 shadow-md rounded-b-lg ct-fade-in"
+                 style="top: 100%; left: 10%; right: 0; width: 80vw; ">
               <div class="container mx-auto px-4">
                 <div class="grid grid-cols-5 py-8 gap-4">
                   <ng-container *ngFor="let column of item.columns">
