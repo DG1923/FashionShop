@@ -1,7 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
 import { debounceTime, Observable } from 'rxjs';
-import { CartService } from '../services/cart.service';
+import { CartService } from '../../services/cart.service';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 
 interface MenuItem {
@@ -31,7 +32,7 @@ interface MenuSubItem {
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule], // Import CommonModule for ngIf and ngFor directives
+  imports: [CommonModule,RouterOutlet, RouterLink,RouterLinkActive], // Import CommonModule for ngIf and ngFor directives
   standalone: true, 
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
