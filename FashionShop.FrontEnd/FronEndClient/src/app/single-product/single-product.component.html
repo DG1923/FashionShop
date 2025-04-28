@@ -1,0 +1,108 @@
+<section class="product-detail mb-5">
+  <div class="container mx-auto max-w-7xl px-4 lg:px-16">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb lg:ml-14 mb-4">
+      <ol class="flex items-center space-x-2">
+        <li><a href="/" class="text-gray-600 hover:text-blue-600">Home</a></li>
+        <li>/</li>
+        <li><a href="/accessories" class="text-gray-600 hover:text-blue-600">Accessories</a></li>
+        <li>/</li>
+        <li>{{product.name}}</li>
+      </ol>
+    </nav>
+
+    <div class="flex flex-col md:flex-row gap-8">
+      <!-- Product Images -->
+      <div class="flex-1 md:w-1/2">
+        <div class="product-gallery">
+          <img [src]="selectedImage" [alt]="product.name" class="w-full rounded-lg mb-4 object-cover">
+          <div class="flex gap-2 overflow-x-auto">
+            <ng-container *ngFor="let img of product.images">
+              <img [src]="img" 
+                   [alt]="product.name"
+                   (click)="selectedImage = img"
+                   class="w-20 h-20 object-cover rounded cursor-pointer hover:opacity-75 transition"
+                   [class.ring-2]="selectedImage === img"
+                   [class.ring-blue-600]="selectedImage === img">
+            </ng-container>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Info -->
+      <div class="flex-1 md:w-1/2">
+        <h1 class="text-2xl font-bold mb-2">{{product.name}}</h1>
+        <p class="text-sm text-gray-500 mb-4">{{product.subTitle}}</p>
+
+        <!-- Rating -->
+        <div class="flex items-center gap-4 mb-4">
+          <div class="flex items-center">
+            <div class="flex gap-1">
+              <i *ngFor="let star of [1,2,3,4,5]" 
+                 class="fas fa-star text-lg"
+                 [class.text-yellow-400]="star <= product.rating"
+                 [class.text-gray-300]="star > product.rating"></i>
+            </div>
+            <span class="ml-2 text-gray-600">({{product.reviewCount}} đánh giá)</span>
+          </div>
+        </div>
+
+        <!-- Price -->
+        <div class="mb-6">
+          <div class="text-3xl font-bold text-blue-600">{{product.price | number}}₫</div>
+          <div class="flex items-center gap-2 text-sm mt-2">
+            <i class="fas fa-truck text-green-600"></i>
+            <span>Freeship đơn trên 200K</span>
+          </div>
+        </div>
+
+        <!-- Color Selection -->
+        <div class="mb-6">
+          <h3 class="font-medium mb-2">Màu sắc: <span class="text-blue-600">{{selectedColor.name}}</span></h3>
+          <div class="flex gap-3">
+            <button *ngFor="let color of product.colors"
+                    (click)="selectedColor = color"
+                    [class.ring-2]="selectedColor === color"
+                    [class.ring-blue-600]="selectedColor === color"
+                    class="w-10 h-10 rounded-full border shadow-sm hover:opacity-80 transition"
+                    [style.background-color]="color.code">
+            </button>
+          </div>
+        </div>
+
+        <!-- Size Selection -->
+        <div class="mb-6">
+          <h3 class="font-medium mb-2">Kích thước</h3>
+          <div class="flex gap-3">
+            <button *ngFor="let size of product.sizes"
+                    (click)="selectSize(size)"
+                    [class.bg-blue-600]="selectedSize === size"
+                    [class.text-white]="selectedSize === size"
+                    [class.cursor-not-allowed]="!size.available"
+                    [class.opacity-50]="!size.available"
+                    class="px-4 py-2 border rounded-lg hover:border-blue-600 transition"
+                    [disabled]="!size.available">
+              {{size.name}}
+            </button>
+          </div>
+        </div>
+
+        <!-- Quantity & Add to Cart -->
+        <div class="flex items-center gap-4">
+          <div class="flex border rounded-full bg-gray-50">
+            <button class="px-4 py-2 hover:bg-gray-100 transition" (click)="decrementQuantity()">-</button>
+            <input type="number" 
+                   [(ngModel)]="quantity" 
+                   class="w-16 text-center bg-transparent"
+                   min="1">
+            <button class="px-4 py-2 hover:bg-gray-100 transition" (click)="incrementQuantity()">+</button>
+          </div>
+          <button (click)="addToCart()"
+                  class="flex-1 bg-blue-600 text-white py-3 rounded-full hover:bg-blue-700 transition">
+            Thêm vào giỏ hàng
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
