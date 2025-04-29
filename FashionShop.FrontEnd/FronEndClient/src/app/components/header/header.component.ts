@@ -48,12 +48,12 @@ export class HeaderComponent {
   menuItems: MenuItem[] = [
     {
       title: 'NAM',
-      link: '/nam',
+      link: '/collection',
       isHovered: false,
       columns: [
         {
           title: 'TẤT CẢ SẢN PHẨM',
-          link: '/tat-ca-san-pham',
+          link: '/collection',
           items: [
             { title: 'Sản phẩm mới', link: '/san-pham-moi' },
             { title: 'Bán chạy nhất', link: '/ban-chay-nhat' },
@@ -61,31 +61,6 @@ export class HeaderComponent {
             { title: 'Excool Collection', link: '/excool-collection' },
             { title: 'Copper Denim', link: '/copper-denim' },
             { title: 'Promax', link: '/promax' }
-          ]
-        },
-        {
-          title: 'ÁO NAM',
-          link: '/ao-nam',
-          items: [
-            { title: 'Áo Tanktop', link: '/ao-tanktop' },
-            { title: 'Áo Thun', link: '/ao-thun' },
-            { title: 'Áo Thể Thao', link: '/ao-the-thao' },
-            { title: 'Áo Polo', link: '/ao-polo' },
-            { title: 'Áo Sơ Mi', link: '/ao-so-mi' },
-            { title: 'Áo Dài Tay', link: '/ao-dai-tay' },
-            { title: 'Áo Khoác', link: '/ao-khoac' }
-          ]
-        },
-        {
-          title: 'QUẦN NAM',
-          link: '/quan-nam',
-          items: [
-            { title: 'Quần Short', link: '/quan-short' },
-            { title: 'Quần Jogger', link: '/quan-jogger' },
-            { title: 'Quần Thể Thao', link: '/quan-the-thao' },
-            { title: 'Quần Dài', link: '/quan-dai' },
-            { title: 'Quần Jean', link: '/quan-jean' },
-            { title: 'Quần Bơi', link: '/quan-boi' }
           ]
         },
         {
@@ -101,13 +76,13 @@ export class HeaderComponent {
     },
     {
       title: 'NỮ',
-      link: '/nu',
+      link: '/collection',
       isHovered: false,
       columns: [
         // Similar structure for women's items
         {
           title: 'TẤT CẢ SẢN PHẨM NỮ',
-          link: '/tat-ca-san-pham-nu',
+          link: '/collection',
           items: [
             { title: 'Sản phẩm mới', link: '/san-pham-moi-nu' },
             { title: 'Bán chạy nhất', link: '/ban-chay-nhat-nu' }
@@ -117,7 +92,7 @@ export class HeaderComponent {
     },
     {
       title: 'THỂ THAO',
-      link: '/the-thao',
+      link: '/collection',
       isHovered: false,
       columns: [
         {
@@ -130,7 +105,7 @@ export class HeaderComponent {
         },
         {
           title: 'THỂ THAO NỮ',
-          link: '/the-thao-nu',
+          link: '/collection',
           items: [
             { title: 'Áo thể thao nữ', link: '/ao-the-thao-nu' },
             { title: 'Quần thể thao nữ', link: '/quan-the-thao-nu' }
@@ -138,20 +113,6 @@ export class HeaderComponent {
         }
       ]
     },
-    {
-      title: 'CARE & SHARE',
-      link: '/care-share',
-      isHovered: false,
-      columns: [
-        {
-          title: 'CARE & SHARE',
-          link: '/care-share',
-          items: [
-            { title: 'Sản phẩm Care & Share', link: '/san-pham-care-share' }
-          ]
-        }
-      ]
-    }
   ];
   
   subMenuCategories = [

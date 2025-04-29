@@ -53,6 +53,16 @@ namespace FashionShop.UserService
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Secret))
                 };
             });
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularApp", policy =>
+                {
+                    policy.WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
+                });
+            });
             // Register services
             builder.Services.AddScoped<IUserService, Services.UserService>();
             builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
@@ -98,7 +108,7 @@ namespace FashionShop.UserService
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowAngularApp");
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();

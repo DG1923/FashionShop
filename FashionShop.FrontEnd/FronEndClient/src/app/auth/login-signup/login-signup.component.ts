@@ -2,7 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-
+import { AuthService } from '../../services/auth.service';
+import { LoginRequest } from '../../models/auth.model';
 @Component({
   selector: 'app-login-signup',
   templateUrl: './login-signup.component.html',
@@ -14,7 +15,8 @@ export class LoginSignupComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private router: Router
+    private router: Router,
+    private authService: AuthService  
   ) {
     this.loginForm = this.fb.group({
       username: ['', Validators.required],
@@ -26,16 +28,23 @@ export class LoginSignupComponent implements OnInit {
 
   onSubmit() {
     if (this.loginForm.valid) {
-      const { username, password } = this.loginForm.value;
-      
-      // Basic authentication check
-      if (username === 'admin' && password === 'Abc123') {
-        // Store auth token or user data
-        localStorage.setItem('isLoggedIn', 'true');
-        this.router.navigate(['/dashboard']);
-      } else {
-        alert('Invalid credentials');
+      const loginRequest:LoginRequest ={
+         email:this.loginForm.value.username,
+          password:this.loginForm.value.password
       }
+      this.authService.login(loginRequest).subscribe({
+        next: (response) => {
+          if (response.success) {
+            this.router.navigate(['/']);
+          } else {
+            console.error('Login failed:', response.message);
+          }
+        
+      }, error: (error) => {
+          console.error('Login error:', error);
+        }});
+      let token = this.authService.getToken();
+      console.log(token); 
     }
   }
 }

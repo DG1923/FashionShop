@@ -23,7 +23,7 @@
                [ngClass]="{'': item.isHovered}"
                >
             <!-- Main menu item -->
-            <a [href]="item.link" class="px-2 py-7 font-medium hover:text-blue-600 transition-colors duration-200"
+            <a routerLink="{{item.link}}" routerLinkActive="active" ariaCurrentWhenActive="page"  class="px-2 py-7 font-medium hover:text-blue-600 transition-colors duration-200"
               [ngClass]="{'text-blue-600 border-b-1 border-blue-600': item.isHovered}"
                >
               {{ item.title }}
@@ -39,7 +39,7 @@
                   <ng-container *ngFor="let column of item.columns">
                     <!-- Text columns -->
                     <div *ngIf="!column.image" class="flex flex-col">
-                      <a *ngIf="column.title" [href]="column.link" class="text-sm font-bold mb-3 text-blue-600 hover:underline flex items-center">
+                      <a *ngIf="column.title" routerLink="{{column.link}}" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-sm font-bold mb-3 text-blue-600 hover:underline flex items-center">
                         {{ column.title }}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -211,4 +211,3 @@
     </div>
   </div>
 </div>
-<router-outlet />
