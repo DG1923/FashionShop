@@ -3,7 +3,16 @@ import { environment } from '../environments/environment';
 import { BehaviorSubject,Observable,tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { LoginRequest, RegisterRequest, AuthResponse } from '../models/auth.model';
-
+ 
+import { jwtDecode } from 'jwt-decode';
+export interface JwtPayload {
+  sub: string;
+  name: string;
+  emailaddress: string;
+  role: string;
+  exp: number;
+  iat: number;
+}
 @Injectable({
   providedIn: 'root'
 })
@@ -12,9 +21,20 @@ export class AuthService {
   private apiUrl = environment.apiUrl+"/Auth";
   private tokenKey = 'access_token';
   private isLoggedIn$ = new BehaviorSubject<boolean>(this.hasToken());
-
+  
+  get isLoggedIn(): boolean {
+    return this.isLoggedIn$ .getValue();
+  }
   constructor(private http:HttpClient) { }
-
+  getUserInfo(): JwtPayload|null{
+    if (this.hasToken()) {
+      const token = this.getToken() as string;
+      const decodedToken: JwtPayload = jwtDecode(token);
+      console.log('Decoded token:', decodedToken);
+      return decodedToken;
+    }
+    return null;
+  }
   //check token exits
   hasToken(): boolean {
     return !!localStorage.getItem(this.tokenKey);
@@ -45,7 +65,13 @@ export class AuthService {
   }
 
   private handleAuthentication(response: AuthResponse): void {
-    localStorage.setItem(this.tokenKey, response.token);
-    this.isLoggedIn$.next(true);
+    if (response.token) {
+      localStorage.setItem(this.tokenKey, response.token);
+      this.isLoggedIn$.next(true);
+      console.log('User authenticated successfully:', response);
+    } else {
+      console.error('Authentication failed: No token received');
+    }
   }
+  
 }

@@ -13,6 +13,8 @@ npm install --save-dev @types/swiper
 
 npm install @coreui/angular
 npm install primeng @primeng/themes
+npm install jwt-decode
+
 ```bash
 ng serve
 ```

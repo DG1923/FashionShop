@@ -132,16 +132,16 @@ namespace FashionShop.UserService.Services
             //add claims of user, claims are key-value pairs that contain information about the user
             var authClaims = new List<Claim>
             {
-                new Claim(ClaimTypes.NameIdentifier,user.Id.ToString()),
-                new Claim(ClaimTypes.Name,user.UserName),
-                new Claim(ClaimTypes.Email,user.Email),
+                new Claim("sub",user.Id.ToString()),
+                new Claim("name",user.UserName),
+                new Claim("emailaddress",user.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Sub,user.Id.ToString()),
             };
             //add roles to claims
             foreach (var userRole in userRoles)
             {
-                authClaims.Add(new Claim(ClaimTypes.Role, userRole));
+                authClaims.Add(new Claim("role", userRole));
             }
             //get jwt settings from appsettings.json
             var jwtSettings = _configuration.GetSection("JwtSettings");

@@ -2,8 +2,9 @@ import { CommonModule } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
 import { debounceTime, Observable } from 'rxjs';
 import { CartService } from '../../services/cart.service';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-
+import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { AuthService } from '../../services/auth.service';
+import { LoginRequest } from '../../models/auth.model'; 
 
 interface MenuItem {
   title: string;
@@ -38,8 +39,14 @@ interface MenuSubItem {
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  logout() {
+    this.authService.logout();
+    this.isLogginng = false;
+    this.router.navigate(['/']);  
+  }
   isMobileMenuOpen = false;
-
+  isLogginng:boolean= false; 
+  userName : string = '';
   toggleMobileMenu(): void {
     this.isMobileMenuOpen = !this.isMobileMenuOpen;
   }
@@ -132,7 +139,13 @@ export class HeaderComponent {
   ngOnInit(): void {
     // Initialization code if needed
   }
-
+  /**
+   *
+   */
+  constructor(private authService:AuthService,private router:Router) {
+   this.isLogginng = this.authService.isLoggedIn;
+   this.userName = this.authService.getUserInfo()?.name || ''; // Default to empty string if userName is not available  
+  }
  
   
   // Handle hover states

@@ -98,7 +98,7 @@
         </div>
 
         <!-- User Icon -->
-        <a routerLink="/login" routerLinkActive="activate" ariaCurrentWhenActive="page" class="block">
+        <a *ngIf="!isLogginng" routerLink="/login" routerLinkActive="activate" ariaCurrentWhenActive="page" class="block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"
@@ -114,7 +114,30 @@
             />
           </svg>
         </a>
-
+        <div *ngIf="isLogginng" class="relative inline-block text-center group">
+          <button class="flex gap-3 bg-white text-black px-4 py-2 border-2 border-blue-500 rounded-xl">
+              <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+            />
+          </svg> {{userName}} 
+          </button>
+          <div class="absolute left-0  w-40 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-200 z-10">
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Option 1</a>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Option 2</a>
+            <a href="#" (click)="logout()" class="px-4 py-2 flex gap-3 hover:bg-red-300 justify-around">Log out <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-logout"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" /><path d="M9 12h12l-3 -3" /><path d="M18 15l3 -3" /></svg></a>
+          </div>
+        </div>
+        
         <!-- Cart Icon with Counter -->
         <a href="/cart" class="block relative">
           <svg
