@@ -1,0 +1,965 @@
+[
+  [
+    {
+      "id": "65a20cd3-1ded-ed29-8a0c-4ff200000000",
+      "name": "Quần Jeans Nam siêu nhẹ",
+      "description": null,
+      "basePrice": 439000,
+      "discountedPrice": 439000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-wash-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "90c57c2b-f81c-411d-b078-298c831ff30a",
+          "colorName": "Xanh wash",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-wash-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "0c128586-85d8-47a0-b267-630ddf281829",
+              "size": "29",
+              "description": null,
+              "quantity": 1566,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e7f2a8d7-a0f5-4940-89e9-17243e257311",
+              "size": "30",
+              "description": null,
+              "quantity": 2349,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "130f10a7-20f5-43ba-9913-1a49a4a60ffb",
+              "size": "31",
+              "description": null,
+              "quantity": 1863,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c29a2d13-d3c9-4b9d-a736-f3b72ca5c4a0",
+              "size": "32",
+              "description": null,
+              "quantity": 1008,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b9008b85-7849-4d57-907c-8647a2c3662b",
+              "size": "33",
+              "description": null,
+              "quantity": 876,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-nhat-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f49b5e92-e36b-4879-a73e-9b12f9d6f4d8",
+              "size": "29",
+              "description": null,
+              "quantity": 552,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4e4dd6ff-f56e-49f7-a519-c292098b3249",
+              "size": "30",
+              "description": null,
+              "quantity": 806,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3cfc039d-b358-45e2-975f-8a1245d8c643",
+              "size": "31",
+              "description": null,
+              "quantity": 661,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a0b60167-d782-42e0-a775-83319565e57a",
+              "size": "32",
+              "description": null,
+              "quantity": 411,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f5e1581b-c98b-44a2-9559-e6e2033e6886",
+              "size": "33",
+              "description": null,
+              "quantity": 402,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65a20cd3-1ded-ed29-8a0c-4ff200000000",
+      "name": "Quần Jeans Nam siêu nhẹ",
+      "description": null,
+      "basePrice": 439000,
+      "discountedPrice": 439000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-nhat-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-nhat-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f49b5e92-e36b-4879-a73e-9b12f9d6f4d8",
+              "size": "29",
+              "description": null,
+              "quantity": 552,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4e4dd6ff-f56e-49f7-a519-c292098b3249",
+              "size": "30",
+              "description": null,
+              "quantity": 806,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3cfc039d-b358-45e2-975f-8a1245d8c643",
+              "size": "31",
+              "description": null,
+              "quantity": 661,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a0b60167-d782-42e0-a775-83319565e57a",
+              "size": "32",
+              "description": null,
+              "quantity": 411,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f5e1581b-c98b-44a2-9559-e6e2033e6886",
+              "size": "33",
+              "description": null,
+              "quantity": 402,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65517e27-b03b-3f20-da06-e53c00000000",
+      "name": "Quần Jeans Nam Basics dáng Slim fit",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-wash-1_32.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "d00c40a0-924c-4e4e-8033-79080a6f8317",
+          "colorName": "Đen wash",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-wash-1_32.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "4dc0b10e-823a-4d21-b13b-c915a96a54c5",
+              "size": "29",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4f7e8c2e-0f0e-4320-825c-b688c8d3b418",
+              "size": "30",
+              "description": null,
+              "quantity": 527,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "db32cc96-7d91-412e-8481-1721c9c173a8",
+              "size": "31",
+              "description": null,
+              "quantity": 426,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1e23a63d-9424-454f-a1c9-1379675a580a",
+              "size": "32",
+              "description": null,
+              "quantity": 220,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9b52e451-9e01-4118-98f7-e5b3c74c37a3",
+              "size": "33",
+              "description": null,
+              "quantity": 202,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b470b33a-e95d-4468-b4b0-4e32983e4864",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-1_41.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e28bb8cd-a55e-465b-b656-8a5759f7a71c",
+              "size": "29",
+              "description": null,
+              "quantity": 246,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "378fb260-1798-409d-b619-b45cfb25396b",
+              "size": "30",
+              "description": null,
+              "quantity": 324,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d43bf730-e083-47a5-804b-b21e715f68d7",
+              "size": "31",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5bf3a2bf-a684-447e-9a34-cf8872896f5c",
+              "size": "32",
+              "description": null,
+              "quantity": 111,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fecb075-2f01-492d-8309-f3780b7782c0",
+              "size": "33",
+              "description": null,
+              "quantity": 95,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
+          "colorName": "Xanh đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-xanh-dam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "90634428-1000-404e-96c4-6831e1b3979c",
+              "size": "29",
+              "description": null,
+              "quantity": 237,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d37036ee-3d6e-4a24-b01b-6878b1a088c5",
+              "size": "30",
+              "description": null,
+              "quantity": 478,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d6b9d91c-80f9-4b89-9061-b5118a78c89d",
+              "size": "31",
+              "description": null,
+              "quantity": 472,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "234eaf34-8965-4f6b-b061-a4f184c015b3",
+              "size": "32",
+              "description": null,
+              "quantity": 360,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b0bdc30c-0654-433e-ac41-8375a3d79c4e",
+              "size": "33",
+              "description": null,
+              "quantity": 302,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65517e27-b03b-3f20-da06-e53c00000000",
+      "name": "Quần Jeans Nam Basics dáng Slim fit",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-xanh-dam-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
+          "colorName": "Xanh đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-xanh-dam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "90634428-1000-404e-96c4-6831e1b3979c",
+              "size": "29",
+              "description": null,
+              "quantity": 237,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d37036ee-3d6e-4a24-b01b-6878b1a088c5",
+              "size": "30",
+              "description": null,
+              "quantity": 478,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d6b9d91c-80f9-4b89-9061-b5118a78c89d",
+              "size": "31",
+              "description": null,
+              "quantity": 472,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "234eaf34-8965-4f6b-b061-a4f184c015b3",
+              "size": "32",
+              "description": null,
+              "quantity": 360,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b0bdc30c-0654-433e-ac41-8375a3d79c4e",
+              "size": "33",
+              "description": null,
+              "quantity": 302,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65517e27-b03b-3f20-da06-e53c00000000",
+      "name": "Quần Jeans Nam Basics dáng Slim fit",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-1_41.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "b470b33a-e95d-4468-b4b0-4e32983e4864",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-1_41.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e28bb8cd-a55e-465b-b656-8a5759f7a71c",
+              "size": "29",
+              "description": null,
+              "quantity": 246,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "378fb260-1798-409d-b619-b45cfb25396b",
+              "size": "30",
+              "description": null,
+              "quantity": 324,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d43bf730-e083-47a5-804b-b21e715f68d7",
+              "size": "31",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5bf3a2bf-a684-447e-9a34-cf8872896f5c",
+              "size": "32",
+              "description": null,
+              "quantity": 111,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fecb075-2f01-492d-8309-f3780b7782c0",
+              "size": "33",
+              "description": null,
+              "quantity": 95,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65517e27-b03b-3f20-da06-e50e00000000",
+      "name": "Quần Jeans Nam Basics dáng Straight",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-dam-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
+          "colorName": "Xanh đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-dam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "98ae24f0-6621-4645-b39a-2728c4f51a27",
+              "size": "29",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ebededa3-034b-432d-9786-652dd4ba1042",
+              "size": "30",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e8028eb1-2743-4373-a20e-a04174975a13",
+              "size": "31",
+              "description": null,
+              "quantity": 203,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a52b2ba9-946c-42da-9f49-f4b47a31379b",
+              "size": "32",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "292c1691-1a4f-4698-bcde-dd5247078b77",
+              "size": "33",
+              "description": null,
+              "quantity": 204,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65517e27-b03b-3f20-da06-e50e00000000",
+      "name": "Quần Jeans Nam Basics dáng Straight",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-den-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "b470b33a-e95d-4468-b4b0-4e32983e4864",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "945686d5-b1b7-466f-8080-49c93a1e4290",
+              "size": "29",
+              "description": null,
+              "quantity": 236,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "43f78dbe-48f5-4535-8165-f572b0b1f6a7",
+              "size": "30",
+              "description": null,
+              "quantity": 289,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7607ba94-8787-4a90-b309-c50f69873f2e",
+              "size": "31",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6ca9b39c-22b5-453a-90c3-4a462391f073",
+              "size": "32",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9aa364b7-e186-453f-b928-b90f2a262707",
+              "size": "33",
+              "description": null,
+              "quantity": 120,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65517e27-b03b-3f20-da06-e50e00000000",
+      "name": "Quần Jeans Nam Basics dáng Straight",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-sang-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
+          "colorName": "Xanh đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-dam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "98ae24f0-6621-4645-b39a-2728c4f51a27",
+              "size": "29",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ebededa3-034b-432d-9786-652dd4ba1042",
+              "size": "30",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e8028eb1-2743-4373-a20e-a04174975a13",
+              "size": "31",
+              "description": null,
+              "quantity": 203,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a52b2ba9-946c-42da-9f49-f4b47a31379b",
+              "size": "32",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "292c1691-1a4f-4698-bcde-dd5247078b77",
+              "size": "33",
+              "description": null,
+              "quantity": 204,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "91aa343d-d158-45f3-8270-9645931973e8",
+          "colorName": "Xanh sáng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-sang-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f3989c00-e08f-41fd-8054-c7547733b444",
+              "size": "30",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e179c3b9-1c8c-4335-83b8-61667664f03d",
+              "size": "31",
+              "description": null,
+              "quantity": 191,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "51959795-5480-4ffb-8468-651f4011716f",
+              "size": "32",
+              "description": null,
+              "quantity": 91,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d2005178-6829-46f3-a692-a202605a9a86",
+              "size": "33",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "91aa343d-d158-45f3-8270-9645931973e8",
+              "size": "29",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b470b33a-e95d-4468-b4b0-4e32983e4864",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "945686d5-b1b7-466f-8080-49c93a1e4290",
+              "size": "29",
+              "description": null,
+              "quantity": 236,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "43f78dbe-48f5-4535-8165-f572b0b1f6a7",
+              "size": "30",
+              "description": null,
+              "quantity": 289,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7607ba94-8787-4a90-b309-c50f69873f2e",
+              "size": "31",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6ca9b39c-22b5-453a-90c3-4a462391f073",
+              "size": "32",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9aa364b7-e186-453f-b928-b90f2a262707",
+              "size": "33",
+              "description": null,
+              "quantity": 120,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "641ab6cb-a435-d04c-7f28-0d5900000000",
+      "name": "Quần Jeans Nam Copper Denim OG Slim",
+      "description": null,
+      "basePrice": 599000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_OG_Slim-thuumb-2.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_OG_Slim-thuumb-2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a1882038-4c73-4665-acb4-5f0e0986c908",
+              "size": "29",
+              "description": null,
+              "quantity": 238,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "190dff33-e36b-4e17-b11b-819b556ca658",
+              "size": "30",
+              "description": null,
+              "quantity": 473,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "da45b452-f13b-4288-a40a-b946c3472300",
+              "size": "31",
+              "description": null,
+              "quantity": 377,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "46145d7d-7969-4112-94c8-f61a650c39a5",
+              "size": "32",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee878a3f-f97d-4025-a85d-978778543332",
+              "size": "33",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "64199b8c-00f7-504a-4362-334a00000000",
+      "name": "Quần Jeans Nam Copper Denim Slim Fit",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_Slim_Fit-thumb-1.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
+          "colorName": "Xanh đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_Slim_Fit-thumb-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "269b45a2-e986-4f1a-98b5-69f652f3a4f3",
+              "size": "29",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2997ea33-1c1e-49da-8559-1b1a364b87f9",
+              "size": "32",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_Slim_Fit-thumb-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a1882038-4c73-4665-acb4-5f0e0986c908",
+              "size": "29",
+              "description": null,
+              "quantity": 362,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "190dff33-e36b-4e17-b11b-819b556ca658",
+              "size": "30",
+              "description": null,
+              "quantity": 356,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "da45b452-f13b-4288-a40a-b946c3472300",
+              "size": "31",
+              "description": null,
+              "quantity": 355,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "46145d7d-7969-4112-94c8-f61a650c39a5",
+              "size": "32",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee878a3f-f97d-4025-a85d-978778543332",
+              "size": "33",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "64199b8c-00f7-504a-4362-334a00000000",
+      "name": "Quần Jeans Nam Copper Denim Slim Fit",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/September2024/Coolmate_x_Copper_Jeans_-_Slimfit__-_Xanh_nhat_7.jpg",
+      "discountDisplayDTO": {
+        "id": null,
+        "name": null,
+        "discountPercent": null,
+        "isActive": false
+      },
+      "productColorsDisplayDTO": [
+        {
+          "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/September2024/Coolmate_x_Copper_Jeans_-_Slimfit__-_Xanh_nhat_7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a1882038-4c73-4665-acb4-5f0e0986c908",
+              "size": "29",
+              "description": null,
+              "quantity": 362,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "190dff33-e36b-4e17-b11b-819b556ca658",
+              "size": "30",
+              "description": null,
+              "quantity": 356,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "da45b452-f13b-4288-a40a-b946c3472300",
+              "size": "31",
+              "description": null,
+              "quantity": 355,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "46145d7d-7969-4112-94c8-f61a650c39a5",
+              "size": "32",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee878a3f-f97d-4025-a85d-978778543332",
+              "size": "33",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jean Nam",
+        "imageUrl": "string"
+      }
+    }
+  ]
+]

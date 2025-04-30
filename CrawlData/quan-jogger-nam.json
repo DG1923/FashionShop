@@ -1,0 +1,1576 @@
+[
+  [
+    {
+      "id": "676bbee4-ce1a-a807-a934-700b00000000",
+      "name": "Quần Jogger nam thể thao Studio Woven",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Rêu Buluga",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "51aa9ead-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 255,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8429b1ee-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 851,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ef252388-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 843,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8049760e-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 399,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "01d4d77c-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 271,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1066d1c1-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 685,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1d3167d9-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 2075,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b9c8d9bd-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 2125,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5b34c01b-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1015,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "405f1306-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 674,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "676b894c-6f5a-d87c-e52a-841e00000000",
+      "name": "Quần Jogger nam thể thao Hybrid Woven",
+      "description": null,
+      "basePrice": 379000,
+      "discountedPrice": 379000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995---Den-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Ombre",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995_-_Xanh_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6b0027e0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c71133f9-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 477,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "312c7f26-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 498,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a1e2e769-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 243,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0af6fa6d-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 172,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995---Den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "5e140095-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 423,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0afe2306-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1408,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bf98fd53-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1403,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c8506938-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 687,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2d8db697-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Rêu Buluga",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995_-_Reu_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "61288beb-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 261,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d2faf808-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 850,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "15d6d98e-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 851,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "653a351c-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 416,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4aafb886-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 287,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6732ba46-46aa-f361-4309-784800000000",
+      "name": "Quần Jogger thể thao Track Pants Essential",
+      "description": null,
+      "basePrice": 379000,
+      "discountedPrice": 379000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003_-_Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003_-_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "99234ea0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a45df333-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 908,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8b88c211-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 483,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c8383324-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 627,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7f5269f1-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 495,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003_-_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a19e1bf3-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 137,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ed62e107-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 272,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9027c032-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 141,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7446735a-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 188,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "200802f1-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 155,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xanh Deep Jungle",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.KM001_-_Xanh_Deep_Jungle_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a5af24de-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 180,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cf1c9dc5-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 316,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e539d6d1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c4c2f1a-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 234,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6e93913e-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 182,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Xám Bird Grey",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003---Xam-3D.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "acdd6c25-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 254,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "aa180e0d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 465,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fb8fa5e6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "be124b16-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 374,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c28bba06-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 287,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "672c920a-f4ae-2a09-3923-6e7800000000",
+      "name": "Quần Jogger ECC Warp Knitting",
+      "description": null,
+      "basePrice": 590000,
+      "discountedPrice": 590000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-den-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-xanh-reu-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2b4f5e62-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d583ab29-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 155,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "654072d4-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3043b190-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 118,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bee1674a-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d66075b3-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 303,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "363b22c0-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 582,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36a2fcaa-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 346,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f90f7f3c-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 396,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fc534fc1-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 301,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xám đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-xam-7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "62a923ce-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "49fa07d4-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "069723a0-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a564d935-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 118,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7e66e189-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-xanh-navy-3.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d06cfeef-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "096c924f-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 302,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "70bb572e-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "60ea85bb-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bbdaf0fd-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6724426c-ee8c-3014-ba39-21d100000000",
+      "name": "Quần Jogger thể thao Fleece Track Pants Premium",
+      "description": null,
+      "basePrice": 599000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Kaki",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-be-kaki-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "4851e55d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8ec3c6f9-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9d8574aa-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "085b3a8c-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 117,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3548a3ca-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 94,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-den-3.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6de670ae-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e20875d5-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "80919666-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5af5830c-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4a521e87-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 119,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-navy-5.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8a8693dd-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d9f4f784-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 215,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff60ca8c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7a6d2730-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 151,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4d90a974-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 113,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66665e30-c469-2615-7132-19e200000000",
+      "name": "Quần Jogger Thể Thao ExDry",
+      "description": null,
+      "basePrice": 329000,
+      "discountedPrice": 329000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-nam-co-gian-tham-hut-exdry-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-nam-co-gian-tham-hut-exdry-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d9ec245b-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1023,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "eab0b75d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 2460,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "347f7557-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 2376,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cf9cfb4b-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1546,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1b05b915-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xám đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-nam-co-gian-tham-hut-exdry-xam-dam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8c025795-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 656,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "453f1ba4-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1666,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "133c7123-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1531,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "63d7252c-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1096,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "139824c0-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 458,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xanh Nephrite",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-nam-co-gian-tham-hut-exdry-mau-xanh-nephrite-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "93a865e3-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 469,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2c07c106-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1129,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36a1d124-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f2d0fa80-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 677,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a215e780-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 427,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65798ace-52b8-b42f-5248-2b6700000000",
+      "name": "Quần Jogger Nam UT đa năng",
+      "description": null,
+      "basePrice": 439000,
+      "discountedPrice": 439000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-reu-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-reu-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9a507bd8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9f235079-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 370,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "756d0bc6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5f988bca-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 375,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c26bf501-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 349,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-navy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9cb32f26-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 190,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4f034cc6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9c7636c1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 300,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d485b3bf-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f62d3450-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 135,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e7e8270f-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 269,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a90e7f17-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 645,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "16d63f44-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 583,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1b352ad6-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 413,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c70c4487-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 446,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65798ace-52b8-b42f-5248-2b6700000000",
+      "name": "Quần Jogger Nam UT đa năng",
+      "description": null,
+      "basePrice": 439000,
+      "discountedPrice": 439000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-navy-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-navy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9cb32f26-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 190,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4f034cc6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9c7636c1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 300,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d485b3bf-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f62d3450-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 135,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xanh rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-reu-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9a507bd8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9f235079-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 370,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "756d0bc6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5f988bca-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 375,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c26bf501-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 349,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e7e8270f-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 269,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a90e7f17-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 645,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "16d63f44-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 583,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1b352ad6-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 413,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c70c4487-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 446,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65798ace-52b8-b42f-5248-2b6700000000",
+      "name": "Quần Jogger Nam UT đa năng",
+      "description": null,
+      "basePrice": 439000,
+      "discountedPrice": 439000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-den-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e7e8270f-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 269,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a90e7f17-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 645,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "16d63f44-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 583,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1b352ad6-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 413,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c70c4487-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 446,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-navy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9cb32f26-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 190,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4f034cc6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9c7636c1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 300,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d485b3bf-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f62d3450-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 135,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xanh rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-ut-jogger-da-nang-co-gian-xanh-reu-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9a507bd8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9f235079-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 370,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "756d0bc6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5f988bca-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 375,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c26bf501-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 349,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6532532f-fd42-3f1b-4642-412f00000000",
+      "name": "Quần Jogger Nam Daily Wear",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-joggers-the-thao-daily-wear-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-joggers-the-thao-daily-wear-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "ca167807-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 788,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "abb5fc7a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1605,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0f55a28f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1176,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bb118dde-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2977f7e1-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 935,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "652dfcb7-c0db-833e-6379-5c1800000000",
+      "name": "Quần Jogger Nam Excool",
+      "description": null,
+      "basePrice": 379000,
+      "discountedPrice": 379000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-joggers-co-gian-excool-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-joggers-co-gian-excool-xanh-navy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "7d481a53-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 887,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "268ade9a-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1205,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "84377415-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 914,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9c7636c1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1160,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e7db1cfa-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1754,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-joggers-co-gian-excool-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9e74e7db-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1010,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c1b79ffe-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1996,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dc256b5e-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1228,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7686c77c-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1420,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cfc812da-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 1079,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xám sáng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-joggers-co-gian-excool-xam-sang-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "53624332-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 538,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "872a31d6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1010,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1a160b5a-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 611,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3fb3b1c3-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 785,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ea702285-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 607,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Jogger",
+        "imageUrl": "string"
+      }
+    }
+  ]
+]

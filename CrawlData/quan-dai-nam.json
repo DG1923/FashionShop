@@ -1,0 +1,2689 @@
+[
+  [
+    {
+      "id": "652e67fa-7248-c40c-bb24-645400000000",
+      "name": "Special - Quần dài Daily Pants",
+      "description": null,
+      "basePrice": 239000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/qddpden7_25.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/qddpden7_95.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 2575,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 2530,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1398,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 520,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//uploads/February2022/soronada112.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 760,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1741,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 787,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 649,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//uploads/February2022/11-181.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 43,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 861,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 547,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1552,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 997,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Laurel",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/October2024/QD.DP.XHL.1_19.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 113,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 417,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 277,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 179,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "677cb25c-0cf4-5118-402a-404100000000",
+      "name": "Quần dài nam thể thao co giãn đa năng",
+      "description": null,
+      "basePrice": 229000,
+      "discountedPrice": 289000,
+      "mainImageUrl": "https://media3.coolmate.me//image/February2025/24CM.MAWCS.PAZ994_1_1_DEN_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/24CM.MAWCS.PAZ994_23_1_XB_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 8,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 161,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/24CM.MAWCS.PAZ994_1_1_DEN_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 486,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1567,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1563,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 763,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 507,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/24CM.MAWCS.PAZ994_12_1_XAM_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 255,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 833,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 842,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 410,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 278,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "676bbee4-ce1a-aa80-7a93-4700b0000000",
+      "name": "Quần Jogger nam thể thao Studio Woven",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Rêu Buluga",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 255,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 851,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 843,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 399,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 271,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 685,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 2075,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 2125,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1015,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 674,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "676b894c-6f5a-d87c-e52a-841e00000000",
+      "name": "Quần Jogger nam thể thao Hybrid Woven",
+      "description": null,
+      "basePrice": 379000,
+      "discountedPrice": 379000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995---Den-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Ombre",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995_-_Xanh_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 477,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 498,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 243,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 172,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995---Den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 423,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1408,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1403,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 687,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Rêu Buluga",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ995_-_Reu_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 261,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 850,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 851,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 416,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 287,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6732bc18-52ab-5828-3214-0fb200000000",
+      "name": "Quần dài chạy bộ Running Pant",
+      "description": null,
+      "basePrice": 390000,
+      "discountedPrice": 390000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-dai-chay-bo-running-pant_(1).png",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-dai-chay-bo-running-pant-den_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 467,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 806,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 748,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 714,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 561,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6732ba46-46aa-f361-4309-784800000000",
+      "name": "Quần Jogger thể thao Track Pants Essential",
+      "description": null,
+      "basePrice": 379000,
+      "discountedPrice": 379000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003_-_Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003_-_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 908,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 483,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 627,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 495,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003_-_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 137,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 272,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 141,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 188,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 155,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Deep Jungle",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.KM001_-_Xanh_Deep_Jungle_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 180,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 316,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 234,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 182,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám Bird Grey",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.QJ003---Xam-3D.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 254,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 465,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 374,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 287,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "672c920a-f4ae-2a09-3923-6e7800000000",
+      "name": "Quần Jogger ECC Warp Knitting",
+      "description": null,
+      "basePrice": 590000,
+      "discountedPrice": 590000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-den-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-xanh-reu-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 155,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 118,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-den-1_37.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 303,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 582,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 346,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 396,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 301,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-xam-dam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 118,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-ecc-warp-knitting-xanh-navy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 302,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6724426c-ee8c-3014-ba39-21d100000000",
+      "name": "Quần Jogger thể thao Fleece Track Pants Premium",
+      "description": null,
+      "basePrice": 599000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Kaki",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-be-kaki-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 117,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 94,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 119,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-jogger-the-thao-fleece-track-jacket-premium-navy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 215,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 151,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 113,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "67049cd5-e75b-ad0c-f829-2b5400000000",
+      "name": "Quần dài kaki ECC Pants",
+      "description": null,
+      "basePrice": 529000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-dai-kaki-ecc-pants_(1).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-dai-kaki-ecc-pants-den_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 289,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 502,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 589,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 479,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 364,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-dai-kaki-ecc-pants-xam_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 353,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 657,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 745,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 510,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 317,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/quan-dai-kaki-ecc-pants-xanh-reu_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 223,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 423,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 438,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 298,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66c33032-c312-d431-f129-d44800000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_La_Dam_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh lá đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_La_Dam_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 43,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 81,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám sáng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xam_Sang_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 3,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 512,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 491,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 500,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66c33032-c312-d431-f129-d44800000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/PANTS_Xam_Sang_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh lá đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_La_Dam_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 43,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 81,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám sáng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xam_Sang_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 3,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 512,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 491,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 500,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66c33032-c312-d431-f129-d44800000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 512,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 491,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 500,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66c33032-c312-d431-f129-d44800000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 512,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 491,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 500,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66c33032-c312-d431-f129-d44800000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 512,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 491,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 500,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66c33032-c312-d431-f129-d44800000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 512,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 491,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/PANTS_Xanh_Navy_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 500,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "669b7d3f-be61-ab40-8e3b-524400000000",
+      "name": "Quần dài nam ECC Ripstop Pants",
+      "description": null,
+      "basePrice": 529000,
+      "discountedPrice": 590000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.16.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.16.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 352,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 448,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 360,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 285,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.24.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 58,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 85,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám Xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.29.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 524,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "669b7d3f-be61-ab40-8e3b-524400000000",
+      "name": "Quần Dài Nam ECC Warp Pants dáng Tape",
+      "description": null,
+      "basePrice": 529000,
+      "discountedPrice": 590000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.16.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.16.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 352,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 448,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 360,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 285,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.24.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 456,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 184,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám Xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.29.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 524,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh rêu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 34,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 100,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 44,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 33,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 29,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "669b7d3f-be61-ab40-8e3b-524400000000",
+      "name": "Quần Dài Nam ECC Warp Pants dáng Tape",
+      "description": null,
+      "basePrice": 529000,
+      "discountedPrice": 590000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.16.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.16.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 352,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 448,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 468,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 360,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 285,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.24.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 58,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 85,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám Xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Quan_ECC_Tapped_Fit.29.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 279,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 524,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Quần Dài Nam",
+        "imageUrl": "string"
+      }
+    }
+  ]
+]

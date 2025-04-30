@@ -1,0 +1,1374 @@
+[
+  [
+    {
+      "id": "61c92dd8-0baab-56e0-f4b4-448300000000",
+      "name": "Áo Thun Nam Thể Thao Coolmate Basics",
+      "description": null,
+      "basePrice": 99000,
+      "discountedPrice": 99000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Den_6_(3).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Den_6_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "650d3b02-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 791,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c14481b8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1855,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2bd99cfe-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 2312,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64aeac88-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 2571,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "16e9403e-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 739,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Navy logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Navy_5_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "256e638b-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "42d657e9-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 783,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xanh da trời",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Da_Troi_8_(4).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e7ec5dd4-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 119,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "20097827-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 235,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c45fb011-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13925435-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "88878209-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 341,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "42393269-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 94,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Xanh bóng đêm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Bong_Dem_6_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "559664cb-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 658,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "935a29e0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1435,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73d8f476-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1058,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "063f0a6f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e3bdf2b3-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000004",
+          "colorName": "Xám nhạt logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xam_Nhat_7_(2).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f813fdfb-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 478,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f4f0523a-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 224,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c67bc604-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 167,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "80597a49-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 46,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000005",
+          "colorName": "Xám đậm logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xam_Dam_8_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f527649c-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 682,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c06e7e7c-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 676,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "885ffcde-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee8764d9-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 734,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "be87446d-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000006",
+          "colorName": "Xanh Cool",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Cool_7_(5).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "726436ea-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000007",
+          "colorName": "Xanh Cobalt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Cobalt_9_(4).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "bf586dd7-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fc05dc5f-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9f955d90-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 27,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  {
+    "error": "no_json_block",
+    "original": "```json\n[\n  {\n    \"id\": \"64dee0e3-67a2-9722-6f4e-e30500000000\",\n    \"name\": \"Áo Thun Nam Cotton 220GSM\",\n    \"description\": null,\n    \"basePrice\": 159000,\n    \"discountedPrice\": 179000,\n    \"mainImageUrl\": \"https://media3.coolmate.me//image/August2024/220gsm-trang.jpg\",\n    \"discountDisplayDTO\": null,\n    \"productColorsDisplayDTO\": [\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000000\",\n        \"colorName\": \"Nâu\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.NAU.1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"b122b0af-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1221,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"92ecce88-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1806,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"99f4ed06-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 984,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"339b0684-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 325,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"433076d3-0000-0000-0000-000000000000\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 222,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cadea7b8-0000-0000-0000-000000000000\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 226,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000000\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1739,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"12a65f22-0000-0000-0000-000000000000\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 595,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000001\",\n        \"colorName\": \"Xanh tím\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.TIM.1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"0a3013b8-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1190,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"dbe4e5c4-0000-0000-0000-000000000000\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1413,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"9258836a-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 491,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"009b7044-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 491,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"ccd0846c-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 807,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"09c626e0-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 491,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"61aecfe6-0000-0000-0000-000000000000\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 285,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"f8045f08-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1190,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000002\",\n        \"colorName\": \"Be\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.be.1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"ef948887-0000-0000-0000-000000000000\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 1141,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"009b7044-0000-0000-0000-000000000001\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 894,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"35137446-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 708,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"24cm.mcwto.tsz959.bee.2xl\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 786,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"f0de67d5-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 894,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"39105432\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 635,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00000000-0000-0000-0000-000000000003\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 404,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b68f9ab5-0000-0000-0000-000000000000\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 37,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000003\",\n        \"colorName\": \"Xanh đậm\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/February2025/ao-thun-nam-cotton-220gsm-mau-xanh-dam_(1).jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000001\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 963,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e0b64b90-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 963,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"99f4ed06-0000-0000-0000-000000000001\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 963,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a1ec9eb-0000-0000-0000-000000000000\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 324,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"526b5d04-0000-0000-0000-000000000000\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 324,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000002\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 675,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000003\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 325,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a1ec9eb-0000-0000-0000-000000000001\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 951,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000004\",\n        \"colorName\": \"Xanh mint\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.mint1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"61aecfe6-0000-0000-0000-000000000001\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1635,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"71b67a5f-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 1038,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"91438e04-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1798,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"6921250f-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1234,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"71b67a5f-0000-0000-0000-000000000001\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 730,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"1225a7ac-0000-0000-0000-000000000000\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 730,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"71b67a5f-0000-0000-0000-000000000002\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 605,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"71b67a5f-0000-0000-0000-000000000003\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 554,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000005\",\n        \"colorName\": \"Xanh rêu\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.den2.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"874d16bb-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 666,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2d522fdf-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 565,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7c564f0c-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 703,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"157b10ef-0000-0000-0000-000000000000\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 451,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a6c48c1-0000-0000-0000-000000000000\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 76,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"518fcf36-0000-0000-0000-000000000000\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 285,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"8a50ceae-0000-0000-0000-000000000000\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 76,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7c564f0c-0000-0000-0000-000000000001\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 565,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000006\",\n        \"colorName\": \"Đen\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.den14.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000004\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 1353,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"1f50fb0d-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 879,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"a2202382-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 863,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"ec76b0c6-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 452,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"1000012900\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 246,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b010bf65\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 246,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000005\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 104,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000007\",\n        \"colorName\": \"Trắng\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.den6.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"05b8e87a-0000-0000-0000-000000000000\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 17,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e064eb84-0000-0000-0000-000000000000\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 583,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"05b8e87a-0000-0000-0000-000000000001\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 1172,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"f4d12e13\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 1172,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"05b8e87a-0000-0000-0000-000000000002\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1384,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"05b8e87a-0000-0000-0000-000000000003\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 1141,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000008\",\n        \"colorName\": \"Xanh biển\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.xd.3.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"13625247-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 791,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"1ad1762c-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1005,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"13c3dbf6-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1005,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cedcc871\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1005,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cedcc871\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 1005,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"13625247-0000-0000-0000-000000000001\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 474,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"13625247-0000-0000-0000-000000000002\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1409,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00000000-0000-0000-0000-000000000009\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 109,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"13c3dbf6-0000-0000-0000-000000000001\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1302,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"13c3dbf6-0000-0000-0000-000000000002\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 558,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000009\",\n        \"colorName\": \"Xám Melange\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.xam1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"31152bb9-0000-0000-0000-000000000000\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 587,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2233e688-0000-0000-0000-000000000000\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 303,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2233e688-0000-0000-0000-000000000001\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 924,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"77a84b43-0000-0000-0000-000000000000\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 375,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00000000-0000-0000-0000-000000000010\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 759,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000006\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 84,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000007\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 933,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-0000-000000000010\",\n        \"colorName\": \"Xanh Pastel\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/January2024/AT.220.den10.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"8427cb35-0000-0000-0000-000000000000\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 672,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"90f73f32-0000-0000-0000-000000000000\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 894,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"592d7232-0000-0000-0000-000000000000\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 457,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"42ebbd5b-0000-0000-0000-000000000000\",\n            \"size\": \"4XL\",\n            \"description\": null,\n            \"quantity\": 457,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"979586fb-0000-0000-0000-000000000000\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 235,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"979586fb-0000-0000-0000-000000000001\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 914,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"02701296-0000-0000-0000-000000000011\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 694,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"00000000-0000-0000-000"
+  },
+  [
+    {
+      "id": "668f7e84-7ec2-a85e-6f59-ee9600000000",
+      "name": "Áo thun nam Excool logo Coolmate",
+      "description": null,
+      "basePrice": 99000,
+      "discountedPrice": 99000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/24CMCW.AT004.21.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/24CMCW.AT004.8_45.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "cf39a632-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 50,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8e7d344a-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "874f61e3-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 187,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6036fee5-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 177,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dad2fafb-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 126,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fb39256f-0000-0000-0000-000000000000",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 22,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66ab2a89-ea1a-8c30-8972-727600000000",
+      "name": "Áo thun thể thao Melange Exdry",
+      "description": null,
+      "basePrice": 189000,
+      "discountedPrice": 189000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.40.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.31.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 488,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000002",
+              "size": "2XL",
+              "description": null,
+              "quantity": 783,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000003",
+              "size": "XL",
+              "description": null,
+              "quantity": 871,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000004",
+              "size": "S",
+              "description": null,
+              "quantity": 365,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000005",
+              "size": "M",
+              "description": null,
+              "quantity": 662,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000006",
+              "size": "L",
+              "description": null,
+              "quantity": 1168,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xanh Dương",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000007",
+              "size": "S",
+              "description": null,
+              "quantity": 189,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000008",
+              "size": "M",
+              "description": null,
+              "quantity": 281,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000009",
+              "size": "2XL",
+              "description": null,
+              "quantity": 439,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000010",
+              "size": "L",
+              "description": null,
+              "quantity": 538,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000011",
+              "size": "XL",
+              "description": null,
+              "quantity": 389,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000012",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 241,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xám Quiet",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.25.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000013",
+              "size": "S",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000014",
+              "size": "M",
+              "description": null,
+              "quantity": 367,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000015",
+              "size": "2XL",
+              "description": null,
+              "quantity": 354,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000016",
+              "size": "XL",
+              "description": null,
+              "quantity": 345,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000017",
+              "size": "L",
+              "description": null,
+              "quantity": 482,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000018",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 202,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Xanh Dress",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.16.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000019",
+              "size": "S",
+              "description": null,
+              "quantity": 122,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000020",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000021",
+              "size": "2XL",
+              "description": null,
+              "quantity": 29,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000022",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68108c54-86df-4f77-9879-a6f100000000",
+      "name": "Áo thun nam mặc trong thoáng khí nhanh khô Excool",
+      "description": null,
+      "basePrice": 129000,
+      "discountedPrice": 129000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-nam-mac-trong-excool-156-den.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nam-mac-trong-excool-185-trang_43.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "921ecc3e-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 429,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "22a8a7f6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 532,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4e2ef977-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 326,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nam-mac-trong-excool-156-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "88e39399-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 326,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e15067cd-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 429,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5b0098db-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 532,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "680b5790-d26b-8947-950a-bb4900000000",
+      "name": "Áo thun Cotton 220gsm Stitch Ohana Mean Family",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-220gsm-stitch-ohana-mean-family-6-den.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-220gsm-stitch-ohana-mean-family-10-trang.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "95e54ece-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 17,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9d035b5e-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cda449c9-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1385,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cda449c9-0000-0000-0000-000000000001",
+              "size": "3XL",
+              "description": null,
+              "quantity": 1170,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-220gsm-stitch-ohana-mean-family-6-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "33fd0c1d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c2d3c86b-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 452,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "71ee098e-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 864,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5f22b9bf-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 879,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "680b5445-c25d-5a4b-ff2b-7fb400000000",
+      "name": "Áo thun Cotton 220gsm Fit Stitch Neon",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-stitch-neon6-trang_71.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-stitch-neon6-trang.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "size": "L",
+              "description": null,
+              "quantity": 17,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000002",
+              "size": "XL",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000003",
+              "size": "2XL",
+              "description": null,
+              "quantity": 1385,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000004",
+              "size": "3XL",
+              "description": null,
+              "quantity": 1170,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-stitch-neon10-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000005",
+              "size": "L",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000006",
+              "size": "XL",
+              "description": null,
+              "quantity": 452,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000007",
+              "size": "2XL",
+              "description": null,
+              "quantity": 864,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000008",
+              "size": "3XL",
+              "description": null,
+              "quantity": 879,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68087116-64fc-c517-9c22-e42700000000",
+      "name": "Áo thun Relaxed Fit in Bé gái cầm cờ",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-be-gai-cam-co-9-trang.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-be-gai-cam-co-9-be.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 878,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8172d894-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 724,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cca6c77c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1082,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68087023-a777-387b-dd78-27ac00000000",
+      "name": "Áo thun Relaxed Fit in Bé trai cầm cờ",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-be-trai-cam-co-8-trang_80.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-be-trai-cam-co-8-be.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 878,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8172d894-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 724,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cca6c77c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1080,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68086f81-73ca-306c-9e3a-f73c00000000",
+      "name": "Áo thun Relaxed Fit in Việt Nam thống nhất sau lưng",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-vn-thong-nhat-sau-lung-1-be_2.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-vn-thong-nhat-sau-lung-1-be_2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 878,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8172d894-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 724,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cca6c77c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1082,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-vn-thong-nhat-sau-lung-1-1-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "c6647c85-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "65c73f89-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 144,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff9d5af7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68086ee7-3a06-c202-7a1e-c07400000000",
+      "name": "Áo thun Relaxed fit in Việt Nam độc lập",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-in-vn-doc-lap-13-trang.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-vn-doc-lap-6-be.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 878,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8172d894-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 724,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cca6c77c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1082,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-in-vn-doc-lap-112-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "c6647c85-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "65c73f89-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 144,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000009",
+              "size": "L",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000010",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68086e76-dbd0-0a1a-a067-2fcb00000000",
+      "name": "Áo thun Relaxed Fit in Người Việt Nam",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-vn-thong-nhat-sau-lung-1-be_2.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-nguoi-vn-1-be_2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 878,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8172d894-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 724,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cca6c77c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1082,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-vn-thong-nhat-sau-lung-1-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "c6647c85-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "65c73f89-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff9d5af7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "68086d13-671d-c773-3957-ef1a00000000",
+      "name": "Áo thun Relaxed Fit in Ấm no hạnh phúc",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-am-no-be.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-am-no-be.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 878,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8172d894-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 724,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cca6c77c-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 1082,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-relaxed-fit-in-am-no-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "c6647c85-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "65c73f89-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 144,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff9d5af7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6805e516-bc39-e16b-5e01-f16d00000000",
+      "name": "Áo thun Relaxed fit in Cờ đỏ - Độc lập",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-in-co-do-doc-lap-1.11.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-in-co-do-doc-lap-12-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 144,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff9d5af7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 260,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6805e458-6210-3835-0133-4d8400000000",
+      "name": "Áo thun Relaxed fit in Độc lập Tự do Hạnh phúc 4",
+      "description": null,
+      "basePrice": 249000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-in-doc-lap-tu-do-hanh-phuc-4-123-den-1_2.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-relaxed-fit-in-doc-lap-tu-do-hanh-phuc-4-123-den-1_2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f264c887-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2211a3d8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 144,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000008",
+              "size": "XL",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thun",
+        "imageUrl": "string"
+      }
+    }
+  ]
+]

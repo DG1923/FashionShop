@@ -1,0 +1,2228 @@
+[
+  [
+    {
+      "id": "6732b849-46aa-f361-4309-782e00000000",
+      "name": "Áo sơ mi Overshirt 100% Cotton",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMCW.SM012---Den-11.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "f9453a49-7337-4a2c-985e-c47329897065",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM012---Den-11_99.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 223,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 432,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 503,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 384,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 211,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b1c620c7-0f9d-4a7d-9b1f-2e226c21a450",
+          "colorName": "Be Kaki",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM012_-_Be_Kaki_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 285,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 323,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 256,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 141,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "67316862-583e-7052-d907-6f0d00000000",
+      "name": "Áo sơ mi Flannel 100% Cotton",
+      "description": null,
+      "basePrice": 319000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMCW.SM011_-_Do_10.JPG",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "85944788-739e-465d-bb2a-96399694b0c6",
+          "colorName": "Be Vàng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM011_-_Cam_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 207,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 155,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 124,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 91,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3f3a27de-965e-477d-9b09-637186d502ca",
+          "colorName": "Đỏ",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM011_-_Do_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 129,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 316,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 243,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 198,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "0a08d032-f938-45a3-b664-b08005a03144",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM011_-_Den_Trang_10.JPG",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 190,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 406,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 313,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 257,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 163,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6709d6b1-49cc-3526-d669-a16100000000",
+      "name": "Áo sơ mi dài tay Oxford Premium",
+      "description": null,
+      "basePrice": 509000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMCW.SM009_-_Trang_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "3a181f3f-9b8a-4959-b737-04998a73526c",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM009_-_Trang_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 159,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 36,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "642d73c0-ff62-488d-800e-50fae712f54b",
+          "colorName": "Xanh Dark Blue",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM009_-_Xanh_Dark_Blue_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 135,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 292,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 349,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 306,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 125,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "4e5f6446-44a1-4789-8528-e9f4ba60676c",
+          "colorName": "Xanh Black Iris",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMCW.SM009_-_Xanh_Black_Iris_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 281,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 397,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 315,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 182,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 126,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6709d5ac-9d30-e92c-6f26-c3b700000000",
+      "name": "Áo sơ mi dài tay cổ tàu Premium Poplin ",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-xanh-blue-night_(1).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "091119a6-4151-4363-a8d7-6081442639fd",
+          "colorName": "Xanh Blue Night",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-xanh-blue-night_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 44,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "a50c8530-c513-4536-9d92-15a908a79a33",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-be_(11).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 120,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 153,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "45f16696-7530-4a57-90ba-f89861e84a75",
+          "colorName": "Xanh Darkslate",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-xanh-darkslate_(8).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 106,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6709d5ac-9d30-e92c-6f26-c3b700000000",
+      "name": "Áo sơ mi dài tay cổ tàu Premium Poplin ",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-be_(11).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "a50c8530-c513-4536-9d92-15a908a79a33",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-be_(11).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 120,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 153,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6709d5ac-9d30-e92c-6f26-c3b700000000",
+      "name": "Áo sơ mi dài tay cổ tàu Premium Poplin ",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-xanh-darkslate_(8).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "45f16696-7530-4a57-90ba-f89861e84a75",
+          "colorName": "Xanh Darkslate",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-so-mi-dai-tay-co-tau-premium-poplin-mau-xanh-darkslate_(8).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 106,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6709d3f4-e58f-8b23-9702-c31500000000",
+      "name": "Áo sơ mi dài tay Modal Essential",
+      "description": null,
+      "basePrice": 429000,
+      "discountedPrice": 499000,
+      "mainImageUrl": "https://media3.coolmate.me//image/November2024/24CMCW.SM007_-_Den_2.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "d60e334e-2c81-49b0-9e57-c23938f57e6c",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.SM007_-_Den_2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 328,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 437,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 731,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 568,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 443,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 255,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "d9e96795-7321-4e43-859b-74e45746632b",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/October2024/24CMCW.SM007_-_Trang_1.JPG",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 278,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 331,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 538,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 440,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 374,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 249,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "175b7714-0606-461e-8223-b01a79b5b05a",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/October2024/24CMCW.SM007_-_Xam_3.JPG",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 313,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 180,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 205,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 112,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "74d00702-20c6-438c-94c8-210875a160f5",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/October2024/24CMCW.SM007_-_Xanh_1.JPG",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 127,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 311,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 242,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 196,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66434052-0764-e276-9f63-694300000000",
+      "name": "Áo Sơ Mi Dài Tay Premium Poplin ",
+      "description": null,
+      "basePrice": 599000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/Ao_Poplin.11.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "046c6d11-f9e2-4b5e-a548-a9463f462b59",
+          "colorName": "Xanh Indigo",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Ao_Poplin.33.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 362,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 674,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 881,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 648,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 379,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 242,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "73958328-914c-4878-99ff-400169545c0a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Ao_Poplin.6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 191,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 357,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 507,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 144,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6643227a-1a30-830a-ff31-8af000000000",
+      "name": "Áo Sơ Mi Dài Tay Premium Dobby ",
+      "description": null,
+      "basePrice": 599000,
+      "discountedPrice": 599000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/Dobby_8.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "c084456c-7171-48c0-a101-9863d2b4c35c",
+          "colorName": "Xanh French",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Dobby_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 192,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 726,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 1074,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 627,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 379,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "a5c2e60b-a472-41a1-b573-385198172e56",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/Dobby_7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 261,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 660,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 943,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 661,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 198,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65e99924-b69f-8f06-4618-2b5c00000000",
+      "name": "Áo Sơ Mi Dài Tay Essentials Cotton ",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xanh_Forever_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "217554a1-d014-4789-b234-18f1c4c792a8",
+          "colorName": "Xanh Forever",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xanh_Forever_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 350,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 709,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 168,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "09726126-00a5-4142-a13c-029a9915e410",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Trang_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 278,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 251,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 6,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 50,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "e9822608-5073-4302-800e-577c8b779b33",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Navy_4.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 93,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "9a827c29-11b9-4d0d-8234-02b76b078953",
+          "colorName": "Xám xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xam_Xanh_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 112,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 643,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 222,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "31b8c773-457c-4530-8528-0711641c115c",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__24CMCW.QD004__Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 309,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 404,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 539,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 436,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 276,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65e99924-b69f-8f06-4618-2b5c00000000",
+      "name": "Áo Sơ Mi Dài Tay Essentials Cotton ",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Trang_6.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "b41d7274-2d4f-4865-b9d4-7007591f99b5",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Trang_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 251,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 6,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 50,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b979898f-0678-4e93-b3ba-b7750c5f332a",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Navy_4.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 93,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "22f9e92d-70f7-4776-9224-dd401589256b",
+          "colorName": "Xám xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xam_Xanh_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 112,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 643,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 222,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "e3f091a8-e524-41a7-8b0d-a09659155992",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__24CMCW.QD004__Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 309,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 404,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 539,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 436,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 276,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65e99924-b69f-8f06-4618-2b5c00000000",
+      "name": "Áo Sơ Mi Dài Tay Essentials Cotton ",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Navy_4.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "70ed6c39-571f-4a36-aa2e-73188952d73b",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Navy_4.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 93,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "770cf93f-5d25-4687-95c5-24e75409050d",
+          "colorName": "Xanh Forever",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/June2024/Xanh_nhat_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 350,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 709,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 168,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "c9959882-e6cb-4ff9-b329-d4336c834b93",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/June2024/Trang_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 278,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 251,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 6,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 50,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "f8ed8b9a-172a-4753-a5da-43d9521049d3",
+          "colorName": "Xám xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xam_Xanh_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 112,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 643,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 222,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "f9165184-812b-4235-ae43-46616559b117",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__24CMCW.QD004__Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 309,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 404,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 539,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 436,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 276,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65e99924-b69f-8f06-4618-2b5c00000000",
+      "name": "Áo Sơ Mi Dài Tay Essentials Cotton ",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xam_Xanh_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "99f17d4f-63e8-44e9-8306-982b41f1d717",
+          "colorName": "Xanh Forever",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xanh_Forever_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 350,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 168,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2e462086-52a0-4cf7-82e1-6849d3109d15",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/June2024/Trang_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 251,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 50,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "f25a0659-322a-459d-8416-705075373588",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/June2024/Xanh_than_5.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 93,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "d2272164-66d6-4c67-b3c5-85887349352a",
+          "colorName": "Xám xanh",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__Xam_Xanh_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 112,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 643,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 222,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d9e6166-a322-4c0a-907f-72c708ed5203",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__24CMCW.QD004__Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 309,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 404,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 539,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 436,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 276,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "65e99924-b69f-8f06-4618-2b5c00000000",
+      "name": "Áo Sơ Mi Dài Tay Essentials Cotton ",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__24CMCW.QD004__Den_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "73958328-914c-4878-99ff-400169545c0a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/November2024/24CMCW.QD004__24CMCW.QD004__Den_1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 309,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 404,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 539,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 436,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 276,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "3XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "60b48e48-6dfb-751d-685e-83a400000000",
+      "name": "Áo Sơ mi dài tay Café-DriS",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 499000,
+      "mainImageUrl": "https://media3.coolmate.me//image/January2025/Somi_Cafe_-_Trang_2.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "704f8a89-e09b-4b7e-b097-a7e792f63a3c",
+          "colorName": "Xanh nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ASMC_Somi_Cafe_-_27_XN.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 59,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 15,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "0bc6f27c-402f-4e5d-a2e6-8935b58ed6f9",
+          "colorName": "Xanh Aqua",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ASMC_Somi_Cafe_-_20_XAQ.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 189,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 756,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 811,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 744,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 247,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "c832581d-4a56-4983-9708-e52449f33471",
+          "colorName": "Xám nhạt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ASMC_Somi_Cafe_-_12_XAMN.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 25,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 185,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 205,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 335,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 94,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "9279160d-6433-424e-9277-e041a1186e58",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ASMC_Somi_Cafe_-_2_TRANG.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 709,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 200,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 400,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "2XL",
+              "description": null,
+              "quantity": 329,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo sơ mi nam",
+        "imageUrl": "string"
+      }
+    }
+  ]
+]

@@ -1,0 +1,4776 @@
+[
+  [
+    {
+      "id": "01a77586-b657-4041-9b21-d8ff485d0f1a",
+      "name": "Áo Thun Nam Thể Thao Coolmate Basics",
+      "description": null,
+      "basePrice": 99000,
+      "discountedPrice": 99000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Den_6_(3).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Den_6_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "16e9403e-5f46-42d9-9429-e1ba46ca88a4",
+              "size": "2XL",
+              "description": null,
+              "quantity": 739,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "650d3b02-b02f-41e8-9199-0ff5a823955d",
+              "size": "XL",
+              "description": null,
+              "quantity": 791,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2bd99cfe-c767-468c-ab1d-824791485a9f",
+              "size": "L",
+              "description": null,
+              "quantity": 2312,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64aeac88-6013-402c-9579-67e83946142d",
+              "size": "S",
+              "description": null,
+              "quantity": 2571,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c14481b8-50c5-4f10-9d59-a88df1647904",
+              "size": "M",
+              "description": null,
+              "quantity": 1855,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "563b3434-bb27-43b2-91e8-f9758b118899",
+          "colorName": "Navy logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Navy_5_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "256e638b-9a2b-4735-ba66-11f3664e8f2c",
+              "size": "M",
+              "description": null,
+              "quantity": 584,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "42d657e9-e722-4374-a769-f7a59f5f8b25",
+              "size": "S",
+              "description": null,
+              "quantity": 783,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "5d12044d-d76c-48f7-99f0-94b8581c2a2f",
+          "colorName": "Xanh da trời",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Da_Troi_8_(4).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "88878209-598a-4c4b-b0a9-6255595c8b88",
+              "size": "2XL",
+              "description": null,
+              "quantity": 341,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "42393269-0258-4b16-963f-68c34865d096",
+              "size": "3XL",
+              "description": null,
+              "quantity": 94,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c45fb011-55d5-482b-8052-29f1a906c567",
+              "size": "L",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "20097827-311e-4d44-93f0-51300ff2a37a",
+              "size": "M",
+              "description": null,
+              "quantity": 235,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13925435-809c-453a-ac3f-0e698e67e37e",
+              "size": "S",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e7ec5dd4-7334-45a9-865b-d222736569b8",
+              "size": "XL",
+              "description": null,
+              "quantity": 119,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b9074600-42be-4363-b42b-509b1331d32c",
+          "colorName": "Xanh bóng đêm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Bong_Dem_6_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e3bdf2b3-7b10-40f2-b8de-71927e9b0ba3",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "063f0a6f-e48d-4f54-bcde-e33ed05265cf",
+              "size": "XL",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73d8f476-6504-464e-94c5-d1a199085462",
+              "size": "L",
+              "description": null,
+              "quantity": 1058,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "559664cb-a291-4c76-8247-471672c40986",
+              "size": "S",
+              "description": null,
+              "quantity": 658,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "935a29e0-b30b-4006-b51e-2194a65f66c6",
+              "size": "M",
+              "description": null,
+              "quantity": 1435,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Xám nhạt logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xam_Nhat_7_(2).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "80597a49-4a58-4a59-8c4d-e722a98c080e",
+              "size": "2XL",
+              "description": null,
+              "quantity": 46,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c67bc604-831b-450f-b952-1a75865a6437",
+              "size": "3XL",
+              "description": null,
+              "quantity": 167,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c70023da-4983-4562-8379-5f3522c1e9f7",
+              "size": "3XL",
+              "description": null,
+              "quantity": 423,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f527649c-a9e2-4e60-9f1a-243e964e103c",
+              "size": "M",
+              "description": null,
+              "quantity": 224,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f813fdfb-b1c8-410a-be98-ff8008045953",
+              "size": "S",
+              "description": null,
+              "quantity": 478,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee8764d9-1d9d-471f-9757-050833c81e5c",
+              "size": "S",
+              "description": null,
+              "quantity": 734,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "f0b5db25-23c8-4a86-974c-b8f2197a0e3e",
+          "colorName": "Xám đậm logo mới",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xam_Dam_8_(3).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "be87446d-785e-4910-8e8d-a211495616a1",
+              "size": "XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c06e7e7c-b4d5-4e4c-a1b5-c655506a6364",
+              "size": "L",
+              "description": null,
+              "quantity": 676,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f527649c-a9e2-4e60-9f1a-243e964e103c",
+              "size": "M",
+              "description": null,
+              "quantity": 682,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "885ffcde-1a96-415f-ae2e-985896216557",
+              "size": "2XL",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2953333a-6453-4ffc-9a67-2975f1c49877",
+          "colorName": "Xanh Cool",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Cool_7_(5).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "726436ea-7559-4642-a100-e1b97e7ed969",
+              "size": "2XL",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "73d1f20f-e66a-4a7a-b3d8-d129133a91b0",
+          "colorName": "Xanh Cobalt",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Xanh_Cobalt_9_(4).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "bf586dd7-8e47-40a6-85e6-004c7d77cf1d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9f955d90-22de-4313-9410-25652284a038",
+              "size": "3XL",
+              "description": null,
+              "quantity": 27,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fc05dc5f-60b1-4fa6-9e30-e4186e704675",
+              "size": "S",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  {
+    "error": "no_json_block",
+    "original": "```json\n[\n  {\n    \"id\": \"2a2d3b66-0340-4140-af33-497a3e010db2\",\n    \"name\": \"Áo Polo Nam Thể Thao Promax-S1\",\n    \"description\": null,\n    \"basePrice\": 209000,\n    \"discountedPrice\": 239000,\n    \"mainImageUrl\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-den-1.jpg\",\n    \"discountDisplayDTO\": null,\n    \"productColorsDisplayDTO\": [\n      {\n        \"id\": \"2d20a740-370c-4587-b17e-0e769282751a\",\n        \"colorName\": \"Đen\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-den-1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"0bac12ae-75f8-435f-a11e-54e7a7916a3d\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1208,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"f2e19bb4-8349-4608-8011-273805079ff1\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 618,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d445098d-8979-464e-bf6e-723a25d1b785\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1464,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0bac12ae-75f8-435f-a11e-54e7a7916a3d\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1208,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"b6ef4af6-50d8-48cf-9d87-23d0a81e1b09\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 591,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cd2e3e6f-4750-4575-af8d-78f82936799f\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 986,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b361703d-0741-41fd-8b6e-99705867e3d0\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1987,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"437ca118-8396-450a-a473-609d703c91c5\",\n        \"colorName\": \"Xanh Aqua\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/November2024/Xanh_Nhat_1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"9af91425-3992-4293-8cf5-ffba7f2dd663\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 615,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00785305-306b-40b6-819b-4f4567208520\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 604,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"48a0ee44-a67c-4a83-bfd8-a993470f727a\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 591,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b6ef4af6-50d8-48cf-9d87-23d0a81e1b09\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 666,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 461,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 278,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 587,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d445098d-8979-464e-bf6e-723a25d1b785\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 887,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"2136d595-d506-49b6-b77c-029822d0dd4a\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 891,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"5d12044d-d76c-48f7-99f0-94b8581c2a2f\",\n        \"colorName\": \"Trắng\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-trang-3.png\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"9af91425-3992-4293-8cf5-ffba7f2dd663\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 615,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00785305-306b-40b6-819b-4f4567208520\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 604,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0bac12ae-75f8-435f-a11e-54e7a7916a3d\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1208,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"33d2ce20-a4b8-4839-894f-a96258642c48\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 612,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"f58fd6af-c803-476d-bb0a-5c64a435d008\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 651,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 278,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"b9074600-42be-4363-b42b-509b1331d32c\",\n        \"colorName\": \"Xanh bóng đêm\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-bong-dem-6_95.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"073ff414-967e-44e2-b3e6-89edca3dd7c6\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1500,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 721,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d445098d-8979-464e-bf6e-723a25d1b785\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 887,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"9af91425-3992-4293-8cf5-ffba7f2dd663\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 774,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00785305-306b-40b6-819b-4f4567208520\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 642,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"6c456452-59ca-429e-91b0-f2359c699587\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 761,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"f0b5db25-23c8-4a86-974c-b8f2197a0e3e\",\n        \"colorName\": \"Xám đen\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xam-den_(1).jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"48c9b55b-269e-4538-a18d-d141c974f3cb\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 231,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"587b36fe-eb2d-46ae-986a-5a84114855c3\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 439,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"a51063af-6a80-4704-b9da-649326b20029\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 231,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e31e21c0-d814-47c8-a8a7-22f25471f11c\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 276,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"c5b05094-d1ca-4772-a990-df377f2f1a99\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 484,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"48c9b55b-269e-4538-a18d-d141c974f3cb\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 231,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"317135cf-372e-499b-be93-2c06239101a6\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 414,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"75cb5565-4607-4e2e-820b-2b9035ddbb2e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 237,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0f517e76-694b-4c60-b996-5b0e96b65081\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 180,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"75cb5565-4607-4e2e-820b-2b9035ddbb2e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 237,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0f517e76-694b-4c60-b996-5b0e96b65081\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 180,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"2953333a-6453-4ffc-9a67-2975f1c49877\",\n        \"colorName\": \"Xanh Deep Cobalt\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-deep-cobalt-9.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"5a858294-5a03-414e-8492-3eb859d30372\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 333,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"37836d2b-719f-4084-9705-9a6b4348772c\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 326,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"48a0ee44-a67c-4a83-bfd8-a993470f727a\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 303,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5a858294-5a03-414e-8492-3eb859d30372\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 333,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"dc843d02-d04a-4a6e-9f97-4334651470f2\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 375,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d109bcde-e0d0-4057-b98a-3a28ba25414e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 250,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n       {\n        \"id\": \"73d1f20f-e66a-4a7a-b3d8-d129133a91b0\",\n        \"colorName\": \"Xanh Lavender Lustre\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-lavender-lustre-11.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"047a2f1c-9280-4ffc-8487-9a03b9d8989b\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 125,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5f9ee95d-3c10-476c-af2c-151a5a028107\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 569,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"07b27b9b-0087-4e76-b15d-3c5d2569c11d\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 286,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2eca09a8-d954-4354-8689-95d7bb7b7064\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 569,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"2eca09a8-d954-4354-8689-95d7bb7b7064\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 569,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"285c8385-031c-4311-8377-f683d8654721\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 492,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"1d0fa298-e160-47a9-a282-6d181f61f124\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 320,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"97c11f5f-e26e-4e6b-893d-38e6b99c415b\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 266,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"6d321662-6369-4d6c-9e09-3672a2d90184\",\n        \"colorName\": \"Xám Tarmac\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-mau-xam-tarmac_(5).jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"2626b39b-3204-4826-88ae-ae80c4d25c8b\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 272,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d82945ec-69d0-4082-b022-52d3a8945c59\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 571,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e31e21c0-d814-47c8-a8a7-22f25471f11c\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 277,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2626b39b-3204-4826-88ae-ae80c4d25c8b\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 272,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a6791e3-b87f-44ff-b301-49e73d02b103\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 444,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"c9ddd549-608d-4c58-9c89-65644c08c8c0\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 420,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cf9a133c-c354-4699-a0a5-852e56c2e52e\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 230,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"c6d6d91b-e761-4691-916c-d9f5318152a6\",\n        \"colorName\": \"Xanh Navy\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-navy-1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"5a507716-7555-491d-b011-772df19e0997\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 643,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1262,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"751478e4-b781-48a7-a870-670cf69f4232\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1127,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1262,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"751478e4-b781-48a7-a870-670cf69f4232\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1127,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"553efdad-0376-4f34-98a4-98b9e7290c3c\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1648,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b7bada01-1276-4275-80ff-78c593e2b175\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 641,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b7bada01-1276-4275-80ff-78c593e2b175\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 641,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e2be33ff-29f8-49a9-a96a-d35a0bb5cfb1\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 642,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1262,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"001f0a08-3439-450a-b691-a63f995160f9\",\n        \"colorName\": \"Be Xám\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/April2025/ao-polo-nam-the-thao-promax-s1-Be_Xam_1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"3265b7f3-645c-440a-a6d0-e73bb1c3f08a\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 142,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"75cb5565-4607-4e2e-820b-2b9035ddbb2e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 276,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5fc0a4f6-4546-49e0-b001-30a479a9b843\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"a51063af-6a80-4704-b9da-649326b20029\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 50,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"ddc786b5-ed2d-4f1f-999d-6578c3829f8c\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"5fc0a4f6-4546-49e0-b001-30a479a9b843\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"09499c53-f36d-4764-9d41-9b975e402b3a\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d1e0f17a-5c99-41c5-9782-a690c626984c\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 139,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"ddc786b5-ed2d-4f1f-999d-6578c3829f8c\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 394,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"3265b7f3-645c-440a-a6d0-e73bb1c3f08a\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 142,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"3265b7f3-645c-440a-a6d0-e73bb1c3f08a\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 142,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n       {\n        \"id\": \"73d1f20f-e66a-4a7a-b3d8-d129133a91b0\",\n        \"colorName\": \"Xanh Lavender Lustre\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-lavender-1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"047a2f1c-9280-4ffc-8487-9a03b9d8989b\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 125,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5f9ee95d-3c10-476c"
+  },
+  [
+    {
+      "id": "08023e8a-b252-4702-811d-46e09c191873",
+      "name": "Áo thun thể thao Melange Exdry",
+      "description": null,
+      "basePrice": 189000,
+      "discountedPrice": 189000,
+      "mainImageUrl": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.40.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "64c4635e-c43b-430a-9e09-0335f72d019d",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.31.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1e37d02b-f597-477c-9048-8d901e9ca142",
+              "size": "S",
+              "description": null,
+              "quantity": 365,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6fd5485e-3b5d-45a8-b3c8-c0b3e8123965",
+              "size": "XL",
+              "description": null,
+              "quantity": 871,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "707ce428-139b-4a4b-8666-f09c7143a80c",
+              "size": "M",
+              "description": null,
+              "quantity": 662,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "842af5a4-446c-4e21-9b5b-593653308659",
+              "size": "L",
+              "description": null,
+              "quantity": 1168,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1f6cb348-6e0e-4a3b-858d-79b11e7a3304",
+              "size": "2XL",
+              "description": null,
+              "quantity": 783,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3b42aac0-9883-4513-a777-03e2b134809a",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 488,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "93799768-e70b-4a96-8596-ffc66647146b",
+          "colorName": "Xanh Dương",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "fd1a749c-2a57-4a45-9374-527725b9408e",
+              "size": "S",
+              "description": null,
+              "quantity": 189,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dac468e7-a255-4a2b-9481-3e181f92c1a8",
+              "size": "XL",
+              "description": null,
+              "quantity": 389,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b8632e30-f2a7-4276-a4c4-1a527b092a89",
+              "size": "M",
+              "description": null,
+              "quantity": 281,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 538,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6843d526-1ed6-4e83-8f01-4970c73d4e09",
+              "size": "2XL",
+              "description": null,
+              "quantity": 439,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "24c8f7e6-5812-4c1a-a6a3-95e59b2625a7",
+              "size": "L",
+              "description": null,
+              "quantity": 538,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "14975fcf-3216-4883-8c62-ff4f7962c0e4",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 241,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "e9420e56-5268-4622-94aa-49f5dbdd572e",
+          "colorName": "Xám Quiet",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9571ad37-a405-4d0d-8340-9d3247a339e0",
+              "size": "S",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f0ab496a-f362-4ed3-ac0b-15c8b8a292d7",
+              "size": "L",
+              "description": null,
+              "quantity": 482,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d13ac69c-7983-496f-b772-655e2562379e",
+              "size": "2XL",
+              "description": null,
+              "quantity": 354,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "965123c9-6144-49d0-9f81-8236e753c230",
+              "size": "XL",
+              "description": null,
+              "quantity": 345,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c81ade6d-724e-4697-b7b6-0a3982022415",
+              "size": "3Xl",
+              "description": null,
+              "quantity": 202,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9571ad37-a405-4d0d-8340-9d3247a339e0",
+              "size": "S",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "a1e3d9c4-50b4-493d-b0a0-1317273d59ae",
+          "colorName": "Xanh Dress",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/August2024/24CMAW.AT024.12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f2449030-7f80-4fa6-9104-f70e1da31930",
+              "size": "2XL",
+              "description": null,
+              "quantity": 29,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f2449030-7f80-4fa6-9104-f70e1da31930",
+              "size": "2XL",
+              "description": null,
+              "quantity": 29,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "53a7152b-42a7-46b3-8a0e-909b6991212f",
+              "size": "3XL",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bee20933-ba2f-4032-a40a-9a3889368f52",
+              "size": "L",
+              "description": null,
+              "quantity": 12,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "4e8a1c74-7f10-44d8-9835-299a4a445061",
+      "name": "Áo Tanktop thể thao Melange",
+      "description": null,
+      "basePrice": 179000,
+      "discountedPrice": 179000,
+      "mainImageUrl": "https://media3.coolmate.me//image/July2024/24CMAW.TT011.41.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "64c4635e-c43b-430a-9e09-0335f72d019d",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/24CMAW.TT011.29_85.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "L",
+              "description": null,
+              "quantity": 471,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3ceda8b3-0a4e-4e5f-bc3f-519d100526a6",
+              "size": "2XL",
+              "description": null,
+              "quantity": 250,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "XL",
+              "description": null,
+              "quantity": 364,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "XL",
+              "description": null,
+              "quantity": 364,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fa638e8-5b78-47c9-a4d9-246325316076",
+              "size": "3XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10148bc0-8373-4431-9056-3e04c421729c",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "a1e3d9c4-50b4-493d-b0a0-1317273d59ae",
+          "colorName": "Xanh Dress",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/24CMAW.TT011.21_36.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "24ae0ed7-982c-42b3-a9a2-632f777b6a26",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fa638e8-5b78-47c9-a4d9-246325316076",
+              "size": "3XL",
+              "description": null,
+              "quantity": 91,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "24ae0ed7-982c-42b3-a9a2-632f777b6a26",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "24ae0ed7-982c-42b3-a9a2-632f777b6a26",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "93799768-e70b-4a96-8596-ffc66647146b",
+          "colorName": "Xanh Dương",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/24CMAW.TT011.2_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "24ae0ed7-982c-42b3-a9a2-632f777b6a26",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a411b8ec-1f96-4f2f-81aa-31e958683009",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "14975fcf-3216-4883-8c62-ff4f7962c0e4",
+              "size": "3XL",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a411b8ec-1f96-4f2f-81aa-31e958683009",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1f6cb348-6e0e-4a3b-858d-79b11e7a3304",
+              "size": "2XL",
+              "description": null,
+              "quantity": 439,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f73eafc3-6293-446d-90a4-35792b5fa6a5",
+              "size": "M",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fd1a749c-2a57-4a45-9374-527725b9408e",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "e9420e56-5268-4622-94aa-49f5dbdd572e",
+          "colorName": "Xám Quiet",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/July2024/24CMAW.TT011.16_48.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9571ad37-a405-4d0d-8340-9d3247a339e0",
+              "size": "S",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f6f32130-42f7-491d-94aa-9722014c3c8c",
+              "size": "L",
+              "description": null,
+              "quantity": 191,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "M",
+              "description": null,
+              "quantity": 146,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7f79b7d5-b3e5-483a-b053-d58b041cc49c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7f79b7d5-b3e5-483a-b053-d58b041cc49c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c179006a-2975-4f55-9639-2b76f4907544",
+              "size": "2XL",
+              "description": null,
+              "quantity": 107,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "f3729f5c-10c0-485e-970b-d19c7f377788",
+      "name": "Áo thun nam mặc trong thoáng khí nhanh khô Excool",
+      "description": null,
+      "basePrice": 129000,
+      "discountedPrice": 129000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-nam-mac-trong-excool-156-den.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "64c4635e-c43b-430a-9e09-0335f72d019d",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nam-mac-trong-excool-156-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "88e39399-6832-4e0a-b044-5fa09649f758",
+              "size": "M",
+              "description": null,
+              "quantity": 326,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e15067cd-45d9-4a2c-9577-3d0e73e875d4",
+              "size": "XL",
+              "description": null,
+              "quantity": 429,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5b0098db-71c5-41e1-8595-97c0e4348375",
+              "size": "L",
+              "description": null,
+              "quantity": 532,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e15067cd-45d9-4a2c-9577-3d0e73e875d4",
+              "size": "XL",
+              "description": null,
+              "quantity": 429,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5b0098db-71c5-41e1-8595-97c0e4348375",
+              "size": "L",
+              "description": null,
+              "quantity": 532,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "88e39399-6832-4e0a-b044-5fa09649f758",
+              "size": "M",
+              "description": null,
+              "quantity": 326,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "ceb38e0f-063e-4e22-8f35-95e70d0b6561",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nam-mac-trong-excool-185-trang.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "22a8a7f6-90e3-44b8-9b7d-a38b198b9376",
+              "size": "L",
+              "description": null,
+              "quantity": 532,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4e2ef977-5565-4f14-93b4-49a0d8f0d225",
+              "size": "M",
+              "description": null,
+              "quantity": 326,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4e2ef977-5565-4f14-93b4-49a0d8f0d225",
+              "size": "M",
+              "description": null,
+              "quantity": 326,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "XL",
+              "description": null,
+              "quantity": 429,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6808ad5efd9ca510b875183d",
+      "name": "Áo Singlet chạy bộ Advanced Vent Tech Graphic Camo",
+      "description": null,
+      "basePrice": 219000,
+      "discountedPrice": 219000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-389xanh-blue.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Nâu đỏ",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "068cb945-c07f-47a3-b809-9f15596639e9",
+              "size": "3XL",
+              "description": null,
+              "quantity": 67,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4e2ef977-5565-4f14-93b4-49a0d8f0d225",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3ceda8b3-0a4e-4e5f-bc3f-519d100526a6",
+              "size": "2XL",
+              "description": null,
+              "quantity": 142,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d445098d-8979-464e-bf6e-723a25d1b785",
+              "size": "XL",
+              "description": null,
+              "quantity": 247,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Ghi xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-542xam-ghi.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "75cb5565-4607-4e2e-820b-2b9035ddbb2e",
+              "size": "2XL",
+              "description": null,
+              "quantity": 149,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9571ad37-a405-4d0d-8340-9d3247a339e0",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f6f32130-42f7-491d-94aa-9722014c3c8c",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "965123c9-6144-49d0-9f81-8236e753c230",
+              "size": "XL",
+              "description": null,
+              "quantity": 258,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33451454-0798-470d-826f-e79a104a9484",
+              "size": "M",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0e983cdf-855c-495c-a5f1-0870dd540fae",
+              "size": "3XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "31510453-ff15-4e41-984d-9537904904f0",
+          "colorName": "Xanh biển",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-389xanh-blue.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9af91425-3992-4293-8cf5-ffba7f2dd663",
+              "size": "M",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "260338aa-773e-48b3-ba59-c6a33f02352d",
+              "size": "L",
+              "description": null,
+              "quantity": 306,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "L",
+              "description": null,
+              "quantity": 306,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "3XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "116095c3-5b39-4e1e-b568-40f87088706f",
+              "size": "XL",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "116095c3-5b39-4e1e-b568-40f87088706f",
+              "size": "XL",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "553efdad-0376-4f34-98a4-98b9e7290c3c",
+              "size": "2XL",
+              "description": null,
+              "quantity": 153,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6808ad5efd9ca510b875183d",
+      "name": "Áo Singlet chạy bộ Advanced Vent Tech Graphic Camo",
+      "description": null,
+      "basePrice": 219000,
+      "discountedPrice": 219000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-389xanh-blue.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "46b3ca70-df15-418e-b67c-b1258d0a2c57",
+          "colorName": "Xanh biển",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-389xanh-blue.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9482cd52-f45a-4812-963e-2e5b1e16a0ca",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2c3f6ab2-de9b-47b4-bb27-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "daec6cda-ff58-4936-9479-1b7027f786a6",
+              "size": "XL",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "3XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "daec6cda-ff58-4936-9479-1b7027f786a6",
+              "size": "XL",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2c3f6ab2-de9b-47b4-bb27-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2628570f-4f82-4c8e-96c0-df8c4f0e86d2",
+              "size": "2XL",
+              "description": null,
+              "quantity": 153,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2628570f-4f82-4c8e-96c0-df8c4f0e86d2",
+              "size": "2XL",
+              "description": null,
+              "quantity": 153,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2c3f6ab2-de9b-47b4-bb27-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2628570f-4f82-4c8e-96c0-df8c4f0e86d2",
+              "size": "2XL",
+              "quantity": 153,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c805b4d1-44c6-44f5-95ba-52f9aa91a6fd",
+              "size": "XL",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "72b08e4d-5260-459a-9b1b-883165a13b8f",
+          "colorName": "Ghi xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-542xam-ghi.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "7a6791e3-a639-459b-98c8-35c98b2684fd",
+              "size": "2XL",
+              "description": null,
+              "quantity": 149,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "321a72f1-c8b6-4929-b55e-1c251886f738",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1d8ec59c-1135-454d-8d9c-6c6a3f39e400",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1d8ec59c-1135-454d-8d9c-6c6a3f39e400",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa4967b5-f0a1-4699-a3b9-7e9b648f782f",
+              "size": "M",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "321a72f1-c8b6-4929-b55e-1c251886f738",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0e983cdf-855c-495c-a5f1-0870dd540fae",
+              "size": "3XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "321a72f1-c8b6-4929-b55e-1c251886f738",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "321a72f1-c8b6-4929-b55e-1c251886f738",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3e3574fe-d80b-4305-8263-257c832d9d87",
+          "colorName": "Nâu đỏ",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "37836d2b-719f-4084-9705-9a6b4348772c",
+              "size": "2XL",
+              "description": null,
+              "quantity": 142,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a9a63a64-6911-4947-9e5d-579bb50e4b6c",
+              "size": "XL",
+              "description": null,
+              "quantity": 247,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67d28242-87f0-4413-96b7-d5ddc128a3c9",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67d28242-87f0-4413-96b7-d5ddc128a3c9",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67d28242-87f0-4413-96b7-d5ddc128a3c9",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2c3f6ab2-de9b-47b4-bb27-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67d28242-87f0-4413-96b7-d5ddc128a3c9",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6808ab224ba28e35cb1cfdda",
+      "name": "Áo thun chạy bộ Advanced Vent Tech Graphic Camo",
+      "description": null,
+      "basePrice": 259000,
+      "discountedPrice": 259000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-camo-417do-nau.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Ghi xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-camo-504-xam-ghi.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1d8ec59c-1135-454d-8d9c-6c6a3f39e400",
+              "size": "S",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "239a7d05-e7ca-4956-9f76-2f3c66074084",
+              "size": "2XL",
+              "description": null,
+              "quantity": 149,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3f671e4f-9339-44d1-8b85-021b0b4f9b2d",
+              "size": "M",
+              "description": null,
+              "quantity": 288,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a11af00f-8633-4661-9796-4e7b67c6b6c8",
+              "size": "XL",
+              "description": null,
+              "quantity": 323,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0e983cdf-855c-495c-a5f1-0870dd540fae",
+              "size": "3XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33451454-0798-4915-b9aa-7d35116861c7",
+              "size": "M",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2c2316ed-f428-470e-a5ff-99a9770307a4",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "46b3ca70-df15-418e-b67c-b1258d0a2c57",
+          "colorName": "Xanh biển",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-camo-473-xanh-blue.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2c3f6ab2-de9b-47b4-bb27-a99c95e989c5",
+              "size": "XL",
+              "description": null,
+              "quantity": 249,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "M",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5e94ee30-3b67-4f85-b29b-30515532b88c",
+              "size": "2XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "XL",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5e94ee30-3b67-4f85-b29b-30515532b88c",
+              "size": "2XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c6fc39cd-e591-498c-8256-98f104f95c94",
+              "size": "S",
+              "description": null,
+              "quantity": 151,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2628570f-4f82-4c8e-96c0-df8c4f0e86d2",
+              "size": "2XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "daec6cda-ff58-4936-9479-1b7027f786a6",
+              "size": "L",
+              "description": null,
+              "quantity": 306,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "M",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "M",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "M",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "M",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64c4635e-c43b-430a-9e09-0335f72d019d",
+              "size": "XL",
+              "description": null,
+              "quantity": 338,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3e3574fe-d80b-4305-8263-257c832d9d87",
+          "colorName": "Nâu đỏ",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-camo-417do-nau.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "3c12f189-e5a4-4e43-a043-641970633644",
+              "size": "M",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0b847a20-75c0-4765-8a30-823ff3f29099",
+              "size": "3XL",
+              "description": null,
+              "quantity": 88,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67d28242-87f0-4413-96b7-d5ddc128a3c9",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c12f189-e5a4-4e43-a043-641970633644",
+              "size": "M",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0333f960-6657-491c-98c7-f3317c069638",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0333f960-6657-491c-98c7-f3317c069638",
+              "size": "L",
+              "description": null,
+              "quantity": 299,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "698d1cb4-c5a8-4479-9361-a802aa2c6293",
+              "size": "XL",
+              "description": null,
+              "quantity": 335,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6808ab224ba28e35cb1cfdda",
+      "name": "Áo thun chạy bộ Advanced Vent Tech Graphic Pixel",
+      "description": null,
+      "basePrice": 259000,
+      "discountedPrice": 259000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-pixel-333-vang.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Xanh Blue",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-pixel-04-xanh-blue.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "589434bc-f545-4321-b9e4-1f908c95a401",
+              "size": "M",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "70b36131-b854-4d6b-aa04-1b595082471a",
+              "size": "L",
+              "description": null,
+              "quantity": 288,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1a4582bc-0b00-43b2-88b0-d8b2a2867d5c",
+              "size": "XL",
+              "description": null,
+              "quantity": 249,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2a121dd9-6e93-4f02-8905-07415752a779",
+              "size": "XL",
+              "description": null,
+              "quantity": 249,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e1604458-4741-41a2-a70d-53170240f24d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 164,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d32b473d-400e-43b3-bf9d-7d40a8123de9",
+              "size": "S",
+              "description": null,
+              "quantity": 138,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5e94ee30-3b67-4f85-b29b-30515532b88c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 77,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d32b473d-400e-43b3-bf9d-7d40a8123de9",
+              "size": "S",
+              "description": null,
+              "quantity": 138,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2a121dd9-6e93-4f02-8905-07415752a779",
+              "size": "2XL",
+              "description": null,
+              "quantity": 164,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d32b473d-400e-43b3-bf9d-7d40a8123de9",
+              "size": "S",
+              "description": null,
+              "quantity": 138,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Vàng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-chay-bo-advanced-vent-techgraphic-pixel-333-vang.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "3c12f189-e5a4-4e43-a043-641970633644",
+              "size": "M",
+              "description": null,
+              "quantity": 283,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a11af00f-8633-4661-9796-4e7b67c6b6c8",
+              "size": "XL",
+              "description": null,
+              "quantity": 328,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1a9febf2-1101-49c5-a88a-08f808870a87",
+              "size": "L",
+              "description": null,
+              "quantity": 409,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c12f189-e5a4-4e43-a043-641970633644",
+              "size": "M",
+              "description": null,
+              "quantity": 283,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0333f960-6657-491c-98c7-f3317c069638",
+              "size": "S",
+              "description": null,
+              "quantity": 138,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c12f189-e5a4-4e43-a043-641970633644",
+              "size": "M",
+              "description": null,
+              "quantity": 283,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cff94dd5-2fca-456b-887c-3cf0a0286a0d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 164,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0333f960-6657-491c-98c7-f3317c069638",
+              "size": "S",
+              "description": null,
+              "quantity": 138,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a9a63a64-6911-4947-9e5d-579bb50e4b6c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 49,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fc1fc980-9f24-4314-8e0a-d915480d3e19",
+              "size": "XL",
+              "description": null,
+              "quantity": 328,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1a9febf2-1101-49c5-a88a-08f808870a87",
+              "size": "L",
+              "description": null,
+              "quantity": 409,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6768d221d40ee82491517770",
+      "name": "Áo dài tay thể thao 1699",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699_(1).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "3a4f504f-de56-4a33-ba28-6256d098080c",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699-trang_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a57a4b567708",
+              "size": "M",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f07eae29-590f-423b-9594-4b07c15f98ce",
+              "size": "2XL",
+              "description": null,
+              "quantity": 17,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "002f0d3e-3d1f-40e8-8280-d9d9301d9aa6",
+              "size": "3XL",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Be Trench Coat",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699-be-trench-coat_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "dafca958-283e-4f8b-a4a9-6121d189019e",
+              "size": "S",
+              "description": null,
+              "quantity": 41,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3dd293ef-3393-4f55-8926-6884d91e7076",
+              "size": "XL",
+              "description": null,
+              "quantity": 9,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-a168-f45c8a94b1b0",
+              "size": "3XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c08a9d73-ff72-4824-a3c8-479c7cc1f166",
+              "size": "2XL",
+              "description": null,
+              "quantity": 28,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6498ad30-9397-4f3b-901a-3c14069a097f",
+              "size": "L",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "237c10dd-b84c-4d96-b17a-9663d41126aa",
+              "size": "M",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "64c4635e-c43b-430a-9e09-0335f72d019d",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699-den_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 45,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "M",
+              "description": null,
+              "quantity": 45,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "XL",
+              "description": null,
+              "quantity": 364,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "834a89ea-d147-44f7-b50c-b0130789b2b8",
+              "size": "3XL",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b361703d-0741-41fd-8b6e-99705867e3d0",
+              "size": "L",
+              "description": null,
+              "quantity": 1987,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cf9a133c-c354-4699-a0a5-852e56c2e52e",
+              "size": "2XL",
+              "description": null,
+              "quantity": 986,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699-be_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9ab5e453-6b82-4060-955a-49391b8d9569",
+              "size": "3XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "c6d6d91b-e761-4691-916c-d9f5318152a6",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699-navy_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "688a60ce-7e73-425f-b22c-16b2588f1970",
+              "size": "S",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "afc1c288-a2c8-4e32-8a90-39c8d014b087",
+              "size": "L",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "635312b9-e686-4991-97e3-431193639c69",
+              "size": "3XL",
+              "description": null,
+              "quantity": 25,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7264b3da-f679-4a1b-b32e-a65c9d8a3757",
+              "size": "XL",
+              "description": null,
+              "quantity": 95,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "635312b9-e686-4991-97e3-431193639c69",
+              "size": "3XL",
+              "description": null,
+              "quantity": 25,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7264b3da-f679-4a1b-b32e-a65c9d8a3757",
+              "size": "XL",
+              "description": null,
+              "quantity": 95,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "382ad33c-573d-4f5b-8148-f620d84c1f15",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "382ad33c-573d-4f5b-8148-f620d84c1f15",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2175fff2-6d6e-49a4-b8d9-e52e63540e91",
+          "colorName": "Xanh bóng đêm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-1699-xanh-bong-dem_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2175fff2-6d6e-49a4-b8d9-e52e63540e91",
+              "size": "S",
+              "description": null,
+              "quantity": 51,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2175fff2-6d6e-49a4-b8d9-e52e63540e91",
+              "size": "S",
+              "description": null,
+              "quantity": 51,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "757f6cfe-2df7-4f03-b691-96951645094e",
+              "size": "L",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "98be217f-7c64-433b-9960-9ff314457727",
+              "size": "M",
+              "description": null,
+              "quantity": 6,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "757f6cfe-2df7-4f03-b691-96951645094e",
+              "size": "L",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "92ed6d73-9650-4b0a-805d-86e871b29a62",
+              "size": "2XL",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "740af0fb-34ca-404e-8658-99a13c9f2a8f",
+              "size": "2XL",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6768ca4e95f18d5f674ef04a",
+      "name": "Áo thun Nam Thể thao Phối bo cổ",
+      "description": null,
+      "basePrice": 219000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co_(2).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-den_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1d8c3ac2-7f6a-45b1-a587-d555282951c9",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1d8c3ac2-7f6a-45b1-a587-d555282951c9",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-a168-f45c8a94b1b0",
+              "size": "XL",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "239a7d05-e7ca-4956-9f76-2f3c66074084",
+              "size": "XL",
+              "description": null,
+              "quantity": 45,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c2fd3574-8b6c-45e6-809d-d8a745406593",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7b41c575-5499-4e1a-8d1a-c97c171b3039",
+              "size": "3XL",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "553efdad-0376-4f34-98a4-98b9e7290c3c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 62,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "801d399e-1c69-4462-a9e0-a956951e7192",
+              "size": "L",
+              "description": null,
+              "quantity": 420,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-trang_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-d9d01c591e47",
+              "size": "2XL",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3dd293ef-3393-4f55-8926-6884d91e7076",
+              "size": "XL",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "3XL",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-d9d01c591e47",
+              "size": "2XL",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "801d399e-1c69-4462-a9e0-a956951e7192",
+              "size": "L",
+              "description": null,
+              "quantity": 420,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-a168-f45c8a94b1b0",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "92ed6d73-9650-4b0a-805d-86e871b29a62",
+              "size": "3XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "XL",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Xanh Poseidon",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-xanh-poseidon_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "07c7cf33-8e88-4815-8e6a-59239f01d38a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "204e741c-d091-4f4a-b075-9b70b5c66254",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "931da567-3304-460b-9612-a5070b45a185",
+              "size": "M",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94540fcc-98a9-4f57-b34b-a6711e95d1b0",
+              "size": "L",
+              "description": null,
+              "quantity": 27,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "002f0d3e-3d1f-40e8-8280-d9d9301d9aa6",
+              "size": "3XL",
+              "description": null,
+              "quantity": 81,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "002f0d3e-3d1f-40e8-8280-d9d9301d9aa6",
+              "size": "3XL",
+              "description": null,
+              "quantity": 81,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "237c10dd-b84c-4712-95f2-627cc9141e0e",
+              "size": "XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "938c51cb-c0d1-4122-8531-520bb57f2079",
+              "size": "M",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "92ed6d73-9650-4b0a-805d-86e871b29a62",
+              "size": "3XL",
+              "description": null,
+              "quantity": 77,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3b31eb9b-8c15-4645-b171-45896907731c",
+              "size": "L",
+              "description": null,
+              "quantity": 27,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3b31eb9b-8c15-4645-b171-45896907731c",
+              "size": "L",
+              "description": null,
+              "quantity": 27,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3e3574fe-d80b-4305-8263-257c832d9d87",
+          "colorName": "Đỏ Rthymic",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-do-rthymic_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "53408889-0b84-4d03-8940-2592b61583c1",
+              "size": "3XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c84512ff-686a-4701-b25e-64a77560c2f3",
+              "size": "XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e1b0fb22-f2dd-4971-859e-1b0d5461d064",
+              "size": "L",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c84512ff-686a-4701-b25e-64a77560c2f3",
+              "size": "XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28d7f3dc-db12-4b1a-b9b4-3637079d6101",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28d7f3dc-db12-4b1a-b9b4-3637079d6101",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e1b0fb22-f2dd-4971-859e-1b0d5461d064",
+              "size": "L",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "676510da2851485b2719a42e",
+      "name": "Áo khoác WindBreaker Nylon Taslan",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 590000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/ao-khoac-windbreaker-nylon-taslan_(1).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen phối xanh lá",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-khoac-windbreaker-nylon-taslan-den-phoi-xanh-la_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6fd5485e-3b5d-45a8-b3c8-c0b3e8123965",
+              "size": "XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "707ce428-139b-4a4b-8666-f09c7143a80c",
+              "size": "M",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "842af5a4-446c-4e21-9b5b-593653308659",
+              "size": "L",
+              "description": null,
+              "quantity": 88,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Xám phối trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-khoac-windbreaker-nylon-taslan-xam-phoi-trang_.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "94996032-7e71-4a94-951a-6c5969ba91ca",
+              "size": "S",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c2fd3574-8b6c-4712-95f2-6975a14b3c77",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a7595724-5e04-4a69-9b34-c48a46811f4e",
+              "size": "XL",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "660620cf-9639-4b93-a48b-81376f69775e",
+              "size": "L",
+              "description": null,
+              "quantity": 168,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33451454-0798-4915-b9ba-7d35116861c7",
+              "size": "M",
+              "description": null,
+              "quantity": 202,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "c6d6d91b-e761-4691-916c-d9f5318152a6",
+          "colorName": "Navy phối đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-khoac-windbreaker-nylon-taslan-navy-phoi-den_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "7a4f24f8-1991-4ca6-a429-d24b957d8c8f",
+              "size": "L",
+              "description": null,
+              "quantity": 161,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a7595724-5e04-4a69-9b34-c48a46811f4e",
+              "size": "XL",
+              "description": null,
+              "quantity": 95,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "382ad33c-573d-4f5b-8148-f620d84c1f15",
+              "size": "M",
+              "description": null,
+              "quantity": 233,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "553efdad-0376-4f34-98a4-98b9e7290c3c",
+              "size": "2XL",
+              "description": null,
+              "quantity": 28,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6761444427b5056a6d69de9d",
+      "name": "Áo Dài Tay Thể Thao Slim Fit",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMAW.DT003---Den-1_66.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.DT003---Den-1_50.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "2XL",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "L",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "48a0ee44-a67c-4a83-bfd8-a993470f727a",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "S",
+              "description": null,
+              "quantity": 45,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.DT003---Xam-1_98.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "L",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-a168-f45c8a94b1b0",
+              "size": "XL",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "3XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "2XL",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-a168-f45c8a94b1b0",
+              "size": "XL",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "2XL",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "L",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "3XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "3XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "437ca118-8396-450a-a473-609d703c91c5",
+              "size": "XL",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "5d12044d-d76c-48f7-99f0-94b8581c2a2f",
+          "colorName": "Xanh Academy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.DT003---Xanh-Academy-2_62.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "237baabc-974a-4766-a21f-f97a0a189181",
+              "size": "M",
+              "description": null,
+              "quantity": 6,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "660620cf-9639-4b93-a48b-81376f69775e",
+              "size": "L",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a11af00f-8633-4661-9796-4e7b67c6b6c8",
+              "size": "XL",
+              "description": null,
+              "quantity": 110,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "3XL",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "01d87f3d-a5ff-4384-89b9-a67e8286a915",
+              "size": "2XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5e94ee30-3b67-4f85-b29b-30515532b88c",
+              "size": "2XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b9074600-42be-4363-b42b-509b1331d32c",
+          "colorName": "Xanh Colony",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/24CMAW.DT003---Xanh-Colony-1_30.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 61,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "172897c0-5b84-4d34-a30d-4d3368e1a325",
+              "size": "M",
+              "description": null,
+              "quantity": 17,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1a9febf2-1101-49c5-a88a-08f808870a87",
+              "size": "L",
+              "description": null,
+              "quantity": 61,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d305b198-8d34-478b-a628-a2823a308a3f",
+              "size": "3XL",
+              "description": null,
+              "quantity": 109,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "002f0d3e-3d1f-40e8-8280-d9d9301d9aa6",
+              "size": "2XL",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "70b36131-b854-4d6b-a2cc-2735252b083c",
+              "size": "XL",
+              "description": null,
+              "quantity": 122,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "6768ca4e95f18d5f674ef04a",
+      "name": "Áo thun Nam Thể thao Phối bo cổ",
+      "description": null,
+      "basePrice": 219000,
+      "discountedPrice": 249000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co_(2).jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-den_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "707ce428-139b-4a4b-8666-f09c7143a80c",
+              "size": "L",
+              "description": null,
+              "quantity": 420,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7b41c575-5499-4e1a-8d1a-c97c171b3039",
+              "size": "3XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "M",
+              "description": null,
+              "quantity": 332,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3a4f504f-de56-4a33-ba28-6256d098080c",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-trang_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "3XL",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "3XL",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "42bf7bd5-806f-4879-a133-e9193c7987d8",
+              "size": "XL",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "3XL",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0913389a-63c1-4648-a149-1d69960f54e3",
+              "size": "2XL",
+              "description": null,
+              "quantity": 55,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0a301424-5f2f-4985-8557-54c075f9a542",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0a301424-5f2f-4985-8557-54c075f9a542",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f8915d89-e4b2-4726-a2d8-b29b9488ff2f",
+              "size": "L",
+              "description": null,
+              "quantity": 420,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "3XL",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "351e5d77-6344-4487-98c6-4d8a5f27956b",
+          "colorName": "Xanh Poseidon",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-xanh-poseidon_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "3XL",
+              "description": null,
+              "quantity": 81,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "204e741c-d091-4f4a-b075-9b70b5c66254",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "93021b9e-5c0a-465f-96f1-56280eb51d43",
+              "size": "XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6ef1a439-ba55-46a2-a366-15e185ba5d77",
+              "size": "M",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2628570f-4f82-4c8e-96c0-df8c4f0e86d2",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "M",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7264b3da-f679-4a1b-b32e-a65c9d8a3757",
+              "size": "XL",
+              "description": null,
+              "quantity": 69,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3b31eb9b-8c15-4645-b171-45896907731c",
+              "size": "L",
+              "description": null,
+              "quantity": 27,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6ef1a439-ba55-46a2-a366-15e185ba5d77",
+              "size": "M",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "204e741c-d091-4f4a-b075-9b70b5c66254",
+              "size": "2XL",
+              "description": null,
+              "quantity": 38,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "351e5d77-6344-4487-98c6-4d8a5f27956b",
+          "colorName": "Đỏ Rthymic",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-nam-the-thao-phoi-bo-co-do-rthymic_(1).jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "53408889-0b84-4d03-8940-2592b61583c1",
+              "size": "3XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c84512ff-686a-4701-b25e-64a77560c2f3",
+              "size": "XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "XL",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "742482d1-9665-4273-ac79-f8d2f6a92277",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "742482d1-9665-4273-ac79-f8d2f6a92277",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "53408889-0b84-4d03-8940-2592b61583c1",
+              "size": "3XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "XL",
+              "description": null,
+              "quantity": 145,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28d7f3dc-db12-4b1a-b9b4-3637079d6101",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28d7f3dc-db12-4b1a-b9b4-3637079d6101",
+              "size": "M",
+              "description": null,
+              "quantity": 52,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "671c6addf2fd6c456975fd9e",
+      "name": "Áo Dài Tay Thể Thao Essentials",
+      "description": null,
+      "basePrice": 159000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "707ce428-139b-4a4b-8666-f09c7143a80c",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "239a7d05-e7ca-4956-9f76-2f3c66074084",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bc45980-6633-448f-a647-6f463967a41f",
+              "size": "3XL",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "L",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4cffb086-f4e8-4564-89c0-667367f394b8",
+              "size": "L",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "78d210d9-b563-4e0b-8939-f683d8654727",
+              "size": "XL",
+              "description": null,
+              "quantity": 477,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "2XL",
+              "description": null,
+              "quantity": 537,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6768ca4e95f18d5f674ef04a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5a858294-5a03-414e-8492-3eb859d30372",
+              "size": "3XL",
+              "description": null,
+              "quantity": 385,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "53408889-0b84-4d03-8940-2592b61583c1",
+              "size": "3XL",
+              "description": null,
+              "quantity": 385,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "L",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3f8387de-200d-4f32-a60b-ca26283f29ce",
+          "colorName": "Xanh Naval Academy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xanh-naval-academy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "3XL",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6d89009e-17d8-4c90-a571-09e065c60e94",
+              "size": "L",
+              "description": null,
+              "quantity": 16,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "660620cf-9639-4b93-a48b-81376f69775e",
+              "size": "XL",
+              "description": null,
+              "quantity": 110,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "204e741c-d091-4f4a-82b7-723a25d1b785",
+              "size": "2XL",
+              "description": null,
+              "quantity": 313,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3a4f504f-de56-4a33-ba28-6256d098080c",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-trang-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "99709084-d6f7-4ff0-ba01-9741d95d49e2",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "02cc0faa-05cd-44f7-8f8a-425b34977807",
+              "size": "2XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e76f4871-36a2-4608-8658-395220a8f650",
+              "size": "3XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "02cc0faa-05cd-44f7-8f8a-425b34977807",
+              "size": "2XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "076ae228-0168-4e11-ac5b-a687786930e2",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Xanh Conoly",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xanh-conoly-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73461364-519d-49ce-b257-043f29b451c9",
+              "size": "2XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73461364-519d-49ce-b257-043f29b451c9",
+              "size": "2XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73461364-519d-49ce-b257-043f29b451c9",
+              "size": "2XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "3XL",
+              "description": null,
+              "quantity": 135,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ba52b1f-77c8-4f33-b257-40c6332797e2",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "a6771d53-1e57-40a5-aa7b-8ed958d7a483",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-be-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "71068924-326d-4e75-ab49-1f3c192e84de",
+              "size": "XL",
+              "description": null,
+              "quantity": 22,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "671b6c0215c02d4f2b3fa8a1",
+      "name": "Áo Sát Nách Nam Thể Thao Promax - Outlet",
+      "description": null,
+      "basePrice": 99000,
+      "discountedPrice": 189000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "64c4635e-c43b-430a-9e09-0335f72d019d",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "707ce428-139b-4a4b-8666-f09c7143a80c",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4856ea8e-781a-41c4-8e76-e42e62db0cc2",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0fa638e8-5b78-4700-806d-f09c7143a80c",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3b42aac0-9883-4513-a777-03e2b134809a",
+              "size": "3XL",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3a4f504f-de56-4a33-ba28-6256d098080c",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-trang-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "3XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c966c9c-1639-4a25-9b7d-a99c95e989c5",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "53408889-0b84-4d03-8940-2592b61583c1",
+              "size": "2XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "3XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "42bf7bd5-806f-4d12-8015-c6c53f9635a0",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "3XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Xanh Naval Academy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xanh-naval-academy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "553efdad-0376-4f34-98a4-98b9e7290c3c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 278,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "61c4635e-8396-4915-98c6-f93670783034",
+              "size": "L",
+              "description": null,
+              "quantity": 42,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "15e2c83b-c97b-4e5d-b08d-1390d84c299d",
+              "size": "2XL",
+              "description": null,
+              "quantity": 313,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b9074600-42be-4363-b42b-509b1331d32c",
+          "colorName": "Xanh bóng đêm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xanh-bong-dem-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "51a1855a-5d8a-445f-8c8d-817b4f73e2ff",
+              "size": "S",
+              "description": null,
+              "quantity": 41,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "3XL",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7c73d5f7-c30c-49c3-806e-5580b57e3e6b",
+              "size": "L",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "757f6cfe-2df7-4f03-b691-96951645094e",
+              "size": "L",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "757f6cfe-2df7-4f03-b691-96951645094e",
+              "size": "L",
+              "description": null,
+              "quantity": 5,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00785305-306b-40b6-819b-4f4567208520",
+              "size": "3XL",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "72b08e4d-5260-459a-9b1b-883165a13b8f",
+          "colorName": "Xanh Aqua",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xam-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "237baabc-974a-4766-a21f-f97a0a189181",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "237baabc-974a-4766-a21f-f97a0a189181",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9165f339-4b57-4f61-a027-a2a4b17aa18c",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "10d12e54-2645-474e-94a2-c438f54a17a0",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9165f339-4b57-4f61-a027-a2a4b17aa18c",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 11,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "61c4635e-8396-4915-98c6-f93670783034",
+              "size": "3XL",
+              "description": null,
+              "quantity": 11,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b4f460f0-9214-4975-a1ee-e1c66971f5cf",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-be-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b4f460f0-9214-4975-a1ee-e1c66971f5cf",
+              "size": "3XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b4f460f0-9214-4975-a1ee-e1c66971f5cf",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-be-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2329ce67-d955-4816-a5b9-4e6c9a58133f",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 22,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "32399d00-0112-47a9-8519-664247350f27",
+              "size": "2XL",
+              "description": null,
+              "quantity": 204,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "553efdad-0376-4f34-98a4-98b9e7290c3c",
+              "size": "3XL",
+              "description": null,
+              "quantity": 240,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3232dca5-c2a5-415e-8831-f79ddb171f76",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "32399d00-0112-47a9-8519-664247350f27",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-be-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2329ce67-d955-4816-a5b9-4e6c9a58133f",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 22,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "75c7fa14-0927-4968-8442-f45c8a94b1b0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "75c7fa14-0927-4968-8442-f45c8a94b1b0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4856ea8e-781a-417d-a91f-786a79f45949",
+              "size": "S",
+              "description": null,
+              "quantity": 45,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "XL",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "71b7e33e-70f8-4403-8256-1fa96a9b6b2d",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "71b7e33e-70f8-4403-8256-1fa96a9b6b2d",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "351e5d77-6344-4487-98c6-4d8a5f27956b",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-xanh-naval-academy-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "684fe511-d860-4b60-a32e-3a0b0e039060",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "382ad33c-573d-4f5b-8148-f620d84c1f15",
+              "size": "M",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Be Trench Coat",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-be-trench-coat-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3dd293ef-3393-4f55-8926-6884d91e7076",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "921ecc3e-a891-46a8-8722-612e1162770c",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Be Trench Coat",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-be-trench-coat-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d38c43c-d6c6-44c5-91c5-a4dd2d68cc59",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "75c7fa14-0927-4968-8442-f45c8a94b1b0",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "33d2ce20-a4b8-4839-894f-51300ff2a37a",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "671b6c0215c02d4f2b3fa8a1",
+      "name": "Áo Sát Nách Nam Thể Thao Promax - Outlet",
+      "description": null,
+      "basePrice": 99000,
+      "discountedPrice": 189000,
+      "mainImageUrl": "https://media3.coolmate.me//image/December2024/24CMAW.TT015_-_Do_1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-thun-chay-bo-advanced-vent-techgraphic-camo-417do-nau.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "0fac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "38605828-aa02-45c7-ac5a-0864464d545a",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "473d1787-7664-4d13-bf3c-0e3b6e00004a",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36434ba1-d506-49d9-a5e0-c8e0f2790d4e",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55957433-52c8-47d9-a6cf-79edb58875c0",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0bac12ae-75f8-435f-a11e-54e7a7916a3d",
+              "size": "M",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "660620cf-9639-4b93-a48b-81376f69775e",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f2e19bb4-8349-4608-8011-273805079ff1",
+              "size": "3XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b9074600-42be-4363-b42b-509b1331d32c",
+          "colorName": "Xanh bóng đêm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2024/ATT.SN_copyxebex2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "XL",
+              "description": null,
+              "quantity": 58,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "92ed6d73-9650-4b0a-805d-86e871b29a62",
+              "size": "2XL",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "S",
+              "description": null,
+              "quantity": 51,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "S",
+              "description": null,
+              "quantity": 51,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5fbee31b-4449-4b57-b2f9-c858465a38f0",
+              "size": "XL",
+              "description": null,
+              "quantity": 58,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "796ad0ce-5a7f-4c69-a64a-76a697151ff7",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "757f6cfe-2df7-4f03-b691-96951645094e",
+              "size": "L",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "757f6cfe-2df7-4f03-b691-96951645094e",
+              "size": "L",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c70a7827-8f05-498e-9e2c-8343d0691e64",
+              "size": "2XL",
+              "description": null,
+              "quantity": 66,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "437ca118-8396-450a-a473-609d703c91c5",
+          "colorName": "Xanh Aqua",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2024/att.sn.xaq.1.jpg.png",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9165f339-994a-4b56-9026-975e6d4146dd",
+              "size": "3XL",
+              "description": null,
+              "quantity": 11,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e1604458-4741-41a2-a70d-53170240f24d",
+              "size": "3XL",
+              "description": null,
+              "quantity": 11,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9165f339-994a-4b56-9026-975e6d4146dd",
+              "size": "3XL",
+              "description": null,
+              "quantity": 11,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36449211-6a59-4a85-b173-3a413632e779",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "61c4635e-8396-4915-98c6-f93670783034",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0e983cdf-855c-495c-a5f1-0870dd540fae",
+              "size": "2XL",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "61c4635e-8396-4915-98c6-f93670783034",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36449211-6a59-4a85-b173-3a413632e779",
+              "size": "S",
+              "description": null,
+              "quantity": 14,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4856ea8e-781a-417d-a91f-786a79f45949",
+              "size": "M",
+              "description": null,
+              "quantity": 9,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "61c4635e-8396-4915-98c6-f93670783034",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9165f339-994a-4b56-9026-975e6d4146dd",
+              "size": "3XL",
+              "description": null,
+              "quantity": 11,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "351e5d77-6344-4487-98c6-4d8a5f27956b",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2024/promax_navy.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a85ac223-2e67-4951-bb7c-a6b128a34372",
+              "size": "S",
+              "description": null,
+              "quantity": 8,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "afc1c288-a2c8-4e32-8a90-39c8d014b087",
+              "size": "M",
+              "description": null,
+              "quantity": 164,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c900ccb4-74a0-4ca7-926f-d450d9441652",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c900ccb4-74a0-4ca7-926f-d450d9441652",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "80e7897e-3879-4c1d-a886-086c9a85f908",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "382ad33c-573d-4f5b-8148-f620d84c1f15",
+              "size": "M",
+              "description": null,
+              "quantity": 164,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "80e7897e-3879-4c1d-a886-086c9a85f908",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c900ccb4-74a0-4ca7-926f-d450d9441652",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "635312b9-e686-4991-97e3-431193639c69",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3a4f504f-de56-4a33-ba28-6256d098080c",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/December2024/ao-dai-tay-the-thao-essentials-den-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "299985e5-b969-4c8a-afb4-534a6444e770",
+              "size": "S",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "27df7081-853a-4412-92a5-c922e1677706",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "707ce428-139b-4a4b-8666-f09c7143a80c",
+              "size": "M",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "72e6929a-c7e2-434f-8268-1ff34e529b72",
+              "size": "2XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "295e339e-b85a-417b-90e8-8e475895d7e6",
+              "size": "XL",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "842af5a4-446c-4e21-9b5b-593653308659",
+              "size": "L",
+              "description": null,
+              "quantity": 0,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ],
+  [
+    {
+      "id": "66ff8f765b7d4015c06c8f1f",
+      "name": "Áo Thun Nam Chạy Bộ Graphic Dot",
+      "description": null,
+      "basePrice": 169000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/February2025/ao-thun-nam-chay-bo-graphic-dot-4.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d20a740-370c-4587-b17e-0e769282751a",
+          "colorName": "Đỏ",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-thun-nam-chay-bo-graphic-dot-do-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "3099f314-b5d4-4d5e-bd12-77591a1569b8",
+              "size": "3XL",
+              "description": null,
+              "quantity": 93,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6d321662-6369-4d6c-9e09-3672a2d90184",
+          "colorName": "Vàng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-thun-nam-chay-bo-graphic-dot-vang-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "3099f314-b5d4-4d5e-bd12-77591a1569b8",
+              "size": "3XL",
+              "description": null,
+              "quantity": 119,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "351e5d77-6344-4487-98c6-4d8a5f27956b",
+          "colorName": "Xanh Ngọc",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/February2025/ao-thun-nam-chay-bo-graphic-dot-xanh-ngoc-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9ca67c9e-6890-4066-aa1c-967e19f2f2f6",
+              "size": "S",
+              "description": null,
+              "quantity": 76,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3099f314-b5d4-4d5e-bd12-77591a1569b8",
+              "size": "3XL",
+              "description": null,
+              "quantity": 65,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+        "productCategoryDisplayDTO": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Áo Thể Thao",
+        "imageUrl": "string"
+      }
+    }
+  ]
+]
