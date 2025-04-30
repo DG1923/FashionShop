@@ -1,0 +1,6 @@
+@FashionShop.InventoryService_HostAddress = http://localhost:5167
+
+GET {{FashionShop.InventoryService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

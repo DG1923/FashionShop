@@ -94,7 +94,6 @@ namespace FashionShop.ProductService.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("SKU")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
@@ -126,7 +125,6 @@ namespace FashionShop.ProductService.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FashionShop.ProductService.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20250423092911_udpateProductDetails")]
-    partial class udpateProductDetails
+    [Migration("20250430103834_update")]
+    partial class update
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -97,7 +97,6 @@ namespace FashionShop.ProductService.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("SKU")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
@@ -129,7 +128,6 @@ namespace FashionShop.ProductService.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 

@@ -15,9 +15,9 @@ namespace FashionShop.ProductService.Models
         public decimal BasePrice { get; set; }
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a positive number.")]
         public decimal? DiscountedPrice { get; set; }
-        [Required]
+        
         [MaxLength(100)]
-        public string SKU { get; set; }
+        public string? SKU { get; set; }
         public int? TotalQuantity { get; set; }
         public string? MainImageUrl { get; set; }
 

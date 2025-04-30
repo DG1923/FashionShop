@@ -20,7 +20,100 @@ namespace FashionShop.ProductService.Services
             _dbSet = _context.Set<Models.Product>();
             _cachePrefix = typeof(Models.Product).Name.ToLower();
         }
+        public async Task<IEnumerable<ProductDetailsDTO>> AddRangeProduct(List<ProductDetailsDTO> listProductDetailDTO)
+        {
+            if(listProductDetailDTO == null|| listProductDetailDTO.Count == 0)
+            {
+                throw new ArgumentNullException(nameof(listProductDetailDTO));
+            }
+            //add product
+            List<Product> products = new List<Product>();
+            foreach (var productDetail in listProductDetailDTO)
+            {
+                Product product = new Product()
+                {
+                    Id = productDetail.Id,
+                    Name = productDetail.Name,
+                    Description = productDetail.Description,
+                    BasePrice = productDetail.BasePrice,
+                    MainImageUrl = productDetail.MainImageUrl,
+                    DiscountId = productDetail.discountDisplayDTO != null ? productDetail.discountDisplayDTO.Id : null
+                };
+                //add product category to the list
+                if (productDetail.productCategoryDisplayDTO != null)
+                {
+                    // Find the category by its Name
+                    ProductCategory category = await _context.ProductCategories
+                        .FirstOrDefaultAsync(c => c.Name == productDetail.productCategoryDisplayDTO.Name);
 
+                    if (category != null)
+                    {
+                        product.ProductCategory = category;
+                    }
+                    else
+                    {
+                        // Create a new category if it doesn't exist
+                        ProductCategory productCategory = new ProductCategory()
+                        {
+                            Name = productDetail.productCategoryDisplayDTO.Name
+                        };
+                        product.ProductCategory = productCategory;
+                    }
+                }
+                List<ProductColor> colorList = new List<ProductColor>();
+
+                foreach (ProductColorDisplayDTO productColor in productDetail.productColorsDisplayDTO)
+                {
+                    ProductColor color = new ProductColor()
+                    {
+                        Id = productColor.Id,
+                        ColorName = productColor.ColorName,
+                        ImageUrlColor = productColor.ImageUrlColor,
+                        ProductVariations = productColor.productVariationDisplayDTOs.Select(pv => new ProductVariation()
+                        {
+                            Id = pv.Id,
+                            Size = pv.Size,
+                            Quantity = pv.Quantity,
+                            Description = pv.Description,
+                            ImageUrlVariation = pv.ImageUrlVariation
+                        }).ToList()
+                    };
+                    //add product variation to the list
+                    List<ProductVariation> variations = new List<ProductVariation>();
+                    foreach (ProductVariationDisplayDTO productVariation in productColor.productVariationDisplayDTOs)
+                    {
+                        ProductVariation variation = new ProductVariation()
+                        {
+                            Id = productVariation.Id,
+                            Size = productVariation.Size,
+                            Quantity = productVariation.Quantity,
+                            Description = productVariation.Description,
+                            ImageUrlVariation = productVariation.ImageUrlVariation
+                        };
+                        variations.Add(variation);
+                    }
+                    color.ProductVariations = variations;
+                    colorList.Add(color);
+                }
+                product.ProductColors = colorList;
+
+           
+                products.Add(product);
+            }
+            await _dbSet.AddRangeAsync(products);
+
+            var result = await _context.SaveChangesAsync();
+            if (result > 0)
+            {
+                //create cache key
+                string cacheKeyAll = $"{_cachePrefix}_all";
+                Console.WriteLine("--> Remove cache all entity... ");
+                await _cache.RemoveAsync(cacheKeyAll);
+                return listProductDetailDTO;
+
+            }
+            return null;
+        }
         public async Task<ProductDetailsDTO> GetProductDetail(Guid id)
         {
             string cacheKey = $"{_cachePrefix}_details_{id}";

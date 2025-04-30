@@ -1,0 +1,22 @@
+[
+  {
+    "id": "5f1f7c97-35ec-45bc-bdc9-f1414478b86e",
+    "name": "",
+    "description": "",
+    "basePrice": 0,
+    "discountedPrice": 0,
+    "mainImageUrl": "",
+    "discountDisplayDTO": {
+      "id": "3e208df9-8985-4a33-b83c-e2be10ed92d6",
+      "name": "",
+      "discountPercent": 0,
+      "isActive": false
+    },
+    "productColorsDisplayDTO": [],
+    "productCategoryDisplayDTO": {
+      "id": "a76d8c85-c8b8-4ba4-9b3e-2f8b4dd1b7a2",
+      "name": "",
+      "imageUrl": ""
+    }
+  }
+]

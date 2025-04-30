@@ -8,7 +8,7 @@ namespace FashionShop.ProductService.Services
     {
         Task<IEnumerable<ProductDisplayDTO>> GetProductsByCategory(Guid categoryId);  
         Task<ProductDetailsDTO> GetProductDetail(Guid id);    
-
+        Task<IEnumerable<ProductDetailsDTO>> AddRangeProduct(List<ProductDetailsDTO> list); 
 
     }
 }

@@ -2,6 +2,7 @@
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Services;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.ProductService.Controllers
@@ -86,10 +87,10 @@ namespace FashionShop.ProductService.Controllers
                 return NotFound($"No products found for category ID {categoryId}.");
             }
             return Ok(products);
-            
+
         }
         [HttpPost]
-        public async Task<IActionResult> CreateProduct( ProductCreateDTO  productCreateDTO)
+        public async Task<IActionResult> CreateProduct(ProductCreateDTO productCreateDTO)
         {
             if (productCreateDTO == null)
             {
@@ -110,6 +111,20 @@ namespace FashionShop.ProductService.Controllers
             }
             return BadRequest("Failed to create product.");
         }
+        [HttpPost("/add-range")]
+        public async Task<IActionResult> CreateProductsRange(List<ProductDetailsDTO> list)
+        {
+            if (list == null || !list.Any())
+            {
+                return BadRequest("Product data is null.");
+            }
+            IEnumerable<ProductDetailsDTO> listResult =await _context.AddRangeProduct(list);
+            if (listResult == null || !listResult.Any())
+            {
+                return BadRequest("Failed to create products.");
+            }
+            return Ok(listResult);
+        }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(Guid id, ProductUpdateNormal productUpdate)
         {
@@ -117,6 +132,7 @@ namespace FashionShop.ProductService.Controllers
             {
                 return BadRequest("Invalid product ID or product data.");
             }
+           
             var existingProduct = await _context.GetByIdAsync(id);
             if (existingProduct == null)
             {

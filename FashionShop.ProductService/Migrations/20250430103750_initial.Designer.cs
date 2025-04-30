@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FashionShop.ProductService.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20250421014904_AddBaseEntity")]
-    partial class AddBaseEntity
+    [Migration("20250430103750_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,9 +31,6 @@ namespace FashionShop.ProductService.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("bit");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -47,6 +44,9 @@ namespace FashionShop.ProductService.Migrations
 
                     b.Property<decimal>("DiscountPercent")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -66,6 +66,9 @@ namespace FashionShop.ProductService.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<decimal>("BasePrice")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -73,28 +76,33 @@ namespace FashionShop.ProductService.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 
-                    b.Property<Guid>("DiscountId")
+                    b.Property<Guid?>("DiscountId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal?>("DiscountedPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("MainImageUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<Guid>("ProductCategoryId")
+                    b.Property<Guid?>("ProductCategoryId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("SKU")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<int?>("TotalQuantity")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
@@ -121,7 +129,6 @@ namespace FashionShop.ProductService.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 
@@ -146,16 +153,16 @@ namespace FashionShop.ProductService.Migrations
                     b.ToTable("ProductCategories");
                 });
 
-            modelBuilder.Entity("FashionShop.ProductService.Models.ProductVariation", b =>
+            modelBuilder.Entity("FashionShop.ProductService.Models.ProductColor", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<decimal>("AdditionalPrice")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("ColorCode")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Color")
+                    b.Property<string>("ColorName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -165,10 +172,44 @@ namespace FashionShop.ProductService.Migrations
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("ImageUrlColor")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int?>("TotalQuantityColor")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductColors");
+                });
+
+            modelBuilder.Entity("FashionShop.ProductService.Models.ProductVariation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrlVariation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("ProductColorId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Quantity")
@@ -183,7 +224,7 @@ namespace FashionShop.ProductService.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("ProductColorId");
 
                     b.ToTable("ProductVariations");
                 });
@@ -192,15 +233,11 @@ namespace FashionShop.ProductService.Migrations
                 {
                     b.HasOne("FashionShop.ProductService.Models.Discount", "Discount")
                         .WithMany("Products")
-                        .HasForeignKey("DiscountId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DiscountId");
 
                     b.HasOne("FashionShop.ProductService.Models.ProductCategory", "ProductCategory")
                         .WithMany("Products")
-                        .HasForeignKey("ProductCategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProductCategoryId");
 
                     b.Navigation("Discount");
 
@@ -214,15 +251,26 @@ namespace FashionShop.ProductService.Migrations
                         .HasForeignKey("ProductCategoryId");
                 });
 
-            modelBuilder.Entity("FashionShop.ProductService.Models.ProductVariation", b =>
+            modelBuilder.Entity("FashionShop.ProductService.Models.ProductColor", b =>
                 {
                     b.HasOne("FashionShop.ProductService.Models.Product", "Product")
-                        .WithMany("Variations")
+                        .WithMany("ProductColors")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("FashionShop.ProductService.Models.ProductVariation", b =>
+                {
+                    b.HasOne("FashionShop.ProductService.Models.ProductColor", "ProductColor")
+                        .WithMany("ProductVariations")
+                        .HasForeignKey("ProductColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductColor");
                 });
 
             modelBuilder.Entity("FashionShop.ProductService.Models.Discount", b =>
@@ -232,7 +280,7 @@ namespace FashionShop.ProductService.Migrations
 
             modelBuilder.Entity("FashionShop.ProductService.Models.Product", b =>
                 {
-                    b.Navigation("Variations");
+                    b.Navigation("ProductColors");
                 });
 
             modelBuilder.Entity("FashionShop.ProductService.Models.ProductCategory", b =>
@@ -240,6 +288,11 @@ namespace FashionShop.ProductService.Migrations
                     b.Navigation("Products");
 
                     b.Navigation("SubCategories");
+                });
+
+            modelBuilder.Entity("FashionShop.ProductService.Models.ProductColor", b =>
+                {
+                    b.Navigation("ProductVariations");
                 });
 #pragma warning restore 612, 618
         }
