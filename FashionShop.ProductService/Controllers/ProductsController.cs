@@ -112,13 +112,13 @@ namespace FashionShop.ProductService.Controllers
             return BadRequest("Failed to create product.");
         }
         [HttpPost("/add-range")]
-        public async Task<IActionResult> CreateProductsRange(List<ProductDetailsDTO> list)
+        public async Task<IActionResult> CreateProductsRange(List<ProductCreateDetailDTO> list)
         {
             if (list == null || !list.Any())
             {
                 return BadRequest("Product data is null.");
             }
-            IEnumerable<ProductDetailsDTO> listResult =await _context.AddRangeProduct(list);
+            IEnumerable<ProductCreateDetailDTO> listResult =await _context.AddRangeProduct(list);
             if (listResult == null || !listResult.Any())
             {
                 return BadRequest("Failed to create products.");

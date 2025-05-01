@@ -1,0 +1,1237 @@
+
+  [
+    {
+      "id": "67e0e7b6-4dcd-1377-9b58-0bde",
+      "name": "Quần Shorts thể thao nữ Ribbed",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-34-be_12.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-34-be_12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 35,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 119,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 35,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-32-nau-mocha_93.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-31-den_7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 223,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 147,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e7b6-4dcd-1377-9b58-0bde",
+      "name": "Quần Shorts thể thao nữ Ribbed",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-32-nau-mocha_93.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-32-nau-mocha_93.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e7b6-4dcd-1377-9b58-0bde",
+      "name": "Quần Shorts thể thao nữ Ribbed",
+      "description": null,
+      "basePrice": 349000,
+      "discountedPrice": 349000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-31-den_7.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-31-den_7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 102,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 223,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 147,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c55744-6cf7-802d-2c2c-a3f0",
+      "name": "Quần Shorts thể thao nữ Woven Short",
+      "description": null,
+      "basePrice": 279000,
+      "discountedPrice": 279000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-co-gian-woven-short-15-trang.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-co-gian-woven-short-16-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 482,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 452,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 359,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 141,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-co-gian-woven-short-15-trang.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 115,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 362,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 298,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 250,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 161,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-co-gian-woven-short-15-xam_7.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 230,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 236,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 127,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 44,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-co-gian-woven-short-1588--cam-hong_79.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 227,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c52db8-12e8-3a20-7752-556e",
+      "name": "Quần Shorts nữ chạy bộ 2 lớp Race Shorts",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-race-shorts-011-hong-2_70.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-race-shorts-011-hong-2_70.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 68,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 277,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 68,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 25,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-race-shorts-011--den-2_17.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 146,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 345,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 202,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c52db8-12e8-3a20-7752-556e",
+      "name": "Quần Shorts nữ chạy bộ 2 lớp Race Shorts",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-race-shorts-011--den-2_17.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-race-shorts-011--den-2_17.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 146,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 490,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 345,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 202,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-race-shorts-011-hong-2_70.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 68,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 277,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 68,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 25,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c066e0-3217-214d-027c-383a",
+      "name": "Quần Shorts thể thao nữ French Terry 3.5inch",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-03631-be_97.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-03631-be_97.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 430,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 412,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 291,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-01491-den_95.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 448,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 430,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 142,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-00841-nau_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 205,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c066e0-3217-214d-027c-383a",
+      "name": "Quần Shorts thể thao nữ French Terry 3.5inch",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-01491-den_95.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-01491-den_95.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 448,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 430,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 142,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-03631-be_97.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 430,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 412,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 291,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-00841-nau_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 205,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c066e0-3217-214d-027c-383a",
+      "name": "Quần Shorts thể thao nữ French Terry 3.5inch",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-00841-nau_74.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-00841-nau_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 79,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 205,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 70,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-01491-den_95.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 448,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 430,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 142,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-the-thao-nu-french-terry-3.5-inch-03631-be_97.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 430,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 412,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 291,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c02f03-2458-7a7a-0f07-b40b",
+      "name": "Quần shorts nữ chạy bộ 2 lớp 3.5 inch Core Shorts",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-3.5-inch-core-shorts--be-xam-9-1.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-3.5-inch-core-shorts--den-3-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 100,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 392,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 115,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 21,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/quan-short-nu-chay-bo-2-lop-3.5-inch-core-shorts--navy-3-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 90,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 255,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 162,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 91,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 34,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/quan-short-nu-chay-bo-2-lop-3.5-inch-core-shorts-_be-xam_9-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 364,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 249,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 95,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Quần Short Nữ",
+        "imageUrl": null
+      }    }
+  ]

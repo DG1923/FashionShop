@@ -1,0 +1,814 @@
+
+  [
+    {
+      "id": "680f26b7-84c2-cc57-8222-a62c680f26b7",
+      "name": "Áo thun nữ chạy bộ Race Tee",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-358-vang_98.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "76a8577e-f66b-4a1a-a2c1-756dd3014728",
+          "colorName": "Vàng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-358-vang_98.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1c07aeb0-1f08-4766-ba84-745870c03078",
+              "size": "XS",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0dd290bf-2d13-4b9d-8c29-4a163c73e684",
+              "size": "S",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "46d4721d-880a-4643-8a71-109c0162f198",
+              "size": "M",
+              "description": null,
+              "quantity": 342,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "68056c7b-1c30-4f78-aa9a-c4206945d234",
+              "size": "L",
+              "description": null,
+              "quantity": 192,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d4297afb-8a4b-4459-8a8a-275d62b3e2c4",
+              "size": "XL",
+              "description": null,
+              "quantity": 118,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "649b4b91-87a7-4b4a-8c68-0a7407b22168",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-544-navy_65.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d2f54ca0-3368-4226-86e5-06437a75e995",
+              "size": "XS",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3fb35e85-574e-4b18-b5b4-712c8999986e",
+              "size": "S",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e9fa7943-1129-4438-b201-4c8f50259a98",
+              "size": "M",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59add9c7-18d7-4f8e-ad36-19669c5dd2cf",
+              "size": "L",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3e208f40-50f7-4a8f-9b0e-e4a22e157a31",
+              "size": "XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "252a02d8-0d71-4653-a432-798214d5b1d6",
+          "colorName": "Hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-715-hong_49.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d347e932-c381-4492-aa43-60342f9d81d8",
+              "size": "XS",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6c5c3547-b5e6-4227-8500-d939816ba506",
+              "size": "S",
+              "description": null,
+              "quantity": 314,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c9a4a815-495e-4430-9f87-5076980f7d18",
+              "size": "M",
+              "description": null,
+              "quantity": 315,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "af9d6642-663d-468d-8b2b-b564a77c92c1",
+              "size": "L",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+              "size": "XL",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "680f26b7-84c2-cc57-8222-a62c680f26b7",
+      "name": "Áo thun nữ chạy bộ Race Tee",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-544-navy_65.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "649b4b91-87a7-4b4a-8c68-0a7407b22168",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-544-navy_65.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d2f54ca0-3368-4226-86e5-06437a75e995",
+              "size": "XS",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3fb35e85-574e-4b18-b5b4-712c8999986e",
+              "size": "S",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e9fa7943-1129-4438-b201-4c8f50259a98",
+              "size": "M",
+              "description": null,
+              "quantity": 225,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59add9c7-18d7-4f8e-ad36-19669c5dd2cf",
+              "size": "L",
+              "description": null,
+              "quantity": 150,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3e208f40-50f7-4a8f-9b0e-e4a22e157a31",
+              "size": "XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "680f26b7-84c2-cc57-8222-a62c680f26b7",
+      "name": "Áo thun nữ chạy bộ Race Tee",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-715-hong_49.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "252a02d8-0d71-4653-a432-798214d5b1d6",
+          "colorName": "Hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-715-hong_49.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d347e932-c381-4492-aa43-60342f9d81d8",
+              "size": "XS",
+              "description": null,
+              "quantity": 105,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6c5c3547-b5e6-4227-8500-d939816ba506",
+              "size": "S",
+              "description": null,
+              "quantity": 314,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c9a4a815-495e-4430-9f87-5076980f7d18",
+              "size": "M",
+              "description": null,
+              "quantity": 315,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "af9d6642-663d-468d-8b2b-b564a77c92c1",
+              "size": "L",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+              "size": "XL",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67ebae9f-8c0d-a74a-6c46-5d4d67ebae9f",
+      "name": "Áo Tank Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-19222.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "19376e79-7562-4780-9f99-34991e74f7b2",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-18542_35.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "395a2599-85e6-43fd-b242-783301a715a0",
+              "size": "XS",
+              "description": null,
+              "quantity": 399,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "90395e17-90ca-470a-80f6-54d493dfd977",
+              "size": "S",
+              "description": null,
+              "quantity": 583,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9582254e-5f6b-4d50-a80b-970f92c3a217",
+              "size": "M",
+              "description": null,
+              "quantity": 581,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fd0c0119-e92a-4280-9912-d39b6e46758f",
+              "size": "L",
+              "description": null,
+              "quantity": 394,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "69ed0562-3052-441f-a961-2b163b12c66e",
+              "size": "XL",
+              "description": null,
+              "quantity": 196,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "f80f1238-643a-4059-97b0-9563f08a967e",
+          "colorName": "Xanh Colony",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-19222_2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8a6f4146-c78e-455d-a99a-f316c897741c",
+              "size": "XS",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f90fd0cb-c992-4b0d-9b8a-170a2e662c6c",
+              "size": "S",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4903f9ce-25e5-478d-8a18-e9f243b42e70",
+              "size": "M",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "808d3759-c324-43a5-b654-32227b92b73f",
+              "size": "L",
+              "description": null,
+              "quantity": 100,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ed4c3454-1a1a-4e9b-ba89-862c97a1128b",
+              "size": "XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e86f-12de-9419-6148-fe2567e0e86f",
+      "name": "Áo Crop Tee Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-cropped-tee-yoga-slimfit-40-be.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2f77a610-a277-42e9-852b-b93648291500",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-cropped-tee-yoga-slimfit-40-be.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "007ee575-33e4-4a33-960f-d56456428858",
+              "size": "XS",
+              "description": null,
+              "quantity": 320,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5be7ac38-38e7-47f0-bb11-244e886972a4",
+              "size": "S",
+              "description": null,
+              "quantity": 463,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6dcea158-5895-41e0-81a7-a045d0ba621e",
+              "size": "M",
+              "description": null,
+              "quantity": 462,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "907b1b2d-519c-4b58-b96e-e374e0703985",
+              "size": "L",
+              "description": null,
+              "quantity": 314,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "17644461-c55e-4572-8626-720570d006b2",
+              "size": "XL",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "9f9f447f-04f0-482d-a330-e6576b18f443",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-cropped-tee-yoga-slimfit-71-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "80f2f1e6-4829-4331-af2b-f2f038b1861f",
+              "size": "XS",
+              "description": null,
+              "quantity": 497,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f869333e-c98f-44de-9091-1462e51d9e4d",
+              "size": "S",
+              "description": null,
+              "quantity": 696,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c66dfa4f-1b3e-4319-b1c5-72610265697e",
+              "size": "M",
+              "description": null,
+              "quantity": 709,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "451d5920-f112-4f59-9b1f-9110261a95b8",
+              "size": "L",
+              "description": null,
+              "quantity": 492,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9fca6318-5577-496e-8f66-432e8b6f7d17",
+              "size": "XL",
+              "description": null,
+              "quantity": 242,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e822-58ff-9235-c23e-568e67e0e822",
+      "name": "Áo Tshirt Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-26-den_60.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "d6b6a304-2155-40e2-b5f8-6b06040c9907",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-26-den_60.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e1ae75ab-b893-428a-9b83-a20f56f2ff1d",
+              "size": "XS",
+              "description": null,
+              "quantity": 289,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5266b01a-c184-4365-987b-149e59b8b715",
+              "size": "S",
+              "description": null,
+              "quantity": 395,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d260cfa1-098e-4ca0-b71c-7354a1d7b56c",
+              "size": "M",
+              "description": null,
+              "quantity": 408,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d8ec14fc-50d7-44f5-9d08-6ebf41f53921",
+              "size": "L",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "698ab3a7-126b-420c-a824-451216253987",
+              "size": "XL",
+              "description": null,
+              "quantity": 117,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "b65f2808-9b20-4168-a2fa-3690c669b020",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-be_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6b3cfbbe-a8b6-4227-b180-556785707ca3",
+              "size": "XS",
+              "description": null,
+              "quantity": 280,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "20e990b9-f23a-46d0-9e9c-874b249b5c72",
+              "size": "S",
+              "description": null,
+              "quantity": 415,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7010f569-c5b8-4f05-9a42-490f0476332a",
+              "size": "M",
+              "description": null,
+              "quantity": 394,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4dc0ac4b-9c39-4c4b-981e-10412c9c40f6",
+              "size": "L",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "69b10bdb-5627-4f93-8b14-014ba09d9982",
+              "size": "XL",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "3c2b2f2d-e192-4304-904f-50b8596c9b61",
+          "colorName": "Xanh Faded Denim",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-xanh_39.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "93e88a01-1b57-4d7d-9c5e-7b5b2e7b15ae",
+              "size": "XS",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c8f57ff-d1b9-4c19-9805-3ffb82301482",
+              "size": "S",
+              "description": null,
+              "quantity": 226,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "824cd6ab-628d-484f-b792-a59ff9238e0a",
+              "size": "M",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "facb4bb8-9588-4328-8882-c2d541d499f8",
+              "size": "L",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff4f03bb-5a47-4b48-a4b7-621e29294d64",
+              "size": "XL",
+              "description": null,
+              "quantity": 72,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e822-58ff-9235-c23e-568e67e0e822",
+      "name": "Áo Tshirt Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-be_57.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "b65f2808-9b20-4168-a2fa-3690c669b020",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-be_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6b3cfbbe-a8b6-4227-b180-556785707ca3",
+              "size": "XS",
+              "description": null,
+              "quantity": 280,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "20e990b9-f23a-46d0-9e9c-874b249b5c72",
+              "size": "S",
+              "description": null,
+              "quantity": 415,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7010f569-c5b8-4f05-9a42-490f0476332a",
+              "size": "M",
+              "description": null,
+              "quantity": 394,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4dc0ac4b-9c39-4c4b-981e-10412c9c40f6",
+              "size": "L",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "69b10bdb-5627-4f93-8b14-014ba09d9982",
+              "size": "XL",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e822-58ff-9235-c23e-568e67e0e822",
+      "name": "Áo Tshirt Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-xanh_39.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "3c2b2f2d-e192-4304-904f-50b8596c9b61",
+          "colorName": "Xanh Faded Denim",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-xanh_39.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "93e88a01-1b57-4d7d-9c5e-7b5b2e7b15ae",
+              "size": "XS",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c8f57ff-d1b9-4c19-9805-3ffb82301482",
+              "size": "S",
+              "description": null,
+              "quantity": 226,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "824cd6ab-628d-484f-b792-a59ff9238e0a",
+              "size": "M",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "facb4bb8-9588-4328-8882-c2d541d499f8",
+              "size": "L",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff4f03bb-5a47-4b48-a4b7-621e29294d64",
+              "size": "XL",
+              "description": null,
+              "quantity": 72,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67cebd21-6a2d-431d-8e0e-028f67cebd21",
+      "name": "Áo thun nữ chạy bộ Core Tee Slimfit",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-thun-nu-chay-bo-core-tee-slimfit-11872-tim_85.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "b55d4f25-c56d-469f-9546-854e0d91b510",
+          "colorName": "Tím Purple Rose",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-thun-nu-chay-bo-core-tee-slimfit-11872-tim_85.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "ce81245d-e7de-4d13-8d49-5a22f900b42d",
+              "size": "XS",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "d509c704-5a1e-4b5c-a8fa-f93364301a2e",
+          "colorName": "Xanh Seedling",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-thun-nu-chay-bo-core-tee-slimfit-10112-xanh_23.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8e122b43-6073-4d18-be1f-c0f31f057384",
+              "size": "XS",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6555a224-81a3-46b7-94b0-5c6720844c1c",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-thun-nu-chay-bo-core-tee-slimfit-1-den_69.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "26b5901f-a612-4f29-92a9-3b57a51b5557",
+              "size": "XS",
+              "description": null,
+              "quantity": 312,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59e2f8c2-4a01-44a0-8353-6c0501c47453",
+              "size": "S",
+              "description": null,
+              "quantity": 325,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1a0fe78f-0115-4698-8b7e-275914556d21",
+              "size": "M",
+              "description": null,
+              "quantity": 209,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67f8760c-e33d-4a0f-88b6-d83d06543795",
+              "size": "L",
+              "description": null,
+              "quantity": 30,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Áo Thun Nữ",
+        "imageUrl": null
+      }    }
+  ]

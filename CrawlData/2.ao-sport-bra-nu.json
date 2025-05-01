@@ -1,0 +1,2519 @@
+
+  [
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Set áo Singlet thể thao nữ Slim Tee + Bra CoolFlex",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-14-den_71.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "05a42958-f4c4-48c2-80e9-b391e049a064",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-14-den_71.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f7c2604d-b002-4035-b26f-b26053d3246f",
+              "size": "L",
+              "description": null,
+              "quantity": 153,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7862b7c7-9f1d-4837-a11b-bb014923975e",
+              "size": "XS",
+              "description": null,
+              "quantity": 198,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "599b45ac-1696-4725-b597-8a2f5548c270",
+              "size": "S",
+              "description": null,
+              "quantity": 274,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4cdd8d47-75d0-4b8d-880e-37c1d898b110",
+              "size": "M",
+              "description": null,
+              "quantity": 254,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a0e57155-7c1e-4ca0-85a6-e7002c247632",
+              "size": "XL",
+              "description": null,
+              "quantity": 85,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-9-cam-hong_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b0533e08-35ff-4690-a308-c1a9360655c4",
+              "size": "XS",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fdb18282-141b-4f6b-937f-472953796f5b",
+              "size": "S",
+              "description": null,
+              "quantity": 58,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6599a5bd-94ca-470b-af8e-4f75c973e034",
+              "size": "M",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "30821efd-9b3a-4a95-8b38-7a7f3b4a3757",
+              "size": "L",
+              "description": null,
+              "quantity": 44,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4f830f42-5c3a-4b50-9a94-53461b1d6a27",
+              "size": "XL",
+              "description": null,
+              "quantity": 24,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "7699407d-d364-4383-8163-5362f54e922b",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-19-xam_61.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "49439067-f162-4713-ab42-5e589c2c8410",
+              "size": "XS",
+              "description": null,
+              "quantity": 180,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0360b99b-5334-4b8e-9a8e-6ed1b110a19d",
+              "size": "S",
+              "description": null,
+              "quantity": 220,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fbfaf962-991f-4820-a923-25dd7c9f4724",
+              "size": "M",
+              "description": null,
+              "quantity": 206,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b3a68c87-e036-4f67-8cf8-88967678a38c",
+              "size": "L",
+              "description": null,
+              "quantity": 129,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2db797e8-1b37-45f3-bfd7-980621323d3b",
+              "size": "XL",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Set áo Singlet thể thao nữ Slim Tee + Bra CoolFlex",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-9-cam-hong_6.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-9-cam-hong_6.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b0533e08-35ff-4690-a308-c1a9360655c4",
+              "size": "XS",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fdb18282-141b-4f6b-937f-472953796f5b",
+              "size": "S",
+              "description": null,
+              "quantity": 58,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6599a5bd-94ca-470b-af8e-4f75c973e034",
+              "size": "M",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "30821efd-9b3a-4a95-8b38-7a7f3b4a3757",
+              "size": "L",
+              "description": null,
+              "quantity": 44,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4f830f42-5c3a-4b50-9a94-53461b1d6a27",
+              "size": "XL",
+              "description": null,
+              "quantity": 24,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Set áo Singlet thể thao nữ Slim Tee + Bra CoolFlex",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-19-xam_61.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "7699407d-d364-4383-8163-5362f54e922b",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-19-xam_61.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "49439067-f162-4713-ab42-5e589c2c8410",
+              "size": "XS",
+              "description": null,
+              "quantity": 180,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0360b99b-5334-4b8e-9a8e-6ed1b110a19d",
+              "size": "S",
+              "description": null,
+              "quantity": 220,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fbfaf962-991f-4820-a923-25dd7c9f4724",
+              "size": "M",
+              "description": null,
+              "quantity": 206,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b3a68c87-e036-4f67-8cf8-88967678a38c",
+              "size": "L",
+              "description": null,
+              "quantity": 129,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2db797e8-1b37-45f3-bfd7-980621323d3b",
+              "size": "XL",
+              "description": null,
+              "quantity": 73,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra chạy bộ Medium Support",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-chay-bo-medium-support-9-2D-den_67.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "29f7e72c-d744-4066-a245-729231b21c54",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-chay-bo-medium-support-9-2D-den_67.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e1ea4f7e-b45e-4f95-8816-48a3e3202f66",
+              "size": "XS",
+              "description": null,
+              "quantity": 257,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5d105383-a079-479f-b099-b926b6b2a17a",
+              "size": "S",
+              "description": null,
+              "quantity": 382,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b43f4c11-e2cf-4111-912e-e422c6166b88",
+              "size": "M",
+              "description": null,
+              "quantity": 371,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3d0fb785-c3e0-4179-a931-543bbba34500",
+              "size": "L",
+              "description": null,
+              "quantity": 248,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "263458db-c441-4793-b5d9-d80a58b030ae",
+              "size": "XL",
+              "description": null,
+              "quantity": 88,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "68b67c0e-c27e-45d0-a617-03c56523690d",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-medium-support-211_45.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9d125ac4-c9f7-4f6d-a306-5215073a893f",
+              "size": "XS",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d5100a24-883e-41d9-9516-d7546e3fa0e0",
+              "size": "S",
+              "description": null,
+              "quantity": 230,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3225cbb7-c32b-45e5-866d-544a89b18519",
+              "size": "M",
+              "description": null,
+              "quantity": 234,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7f916393-a51f-419f-8438-d642f8464423",
+              "size": "L",
+              "description": null,
+              "quantity": 158,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4c633ce3-7e57-4171-b544-b0739a531871",
+              "size": "XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6e97295d-1232-4c4a-a38b-7702e6247a31",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-medium-support-138_9.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "15151e83-4385-4153-a4a4-ba786e4a9b9a",
+              "size": "XS",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d28ea3e8-8e7e-4638-9a72-3c2405568df0",
+              "size": "S",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "63aca30b-3b2f-4c8d-a469-a5a10027c347",
+              "size": "M",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7dabd8cf-d1b1-4c12-8c17-f32f805b61b9",
+              "size": "L",
+              "description": null,
+              "quantity": 99,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7d6ffa58-2a5f-4a8a-a218-b154ddb9e41d",
+              "size": "XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra chạy bộ Medium Support",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-chay-bo-medium-support-138_9.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6e97295d-1232-4c4a-a38b-7702e6247a31",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-medium-support-138_9.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "15151e83-4385-4153-a4a4-ba786e4a9b9a",
+              "size": "XS",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d28ea3e8-8e7e-4638-9a72-3c2405568df0",
+              "size": "S",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "63aca30b-3b2f-4c8d-a469-a5a10027c347",
+              "size": "M",
+              "description": null,
+              "quantity": 139,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7dabd8cf-d1b1-4c12-8c17-f32f805b61b9",
+              "size": "L",
+              "description": null,
+              "quantity": 99,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7d6ffa58-2a5f-4a8a-a218-b154ddb9e41d",
+              "size": "XL",
+              "description": null,
+              "quantity": 53,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra chạy bộ Medium Support",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-chay-bo-medium-support-211_45.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "68b67c0e-c27e-45d0-a617-03c56523690d",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-medium-support-211_45.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9d125ac4-c9f7-4f6d-a306-5215073a893f",
+              "size": "XS",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d5100a24-883e-41d9-9516-d7546e3fa0e0",
+              "size": "S",
+              "description": null,
+              "quantity": 230,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3225cbb7-c32b-45e5-866d-544a89b18519",
+              "size": "M",
+              "description": null,
+              "quantity": 234,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7f916393-a51f-419f-8438-d642f8464423",
+              "size": "L",
+              "description": null,
+              "quantity": 158,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4c633ce3-7e57-4171-b544-b0739a531871",
+              "size": "XL",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra chạy bộ phối lưới Medium Support",
+      "description": null,
+      "basePrice": 499000,
+      "discountedPrice": 499000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-chay-bo-phoi-luoi-medium-support-471-tim_67.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "7f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Tím Purple Haze",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-phoi-luoi-medium-support-471-tim_67.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "319ddd8c-6486-406d-8097-3f492240ebcf",
+              "size": "XS",
+              "description": null,
+              "quantity": 189,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94a69dda-3c5b-4819-ac4d-d7c461e27735",
+              "size": "S",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28bf4461-b8e7-4b43-84a4-746a65925c31",
+              "size": "M",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7315d243-6410-46e5-9350-19f6e3941964",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7bfd2fbb-2d8d-4540-953b-f62388640a12",
+              "size": "XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f77a213-7711-446f-9a17-0e2ba1c4c34a",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-phoi-luoi-medium-support-1872-den_58.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "317addd2-44c1-4377-994d-81a49196c686",
+              "size": "XS",
+              "description": null,
+              "quantity": 240,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f4c214-f16b-4763-a7b8-2623b296a78a",
+              "size": "S",
+              "description": null,
+              "quantity": 343,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee3d2cd9-7a85-4b6e-932a-e82759ca47f5",
+              "size": "M",
+              "description": null,
+              "quantity": 346,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6d3d936d-c683-4842-8f51-12e779d30f03",
+              "size": "L",
+              "description": null,
+              "quantity": 222,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "03c5fd9a-9b76-4593-99e9-45968a5d1469",
+              "size": "XL",
+              "description": null,
+              "quantity": 111,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra chạy bộ phối lưới Medium Support",
+      "description": null,
+      "basePrice": 499000,
+      "discountedPrice": 499000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-chay-bo-phoi-luoi-medium-support-1872-den_58.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-phoi-luoi-medium-support-1872-den_58.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "317addd2-44c1-4377-994d-81a49196c686",
+              "size": "XS",
+              "description": null,
+              "quantity": 240,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f4c214-f16b-4763-a7b8-2623b296a78a",
+              "size": "S",
+              "description": null,
+              "quantity": 343,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee3d2cd9-7a85-4b6e-932a-e82759ca47f5",
+              "size": "M",
+              "description": null,
+              "quantity": 346,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6d3d936d-c683-4842-8f51-12e779d30f03",
+              "size": "L",
+              "description": null,
+              "quantity": 222,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "03c5fd9a-9b76-4593-99e9-45968a5d1469",
+              "size": "XL",
+              "description": null,
+              "quantity": 111,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "7f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Tím Purple Haze",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-chay-bo-phoi-luoi-medium-support-471-tim_67.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "319ddd8c-6486-406d-8097-3f492240ebcf",
+              "size": "XS",
+              "description": null,
+              "quantity": 189,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "94a69dda-3c5b-4819-ac4d-d7c461e27735",
+              "size": "S",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28bf4461-b8e7-4b43-84a4-746a65925c31",
+              "size": "M",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7315d243-6410-46e5-9350-19f6e3941964",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7bfd2fbb-2d8d-4540-953b-f62388640a12",
+              "size": "XL",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-nau_84.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "1a82e151-f969-44f3-a39c-594f179f7602",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-nau_84.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "adcf8bdf-9908-4934-8308-a09d70816601",
+              "size": "XS",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6acb6854-9c0e-4c78-a2e8-5b8863a63246",
+              "size": "S",
+              "description": null,
+              "quantity": 317,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "04b58982-bb71-4480-8a68-2f8c505683c9",
+              "size": "M",
+              "description": null,
+              "quantity": 311,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "697d68a1-14a2-4b24-bb78-b117800214a6",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6dce0f7d-8584-45c1-aa71-a3e611d15218",
+              "size": "XL",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "85dd112a-e96d-40d8-a91e-d4d1f736a56b",
+          "colorName": "Cam Flamingo",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6d09dee0-0f79-4642-9c63-7a018a9861d6",
+              "size": "XS",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8a382ffd-67bc-478c-a175-a9b3b38189a0",
+              "size": "S",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f635dc3-488b-4e45-ac24-9f36e97b8a67",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "563528cb-c7c7-4a26-a5c9-172d27ff8ba1",
+              "size": "L",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ae598ce-5f84-4d7c-9297-2cf294314e15",
+              "size": "XL",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "8252a822-a324-424d-8958-487533626916",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-be_42.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "883a0793-79f5-4352-881f-072046c61e0a",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5a588ecb-3e8b-492c-9a6c-9c925839d0d2",
+              "size": "S",
+              "description": null,
+              "quantity": 381,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36a69db5-8657-4e52-ab0a-283e04207455",
+              "size": "M",
+              "description": null,
+              "quantity": 382,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c828273a-84c0-4d9a-800f-3172295f009c",
+              "size": "L",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "83784156-569c-4116-9d56-3132b0a3f148",
+              "size": "XL",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-den_89.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "317addd2-44c1-4377-994d-81a49196c686",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "250b08b6-97d8-4697-83d2-637827b96a9c",
+              "size": "S",
+              "description": null,
+              "quantity": 387,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2b73ce14-5641-4997-9691-c94c59547c3b",
+              "size": "M",
+              "description": null,
+              "quantity": 388,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e2ce4d15-9b48-4a90-af9d-6ba54a3667ff",
+              "size": "L",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13e69256-3915-4872-b699-b38e6f00e91e",
+              "size": "XL",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "85dd112a-e96d-40d8-a91e-d4d1f736a56b",
+          "colorName": "Cam Flamingo",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6d09dee0-0f79-4642-9c63-7a018a9861d6",
+              "size": "XS",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8a382ffd-67bc-478c-a175-a9b3b38189a0",
+              "size": "S",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f635dc3-488b-4e45-ac24-9f36e97b8a67",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "563528cb-c7c7-4a26-a5c9-172d27ff8ba1",
+              "size": "L",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ae598ce-5f84-4d7c-9297-2cf294314e15",
+              "size": "XL",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-be_42.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "8252a822-a324-424d-8958-487533626916",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-be_42.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "883a0793-79f5-4352-881f-072046c61e0a",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5a588ecb-3e8b-492c-9a6c-9c925839d0d2",
+              "size": "S",
+              "description": null,
+              "quantity": 381,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36a69db5-8657-4e52-ab0a-283e04207455",
+              "size": "M",
+              "description": null,
+              "quantity": 382,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c828273a-84c0-4d9a-800f-3172295f009c",
+              "size": "L",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "83784156-569c-4116-9d56-3132b0a3f148",
+              "size": "XL",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6e97295d-1232-4c4a-a38b-7702e6247a31",
+          "colorName": "Cam Flamingo",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6d09dee0-0f79-4642-9c63-7a018a9861d6",
+              "size": "XS",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8a382ffd-67bc-478c-a175-a9b3b38189a0",
+              "size": "S",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f635dc3-488b-4e45-ac24-9f36e97b8a67",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "563528cb-c7c7-4a26-a5c9-172d27ff8ba1",
+              "size": "L",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ae598ce-5f84-4d7c-9297-2cf294314e15",
+              "size": "XL",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga V-Neck CoolSoft Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-783-be-egret-1_10.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Be Erget",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-783-be-egret-1_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95b72ce-b171-4a4d-a91b-116549257001",
+              "size": "XS",
+              "description": null,
+              "quantity": 200,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "eff13dec-2176-4517-806e-1d68a69e382a",
+              "size": "S",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa9ee0ad-834f-40e4-b222-946203792ff9",
+              "size": "L",
+              "description": null,
+              "quantity": 194,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f622a3-9471-4e9f-b8b7-0e16f923d12b",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "57a96374-3df9-487c-a916-e1522973f579",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneck-coolsoft-light-support-5-nau-mocha_81.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "67d88dcc-b094-4358-9f0b-a6d13d81c19f",
+              "size": "XS",
+              "description": null,
+              "quantity": 204,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7875bd15-534e-443f-ac6a-2c7759c030e3",
+              "size": "S",
+              "description": null,
+              "quantity": 311,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36059a02-6c7f-405f-b72e-08a0d4e1418f",
+              "size": "M",
+              "description": null,
+              "quantity": 310,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74ecc29a-f0a3-4e01-b244-f663b9a1e9d4",
+              "size": "L",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa30b362-e8ba-4c98-ac13-3c2f8034e98d",
+              "size": "XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "868c796a-2169-408c-928e-01a79d56e75e",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-2754-den-1_76.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "59efdf4a-f577-4ff0-8757-352745a7f6f4",
+              "size": "XS",
+              "description": null,
+              "quantity": 340,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b40b22ae-7a20-4c42-829b-d4208e36a351",
+              "size": "S",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "436e860e-567a-4749-9c0c-768a89a196c7",
+              "size": "M",
+              "description": null,
+              "quantity": 378,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 208,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e9aa2bc6-33be-4169-8e61-422b54088a6b",
+              "size": "XL",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga V-Neck CoolSoft Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-yoga-vneck-coolsoft-light-support-5-nau-mocha_81.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "57a96374-3df9-487c-a916-e1522973f579",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneck-coolsoft-light-support-5-nau-mocha_81.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "67d88dcc-b094-4358-9f0b-a6d13d81c19f",
+              "size": "XS",
+              "description": null,
+              "quantity": 204,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7875bd15-534e-443f-ac6a-2c7759c030e3",
+              "size": "S",
+              "description": null,
+              "quantity": 311,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36059a02-6c7f-405f-b72e-08a0d4e1418f",
+              "size": "M",
+              "description": null,
+              "quantity": 310,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74ecc29a-f0a3-4e01-b244-f663b9a1e9d4",
+              "size": "L",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa30b362-e8ba-4c98-ac13-3c2f8034e98d",
+              "size": "XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Be Erget",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-783-be-egret-1_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95b72ce-b171-4a4d-a91b-116549257001",
+              "size": "XS",
+              "description": null,
+              "quantity": 200,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "eff13dec-2176-4517-806e-1d68a69e382a",
+              "size": "S",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa9ee0ad-834f-40e4-b222-946203792ff9",
+              "size": "L",
+              "description": null,
+              "quantity": 194,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f622a3-9471-4e9f-b8b7-0e16f923d12b",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-2754-den-1_76.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "59efdf4a-f577-4ff0-8757-352745a7f6f4",
+              "size": "XS",
+              "description": null,
+              "quantity": 340,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b40b22ae-7a20-4c42-829b-d4208e36a351",
+              "size": "S",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "436e860e-567a-4749-9c0c-9284-6a30304f65f0",
+              "size": "M",
+              "description": null,
+              "quantity": 378,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 208,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e9aa2bc6-33be-4169-8e61-422b54088a6b",
+              "size": "XL",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga V-Neck CoolSoft Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-2754-den-1_76.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-2754-den-1_76.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "59efdf4a-f577-4ff0-8757-352745a7f6f4",
+              "size": "XS",
+              "description": null,
+              "quantity": 340,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b40b22ae-7a20-4c42-829b-d4208e36a351",
+              "size": "S",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "436e860e-567a-4749-9c0c-9284-6a30304f65f0",
+              "size": "M",
+              "description": null,
+              "quantity": 378,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 208,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e9aa2bc6-33be-4169-8e61-422b54088a6b",
+              "size": "XL",
+              "description": null,
+              "quantity": 148,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Be Erget",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-783-be-egret-1_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95b72ce-b171-4a4d-a91b-116549257001",
+              "size": "XS",
+              "description": null,
+              "quantity": 200,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "eff13dec-2176-4517-806e-1d68a69e382a",
+              "size": "S",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa9ee0ad-834f-40e4-b222-946203792ff9",
+              "size": "L",
+              "description": null,
+              "quantity": 194,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f622a3-9471-4e9f-b8b7-0e16f923d12b",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "57a96374-3df9-487c-a916-e1522973f579",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneck-coolsoft-light-support-5-nau-mocha_81.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "67d88dcc-b094-4358-9f0b-a6d13d81c19f",
+              "size": "XS",
+              "description": null,
+              "quantity": 204,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7875bd15-534e-443f-ac6a-2c7759c030e3",
+              "size": "S",
+              "description": null,
+              "quantity": 311,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36059a02-6c7f-405f-b72e-08a0d4e1418f",
+              "size": "M",
+              "description": null,
+              "quantity": 310,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74ecc29a-f0a3-4e01-b244-f663b9a1e9d4",
+              "size": "L",
+              "description": null,
+              "quantity": 195,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa30b362-e8ba-4c98-ac13-3c2f8034e98d",
+              "size": "XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga V-Neck CoolSoft Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-127-nau-mocha-1_18.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-127-nau-mocha-1_18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1a695db5-7561-495d-a054-3b5d9b8810b7",
+              "size": "XS",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64ab2590-7075-47f8-a88b-ed2b2364343c",
+              "size": "S",
+              "description": null,
+              "quantity": 106,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "25fe1183-979b-4597-b9b9-d1153c364277",
+              "size": "M",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6d346133-d12e-4390-9850-73bb0e38c36e",
+              "size": "L",
+              "description": null,
+              "quantity": 41,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9a046dde-7197-40ba-9e0f-a67b52d75864",
+              "size": "XL",
+              "description": null,
+              "quantity": 20,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "8252a822-a324-424d-8958-487533626916",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-220-be-egret-1_49.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c434a24-c9e6-456b-957f-c10ca48e177c",
+              "size": "S",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c8681934-8b3f-496b-a2f9-ba9cf0e3a952",
+              "size": "L",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ae2ff53c-026a-438c-8a82-c88c77105647",
+              "size": "XL",
+              "description": null,
+              "quantity": 46,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-076-den-1_30.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e65915a9-aa5c-4194-a0e4-b32d142cc44c",
+              "size": "XS",
+              "description": null,
+              "quantity": 304,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e65915a9-aa5c-4194-a0e4-b32d142cc44c",
+              "size": "S",
+              "description": null,
+              "quantity": 435,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6ce66960-5a75-472d-b70c-1e9c07863a7a",
+              "size": "M",
+              "description": null,
+              "quantity": 388,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a5c80658-9e73-400f-919d-717eb54963f4",
+              "size": "L",
+              "description": null,
+              "quantity": 229,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga Ribbed",
+      "description": null,
+      "basePrice": 269000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-220-be-egret-1_49.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "8252a822-a324-424d-8958-487533626916",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-220-be-egret-1_49.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c434a24-c9e6-456b-957f-c10ca48e177c",
+              "size": "S",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "697d68a1-14a2-4b24-bb78-b117800214a6",
+              "size": "L",
+              "description": null,
+              "quantity": 194,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f622a3-9471-4e9f-b8b7-0e16f923d12b",
+              "size": "XL",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "7f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-076-den-1_30.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "59efdf4a-f577-4ff0-8757-352745a7f6f4",
+              "size": "XS",
+              "description": null,
+              "quantity": 340,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b40b22ae-7a20-4c42-829b-d4208e36a351",
+              "size": "S",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "436e860e-567a-4749-9c0c-9284-6a30304f65f0",
+              "size": "M",
+              "description": null,
+              "quantity": 378,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e2ce4d15-9b48-4a90-af9d-6ba54a3667ff",
+              "size": "L",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13e69256-3915-4872-b699-b38e6f00e91e",
+              "size": "XL",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-127-nau-mocha-1_18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1a695db5-7561-495d-a054-3b5d9b8810b7",
+              "size": "XS",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64ab2590-7075-47f8-a88b-ed2b2364343c",
+              "size": "S",
+              "description": null,
+              "quantity": 106,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "25fe1183-979b-4597-b9b9-d1153c364277",
+              "size": "M",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "697d68a1-14a2-4b24-bb78-b117800214a6",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa30b362-e8ba-4c98-ac13-3c2f8034e98d",
+              "size": "XL",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga Ribbed",
+      "description": null,
+      "basePrice": 269000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-076-den-1_30.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-076-den-1_30.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e65915a9-aa5c-4194-a0e4-b32d142cc44c",
+              "size": "XS",
+              "description": null,
+              "quantity": 304,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b40b22ae-7a20-4c42-829b-d4208e36a351",
+              "size": "S",
+              "description": null,
+              "quantity": 451,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "436e860e-567a-4749-9c0c-9284-6a30304f65f0",
+              "size": "M",
+              "description": null,
+              "quantity": 378,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 229,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "8252a822-a324-424d-8958-487533626916",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-220-be-egret-1_49.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c434a24-c9e6-456b-957f-c10ca48e177c",
+              "size": "S",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa9ee0ad-834f-40e4-b222-946203792ff9",
+              "size": "L",
+              "description": null,
+              "quantity": 194,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ae2ff53c-026a-438c-8a82-c88c77105647",
+              "size": "XL",
+              "description": null,
+              "quantity": 46,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-ribbed-127-nau-mocha-1_18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1a695db5-7561-495d-a054-3b5d9b8810b7",
+              "size": "XS",
+              "description": null,
+              "quantity": 82,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64ab2590-7075-47f8-a88b-ed2b2364343c",
+              "size": "S",
+              "description": null,
+              "quantity": 106,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "25fe1183-979b-4597-b9b9-d1153c364277",
+              "size": "M",
+              "description": null,
+              "quantity": 74,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6d346133-d12e-4390-9850-73bb0e38c36e",
+              "size": "L",
+              "description": null,
+              "quantity": 41,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9a046dde-7197-40ba-9e0f-a67b52d75864",
+              "size": "XL",
+              "description": null,
+              "quantity": 20,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69" ,
+      "name": "Áo Bra Yoga Cross CoolFlex Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-2928-be-egret-1_99.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-2928-be-egret-1_99.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95b72ce-b171-4a4d-a91b-116549257001",
+              "size": "XS",
+              "description": null,
+              "quantity": 146,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c434a24-c9e6-456b-957f-c10ca48e177c",
+              "size": "S",
+              "description": null,
+              "quantity": 166,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 171,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "697d68a1-14a2-4b24-bb78-b117800214a6",
+              "size": "L",
+              "description": null,
+              "quantity": 142,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f622a3-9471-4e9f-b8b7-0e16f923d12b",
+              "size": "XL",
+              "description": null,
+              "quantity": 67,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-2662-den-1_81.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "07b36681-99e1-493a-940d-e6384b292911",
+              "size": "XS",
+              "description": null,
+              "quantity": 304,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e65915a9-aa5c-4194-a0e4-b32d142cc44c",
+              "size": "S",
+              "description": null,
+              "quantity": 355,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36059a02-6c7f-405f-b72e-08a0d4e1418f",
+              "size": "M",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 229,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2d5a1968-f953-4562-a184-f32749e74682",
+          "colorName": "Tím Icelandic Blue",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-265-tim-icelandic-blue-1_12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "638d5693-1e43-4511-946a-2e36a20a894a",
+              "size": "S",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fc0c0ac1-e208-4fa7-a836-a7736a8f83c1",
+              "size": "M",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056ed60f-f9a1-4729-9298-96a7b9824f58",
+              "size": "L",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a8571bcf-535b-4010-966d-33b60b914977",
+              "size": "XL",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga Cross CoolFlex Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-265-tim-icelandic-blue-1_12.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "2d5a1968-f953-4562-a184-f32749e74682",
+          "colorName": "Tím Icelandic Blue",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-265-tim-icelandic-blue-1_12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2d768f96-a4de-40b1-ba78-ba28d20579a0",
+              "size": "XS",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "638d5693-1e43-4511-946a-2e36a20a894a",
+              "size": "S",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fc0c0ac1-e208-4fa7-a836-a7736a8f83c1",
+              "size": "M",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056ed60f-f9a1-4729-9298-96a7b9824f58",
+              "size": "L",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-2662-den-1_81.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "67e7d7e6-de10-44b3-84c1-8f5a4a4323c3",
+              "size": "S",
+              "description": null,
+              "quantity": 355,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36059a02-6c7f-405f-b72e-08a0d4e1418f",
+              "size": "M",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 229,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a5c80658-9e73-400f-919d-717eb54963f4",
+              "size": "L",
+              "description": null,
+              "quantity": 229,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13e69256-3915-4872-b699-b38e6f00e91e",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69" ,
+      "name": "Áo Bra Yoga Cross CoolFlex Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-2662-den-1_81.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-2662-den-1_81.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "07b36681-99e1-493a-940d-e6384b292911",
+              "size": "XS",
+              "description": null,
+              "quantity": 304,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67e7d7e6-de10-44b3-84c1-8f5a4a4323c3",
+              "size": "S",
+              "description": null,
+              "quantity": 355,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36059a02-6c7f-405f-b72e-08a0d4e1418f",
+              "size": "M",
+              "description": null,
+              "quantity": 366,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 229,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2d5a1968-f953-4562-a184-f32749e74682",
+          "colorName": "Tím Icelandic Blue",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-crosscoolfex-light-support-265-tim-icelandic-blue-1_12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "638d5693-1e43-4511-946a-2e36a20a894a",
+              "size": "S",
+              "description": null,
+              "quantity": 133,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74ecc29a-f0a3-4e01-b244-f663b9a1e9d4",
+              "size": "L",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44f08d1a-3340-4b01-8535-60b1e1523e8a",
+              "size": "L",
+              "description": null,
+              "quantity": 97,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "8252a822-a324-424d-8958-487533626916",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/bra-yoga-vneckcoolsoft-light-support-783-be-egret-1_10.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c434a24-c9e6-456b-957f-c10ca48e177c",
+              "size": "S",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bd733a15-88d9-411c-92f0-a1469211b894",
+              "size": "M",
+              "description": null,
+              "quantity": 282,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74ecc29a-f0a3-4e01-b244-f663b9a1e9d4",
+              "size": "L",
+              "description": null,
+              "quantity": 194,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f622a3-9471-4e9f-b8b7-0e16f923d12b",
+              "size": "XL",
+              "description": null,
+              "quantity": 67,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+,
+  {
+      "id": "78e742f2-f17c-4c2a-a90e-410f79527c69",
+      "name": "Áo Bra Yoga T-Back CoolFlex Light Support",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/bra-yoga-tback-coolfex-light-support-5-nau_48.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "331c510a-6941-4423-b230-c0337d5a0d87",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-tback-coolfex-light-support-5-nau_48.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "1a695db5-7561-495d-a054-3b5d9b8810b7",
+              "size": "XS",
+              "description": null,
+              "quantity": 313,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64ab2590-7075-47f8-a88b-ed2b2364343c",
+              "size": "S",
+              "description": null,
+              "quantity": 457,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "25fe1183-979b-4597-b9b9-d1153c364277",
+              "size": "M",
+              "description": null,
+              "quantity": 454,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6d346133-d12e-4390-9850-73bb0e38c36e",
+              "size": "L",
+              "description": null,
+              "quantity": 301,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fa30b362-e8ba-4c98-ac13-3c2f8034e98d",
+              "size": "XL",
+              "description": null,
+              "quantity": 146,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "6f6536f9-bb3f-4582-b0a2-91e26e013289",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-tback-coolfex-light-support-4-den_38.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "07b36681-99e1-493a-940d-e6384b292911",
+              "size": "XS",
+              "description": null,
+              "quantity": 527,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b8ebde5a-44c8-4d62-943f-15f1562539fd",
+              "size": "L",
+              "description": null,
+              "quantity": 494,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "436e860e-567a-4749-9c0c-9284-6a30304f65f0",
+              "size": "M",
+              "description": null,
+              "quantity": 743,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "67e7d7e6-de10-44b3-84c1-8f5a4a4323c3",
+              "size": "S",
+              "description": null,
+              "quantity": 762,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 244,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "2d5a1968-f953-4562-a184-f32749e74682",
+          "colorName": "Tím Icelandic Blue",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/bra-yoga-tback-coolfex-light-support-6-tim-icelandic-blue_100.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ef3de69-3b08-4033-a607-766f7d5395de",
+              "size": "XS",
+              "description": null,
+              "quantity": 96,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5ca40df0-94a1-4e00-b759-20a72f27f382",
+              "size": "S",
+              "description": null,
+              "quantity": 283,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056ed60f-f9a1-4729-9298-96a7b9824f58",
+              "size": "L",
+              "description": null,
+              "quantity": 198,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3c434a24-c9e6-456b-957f-c10ca48e177c",
+              "size": "S",
+              "description": null,
+              "quantity": 280,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+              "size": "XL",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+      "productCategoryDisplayDTO": {
+        "id": "a75b5783-7713-4881-b93b-ff8f71f799b6",
+        "name": "Áo Sport Bra",
+        "imageUrl": null
+      }
+    }
+  ]

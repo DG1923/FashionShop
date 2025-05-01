@@ -1,0 +1,2116 @@
+
+  [
+    {
+      "id": "67ebae9f-8c0d-da74-a6c4-6c465d4d",
+      "name": "Áo Tank Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-19222.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-18542_35.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "395a2599-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 399,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "90395e17-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 583,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9582254e-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 581,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fd0c0119-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 394,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "69ed0562-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 196,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xanh Colony",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-19222_2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8a6f4146-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f90fd0cb-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4903f9ce-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 131,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "808d3759-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 100,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ed4c3454-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e86f-12de-9419-6148-fe2500000000",
+      "name": "Áo Crop Tee Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-cropped-tee-yoga-slimfit-40-be.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-cropped-tee-yoga-slimfit-41-be_89.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "007ee575-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 320,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5be7ac38-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 463,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6dcea158-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 462,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "907b1b2d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 314,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "17644461-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 160,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-cropped-tee-yoga-slimfit-71-den_80.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "80f2f1e6-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 497,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "f869333e-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 696,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c66dfa4f-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 709,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "451d5920-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 492,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9fca6318-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 242,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e822-58ff-9235-c23e-568e00000000",
+      "name": "Áo Tshirt Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-26-den_60.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-26-den_60.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e1ae75ab-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 289,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5266b01a-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 395,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d260cfa1-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 408,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d8ec14fc-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "698ab3a7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 117,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-be_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6b3cfbbe-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 280,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "20e990b9-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 415,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7010f569-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 394,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4dc0ac4b-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "69b10bdb-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xanh Faded Denim",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-xanh_39.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "93e88a01-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c8f57ff-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 226,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "824cd6ab-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "facb4bb8-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff4f03bb-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 72,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e822-58ff-9235-c23e-568e00000000",
+      "name": "Áo Tshirt Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-be_57.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-be_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6b3cfbbe-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 280,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "20e990b9-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 415,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7010f569-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 394,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4dc0ac4b-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "69b10bdb-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 136,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67e0e822-58ff-9235-c23e-568e00000000",
+      "name": "Áo Tshirt Yoga Slimfit",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-xanh_39.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Faded Denim",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tshirt-yoga-slimfit-20-xanh_39.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "93e88a01-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 157,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5c8f57ff-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 226,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "824cd6ab-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "facb4bb8-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 140,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ff4f03bb-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 72,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67db8ba7-8bee-4066-456c-829c00000000",
+      "name": "Áo Crop top Tank nữ Chạy bộ khoá zip",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-crop-top-tank-nu-chay-bo-khoa-zip-8-vang_92.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Vàng Pineapple",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-crop-top-tank-nu-chay-bo-khoa-zip-8-vang_92.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "33ee0df8-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e9982046-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 125,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ae4d266-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 124,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3aabff56-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 87,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b9e1a71b-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-crop-top-tank-nu-chay-bo-khoa-zip--den-1_68.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d4e3a606-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 270,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "304f9c54-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 405,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e113a3bc-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 401,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "379436e7-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 272,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1784bcb1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67db8ba7-8bee-4066-456c-829c00000000",
+      "name": "Áo Crop top Tank nữ Chạy bộ khoá zip",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-crop-top-tank-nu-chay-bo-khoa-zip--den-1_68.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-crop-top-tank-nu-chay-bo-khoa-zip--den-1_68.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d4e3a606-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 270,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "304f9c54-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 405,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e113a3bc-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 401,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "379436e7-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 272,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1784bcb1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 134,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67cebfe2-91f9-2744-585d-18bb00000000",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-nau_84.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-nau_84.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "adcf8bdf-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 218,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6acb6854-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 317,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "04b58982-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 311,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "697d68a1-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6dce0f7d-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 103,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Cam Flamingo",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6d09dee0-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8a382ffd-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f635dc3-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "563528cb-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ae598ce-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-be_42.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "883a0793-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5a588ecb-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 381,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36a69db5-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 382,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c828273a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "83784156-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-den_89.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9b00a97f-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "250b08b6-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 387,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2b73ce14-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 388,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e2ce4d15-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13e69256-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67cebfe2-91f9-2744-585d-18bb00000000",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Cam Flamingo",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-cam-hong_74.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "6d09dee0-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 132,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8a382ffd-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 181,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f635dc3-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 186,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "563528cb-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ae598ce-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 64,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67cebfe2-91f9-2744-585d-18bb00000000",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-be_42.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-be_42.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "883a0793-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5a588ecb-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 381,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "36a69db5-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 382,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c828273a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 262,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "83784156-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 128,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67cebfe2-91f9-2744-585d-18bb00000000",
+      "name": "Áo Tank Bra thể thao nữ Aspire Ribbed",
+      "description": null,
+      "basePrice": 399000,
+      "discountedPrice": 399000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-den_89.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-tank-bra-nu-the-thao-aspire-ribbed-116-den_89.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9b00a97f-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "250b08b6-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 387,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2b73ce14-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 388,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e2ce4d15-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13e69256-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 130,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6fef3-db34-914b-d737-7c2500000000",
+      "name": "Áo Tee Yoga Ribbed",
+      "description": null,
+      "basePrice": 269000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-be_100.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-be_100.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "bbf3387e-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2bed0587-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 253,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0da1b134-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 239,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "35bd2bc9-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 169,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b71d62d2-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-nau-mocha_73.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2a68e3fa-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c34070da-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "95ac7221-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 127,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "af2228fe-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "26ddba15-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-den_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9929386a-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74881b6f-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 450,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7bf5039d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 435,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73a54a2d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7962fb36-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6fef3-db34-914b-d737-7c2500000000",
+      "name": "Áo Tee Yoga Ribbed",
+      "description": null,
+      "basePrice": 269000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-be_100.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Be Egret",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-be_100.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "bbf3387e-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 183,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2bed0587-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 253,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0da1b134-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 239,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "35bd2bc9-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 169,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b71d62d2-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-nau-mocha_73.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2a68e3fa-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c34070da-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "95ac7221-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 127,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "af2228fe-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 86,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "26ddba15-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-den_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9929386a-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74881b6f-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 450,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7bf5039d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 435,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73a54a2d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7962fb36-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6fef3-db34-914b-d737-7c2500000000",
+      "name": "Áo Tee Yoga Ribbed",
+      "description": null,
+      "basePrice": 269000,
+      "discountedPrice": 269000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-den_57.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-den_57.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9929386a-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "74881b6f-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 450,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7bf5039d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 435,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "73a54a2d-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 265,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7962fb36-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 121,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c065e7-e9d2-ca3b-2b3f-66c100000000",
+      "name": "Áo thể thao nữ Essential Cropped Tee",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-181-trang-1_91.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-181-trang-1_91.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ae61a4b-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 21,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e0c89550-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e2caac88-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 100,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28b0b3ed-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cb866326-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 17,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-92-den-1_98.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "aca82538-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 20,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4109d482-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 151,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "de7d2e00-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 77,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3036100a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Be Nâu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-tee-ribbed-712-nau-mocha_73.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "ddb24c6c-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 6,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64440237-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3a76a608-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 40,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b0298287-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 7,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Cam hồng Camelia",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-721-cam-hong-camelia-1_12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "546dc8de-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 23,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3b72f5f4-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 80,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3aaa16c4-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 59,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "45a2f2b9-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 18,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "91a46e27-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 8,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c065e7-e9d2-ca3b-2b3f-66c100000000",
+      "name": "Áo thể thao nữ Essential Cropped Tee",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-92-den-1_98.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-92-den-1_98.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "aca82538-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 20,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4109d482-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 151,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "de7d2e00-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 77,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3036100a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c065e7-e9d2-ca3b-2b3f-66c100000000",
+      "name": "Áo thể thao nữ Essential Cropped Tee",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-92-den-1_98.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-92-den-1_98.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "aca82538-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 20,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4109d482-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 151,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "de7d2e00-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 77,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3036100a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 32,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c065e7-e9d2-ca3b-2b3f-66c100000000",
+      "name": "Áo thể thao nữ Essential Cropped Tee",
+      "description": null,
+      "basePrice": 199000,
+      "discountedPrice": 199000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-181-trang-1_91.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/ao-the-thao-nu-essential-cropped-tee-181-trang-1_91.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "2ae61a4b-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 21,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e0c89550-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e2caac88-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 100,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "28b0b3ed-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 60,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cb866326-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 17,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67bc1c4a-ecc6-1332-842a-8b9400000000",
+      "name": "Áo thể thao nữ Lightweight Cropped Tee",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/WW0048_29.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/WW0048_29.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "91a6abd5-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "90a14d41-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "852cabe5-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 301,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ba9ab7c-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ea71b36-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/Lightweight_Cropped_Tee_den_1a.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b956d158-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e07bb664-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 269,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8c11b5a6-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "915c1ede-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "30356030-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-the-thao-nu-essential-cropped-tee-542-hong-cam-12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b157588b-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 56,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dad1e048-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 56,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d3fa4cb0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 54,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f488dba-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c04f1def-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67bc1c4a-ecc6-1332-842a-8b9400000000",
+      "name": "Áo thể thao nữ Lightweight Cropped Tee",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/WW0048_29.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/WW0048_29.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "91a6abd5-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "90a14d41-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "852cabe5-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 301,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ba9ab7c-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ea71b36-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/Lightweight_Cropped_Tee_den_1a.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b956d158-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e07bb664-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 269,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8c11b5a6-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "915c1ede-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "30356030-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-the-thao-nu-essential-cropped-tee-542-hong-cam-12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b157588b-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 56,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dad1e048-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 56,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3aaa16c4-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 59,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f488dba-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c04f1def-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67bc1c4a-ecc6-1332-842a-8b9400000000",
+      "name": "Áo thể thao nữ Lightweight Cropped Tee",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/April2025/WW0048_29.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Trắng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/WW0048_29.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "91a6abd5-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "90a14d41-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 296,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "852cabe5-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 301,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ba9ab7c-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "4ea71b36-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 98,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/Lightweight_Cropped_Tee_den_1a.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b956d158-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e07bb664-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 269,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8c11b5a6-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 259,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "915c1ede-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 173,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "30356030-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 78,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Cam hồng",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/April2025/ao-the-thao-nu-essential-cropped-tee-542-hong-cam-12.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "b157588b-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 56,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dad1e048-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 56,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3aaa16c4-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 59,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6f488dba-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 47,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c04f1def-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 57,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "ed4c3454-0000-0000-0000-000000000000",
+        "name": "Áo Crop Top Nữ",
+        "imageUrl": null
+      }    }
+  ]

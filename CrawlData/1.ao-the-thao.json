@@ -1,4 +1,4 @@
-[
+
   [
     {
       "id": "01a77586-b657-4041-9b21-d8ff485d0f1a",
@@ -304,12 +304,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  {
-    "error": "no_json_block",
-    "original": "```json\n[\n  {\n    \"id\": \"2a2d3b66-0340-4140-af33-497a3e010db2\",\n    \"name\": \"Áo Polo Nam Thể Thao Promax-S1\",\n    \"description\": null,\n    \"basePrice\": 209000,\n    \"discountedPrice\": 239000,\n    \"mainImageUrl\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-den-1.jpg\",\n    \"discountDisplayDTO\": null,\n    \"productColorsDisplayDTO\": [\n      {\n        \"id\": \"2d20a740-370c-4587-b17e-0e769282751a\",\n        \"colorName\": \"Đen\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-den-1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"0bac12ae-75f8-435f-a11e-54e7a7916a3d\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1208,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"f2e19bb4-8349-4608-8011-273805079ff1\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 618,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d445098d-8979-464e-bf6e-723a25d1b785\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1464,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0bac12ae-75f8-435f-a11e-54e7a7916a3d\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1208,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"b6ef4af6-50d8-48cf-9d87-23d0a81e1b09\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 591,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cd2e3e6f-4750-4575-af8d-78f82936799f\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 986,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b361703d-0741-41fd-8b6e-99705867e3d0\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1987,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"437ca118-8396-450a-a473-609d703c91c5\",\n        \"colorName\": \"Xanh Aqua\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/November2024/Xanh_Nhat_1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"9af91425-3992-4293-8cf5-ffba7f2dd663\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 615,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00785305-306b-40b6-819b-4f4567208520\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 604,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"48a0ee44-a67c-4a83-bfd8-a993470f727a\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 591,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b6ef4af6-50d8-48cf-9d87-23d0a81e1b09\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 666,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 461,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 278,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 587,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d445098d-8979-464e-bf6e-723a25d1b785\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 887,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"2136d595-d506-49b6-b77c-029822d0dd4a\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 891,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"5d12044d-d76c-48f7-99f0-94b8581c2a2f\",\n        \"colorName\": \"Trắng\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-trang-3.png\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"9af91425-3992-4293-8cf5-ffba7f2dd663\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 615,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00785305-306b-40b6-819b-4f4567208520\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 604,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0bac12ae-75f8-435f-a11e-54e7a7916a3d\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1208,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"33d2ce20-a4b8-4839-894f-a96258642c48\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 612,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"f58fd6af-c803-476d-bb0a-5c64a435d008\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 651,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 278,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"b9074600-42be-4363-b42b-509b1331d32c\",\n        \"colorName\": \"Xanh bóng đêm\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-bong-dem-6_95.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"073ff414-967e-44e2-b3e6-89edca3dd7c6\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1500,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0a301424-5f2f-4985-8557-54c075f9a542\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 721,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d445098d-8979-464e-bf6e-723a25d1b785\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 887,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"9af91425-3992-4293-8cf5-ffba7f2dd663\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 774,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"00785305-306b-40b6-819b-4f4567208520\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 642,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"6c456452-59ca-429e-91b0-f2359c699587\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 761,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"f0b5db25-23c8-4a86-974c-b8f2197a0e3e\",\n        \"colorName\": \"Xám đen\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xam-den_(1).jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"48c9b55b-269e-4538-a18d-d141c974f3cb\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 231,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"587b36fe-eb2d-46ae-986a-5a84114855c3\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 439,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"a51063af-6a80-4704-b9da-649326b20029\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 231,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e31e21c0-d814-47c8-a8a7-22f25471f11c\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 276,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"c5b05094-d1ca-4772-a990-df377f2f1a99\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 484,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"48c9b55b-269e-4538-a18d-d141c974f3cb\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 231,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"317135cf-372e-499b-be93-2c06239101a6\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 414,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"75cb5565-4607-4e2e-820b-2b9035ddbb2e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 237,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0f517e76-694b-4c60-b996-5b0e96b65081\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 180,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"75cb5565-4607-4e2e-820b-2b9035ddbb2e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 237,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"0f517e76-694b-4c60-b996-5b0e96b65081\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 180,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"2953333a-6453-4ffc-9a67-2975f1c49877\",\n        \"colorName\": \"Xanh Deep Cobalt\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-deep-cobalt-9.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"5a858294-5a03-414e-8492-3eb859d30372\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 333,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"37836d2b-719f-4084-9705-9a6b4348772c\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 326,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"48a0ee44-a67c-4a83-bfd8-a993470f727a\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 303,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5a858294-5a03-414e-8492-3eb859d30372\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 333,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"dc843d02-d04a-4a6e-9f97-4334651470f2\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 375,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d109bcde-e0d0-4057-b98a-3a28ba25414e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 250,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n       {\n        \"id\": \"73d1f20f-e66a-4a7a-b3d8-d129133a91b0\",\n        \"colorName\": \"Xanh Lavender Lustre\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-lavender-lustre-11.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"047a2f1c-9280-4ffc-8487-9a03b9d8989b\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 125,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5f9ee95d-3c10-476c-af2c-151a5a028107\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 569,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"07b27b9b-0087-4e76-b15d-3c5d2569c11d\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 286,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2eca09a8-d954-4354-8689-95d7bb7b7064\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 569,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"2eca09a8-d954-4354-8689-95d7bb7b7064\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 569,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"285c8385-031c-4311-8377-f683d8654721\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 492,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"1d0fa298-e160-47a9-a282-6d181f61f124\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 320,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"97c11f5f-e26e-4e6b-893d-38e6b99c415b\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 266,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"6d321662-6369-4d6c-9e09-3672a2d90184\",\n        \"colorName\": \"Xám Tarmac\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-mau-xam-tarmac_(5).jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"2626b39b-3204-4826-88ae-ae80c4d25c8b\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 272,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d82945ec-69d0-4082-b022-52d3a8945c59\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 571,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e31e21c0-d814-47c8-a8a7-22f25471f11c\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 277,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"2626b39b-3204-4826-88ae-ae80c4d25c8b\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 272,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a6791e3-b87f-44ff-b301-49e73d02b103\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 444,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"c9ddd549-608d-4c58-9c89-65644c08c8c0\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 420,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"cf9a133c-c354-4699-a0a5-852e56c2e52e\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 230,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"c6d6d91b-e761-4691-916c-d9f5318152a6\",\n        \"colorName\": \"Xanh Navy\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-navy-1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"5a507716-7555-491d-b011-772df19e0997\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 643,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1262,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"751478e4-b781-48a7-a870-670cf69f4232\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1127,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1262,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"751478e4-b781-48a7-a870-670cf69f4232\",\n            \"size\": \"M\",\n            \"description\": null,\n            \"quantity\": 1127,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"553efdad-0376-4f34-98a4-98b9e7290c3c\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 1648,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b7bada01-1276-4275-80ff-78c593e2b175\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 641,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"b7bada01-1276-4275-80ff-78c593e2b175\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 641,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"e2be33ff-29f8-49a9-a96a-d35a0bb5cfb1\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 642,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"7a4f24f8-1991-4ca6-a429-d24b957d8c8f\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 1262,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n      {\n        \"id\": \"001f0a08-3439-450a-b691-a63f995160f9\",\n        \"colorName\": \"Be Xám\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/April2025/ao-polo-nam-the-thao-promax-s1-Be_Xam_1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"3265b7f3-645c-440a-a6d0-e73bb1c3f08a\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 142,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"75cb5565-4607-4e2e-820b-2b9035ddbb2e\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 276,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5fc0a4f6-4546-49e0-b001-30a479a9b843\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"a51063af-6a80-4704-b9da-649326b20029\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 50,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"ddc786b5-ed2d-4f1f-999d-6578c3829f8c\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n           {\n            \"id\": \"5fc0a4f6-4546-49e0-b001-30a479a9b843\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"09499c53-f36d-4764-9d41-9b975e402b3a\",\n            \"size\": \"L\",\n            \"description\": null,\n            \"quantity\": 493,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"d1e0f17a-5c99-41c5-9782-a690c626984c\",\n            \"size\": \"3XL\",\n            \"description\": null,\n            \"quantity\": 139,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"ddc786b5-ed2d-4f1f-999d-6578c3829f8c\",\n            \"size\": \"XL\",\n            \"description\": null,\n            \"quantity\": 394,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"3265b7f3-645c-440a-a6d0-e73bb1c3f08a\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 142,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"3265b7f3-645c-440a-a6d0-e73bb1c3f08a\",\n            \"size\": \"2XL\",\n            \"description\": null,\n            \"quantity\": 142,\n            \"imageUrlVariation\": null\n          }\n        ]\n      },\n       {\n        \"id\": \"73d1f20f-e66a-4a7a-b3d8-d129133a91b0\",\n        \"colorName\": \"Xanh Lavender Lustre\",\n        \"colorCode\": null,\n        \"imageUrlColor\": \"https://media3.coolmate.me//image/December2024/ao-polo-nam-the-thao-promax-s1-xanh-lavender-1.jpg\",\n        \"productVariationDisplayDTOs\": [\n          {\n            \"id\": \"047a2f1c-9280-4ffc-8487-9a03b9d8989b\",\n            \"size\": \"S\",\n            \"description\": null,\n            \"quantity\": 125,\n            \"imageUrlVariation\": null\n          },\n          {\n            \"id\": \"5f9ee95d-3c10-476c"
-  },
-  [
+,
     {
       "id": "08023e8a-b252-4702-811d-46e09c191873",
       "name": "Áo thun thể thao Melange Exdry",
@@ -568,8 +563,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "4e8a1c74-7f10-44d8-9835-299a4a445061",
       "name": "Áo Tanktop thể thao Melange",
@@ -807,8 +801,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "f3729f5c-10c0-485e-970b-d19c7f377788",
       "name": "Áo thun nam mặc trong thoáng khí nhanh khô Excool",
@@ -911,10 +904,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6808ad5efd9ca510b875183d",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Singlet chạy bộ Advanced Vent Tech Graphic Camo",
       "description": null,
       "basePrice": 219000,
@@ -1100,10 +1092,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6808ad5efd9ca510b875183d",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Singlet chạy bộ Advanced Vent Tech Graphic Camo",
       "description": null,
       "basePrice": 219000,
@@ -1379,10 +1370,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6808ab224ba28e35cb1cfdda",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo thun chạy bộ Advanced Vent Tech Graphic Camo",
       "description": null,
       "basePrice": 259000,
@@ -1624,10 +1614,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6808ab224ba28e35cb1cfdda",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo thun chạy bộ Advanced Vent Tech Graphic Pixel",
       "description": null,
       "basePrice": 259000,
@@ -1805,10 +1794,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6768d221d40ee82491517770",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo dài tay thể thao 1699",
       "description": null,
       "basePrice": 199000,
@@ -2158,10 +2146,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6768ca4e95f18d5f674ef04a",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo thun Nam Thể thao Phối bo cổ",
       "description": null,
       "basePrice": 219000,
@@ -2558,10 +2545,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "676510da2851485b2719a42e",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo khoác WindBreaker Nylon Taslan",
       "description": null,
       "basePrice": 449000,
@@ -2698,10 +2684,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6761444427b5056a6d69de9d",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Dài Tay Thể Thao Slim Fit",
       "description": null,
       "basePrice": 199000,
@@ -2972,10 +2957,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "6768ca4e95f18d5f674ef04a",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo thun Nam Thể thao Phối bo cổ",
       "description": null,
       "basePrice": 219000,
@@ -3365,10 +3349,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "671c6addf2fd6c456975fd9e",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Dài Tay Thể Thao Essentials",
       "description": null,
       "basePrice": 159000,
@@ -3461,7 +3444,7 @@
               "imageUrlVariation": null
             },
             {
-              "id": "6768ca4e95f18d5f674ef04a",
+              "id": "32399d00-0112-47a9-8519-664247350f27",
               "size": "2XL",
               "description": null,
               "quantity": 0,
@@ -3683,10 +3666,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "671b6c0215c02d4f2b3fa8a1",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Sát Nách Nam Thể Thao Promax - Outlet",
       "description": null,
       "basePrice": 99000,
@@ -4315,10 +4297,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "671b6c0215c02d4f2b3fa8a1",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Sát Nách Nam Thể Thao Promax - Outlet",
       "description": null,
       "basePrice": 99000,
@@ -4702,10 +4683,9 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
-      "id": "66ff8f765b7d4015c06c8f1f",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "Áo Thun Nam Chạy Bộ Graphic Dot",
       "description": null,
       "basePrice": 169000,
@@ -4772,5 +4752,5 @@
         "imageUrl": "string"
       }
     }
+  
   ]
-]

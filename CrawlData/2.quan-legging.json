@@ -1,0 +1,1704 @@
+
+  [
+    {
+      "id": "67cebed7-3274-7139-ac21-f28a00000000",
+      "name": "Legging Coolflex Everyday Active",
+      "description": null,
+      "basePrice": 499000,
+      "discountedPrice": 499000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-coolflex-everyday-active-4-den_77.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Navy",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-coolflex-everyday-active-4-navy_56.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "188a9680-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 172,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a2f77e5f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "54ae7688-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "950a5017-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 508,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8d00662a-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 524,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-coolflex-everyday-active-4-den_45.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a0e94dea-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 818,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "8adec888-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1221,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c4083ade-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 1239,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a0a9708d-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 415,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "55f385c1-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 399,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6fc4c-35c9-835e-9967-696c00000000",
+      "name": "Quần Biker Shorts nữ Yoga 8 Inch CoolFlex Light Support",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-27-xanh-colony-1_40.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Colony",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-27-xanh-colony-1_40.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "67c76e1d-8d38-000c-f736-652700000000",
+              "size": "M",
+              "description": null,
+              "quantity": 28,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "97c18f34-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 9,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "127d57e2-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 31,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "aa9dd3ee-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e7007951-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 10,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-23311-nau-mocha-1_23.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d938ea45-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 71,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0862537a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1af0b3a2-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 274,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ab9863d7-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 337,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c39bb382-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-26-den-1_86.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e60e7b34-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 300,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59efc4c0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "efde64d0-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 600,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dbe95aaf-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "feab50f5-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 124,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6fc4c-35c9-835e-9967-696c00000000",
+      "name": "Quần Biker Shorts nữ Yoga 8 Inch CoolFlex Light Support",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-23311-nau-mocha-1_23.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-23311-nau-mocha-1_23.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "d938ea45-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 71,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0862537a-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 152,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1af0b3a2-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 274,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ab9863d7-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 337,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "c39bb382-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 75,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-26-den-1_86.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e60e7b34-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 300,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59efc4c0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "efde64d0-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 600,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dbe95aaf-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "feab50f5-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 124,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6fc4c-35c9-835e-9967-696c00000000",
+      "name": "Quần Biker Shorts nữ Yoga 8 Inch CoolFlex Light Support",
+      "description": null,
+      "basePrice": 299000,
+      "discountedPrice": 299000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-26-den-1_86.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-26-den-1_86.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e60e7b34-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 300,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59efc4c0-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 505,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "efde64d0-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 600,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dbe95aaf-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 165,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "feab50f5-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 124,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6f90b-06f4-2a68-0e3b-326b00000000",
+      "name": "Quần Legging 7/8 Yoga CoolFlex Light Support",
+      "description": null,
+      "basePrice": 459000,
+      "discountedPrice": 459000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-7-8-yoga-coolflex-light-support-3-nau-mocha-1_91.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-7-8-yoga-coolflex-light-support-3-nau-mocha-1_91.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "ac5e45ba-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 61,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "63042dbc-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 59,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "79bf40f6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 143,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "3e88f241-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 214,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "03c550df-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 210,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-7-8-yoga-coolflex-light-support-2-den-1_43.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "429daa9e-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 342,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cdbd4591-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 513,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fd8c5527-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 502,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b7fbbaac-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "79c00d8f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6f90b-06f4-2a68-0e3b-326b00000000",
+      "name": "Quần Legging 7/8 Yoga CoolFlex Light Support",
+      "description": null,
+      "basePrice": 459000,
+      "discountedPrice": 459000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-7-8-yoga-coolflex-light-support-2-den-1_43.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-7-8-yoga-coolflex-light-support-2-den-1_43.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "429daa9e-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 342,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "cdbd4591-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 513,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fd8c5527-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 502,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "b7fbbaac-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 178,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "79c00d8f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 154,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6e9dc-71a6-dc2f-855d-d64800000000",
+      "name": "Quần Legging Yoga Ribbed",
+      "description": null,
+      "basePrice": 359000,
+      "discountedPrice": 359000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-yoga-ribbed-33292-den_26.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-yoga-ribbed-33292-den_26.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9bf0d94d-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 335,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fff03265-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 1149,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1407c675-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1117,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "09e2ff03-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 618,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ecb8555f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 304,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-yoga-ribbed-324-nau-driftwood_71.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a1990c06-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 190,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6c22269b-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 562,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dfc2ed6f-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 502,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee1f84c6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 365,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "aa3bd75d-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 179,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6e9dc-71a6-dc2f-855d-d64800000000",
+      "name": "Quần Legging Yoga Ribbed",
+      "description": null,
+      "basePrice": 359000,
+      "discountedPrice": 359000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-yoga-ribbed-324-nau-driftwood_71.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-yoga-ribbed-324-nau-driftwood_71.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "a1990c06-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 190,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6c22269b-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 562,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dfc2ed6f-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 502,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ee1f84c6-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 365,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "aa3bd75d-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 179,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-yoga-ribbed-33292-den_26.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9bf0d94d-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 335,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "fff03265-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 1149,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "1407c675-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 1117,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "09e2ff03-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 618,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "ecb8555f-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 304,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6cc1b-4fec-1404-3735-974c00000000",
+      "name": "Quần Legging Full Length Yoga Light Support ",
+      "description": null,
+      "basePrice": 549000,
+      "discountedPrice": 549000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-1810-xanh-colony-1_18.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xanh Colony",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-1810-xanh-colony-1_18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "7f36c74a-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 83,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "58896e4e-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 251,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "9cb0b1b7-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 257,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5f5c878b-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 176,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dadc7d0e-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 84,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-223-nau-mocha-1_90.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8c1ad1fc-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 110,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a6674180-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6abc5137-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 341,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5bcd58ad-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 227,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056a7f89-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-174-den-1_59.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95a42c3-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7083618b-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 796,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2275011d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 786,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "437cb9b0-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 518,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a1e277e9-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000003",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-1874-xam_thunderstorm-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9d97aa2e-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 114,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13d49b70-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 334,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44dc2478-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 343,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dae1b0d7-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 231,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59801be6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6cc1b-4fec-1404-3735-974c00000000",
+      "name": "Quần Legging Full Length Yoga Light Support ",
+      "description": null,
+      "basePrice": 549000,
+      "discountedPrice": 549000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-223-nau-mocha-1_90.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-223-nau-mocha-1_90.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8c1ad1fc-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 110,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a6674180-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6abc5137-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 341,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5bcd58ad-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 227,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056a7f89-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-174-den-1_59.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95a42c3-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7083618b-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 796,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2275011d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 786,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "437cb9b0-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 518,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a1e277e9-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-1874-xam_thunderstorm-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9d97aa2e-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 114,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13d49b70-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 334,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44dc2478-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 343,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dae1b0d7-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 231,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59801be6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6cc1b-4fec-1404-3735-974c00000000",
+      "name": "Quần Legging Full Length Yoga Light Support ",
+      "description": null,
+      "basePrice": 549000,
+      "discountedPrice": 549000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-174-den-1_59.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-174-den-1_59.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95a42c3-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7083618b-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 796,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2275011d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 786,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "437cb9b0-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 518,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a1e277e9-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-223-nau-mocha-1_90.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8c1ad1fc-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 110,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a6674180-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6abc5137-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 341,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5bcd58ad-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 227,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056a7f89-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-1874-xam_thunderstorm-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9d97aa2e-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 114,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13d49b70-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 334,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44dc2478-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 343,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dae1b0d7-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 231,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59801be6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c6cc1b-4fec-1404-3735-974c00000000",
+      "name": "Quần Legging Full Length Yoga Light Support ",
+      "description": null,
+      "basePrice": 549000,
+      "discountedPrice": 549000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-174-den-1_59.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-174-den-1_59.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "e95a42c3-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "7083618b-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 796,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "2275011d-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 786,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "437cb9b0-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 518,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a1e277e9-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 263,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Nâu Mocha",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-223-nau-mocha-1_90.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "8c1ad1fc-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 110,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a6674180-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 336,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "6abc5137-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 341,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5bcd58ad-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 227,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "056a7f89-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 116,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000002",
+          "colorName": "Xám",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-yoga-coolsoft-light-support-1874-xam_thunderstorm-1.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "9d97aa2e-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 114,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "13d49b70-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 334,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "44dc2478-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 343,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "dae1b0d7-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 231,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "59801be6-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 108,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c5258a-164a-235e-b62b-c5f600000000",
+      "name": "Biker Shorts nữ chạy bộ 8inch",
+      "description": null,
+      "basePrice": 449000,
+      "discountedPrice": 449000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/biker-short-nu-chay-bo-8-inch-631_-den.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-short-nu-chay-bo-8-inch-631_-den.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f53fe2fc-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 208,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "843aafa0-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 621,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "5dbf0bc8-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 615,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "64edd187-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 403,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "afbb3425-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 199,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xanh Poseidon",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/biker-short-nu-chay-bo-8-inch-Xanh-Poseidon-2.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "72aabfb4-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 90,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "d255babd-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 268,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "e095dbd4-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 264,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "0ac4f168-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 176,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "a413e557-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 89,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c025ab-b82a-4e1c-b050-955d00000000",
+      "name": "Quần Legging Full Length chạy bộ Medium Support",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-full-length-chay-bo-medium-support-27--xam-dam_83.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Xám đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-chay-bo-medium-support-27--xam-dam_83.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "36ee6ab4-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 51,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "11de4cab-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 166,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "184b34b4-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 107,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "068323a7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 48,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "184b34b4-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 166,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-chay-bo-medium-support-17-den_18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f9912dd3-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 126,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bb96bea6-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 368,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bcea4a79-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 348,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "68946910-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 232,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "14e65348-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+,
+    {
+      "id": "67c025ab-b82a-4e1c-b050-955d00000000",
+      "name": "Quần Legging Full Length chạy bộ Medium Support",
+      "description": null,
+      "basePrice": 539000,
+      "discountedPrice": 539000,
+      "mainImageUrl": "https://media3.coolmate.me//image/March2025/legging-full-length-chay-bo-medium-support-17-den_18.jpg",
+      "discountDisplayDTO": null,
+      "productColorsDisplayDTO": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "colorName": "Đen",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-chay-bo-medium-support-17-den_18.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "f9912dd3-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 126,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bb96bea6-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 368,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "bcea4a79-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 348,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "68946910-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 232,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "14e65348-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 101,
+              "imageUrlVariation": null
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "colorName": "Xám đậm",
+          "colorCode": null,
+          "imageUrlColor": "https://media3.coolmate.me//image/March2025/legging-full-length-chay-bo-medium-support-27--xam-dam_83.jpg",
+          "productVariationDisplayDTOs": [
+            {
+              "id": "36ee6ab4-0000-0000-0000-000000000000",
+              "size": "XS",
+              "description": null,
+              "quantity": 51,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "11de4cab-0000-0000-0000-000000000000",
+              "size": "S",
+              "description": null,
+              "quantity": 166,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "184b34b4-0000-0000-0000-000000000000",
+              "size": "L",
+              "description": null,
+              "quantity": 107,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "068323a7-0000-0000-0000-000000000000",
+              "size": "XL",
+              "description": null,
+              "quantity": 48,
+              "imageUrlVariation": null
+            },
+            {
+              "id": "184b34b4-0000-0000-0000-000000000000",
+              "size": "M",
+              "description": null,
+              "quantity": 166,
+              "imageUrlVariation": null
+            }
+          ]
+        }
+      ],
+"productCategoryDisplayDTO": {
+        "id": "252c357d-cf4e-4646-9b7c-10f1b9b08b35",
+        "name": "Quần Legging",
+        "imageUrl": null
+      }    }
+  ]

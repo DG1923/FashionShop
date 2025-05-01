@@ -1,4 +1,4 @@
-[
+
   [
     {
       "id": "65a20cd3-1ded-ed29-8a0c-4ff200000000",
@@ -7,12 +7,7 @@
       "basePrice": 439000,
       "discountedPrice": 439000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-wash-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "90c57c2b-f81c-411d-b078-298c831ff30a",
@@ -107,8 +102,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65a20cd3-1ded-ed29-8a0c-4ff200000000",
       "name": "Quần Jeans Nam siêu nhẹ",
@@ -116,12 +110,7 @@
       "basePrice": 439000,
       "discountedPrice": 439000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-nhat-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
@@ -173,8 +162,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65517e27-b03b-3f20-da06-e53c00000000",
       "name": "Quần Jeans Nam Basics dáng Slim fit",
@@ -182,12 +170,7 @@
       "basePrice": 449000,
       "discountedPrice": 449000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-wash-1_32.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "d00c40a0-924c-4e4e-8033-79080a6f8317",
@@ -325,8 +308,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65517e27-b03b-3f20-da06-e53c00000000",
       "name": "Quần Jeans Nam Basics dáng Slim fit",
@@ -334,12 +316,7 @@
       "basePrice": 449000,
       "discountedPrice": 449000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-xanh-dam-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
@@ -391,8 +368,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65517e27-b03b-3f20-da06-e53c00000000",
       "name": "Quần Jeans Nam Basics dáng Slim fit",
@@ -400,12 +376,7 @@
       "basePrice": 449000,
       "discountedPrice": 449000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-slim-fit-den-1_41.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "b470b33a-e95d-4468-b4b0-4e32983e4864",
@@ -457,8 +428,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65517e27-b03b-3f20-da06-e50e00000000",
       "name": "Quần Jeans Nam Basics dáng Straight",
@@ -466,12 +436,7 @@
       "basePrice": 449000,
       "discountedPrice": 449000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-dam-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
@@ -523,8 +488,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65517e27-b03b-3f20-da06-e50e00000000",
       "name": "Quần Jeans Nam Basics dáng Straight",
@@ -532,12 +496,7 @@
       "basePrice": 449000,
       "discountedPrice": 449000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-den-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "b470b33a-e95d-4468-b4b0-4e32983e4864",
@@ -589,8 +548,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65517e27-b03b-3f20-da06-e50e00000000",
       "name": "Quần Jeans Nam Basics dáng Straight",
@@ -598,12 +556,7 @@
       "basePrice": 449000,
       "discountedPrice": 449000,
       "mainImageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-basics-dang-regular-straight-xanh-sang-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
@@ -741,8 +694,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "641ab6cb-a435-d04c-7f28-0d5900000000",
       "name": "Quần Jeans Nam Copper Denim OG Slim",
@@ -750,12 +702,7 @@
       "basePrice": 599000,
       "discountedPrice": 599000,
       "mainImageUrl": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_OG_Slim-thuumb-2.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
@@ -807,8 +754,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "64199b8c-00f7-504a-4362-334a00000000",
       "name": "Quần Jeans Nam Copper Denim Slim Fit",
@@ -816,12 +762,7 @@
       "basePrice": 539000,
       "discountedPrice": 539000,
       "mainImageUrl": "https://media3.coolmate.me//image/May2023/Quan_Jeans_dang_Slim_Fit-thumb-1.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "58e20518-245f-4c9a-9066-5a7231f2ccfa",
@@ -895,8 +836,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "64199b8c-00f7-504a-4362-334a00000000",
       "name": "Quần Jeans Nam Copper Denim Slim Fit",
@@ -904,12 +844,7 @@
       "basePrice": 539000,
       "discountedPrice": 539000,
       "mainImageUrl": "https://media3.coolmate.me//image/September2024/Coolmate_x_Copper_Jeans_-_Slimfit__-_Xanh_nhat_7.jpg",
-      "discountDisplayDTO": {
-        "id": null,
-        "name": null,
-        "discountPercent": null,
-        "isActive": false
-      },
+      "discountDisplayDTO":null,
       "productColorsDisplayDTO": [
         {
           "id": "2e7e2d54-64d2-4205-b89a-ca48219a36b4",
@@ -962,4 +897,3 @@
       }
     }
   ]
-]

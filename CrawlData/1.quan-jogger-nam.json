@@ -1,4 +1,4 @@
-[
+
   [
     {
       "id": "676bbee4-ce1a-a807-a934-700b00000000",
@@ -102,8 +102,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "676b894c-6f5a-d87c-e52a-841e00000000",
       "name": "Quần Jogger nam thể thao Hybrid Woven",
@@ -249,8 +248,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "6732ba46-46aa-f361-4309-784800000000",
       "name": "Quần Jogger thể thao Track Pants Essential",
@@ -439,8 +437,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "672c920a-f4ae-2a09-3923-6e7800000000",
       "name": "Quần Jogger ECC Warp Knitting",
@@ -629,8 +626,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "6724426c-ee8c-3014-ba39-21d100000000",
       "name": "Quần Jogger thể thao Fleece Track Pants Premium",
@@ -776,8 +772,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "66665e30-c469-2615-7132-19e200000000",
       "name": "Quần Jogger Thể Thao ExDry",
@@ -923,8 +918,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65798ace-52b8-b42f-5248-2b6700000000",
       "name": "Quần Jogger Nam UT đa năng",
@@ -1070,8 +1064,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65798ace-52b8-b42f-5248-2b6700000000",
       "name": "Quần Jogger Nam UT đa năng",
@@ -1217,8 +1210,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "65798ace-52b8-b42f-5248-2b6700000000",
       "name": "Quần Jogger Nam UT đa năng",
@@ -1364,8 +1356,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "6532532f-fd42-3f1b-4642-412f00000000",
       "name": "Quần Jogger Nam Daily Wear",
@@ -1425,8 +1416,7 @@
         "imageUrl": "string"
       }
     }
-  ],
-  [
+,
     {
       "id": "652dfcb7-c0db-833e-6379-5c1800000000",
       "name": "Quần Jogger Nam Excool",
@@ -1573,4 +1563,3 @@
       }
     }
   ]
-]
