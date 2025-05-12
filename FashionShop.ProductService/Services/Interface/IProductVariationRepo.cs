@@ -1,6 +1,6 @@
 ﻿using FashionShop.ProductService.Models;
 
-namespace FashionShop.ProductService.Services
+namespace FashionShop.ProductService.Services.Interface
 {
     public interface IProductVariationRepo : IGenericRepo<ProductVariation>
     {

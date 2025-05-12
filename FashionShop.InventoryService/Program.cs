@@ -1,4 +1,12 @@
 
+using FashionShop.InventoryService.Data;
+using FashionShop.InventoryService.Repository;
+using FashionShop.InventoryService.Repository.Interface;
+using FashionShop.InventoryService.Services.Interface;
+using FashionShop.InventoryService.SyncDataService.Grpc.GrpcService;
+using FashionShop.ProductService.Protos;
+using Microsoft.EntityFrameworkCore;
+
 namespace FashionShop.InventoryService
 {
     public class Program
@@ -14,7 +22,19 @@ namespace FashionShop.InventoryService
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            //add service GRPC
+            builder.Services.AddGrpc();
+            //add connection to db
+            builder.Services.AddDbContext<InventoryDBContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            //add service
+            builder.Services.AddScoped<IInventoryRepo, InventoryRepo>();
+            builder.Services.AddScoped<IInventoryService, Services.InventoryService>();
+
+
+            
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -26,6 +46,12 @@ namespace FashionShop.InventoryService
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+            //Configure the gRPC service
+            app.MapGrpcService<GrpcInventoryService>();
+            app.MapGet("/Protos/ProductProto.proto", async context =>
+            {
+                await context.Response.WriteAsync(File.ReadAllText("Proto/ProductProto.proto"));
+            });
 
 
             app.MapControllers();

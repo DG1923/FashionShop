@@ -1,5 +1,6 @@
 ﻿using FashionShop.ProductService.Data;
 using FashionShop.ProductService.Models;
+using FashionShop.ProductService.Services.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 

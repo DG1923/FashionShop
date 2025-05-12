@@ -1,6 +1,7 @@
 ﻿using FashionShop.ProductService.DTOs;
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Services;
+using FashionShop.ProductService.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 

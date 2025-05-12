@@ -1,5 +1,7 @@
 ﻿using FashionShop.ProductService.Data;
+using FashionShop.ProductService.DTOs;
 using FashionShop.ProductService.Models;
+using FashionShop.ProductService.Services.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
@@ -27,30 +29,7 @@ namespace FashionShop.ProductService.Services
 
         public async Task<IEnumerable<ProductVariation>> GetProductVariationsByProductId(Guid productId)
         {
-        //    if (productId == Guid.Empty)
-        //    {
-        //        throw new ArgumentNullException(nameof(productId));
-        //    }
-        //    string cacheKey = $"{_cachePrefix}_by_product_{productId}";
-        //    string cachedData = await _cache.GetStringAsync(cacheKey);
-        //    if (!string.IsNullOrEmpty(cachedData))
-        //    {
-        //        return JsonSerializer.Deserialize<IEnumerable<ProductVariation>>(cachedData);
-        //    }
-        //    var productVariations = _dbSet.Where(p => p.ProductId == productId);
-        //    if (productVariations == null)
-        //    {
-        //        throw new ArgumentNullException(nameof(productVariations));
-        //    }
-        //    //set the expiration time for cache
-        //    var options = GetExpirationOptions();
-        //    // Serialize the product variations to JSON
-        //    string jsonData = JsonSerializer.Serialize(productVariations);
-        //    // Store the JSON data in the cache
-        //    await _cache.SetStringAsync(cacheKey, jsonData, options);
-        //    return productVariations;
             throw new NotImplementedException();
-
         }
 
         public async Task UpdateQuantity(Guid id, int quantity)

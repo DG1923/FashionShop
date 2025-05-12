@@ -1,6 +1,7 @@
 ﻿
 using FashionShop.ProductService.Data;
 using FashionShop.ProductService.Models;
+using FashionShop.ProductService.Services.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
@@ -35,7 +36,7 @@ namespace FashionShop.ProductService.Services
             if(entity == null)
             {
                 throw new ArgumentNullException(nameof(entity));
-            }
+            }   
             await _dbSet.AddAsync(entity);
             var result = await _context.SaveChangesAsync();
             if (result > 0)
