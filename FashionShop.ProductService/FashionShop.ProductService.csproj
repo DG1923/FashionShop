@@ -36,7 +36,7 @@
 		<Protobuf Include="Protos\SyncQuantity.proto" GrpcService="Server" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="SyncDataService\GrpcClient\" />
+	  <Folder Include="Service\Interface\" />
 	</ItemGroup>
 
 </Project>

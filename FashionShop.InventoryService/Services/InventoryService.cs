@@ -51,26 +51,19 @@ namespace FashionShop.InventoryService.Services
                         Quantity = Math.Max(0, updateInventoryDto.QuantityChange),
                         
                     };
+                    return await _repo.CreateAsync(inventoryExit);  
                 }
                 else
                 {
-                    inventoryExit.Quantity = Math.Max(0,updateInventoryDto.QuantityChange);
-                }
-                var result =await _repo.UpdateAsync(inventoryExit);
-                if (result == true)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
+                    inventoryExit.Quantity = Math.Max(0, updateInventoryDto.QuantityChange);
+                    return await _repo.UpdateAsync(inventoryExit);  
                 }
 
             }
             catch (Exception ex) { 
                 Console.WriteLine($"{ex.Message}");
                 return false;
-                throw;
+                
             }
         }
 
@@ -79,6 +72,16 @@ namespace FashionShop.InventoryService.Services
             IEnumerable<Inventory> result = await _repo.GetAllAsync();
 
             return result.ToList();
+        }
+
+        public async Task<bool> ExternalInventoryExit(Guid inventoryId)
+        {
+            var inventory = await _repo.GetByIdAsync(inventoryId);
+            if (inventory == null)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

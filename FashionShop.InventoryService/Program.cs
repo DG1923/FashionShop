@@ -3,6 +3,7 @@ using FashionShop.InventoryService.Data;
 using FashionShop.InventoryService.Repository;
 using FashionShop.InventoryService.Repository.Interface;
 using FashionShop.InventoryService.Services.Interface;
+using FashionShop.InventoryService.SyncDataService.Grpc.GrpcClient;
 using FashionShop.InventoryService.SyncDataService.Grpc.GrpcService;
 using FashionShop.ProductService.Protos;
 using Microsoft.EntityFrameworkCore;
@@ -30,9 +31,9 @@ namespace FashionShop.InventoryService
             //add service
             builder.Services.AddScoped<IInventoryRepo, InventoryRepo>();
             builder.Services.AddScoped<IInventoryService, Services.InventoryService>();
+            builder.Services.AddScoped<ISyncQuantityClient, SyncQuantityClient>();
 
 
-            
             var app = builder.Build();
 
 
@@ -47,13 +48,13 @@ namespace FashionShop.InventoryService
 
             app.UseAuthorization();
             //Configure the gRPC service
-            app.MapGrpcService<GrpcInventoryService>();
+            app.MapGrpcService<ProductProtoService>();
             app.MapGet("/Protos/ProductProto.proto", async context =>
             {
                 await context.Response.WriteAsync(File.ReadAllText("Proto/ProductProto.proto"));
             });
 
-
+            PrepDb.PrepareQuantity(app);
             app.MapControllers();
 
             app.Run();

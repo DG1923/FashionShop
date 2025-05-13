@@ -4,6 +4,7 @@ option csharp_namespace = "FashionShop.ProductService.Protos";
 
 service GrpcProduct{
 	rpc GetQuantity(ProductRequest) returns (InventoryResponse);
+	rpc UpdateQuantity(ProductUpdateRequest) returns (InventoryUpdateRespone);
 }
 message ProductRequest{
 	string ProductId = 1;
@@ -11,4 +12,11 @@ message ProductRequest{
 message InventoryResponse{
 	string InventoryId = 1;
 	int32 Quantity = 2;
+}
+message ProductUpdateRequest{
+	string ProductId = 1;
+	int32 Quantity = 2;
+}
+message InventoryUpdateRespone{
+	bool Success = 1;	
 }

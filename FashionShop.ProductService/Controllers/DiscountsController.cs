@@ -1,5 +1,5 @@
 ﻿using FashionShop.ProductService.Models;
-using FashionShop.ProductService.Services.Interface;
+using FashionShop.ProductService.Repo.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

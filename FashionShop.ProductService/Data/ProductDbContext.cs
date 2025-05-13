@@ -59,8 +59,12 @@ namespace FashionShop.ProductService.Data
             modelBuilder.Entity<Product>()
                 .Property(p => p.BasePrice)
                 .HasColumnType("decimal(18,2)");
+            modelBuilder.Entity<ProductVariation>()
+                .Property(p => p.Quantity)
+                .HasField("_quantity")
+                .UsePropertyAccessMode(PropertyAccessMode.Field);
 
-           
+
         }
   
     }

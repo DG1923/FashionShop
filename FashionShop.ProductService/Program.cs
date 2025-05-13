@@ -1,8 +1,11 @@
 
 using FashionShop.ProductService.Data;
 using FashionShop.ProductService.Models;
-using FashionShop.ProductService.Services;
-using FashionShop.ProductService.Services.Interface;
+using FashionShop.ProductService.Repo;
+using FashionShop.ProductService.Repo.Interface;
+using FashionShop.ProductService.Service;
+using FashionShop.ProductService.Service.Interface;
+using FashionShop.ProductService.SyncDataService.GrpcService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -33,13 +36,21 @@ namespace FashionShop.ProductService
                 string redisConnectionString = builder.Configuration.GetConnectionString("RedisConnection");
                 options.Configuration = redisConnectionString;
             });
+            builder.Services.AddGrpc();
+
+            //Register repo
             builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
             builder.Services.AddScoped<IProductCategoryRepo, ProductCategoryRepo>();
             builder.Services.AddScoped<IProductRepo, ProductRepo>();
             builder.Services.AddScoped<IDiscountRepo, DiscountRepo>();
             builder.Services.AddScoped<IProductVariationRepo, ProductVariationRepo>();
+
+            //Register services
+            //builder.Services.AddScoped(typeof(IBaseService<,,>),typeof(MapCreateToEntity<,,>));
+            builder.Services.AddScoped<IProductService, ProductsService>();
+
             //// Configure authentication
-            //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //builder.Repo.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //                    .AddJwtBearer(options =>
             //    {
             //        options.TokenValidationParameters = new TokenValidationParameters
@@ -64,22 +75,27 @@ namespace FashionShop.ProductService
                 {
                     SeedData(dbContext);
                 }
-                // Configure the HTTP request pipeline.
-                if (app.Environment.IsDevelopment())
-                {
-                    app.UseSwagger();
-                    app.UseSwaggerUI();
-                }
-
-                app.UseHttpsRedirection();
-                app.UseAuthentication();    
-                app.UseAuthorization();
-
-
-                app.MapControllers();
-
-                app.Run();
+               
             }
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.MapGrpcService<SyncQuantityService>();
+            app.MapGet("/Protos/SyncQuantity.proto", async context =>
+            {
+                await context.Response.WriteAsync("gRPC service is running");
+            });
+            app.MapControllers();
+
+            app.Run();
         }
 
         private static void SeedData(ProductDbContext dbContext)

@@ -9,6 +9,7 @@ namespace FashionShop.InventoryService.Services.Interface
         Task<List<Inventory>> GetAll();
         Task<InventoryDisplayDto> GetInventoryByProductIdAsync(Guid productId);
         Task<bool> UpdateInventory(UpdateInventoryDto updateInventoryDto);
+        Task<bool> ExternalInventoryExit(Guid inventoryId);
 
     }
 }
