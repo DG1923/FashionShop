@@ -132,7 +132,7 @@ namespace FashionShop.UserService.Services
             //add claims of user, claims are key-value pairs that contain information about the user
             var authClaims = new List<Claim>
             {
-                new Claim("sub",user.Id.ToString()),
+               
                 new Claim("name",user.UserName),
                 new Claim("emailaddress",user.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),

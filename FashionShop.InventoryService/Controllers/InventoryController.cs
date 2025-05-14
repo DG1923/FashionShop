@@ -1,12 +1,14 @@
 ﻿using FashionShop.InventoryService.AsynDataService;
 using FashionShop.InventoryService.DTOs;
 using FashionShop.InventoryService.Services.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace FashionShop.InventoryService.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class InventoryController : ControllerBase

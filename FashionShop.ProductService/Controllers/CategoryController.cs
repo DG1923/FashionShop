@@ -3,6 +3,7 @@ using FashionShop.ProductService.DTOs.CategoryDTO;
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo;
 using FashionShop.ProductService.Repo.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 
@@ -10,6 +11,7 @@ using Microsoft.Extensions.Caching.Distributed;
 
 namespace FashionShop.ProductService.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase

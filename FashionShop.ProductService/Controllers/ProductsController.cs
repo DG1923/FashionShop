@@ -2,12 +2,14 @@
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo.Interface;
 using FashionShop.ProductService.Service.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.ProductService.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -18,6 +20,7 @@ namespace FashionShop.ProductService.Controllers
         {
             _service = service;
         }
+        
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
@@ -81,6 +84,7 @@ namespace FashionShop.ProductService.Controllers
 
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> CreateProduct(ProductCreateDTO productCreateDTO)
         {
             var result = await _service.CreateServiceAsync(productCreateDTO);
@@ -91,6 +95,7 @@ namespace FashionShop.ProductService.Controllers
             return BadRequest("Failed to create product.");
         }
         [HttpPost("/add-range")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProductsRange(List<ProductCreateDetailDTO> list)
         {
         
@@ -102,6 +107,7 @@ namespace FashionShop.ProductService.Controllers
             return Ok(listResult);
         }
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateProduct(Guid id, ProductUpdateNormal productUpdate)
         {
             var result = await _service.UpdateServiceAsync(id,productUpdate);
@@ -112,6 +118,7 @@ namespace FashionShop.ProductService.Controllers
             return BadRequest("Failed to update product.");
         }
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]    
         public async Task<IActionResult> DeleteProduct(Guid id)
         { 
             var result = await _service.DeleteServiceAsync(id);
