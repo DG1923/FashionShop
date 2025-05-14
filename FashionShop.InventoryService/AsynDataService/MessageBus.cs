@@ -28,8 +28,16 @@ namespace FashionShop.InventoryService.AsynDataService
                 _channel = _connection.CreateModel();
                 _channel.ExchangeDeclare(
                     exchange: "trigger",
-                    type: ExchangeType.Fanout
+                    type: ExchangeType.Fanout,
+                    durable:true
                     );
+                _channel.QueueDeclare(
+                    queue: "product_quantity_update",
+                    durable: true,
+                    exclusive: false,
+                    autoDelete: false,
+                    arguments: null
+                    );  
                 _connection.ConnectionShutdown += (sender, e) =>
                 {
                     Console.WriteLine("Connection shutdown");
@@ -54,13 +62,16 @@ namespace FashionShop.InventoryService.AsynDataService
 
         private void SendMessage(string message)
         {
-            var body = Encoding.UTF8.GetBytes(message); 
+            var body = Encoding.UTF8.GetBytes(message);
+            var properties = _channel.CreateBasicProperties();
+            properties.Persistent = true; // Make message persistent
+
             _channel.BasicPublish(
                 exchange: "trigger",
                 routingKey: "",
-                basicProperties: null,
+                basicProperties: properties,
                 body: body
-                );
+            );
             Console.WriteLine("Message sent to RabbitMQ");
         }
         public void Dispose()
