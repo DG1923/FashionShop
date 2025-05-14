@@ -15,12 +15,31 @@ namespace FashionShop.InventoryService.Services
             _repo = repo;
             
         }
+        public async Task<InventoryDisplayDto> GetByIdAsync(Guid id)
+        {
+            if (id == Guid.Empty)
+            {
+                throw new ArgumentNullException("id is null");
+            }
+            var inventory = await _repo.GetByIdAsync(id);
+            if (inventory == null)
+            {
+                return null;
+            }
 
+            return new InventoryDisplayDto
+            {
+                InventoryId = inventory.Id,
+                ProductId = inventory.ProductId,
+                Quantity = inventory.Quantity,
+            };
+
+        }
         public async Task<InventoryDisplayDto> GetInventoryByProductIdAsync(Guid productId)
         {
             try
             {
-                var inventory = await _repo.GetByIdAsync(productId);
+                var inventory = await _repo.GetByProductIdAsync(productId);
                 if (inventory == null) {
                     return null;
                 }
@@ -43,7 +62,7 @@ namespace FashionShop.InventoryService.Services
         {
             try
             {
-                var inventoryExit =await _repo.GetByIdAsync(updateInventoryDto.ProductId);
+                var inventoryExit =await _repo.GetByProductIdAsync(updateInventoryDto.ProductId);
                 if (inventoryExit == null) {
                     inventoryExit = new Inventory
                     {

@@ -4,11 +4,11 @@ using FashionShop.ProductService.Service.Interface;
 
 namespace FashionShop.ProductService.Service
 {
-    public class MapToEntity<T, TCreate, TUpdate> : IBaseService<T, TCreate, TUpdate> where T : BaseEntity, new()
+    public class BaseService<T, TCreate, TUpdate> : IBaseService<T, TCreate, TUpdate> where T : BaseEntity, new()
     {
         private readonly IGenericRepo<T> _repo;
 
-        public MapToEntity(IGenericRepo<T> repo)
+        public BaseService(IGenericRepo<T> repo)
         {
             _repo = repo;
         }
@@ -84,12 +84,12 @@ namespace FashionShop.ProductService.Service
         }
 
         // Helper method to map TCreate DTO to T entity  
-        protected virtual T MapCreateToEntity(TCreate dto) {
+        public virtual T MapCreateToEntity(TCreate dto) {
             throw new NotImplementedException();
         }
 
         // Helper method to map TUpdate DTO to an existing T entity  
-        protected virtual void MapToExistingEntity(T entity, TUpdate dto) { 
+        public virtual void MapToExistingEntity(T entity, TUpdate dto) { 
             throw new NotImplementedException();
         }
     }

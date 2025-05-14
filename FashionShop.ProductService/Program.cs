@@ -1,10 +1,13 @@
 
+using FashionShop.ProductService.AsyncDataService;
 using FashionShop.ProductService.Data;
+using FashionShop.ProductService.EventProcessing;
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo;
 using FashionShop.ProductService.Repo.Interface;
 using FashionShop.ProductService.Service;
 using FashionShop.ProductService.Service.Interface;
+using FashionShop.ProductService.SyncDataService.GrpcClient;
 using FashionShop.ProductService.SyncDataService.GrpcService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -46,9 +49,17 @@ namespace FashionShop.ProductService
             builder.Services.AddScoped<IProductVariationRepo, ProductVariationRepo>();
 
             //Register services
-            //builder.Services.AddScoped(typeof(IBaseService<,,>),typeof(MapCreateToEntity<,,>));
+            builder.Services.AddScoped(typeof(IBaseService<,,>),typeof(BaseService<,,>));
             builder.Services.AddScoped<IProductService, ProductsService>();
+            builder.Services.AddScoped<IProductVariationService, ProductVariationService>();
 
+            // Register gRPC client
+            builder.Services.AddScoped<IProductProtoClient, ProductProtoClient>();
+
+            //Add host service subcriber event
+            builder.Services.AddHostedService<MessageBusSubcriber>();
+            //add service to process event
+            builder.Services.AddSingleton<IEventProcessor, EventProcessor>();
             //// Configure authentication
             //builder.Repo.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //                    .AddJwtBearer(options =>
@@ -64,6 +75,7 @@ namespace FashionShop.ProductService
             //            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
             //        };
             //    });
+
 
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())

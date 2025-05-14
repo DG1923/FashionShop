@@ -9,5 +9,6 @@ namespace FashionShop.InventoryService.Repository.Interface
         Task<bool> CreateAsync(Inventory entity);
         Task<bool> UpdateAsync(Inventory entity);
         Task<bool> DeleteAsync(Guid id);
+        Task<Inventory> GetByProductIdAsync(Guid productId);
     }
 }

@@ -1,4 +1,5 @@
 
+using FashionShop.InventoryService.AsynDataService;
 using FashionShop.InventoryService.Data;
 using FashionShop.InventoryService.Repository;
 using FashionShop.InventoryService.Repository.Interface;
@@ -33,6 +34,8 @@ namespace FashionShop.InventoryService
             builder.Services.AddScoped<IInventoryService, Services.InventoryService>();
             builder.Services.AddScoped<ISyncQuantityClient, SyncQuantityClient>();
 
+            //add services for RabbitMQ 
+            builder.Services.AddSingleton<IMessageBus, MessageBus>();
 
             var app = builder.Build();
 
@@ -53,8 +56,11 @@ namespace FashionShop.InventoryService
             {
                 await context.Response.WriteAsync(File.ReadAllText("Proto/ProductProto.proto"));
             });
-
-            PrepDb.PrepareQuantity(app);
+            if (app.Environment.IsProduction())
+            {
+                PrepDb.PrepareQuantity(app);
+            }
+            
             app.MapControllers();
 
             app.Run();

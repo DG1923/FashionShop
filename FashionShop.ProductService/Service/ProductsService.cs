@@ -6,7 +6,7 @@ using FashionShop.ProductService.SyncDataService.GrpcClient;
 
 namespace FashionShop.ProductService.Service
 {
-    public class ProductsService:MapToEntity<Product,ProductCreateDTO,ProductUpdateNormal>, IProductService
+    public class ProductsService:BaseService<Product,ProductCreateDTO,ProductUpdateNormal>, IProductService
     {
         private readonly IProductRepo _productRepo;
         private readonly IProductProtoClient _productProtoClient;
@@ -49,7 +49,7 @@ namespace FashionShop.ProductService.Service
             return _productRepo.GetProductsByCategory(categoryId);
         }
 
-        protected override Product MapCreateToEntity(ProductCreateDTO dto)
+        public override Product MapCreateToEntity(ProductCreateDTO dto)
         {
             return new Product
             {
@@ -64,7 +64,7 @@ namespace FashionShop.ProductService.Service
             };
         }
 
-        protected override void MapToExistingEntity(Product entity, ProductUpdateNormal dto)
+        public override void MapToExistingEntity(Product entity, ProductUpdateNormal dto)
         {
             entity.Name = dto.Name;
             entity.BasePrice = dto.Price;

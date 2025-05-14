@@ -9,6 +9,6 @@ public interface IBaseService<T, TCreate, TUpdate> where T : BaseEntity
     Task<T> CreateServiceAsync(TCreate entity);
     Task<T> UpdateServiceAsync(Guid id, TUpdate entity);
     Task<bool> DeleteServiceAsync(Guid id);
-    T MapToEntity(TCreate dto);
+    T MapCreateToEntity(TCreate dto);
     void MapToExistingEntity(T entity, TUpdate dto);
 }

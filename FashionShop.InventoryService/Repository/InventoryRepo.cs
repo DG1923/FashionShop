@@ -60,6 +60,20 @@ namespace FashionShop.InventoryService.Repository
             return await _dbSet.FirstOrDefaultAsync(x => x.Id == id);
         }
 
+        public Task<Inventory> GetByProductIdAsync(Guid productId)
+        {
+            if(productId == Guid.Empty)
+            {
+                throw new ArgumentNullException("productId is null");
+            }
+            var inventory =  _dbSet.FirstOrDefaultAsync(x => x.ProductId == productId);
+            if (inventory == null)
+            {
+                throw new ArgumentException("Inventory not found");
+            }
+            return inventory;
+        }
+
         public async Task<bool> UpdateAsync(Inventory entity)
         {
             if(entity == null) { throw new ArgumentNullException(nameof(entity)); }

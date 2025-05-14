@@ -16,6 +16,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.2" />
     <PackageReference Include="StackExchange.Redis" Version="2.8.31" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.15" />
@@ -34,9 +35,6 @@
 	<ItemGroup>
 		<Protobuf Include="Protos\ProductProto.proto" GrpcService="Server" />
 		<Protobuf Include="Protos\SyncQuantity.proto" GrpcService="Server" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Service\Interface\" />
 	</ItemGroup>
 
 </Project>

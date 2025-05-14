@@ -31,6 +31,11 @@ namespace FashionShop.InventoryService.Data
         }
         static async Task SeedData(IInventoryService inventoryService, List<UpdateInventoryDto> updateInventoryDtos)
         {
+            if(inventoryService == null)
+            {
+                Console.WriteLine("InventoryService is null");
+                return;
+            }
             if (updateInventoryDtos == null || updateInventoryDtos.Count == 0)
             {
                 Console.WriteLine("No data to seed");
