@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "FashionShop.CartService.Protos";
+service CreateNewCartFromNewUser{
+	rpc CreateNewCart(UserRequestToCart) returns (CartResponseToUser);
+}
+message UserRequestToCart{
+	string UserId = 1;
+}
+message CartResponseToUser{
+	bool result = 1;
+}

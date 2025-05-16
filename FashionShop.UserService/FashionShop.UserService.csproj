@@ -33,6 +33,9 @@
     <Protobuf Include="Protos\cart.proto">
       <GrpcService>Server</GrpcService>
     </Protobuf>
+    <Protobuf Include="Protos\newCart.proto">
+      <GrpcService>Server</GrpcService>
+    </Protobuf>
   </ItemGroup>
 
 </Project>

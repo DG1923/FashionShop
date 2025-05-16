@@ -1,7 +1,6 @@
 ﻿using FashionShop.UserService.DTOs;
 using FashionShop.UserService.Services;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.UserService.Controllers
@@ -40,17 +39,18 @@ namespace FashionShop.UserService.Controllers
         [Authorize]
         public async Task<IActionResult> UpdateUser(Guid userId, [FromBody] UpdateUserDto userDto)
         {
-           if(userId == Guid.Empty || userDto == null)
+            if (userId == Guid.Empty || userDto == null)
             {
                 return BadRequest("Invalid user ID or user data.");
             }
-           var result = await _userService.UpdateUserAsync(userId, userDto);
+            var result = await _userService.UpdateUserAsync(userId, userDto);
             if (result)
             {
                 return NoContent();
             }
             return NotFound("User not found.");
         }
+
         [HttpDelete("{userId}")]
         [Authorize]
         public async Task<IActionResult> DeleteUser(Guid userId)
@@ -66,7 +66,7 @@ namespace FashionShop.UserService.Controllers
             }
             return NotFound("User not found.");
         }
-        [HttpPost("update-role")]
+        [HttpPut("update-role")]
         [Authorize]
         public async Task<IActionResult> UpdateUserRoles([FromBody] UpdateUserRoleDto userRole)
         {

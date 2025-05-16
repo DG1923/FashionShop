@@ -17,7 +17,7 @@ namespace FashionShop.UserService.SyncDataService.GrpcService
         {
             Console.WriteLine("SendUserToCart: --> GetExitUser is getting users ...");
             var users = _userService.GetAllUsersAsync().Result;
-            var filter_user =
+
             var listUserResponse = new ListUserResponseToCart();
             foreach (var user in users)
             {

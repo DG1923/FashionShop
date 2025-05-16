@@ -5,6 +5,7 @@ using FashionShop.CartService.Repo.Interface;
 using FashionShop.CartService.Service;
 using FashionShop.CartService.Service.Interface;
 using FashionShop.CartService.SyncDataService.Grpc;
+using FashionShop.CartService.SyncDataService.GrpcServer;
 using FashionShop.InventoryService.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -86,6 +87,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 await PrepDb.AddSeedData(app);
+app.MapGrpcService<GrpcCreateCart>();
 app.MapControllers();
 
 app.Run();

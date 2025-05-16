@@ -1,6 +1,6 @@
 ﻿using FashionShop.UserService.DTOs;
 using FashionShop.UserService.Services;
-using Microsoft.AspNetCore.Http;
+using FashionShop.UserService.SyncDataService.GrpcClient;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.UserService.Controllers
@@ -10,15 +10,17 @@ namespace FashionShop.UserService.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
+        private readonly ISendNewUser _sendNewUser;
 
-        public AuthController(IAuthService authService)
+        public AuthController(IAuthService authService, ISendNewUser sendNewUser)
         {
             _authService = authService;
+            _sendNewUser = sendNewUser;
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
@@ -39,6 +41,7 @@ namespace FashionShop.UserService.Controllers
             var result = await _authService.RegisterAsync(registerUserDto);
             if (result.Success)
             {
+                await _sendNewUser.SendNewUser(result.UserId);
                 return Ok(result);
             }
             return BadRequest(result.Message);

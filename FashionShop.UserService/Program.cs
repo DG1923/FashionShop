@@ -3,6 +3,7 @@ using FashionShop.UserService.Data;
 using FashionShop.UserService.Models;
 using FashionShop.UserService.Services;
 using FashionShop.UserService.Settings;
+using FashionShop.UserService.SyncDataService.GrpcClient;
 using FashionShop.UserService.SyncDataService.GrpcService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -27,7 +28,7 @@ namespace FashionShop.UserService
 
             //add grpc 
             builder.Services.AddGrpc();
-
+            builder.Services.AddScoped<ISendNewUser, SendNewUser>();
 
             // Add dbcontext
             builder.Services.AddDbContext<UserDbContext>(options =>
