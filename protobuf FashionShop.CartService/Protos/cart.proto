@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "FashionShop.CartService.Protos";
+
+service CartGrpc {
+  rpc GetCartItems (CartRequest) returns (CartResponse);
+}
+
+message CartRequest {
+  string user_id = 1;
+}
+
+message CartItem {
+  string product_id = 1;
+  int32 quantity = 2;
+  double price = 3;
+  string product_name = 4;
+}
+
+message CartResponse {
+  repeated CartItem items = 1;
+  double total = 2;
+}

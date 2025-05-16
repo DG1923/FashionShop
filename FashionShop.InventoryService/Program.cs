@@ -8,11 +8,9 @@ using FashionShop.InventoryService.Services.Interface;
 using FashionShop.InventoryService.Settings;
 using FashionShop.InventoryService.SyncDataService.Grpc.GrpcClient;
 using FashionShop.InventoryService.SyncDataService.Grpc.GrpcService;
-using FashionShop.ProductService.Protos;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using StackExchange.Redis;
 
 namespace FashionShop.InventoryService
 {
@@ -138,7 +136,7 @@ namespace FashionShop.InventoryService
             {
                 PrepDb.PrepareQuantity(app);
             }
-            
+
             app.MapControllers();
 
             app.Run();

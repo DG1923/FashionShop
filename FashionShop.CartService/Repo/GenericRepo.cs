@@ -1,22 +1,21 @@
-﻿
-using FashionShop.ProductService.Data;
-using FashionShop.ProductService.Models;
-using FashionShop.ProductService.Repo.Interface;
+﻿using FashionShop.CartService.Data;
+using FashionShop.CartService.Models;
+using FashionShop.CartService.Repo.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
 
-namespace FashionShop.ProductService.Repo
+namespace FashionShop.CartService.Repo
 {
     public class GenericRepo<T> : IGenericRepo<T> where T : BaseEntity
     {
-        private readonly ProductDbContext _context;
+        private readonly CartDbContext _context;
         private readonly IDistributedCache _cache;
         private readonly DbSet<T> _dbSet;
         private readonly string _cachePrefix;
         private readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(10);
 
-        public GenericRepo(ProductDbContext context, IDistributedCache cache)
+        public GenericRepo(CartDbContext context, IDistributedCache cache)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _cache = cache ?? throw new ArgumentNullException(nameof(cache));
@@ -238,6 +237,7 @@ namespace FashionShop.ProductService.Repo
             return true;
 
         }
+
 
     }
 }
