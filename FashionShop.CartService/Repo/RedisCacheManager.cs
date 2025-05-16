@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Distributed;
+﻿using FashionShop.CartService.Repo.Interface;
+using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
 
 namespace FashionShop.CartService.Repo
@@ -6,7 +7,7 @@ namespace FashionShop.CartService.Repo
     /// <summary>
     /// Manages Redis cache operations and distributed locking for inventory.
     /// </summary>
-    public class RedisCacheManager
+    public class RedisCacheManager : IRedisCacheManager
     {
         private readonly IDistributedCache _cache;
         private readonly ILogger<RedisCacheManager> _logger;

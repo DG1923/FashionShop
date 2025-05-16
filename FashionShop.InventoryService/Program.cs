@@ -29,6 +29,7 @@ namespace FashionShop.InventoryService
 
             //add service GRPC
             builder.Services.AddGrpc();
+
             //add connection to db
             builder.Services.AddDbContext<InventoryDBContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

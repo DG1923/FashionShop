@@ -1,5 +1,10 @@
 using FashionShop.CartService.AsyncDataServices;
 using FashionShop.CartService.Data;
+using FashionShop.CartService.Repo;
+using FashionShop.CartService.Repo.Interface;
+using FashionShop.CartService.Service;
+using FashionShop.CartService.Service.Interface;
+using FashionShop.CartService.SyncDataService.Grpc;
 using FashionShop.InventoryService.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -28,12 +33,23 @@ builder.Services.AddStackExchangeRedisCache(options =>
 
 // Add gRPC
 builder.Services.AddGrpc();
+builder.Services.AddScoped<IGrpcCartClient, GrpcCartClient>();
+
+// Add service for Repositories
+builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
+builder.Services.AddScoped<ICartRepo, CartRepo>();
+builder.Services.AddScoped<ICartItemRepo, CartItemRepo>();
+
+//Add service for Services
+builder.Services.AddScoped(typeof(IBaseService<,,>), typeof(BaseService<,,>));
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<ICartItemService, CartItemService>();
 
 // Add RabbitMQ Message Bus
 builder.Services.AddSingleton<IMessageBus, MessageBus>();
 
 // Add Redis Cache Service
-//builder.Services.AddSingleton<IRedisCacheService, RedisCacheService>();
+builder.Services.AddSingleton<IRedisCacheManager, RedisCacheManager>();
 
 // Configure JWT Authentication
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
@@ -69,7 +85,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+await PrepDb.AddSeedData(app);
 app.MapControllers();
 
 app.Run();

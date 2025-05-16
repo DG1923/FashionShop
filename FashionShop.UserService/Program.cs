@@ -3,6 +3,7 @@ using FashionShop.UserService.Data;
 using FashionShop.UserService.Models;
 using FashionShop.UserService.Services;
 using FashionShop.UserService.Settings;
+using FashionShop.UserService.SyncDataService.GrpcService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,10 @@ namespace FashionShop.UserService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            //add grpc 
+            builder.Services.AddGrpc();
+
 
             // Add dbcontext
             builder.Services.AddDbContext<UserDbContext>(options =>
@@ -126,7 +131,7 @@ namespace FashionShop.UserService
                 var dbContext = services.GetRequiredService<UserDbContext>();
                 dbContext.Database.Migrate();
             }
-
+            app.MapGrpcService<SendUserToCart>();
             await app.RunAsync();
         }
     }
