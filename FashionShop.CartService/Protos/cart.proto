@@ -3,10 +3,18 @@ import "google/protobuf/empty.proto";
 option csharp_namespace = "FashionShop.CartService.Protos";
 service SyncUserToCart{
 	rpc GetExitUser(google.protobuf.Empty) returns (ListUserResponseToCart);
+	rpc CheckExitUser(CartRequestUserId) returns (UserResponeIsExitUser);
 }
 message UserResponseToCart{
 	string UserId = 1;
 }
 message ListUserResponseToCart{
 	repeated UserResponseToCart Users = 1;
+}
+
+message CartRequestUserId{
+	string UserId = 1;
+}
+message UserResponeIsExitUser{
+	bool result = 1;
 }

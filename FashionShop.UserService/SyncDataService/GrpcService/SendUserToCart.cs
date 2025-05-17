@@ -29,6 +29,31 @@ namespace FashionShop.UserService.SyncDataService.GrpcService
             Console.WriteLine($"SendUserToCart: --> GetExitUser was called with {users.Count} users");
             return Task.FromResult(listUserResponse);
         }
+        public override Task<UserResponeIsExitUser> CheckExitUser(CartRequestUserId request, ServerCallContext context)
+        {
+            Console.WriteLine("SendUserToCart: --> CheckExitUser is checking user ...");
+            try
+            {
+                Guid id = Guid.Parse(request.UserId);
+                var user = _userService.GetUserByIdAsync(id).Result;
+                var userResponse = new UserResponeIsExitUser()
+                {
+
+                    Result = user != null
+                };
+
+                return Task.FromResult(userResponse);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"--> SendUserToCart: --> CheckExitUser error: {ex.Message}");
+                return Task.FromResult(new UserResponeIsExitUser()
+                {
+                    Result = false
+                });
+            }
+        }
+
 
     }
 }

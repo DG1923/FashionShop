@@ -12,23 +12,25 @@ namespace FashionShop.UserService.Services
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole<Guid>> _roleManager;
 
-        public UserService(UserDbContext context, UserManager<User> userManager,RoleManager<IdentityRole<Guid>> roleManager)
+        public UserService(UserDbContext context, UserManager<User> userManager, RoleManager<IdentityRole<Guid>> roleManager)
         {
             _context = context;
             _userManager = userManager;
-            _roleManager =roleManager;
+            _roleManager = roleManager;
         }
 
         public async Task<bool> DeleteUserAsync(Guid userId)
         {
-            
-            if (userId == Guid.Empty) {
+
+            if (userId == Guid.Empty)
+            {
                 throw new ArgumentException("Invalid user ID format. ");
 
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(a => a.Id==userId);
-            if (user == null) { 
+            var user = await _context.Users.FirstOrDefaultAsync(a => a.Id == userId);
+            if (user == null)
+            {
                 throw new ArgumentNullException(nameof(user));
             }
             _context.Remove(user);
@@ -48,7 +50,7 @@ namespace FashionShop.UserService.Services
                     Id = user.Id,
                     UserName = user.UserName,
                     Email = user.Email,
-                    Roles = await _userManager.GetRolesAsync(user)  
+                    Roles = await _userManager.GetRolesAsync(user)
                 });
             }
             return result;
@@ -56,15 +58,17 @@ namespace FashionShop.UserService.Services
 
         public async Task<UserDto> GetUserByIdAsync(Guid id)
         {
-            
+
             if (id == Guid.Empty)
             {
-                throw new ArgumentException("Invalid user ID format.");
+                Console.WriteLine("Invalid user ID format.");
+                return null;
             }
-            var user =await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
             if (user == null)
             {
-                throw new KeyNotFoundException("User not found.");
+                Console.WriteLine("User not found.");
+                return null;
             }
             return new UserDto
             {
@@ -115,10 +119,10 @@ namespace FashionShop.UserService.Services
                     throw new Exception("Failed to create admin user.");
                 }
             }
-        }   
+        }
         public async Task<bool> UpdateUserAsync(Guid userId, UpdateUserDto userDto)
         {
-            
+
             if (userId == Guid.Empty)
             {
                 throw new ArgumentException("Invalid user ID format.");
@@ -160,7 +164,7 @@ namespace FashionShop.UserService.Services
                 throw new Exception("Failed to remove roles.");
             }
             //add new roles
-         
+
             var addResult = await _userManager.AddToRolesAsync(user, userRole.Roles);
             if (!addResult.Succeeded)
             {
