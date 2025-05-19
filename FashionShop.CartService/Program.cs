@@ -35,6 +35,7 @@ builder.Services.AddStackExchangeRedisCache(options =>
 // Add gRPC
 builder.Services.AddGrpc();
 builder.Services.AddScoped<IGrpcCartClient, GrpcCartClient>();
+builder.Services.AddScoped<IGrpcCartClient, GrpcCartClient>();
 
 // Add service for Repositories
 builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));

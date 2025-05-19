@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "FashionShop.CartService.Protos";
+service GrpcCartItemClient{
+	rpc GrpcGetQuantity(GrpcGetQuantityRequest) returns (GrpcGetQuantityResponse);
+	rpc GrpcUpdateQuantity(GrpcUpdateQuantityRequest) returns (GrpcUpdateQuantityResponse);
+}
+message GrpcGetQuantityRequest{
+	string ProductId = 1;
+}
+message GrpcGetQuantityResponse{
+	int32 Quantity = 1;
+	string ProductId =2 ;
+	bool result = 3;
+
+}
+message GrpcUpdateQuantityRequest{
+	string ProductId = 1;
+	int32 Quantity = 2;
+}
+message GrpcUpdateQuantityResponse{
+	bool result = 1;
+	string ProductId = 2;
+	int32 Quantity = 3;
+}

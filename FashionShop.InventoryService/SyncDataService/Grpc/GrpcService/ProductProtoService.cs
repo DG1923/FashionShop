@@ -23,7 +23,7 @@ namespace FashionShop.InventoryService.SyncDataService.Grpc.GrpcService
             }
             var inventory = await _service.GetInventoryByProductIdAsync(id);
             if (inventory == null)
-            {
+            {   
                 throw new RpcException(new Status(StatusCode.NotFound, "Inventory not found !"));
 
             }
