@@ -12,10 +12,7 @@ using FashionShop.ProductService.SyncDataService.GrpcClient;
 using FashionShop.ProductService.SyncDataService.GrpcService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using StackExchange.Redis;
-using System.Reflection.Emit;
 using System.Text;
 
 namespace FashionShop.ProductService
@@ -51,7 +48,7 @@ namespace FashionShop.ProductService
             builder.Services.AddScoped<IProductVariationRepo, ProductVariationRepo>();
 
             //Register services
-            builder.Services.AddScoped(typeof(IBaseService<,,>),typeof(BaseService<,,>));
+            builder.Services.AddScoped(typeof(IBaseService<,,>), typeof(BaseService<,,>));
             builder.Services.AddScoped<IProductService, ProductsService>();
             builder.Services.AddScoped<IProductVariationService, ProductVariationService>();
 
@@ -123,13 +120,14 @@ namespace FashionShop.ProductService
             using (var scope = app.Services.CreateScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<ProductDbContext>();
+
                 dbContext.Database.Migrate();
                 // Seed data if necessary
                 if (!dbContext.ProductCategories.Any() || !dbContext.Discounts.Any())
                 {
                     SeedData(dbContext);
                 }
-               
+
             }
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -249,7 +247,7 @@ namespace FashionShop.ProductService
             var variation1 = new ProductVariation
             {
                 Id = Guid.NewGuid(),
-               
+
                 Size = "M",
                 Description = "Medium size white t-shirt",
                 Quantity = 50,
@@ -260,7 +258,7 @@ namespace FashionShop.ProductService
             var variation2 = new ProductVariation
             {
                 Id = Guid.NewGuid(),
-              
+
                 Size = "32",
                 Description = "Blue slim fit jeans, size 32",
                 Quantity = 30,
@@ -271,7 +269,7 @@ namespace FashionShop.ProductService
             var variation3 = new ProductVariation
             {
                 Id = Guid.NewGuid(),
-                
+
                 Size = "10",
                 Description = "Black running shoes, size 10",
                 Quantity = 20,

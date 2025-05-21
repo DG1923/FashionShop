@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.InventoryServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.CartService", "FashionShop.CartService\FashionShop.CartService.csproj", "{FEDDFD1F-8AF3-40C4-84CC-772BCFB111BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionShop.OrderService", "FashionShop.OrderService\FashionShop.OrderService.csproj", "{86971CA3-5883-4875-A0D2-F971BBE911B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FEDDFD1F-8AF3-40C4-84CC-772BCFB111BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDDFD1F-8AF3-40C4-84CC-772BCFB111BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDDFD1F-8AF3-40C4-84CC-772BCFB111BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86971CA3-5883-4875-A0D2-F971BBE911B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86971CA3-5883-4875-A0D2-F971BBE911B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86971CA3-5883-4875-A0D2-F971BBE911B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86971CA3-5883-4875-A0D2-F971BBE911B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

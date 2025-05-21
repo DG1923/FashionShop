@@ -32,6 +32,7 @@ export class LoginSignupComponent implements OnInit {
          email:this.loginForm.value.username,
           password:this.loginForm.value.password
       }
+      console.log('Login request:', loginRequest.email,' ',loginRequest.password);
       this.authService.login(loginRequest).subscribe({
         next: (response) => {
           if (response.success) {
@@ -42,6 +43,7 @@ export class LoginSignupComponent implements OnInit {
         
       }, error: (error) => {
           console.error('Login error:', error);
+          alert(error);
         }});
       let token = this.authService.getToken();
       console.log(token); 
