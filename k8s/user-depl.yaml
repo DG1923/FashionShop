@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: command-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: userservice
+  template:
+    metadata:
+      labels:
+        app: userservice
+    spec:
+      containers:
+        - name: platformservice
+          image: dgiap/fashion-user-service:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: userservice-cluster-ip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: userservice
+  ports:
+  - protocol: TCP
+    port : 8080
+    targetPort: 8080
