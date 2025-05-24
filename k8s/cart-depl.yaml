@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cart-depl
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: cartservice
+  template:
+    metadata:
+      labels:
+        app: cartservice
+    spec:
+      containers:
+        - name: cartservice
+          image: dgiap/fashion-cart-service:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cartservice-cluster-ip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: cartservice
+  ports:
+  - name:  cartservice
+    protocol: TCP
+    port : 8080
+    targetPort: 8080
+  - name: cartservice-grpc
+    protocol: TCP
+    port : 666
+    targetPort: 666

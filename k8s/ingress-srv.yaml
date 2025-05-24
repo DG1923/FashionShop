@@ -1,0 +1,153 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: traefik-ingress-srv
+  annotations:
+    # Traefik annotations
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    # Middleware tùy chọn
+    # traefik.ingress.kubernetes.io/router.middlewares: default-cors@kubernetescrd
+spec:
+  rules:
+  - host: dogiap.com
+    http:
+      paths:
+      - path: /api/auth
+        pathType: Prefix
+        backend:
+          service:
+            name: userservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/roles
+        pathType: Prefix
+        backend:
+          service:
+            name: userservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/users
+        pathType: Prefix
+        backend:
+          service:
+            name: userservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/categories
+        pathType: Prefix
+        backend:
+          service:
+            name: productservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/products
+        pathType: Prefix
+        backend:
+          service:
+            name: productservice-cluster-ip-srv
+            port:
+              number: 8080  
+      - path: /api/discounts
+        pathType: Prefix
+        backend:
+          service:
+            name: productservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/productvariations
+        pathType: Prefix
+        backend:
+          service:
+            name: productservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/orders
+        pathType: Prefix
+        backend:
+          service:
+            name: orderservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/orderitems
+        pathType: Prefix
+        backend:
+          service:
+            name: orderservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/paymentdetails
+        pathType: Prefix
+        backend:
+          service:
+            name: orderservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/inventory
+        pathType: Prefix
+        backend:
+          service:
+            name: inventoryservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/cart
+        pathType: Prefix
+        backend:
+          service:
+            name: cartservice-cluster-ip-srv
+            port:
+              number: 8080
+      - path: /api/cartitem
+        pathType: Prefix
+        backend:
+          service:
+            name: cartservice-cluster-ip-srv
+            port:
+              number: 8080
+              
+              
+              
+              
+# ---
+# Middleware CORS (tùy chọn)
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: Middleware
+# metadata:
+#   name: cors
+# spec:
+#   headers:
+#     accessControlAllowMethods:
+#       - GET
+#       - POST
+#       - PUT
+#       - DELETE
+#       - OPTIONS
+#     accessControlAllowHeaders:
+#       - "*"
+#     accessControlAllowOriginList:
+#       - "*"
+#     accessControlMaxAge: 100
+#     addVaryHeader: true
+# ---
+# #5. Middleware Strip Prefix (nếu API không cần /api/user prefix)
+
+# ---
+# # 6. Ingress với Strip Prefix (alternative)
+# apiVersion: networking.k8s.io/v1
+# kind: Ingress
+# metadata:
+#   name: traefik-ingress-srv
+#   annotations:
+#     traefik.ingress.kubernetes.io/router.entrypoints: web
+#     traefik.ingress.kubernetes.io/router.middlewares: default-strip-prefix-user@kubernetescrd
+# spec:
+#   rules:
+#   - host: dogiap.com
+#     http:
+#       paths:
+#       - path: /user
+#         pathType: Prefix
+#         backend:
+#           service:
+#             name: userservice-cluster-ip-srv
+#             port:
+#               number: 8080

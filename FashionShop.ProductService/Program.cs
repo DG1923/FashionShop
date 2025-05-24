@@ -119,6 +119,26 @@ namespace FashionShop.ProductService
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())
             {
+                //add seed data to the in-memory database
+                var services = scope.ServiceProvider;
+                var context = services.GetRequiredService<ProductDbContext>();
+                if (builder.Environment.IsProduction())
+                {
+                    //Try migration
+                    try
+                    {
+                        Console.WriteLine("Migrating database...");
+
+                        context.Database.Migrate();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Could not run migrations: " + ex.Message);
+                    }
+                }
+            }
+            using (var scope = app.Services.CreateScope())
+            {
                 var dbContext = scope.ServiceProvider.GetRequiredService<ProductDbContext>();
 
                 dbContext.Database.Migrate();

@@ -1,0 +1,150 @@
+# 1. Tạo namespace cho Traefik
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: traefik-system
+---
+# 2. RBAC - ServiceAccount
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: traefik
+  namespace: traefik-system
+---
+# 3. RBAC - ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: traefik
+rules:
+  - apiGroups: [""]
+    resources: ["services", "endpoints", "secrets"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["extensions", "networking.k8s.io"]
+    resources: ["ingresses", "ingressclasses"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["extensions", "networking.k8s.io"]
+    resources: ["ingresses/status"]
+    verbs: ["update"]
+  - apiGroups: ["traefik.containo.us", "traefik.io"]
+    resources: ["*"]
+    verbs: ["get", "list", "watch"]
+---
+# 4. RBAC - ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: traefik
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: traefik
+subjects:
+  - kind: ServiceAccount
+    name: traefik
+    namespace: traefik-system
+---
+# 5. Traefik ConfigMap (tùy chọn)
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: traefik-config
+  namespace: traefik-system
+data:
+  traefik.yml: |
+    global:
+      sendAnonymousUsage: false
+    api:
+      dashboard: true
+      insecure: true
+    entryPoints:
+      web:
+        address: ":80"
+      websecure:
+        address: ":443"
+    providers:
+      kubernetesIngress: {}
+      kubernetesCRD: {}
+    log:
+      level: INFO
+---
+# 6. Traefik Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: traefik
+  namespace: traefik-system
+  labels:
+    app: traefik
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: traefik
+  template:
+    metadata:
+      labels:
+        app: traefik
+    spec:
+      serviceAccountName: traefik
+      containers:
+        - name: traefik
+          image: traefik:v3.0
+          args:
+            - --global.sendanonymoususage=false
+            - --api.dashboard=true
+            - --api.insecure=true
+            - --entrypoints.web.address=:80
+            - --entrypoints.websecure.address=:443
+            - --providers.kubernetesIngress=true
+            - --providers.kubernetesCRD=true
+            - --log.level=INFO
+          ports:
+            - name: web
+              containerPort: 80
+            - name: websecure
+              containerPort: 443
+            - name: admin
+              containerPort: 8080
+          resources:
+            requests:
+              memory: "100Mi"
+              cpu: "100m"
+            limits:
+              memory: "300Mi"
+              cpu: "200m"
+---
+# 7. Traefik Service - NodePort
+apiVersion: v1
+kind: Service
+metadata:
+  name: traefik
+  namespace: traefik-system
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      name: web
+      targetPort: 80
+      nodePort: 30081
+    - port: 443
+      name: websecure
+      targetPort: 443
+      nodePort: 30443
+  selector:
+    app: traefik
+---
+# 8. Dashboard Service - NodePort (để truy cập dashboard)
+apiVersion: v1
+kind: Service
+metadata:
+  name: traefik-dashboard
+  namespace: traefik-system
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30082
+  selector:
+    app: traefik

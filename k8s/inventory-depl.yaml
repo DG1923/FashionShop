@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inventory-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: inventoryservice
+  template:
+    metadata:
+      labels:
+        app: inventoryservice
+    spec:
+      containers:
+        - name: inventoryservice
+          image: dgiap/fashion-inventory-service:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: inventoryservice-cluster-ip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: inventoryservice
+  ports:
+  - name:  inventoryservice
+    protocol: TCP
+    port : 8080
+    targetPort: 8080
+  - name: inventoryservice-grpc
+    protocol: TCP
+    port : 666
+    targetPort: 666

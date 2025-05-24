@@ -77,6 +77,26 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    //add seed data to the in-memory database
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<CartDbContext>();
+    if (builder.Environment.IsProduction())
+    {
+        //Try migration
+        try
+        {
+            Console.WriteLine("Migrating database...");
+
+            context.Database.Migrate();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Could not run migrations: " + ex.Message);
+        }
+    }
+}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

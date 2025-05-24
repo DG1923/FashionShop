@@ -17,6 +17,11 @@ namespace FashionShop.UserService.Controllers
             _authService = authService;
             _sendNewUser = sendNewUser;
         }
+        [HttpGet("test")]
+        public async Task<IActionResult> Test()
+        {
+            return Ok("Test successful");
+        }
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {

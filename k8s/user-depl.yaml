@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: command-depl
+  name: user-depl
 spec:
   replicas: 1
   selector:
@@ -13,7 +13,7 @@ spec:
         app: userservice
     spec:
       containers:
-        - name: platformservice
+        - name: userservice
           image: dgiap/fashion-user-service:latest
 ---
 apiVersion: v1
@@ -25,6 +25,38 @@ spec:
   selector:
     app: userservice
   ports:
-  - protocol: TCP
+  - name: userservice
+    protocol: TCP
     port : 8080
     targetPort: 8080
+  - name: userservice-grpc
+    protocol: TCP
+    port : 666
+    targetPort: 666
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-loadbalancer-srv
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: userservice
+---
+# filepath: e:\DoAnTotNghiep\project\fashion_shop\FashionShop\k8s\user-depl.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-nodeport-srv
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 8080
+      nodePort: 30021 # You can specify a port between 30000-32767
+  selector:
+    app: userservice
