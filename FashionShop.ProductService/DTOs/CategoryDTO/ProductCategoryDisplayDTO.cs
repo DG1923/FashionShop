@@ -10,5 +10,6 @@ namespace FashionShop.ProductService.DTOs
         public string Name { get; set; }
         [MaxLength(2000)]
         public string? ImageUrl { get; set; }
+        public IEnumerable<ProductCategoryDisplayDTO>? SubCategory { get; set; }
     }
 }

@@ -1,15 +1,10 @@
 ﻿using FashionShop.ProductService.DTOs.ProductDTO;
-using FashionShop.ProductService.Models;
-using FashionShop.ProductService.Repo.Interface;
 using FashionShop.ProductService.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.ProductService.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -20,7 +15,7 @@ namespace FashionShop.ProductService.Controllers
         {
             _service = service;
         }
-        
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
@@ -43,6 +38,7 @@ namespace FashionShop.ProductService.Controllers
             }
             return Ok(result);
         }
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(Guid id)
         {
@@ -60,10 +56,11 @@ namespace FashionShop.ProductService.Controllers
             };
             return Ok(productDisplay);
         }
-        [HttpGet("{id}/details")]   
+        [AllowAnonymous]
+        [HttpGet("{id}/details")]
         public async Task<IActionResult> GetProductDetails(Guid id)
         {
-            
+
             var product = await _service.GetProductDetailService(id);
             if (product == null)
             {
@@ -71,10 +68,11 @@ namespace FashionShop.ProductService.Controllers
             }
             return Ok(product);
         }
+        [AllowAnonymous]
         [HttpGet("by-category/{categoryId}")]
         public async Task<IActionResult> GetProductsByCategory(Guid categoryId)
         {
-         
+
             var products = await _service.GetProductsByCategoryService(categoryId);
             if (products == null || !products.Any())
             {
@@ -84,11 +82,11 @@ namespace FashionShop.ProductService.Controllers
 
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")] 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProduct(ProductCreateDTO productCreateDTO)
         {
             var result = await _service.CreateServiceAsync(productCreateDTO);
-            if (result !=null)
+            if (result != null)
             {
                 return CreatedAtAction(nameof(GetProductById), new { id = result.Id }, productCreateDTO);
             }
@@ -98,8 +96,8 @@ namespace FashionShop.ProductService.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProductsRange(List<ProductCreateDetailDTO> list)
         {
-        
-            IEnumerable<ProductCreateDetailDTO> listResult =await _service.AddRangeProductService(list);
+
+            IEnumerable<ProductCreateDetailDTO> listResult = await _service.AddRangeProductService(list);
             if (listResult == null || !listResult.Any())
             {
                 return BadRequest("Failed to create products.");
@@ -110,17 +108,17 @@ namespace FashionShop.ProductService.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateProduct(Guid id, ProductUpdateNormal productUpdate)
         {
-            var result = await _service.UpdateServiceAsync(id,productUpdate);
-            if (result!=null)
+            var result = await _service.UpdateServiceAsync(id, productUpdate);
+            if (result != null)
             {
-                return CreatedAtAction(nameof(GetProductById),new { id = id },productUpdate);
+                return CreatedAtAction(nameof(GetProductById), new { id = id }, productUpdate);
             }
             return BadRequest("Failed to update product.");
         }
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]    
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(Guid id)
-        { 
+        {
             var result = await _service.DeleteServiceAsync(id);
             if (result)
             {

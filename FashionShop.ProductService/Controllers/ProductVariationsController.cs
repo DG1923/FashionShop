@@ -1,5 +1,4 @@
 ﻿using FashionShop.ProductService.Models;
-using FashionShop.ProductService.Repo.Interface;
 using FashionShop.ProductService.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +20,7 @@ namespace FashionShop.ProductService.Controllers
         }
 
         // GET: api/ProductVariations
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -31,6 +31,7 @@ namespace FashionShop.ProductService.Controllers
         }
 
         // GET: api/ProductVariations/{id}
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(Guid id)
         {
@@ -41,6 +42,7 @@ namespace FashionShop.ProductService.Controllers
         }
 
         // GET: api/ProductVariations/by-product/{productId}
+        [AllowAnonymous]
         [HttpGet("by-product/{productId}")]
         public async Task<IActionResult> GetByProductId(Guid productId)
         {

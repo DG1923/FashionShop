@@ -52,6 +52,7 @@ namespace FashionShop.ProductService
             builder.Services.AddScoped<IProductService, ProductsService>();
             builder.Services.AddScoped<IProductVariationService, ProductVariationService>();
 
+
             // Register gRPC client
             builder.Services.AddScoped<IProductProtoClient, ProductProtoClient>();
 

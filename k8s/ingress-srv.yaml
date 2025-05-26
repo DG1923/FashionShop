@@ -33,7 +33,7 @@ spec:
             name: userservice-cluster-ip-srv
             port:
               number: 8080
-      - path: /api/categories
+      - path: /api/category
         pathType: Prefix
         backend:
           service:
@@ -61,21 +61,21 @@ spec:
             name: productservice-cluster-ip-srv
             port:
               number: 8080
-      - path: /api/orders
+      - path: /api/order
         pathType: Prefix
         backend:
           service:
             name: orderservice-cluster-ip-srv
             port:
               number: 8080
-      - path: /api/orderitems
+      - path: /api/orderitem
         pathType: Prefix
         backend:
           service:
             name: orderservice-cluster-ip-srv
             port:
               number: 8080
-      - path: /api/paymentdetails
+      - path: /api/paymentdetail
         pathType: Prefix
         backend:
           service:

@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { CategoryService } from '../../services/category.service';
 interface Category {
   id: string;
   name: string;
   imageUrl: string;
   link: string;
-  displayOrder: number;
   gender: 'male' | 'female';
 }
 @Component({
@@ -22,7 +22,7 @@ export class CategoryComponent implements OnInit {
   selectedGender: 'male' | 'female' = 'male';
   isFadeIn = false; 
   isLoading = false;
-  constructor() { }
+  constructor(private categoryService:CategoryService) { }
 
   ngOnInit(): void {
     // Simulating API call with delay for demonstration
@@ -42,7 +42,7 @@ export class CategoryComponent implements OnInit {
         name: 'ÁO THUN',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMDY1OTc2fHxlbnwwfHx8fHw%3D',
         link: '/collection/ao-thun-nam',
-        displayOrder: 1,
+        
         gender: 'male'
       },
       {
@@ -50,7 +50,7 @@ export class CategoryComponent implements OnInit {
         name: 'ÁO POLO',
         imageUrl: 'https://images.unsplash.com/photo-1502989642968-94fbdc9eace4?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/ao-polo-nam',
-        displayOrder: 2,
+      
         gender: 'male'
       },
       {
@@ -58,7 +58,7 @@ export class CategoryComponent implements OnInit {
         name: 'QUẦN SHORT',
         imageUrl: 'https://images.unsplash.com/photo-1502989642968-94fbdc9eace4?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/quan-short-nam',
-        displayOrder: 3,
+        
         gender: 'male'
       },
       {
@@ -66,7 +66,7 @@ export class CategoryComponent implements OnInit {
         name: 'QUẦN LÓT',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/quan-lot-nam',
-        displayOrder: 4,
+        
         gender: 'male'
       },
       {
@@ -74,7 +74,7 @@ export class CategoryComponent implements OnInit {
         name: 'ĐỒ BƠI',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/do-boi-nam',
-        displayOrder: 5,
+        
         gender: 'male'
       },
       {
@@ -82,7 +82,7 @@ export class CategoryComponent implements OnInit {
         name: 'PHỤ KIỆN',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/phu-kien-nam',
-        displayOrder: 6,
+        
         gender: 'male'
       },
       // Female categories
@@ -91,7 +91,7 @@ export class CategoryComponent implements OnInit {
         name: 'BRA & LEGGINGS',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/bra-legging',
-        displayOrder: 1,
+        
         gender: 'female'
       },
       {
@@ -99,7 +99,7 @@ export class CategoryComponent implements OnInit {
         name: 'ÁO THỂ THAO',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/ao-thun-nu',
-        displayOrder: 2,
+        
         gender: 'female'
       },
       {
@@ -107,7 +107,7 @@ export class CategoryComponent implements OnInit {
         name: 'QUẦN THỂ THAO',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/quan-nu',
-        displayOrder: 3,
+        
         gender: 'female'
       },
       {
@@ -115,7 +115,7 @@ export class CategoryComponent implements OnInit {
         name: 'PHỤ KIỆN',
         imageUrl: 'https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         link: '/collection/phu-kien-nu',
-        displayOrder: 4,
+          
         gender: 'female'
       }
     ];
@@ -125,8 +125,7 @@ export class CategoryComponent implements OnInit {
 
   filterCategories(): void {
     this.filteredCategories = this.categories
-      .filter(category => category.gender === this.selectedGender)
-      .sort((a, b) => a.displayOrder - b.displayOrder);
+      .filter(category => category.gender === this.selectedGender);
     this.isFadeIn = true; // Start fade in
   console.log(this.isFadeIn);
   }

@@ -1,7 +1,6 @@
 ﻿using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo.Interface;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.ProductService.Controllers
@@ -16,16 +15,20 @@ namespace FashionShop.ProductService.Controllers
         public DiscountsController(IDiscountRepo context)
         {
             _context = context;
-            
+
         }
+        [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetAllDiscounts() {
+        public async Task<IActionResult> GetAllDiscounts()
+        {
             var discounts = await _context.GetAllAsync();
-            if (discounts == null) { 
+            if (discounts == null)
+            {
                 return NotFound();
             }
             return Ok(discounts);
         }
+        [AllowAnonymous]
         [HttpGet("/discounts-activate")]
         public async Task<IActionResult> GetAllDiscountsActivate()
         {
@@ -37,6 +40,7 @@ namespace FashionShop.ProductService.Controllers
             return Ok(discounts);
 
         }
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetDiscountById(Guid id)
         {
@@ -47,6 +51,7 @@ namespace FashionShop.ProductService.Controllers
             }
             return Ok(discount);
         }
+        [AllowAnonymous]
         [HttpGet("/by-product-id/{productId}")]
         public async Task<IActionResult> GetDiscountByProduct(Guid productId)
         {
@@ -82,7 +87,7 @@ namespace FashionShop.ProductService.Controllers
             }
             // Update the discount properties
             existingDiscount.DiscountPercent = discount.DiscountPercent;
-            
+
             existingDiscount.DeletedAt = discount.DeletedAt;
             existingDiscount.UpdatedAt = DateTime.Now;
             existingDiscount.IsActive = discount.IsActive;
@@ -94,7 +99,7 @@ namespace FashionShop.ProductService.Controllers
             {
                 return CreatedAtAction(nameof(GetDiscountById), new { id = discount.Id }, discount);
             }
-            return BadRequest("Failed to update discount.");    
+            return BadRequest("Failed to update discount.");
         }
         [HttpPut("/activate/{id}")]
         public async Task<IActionResult> ModifyActiveDiscount(Guid id, bool setModifyActivate)
@@ -112,7 +117,7 @@ namespace FashionShop.ProductService.Controllers
             }
             return BadRequest("Failed to update discount.");
         }
-            [HttpDelete("{id}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteDiscount(Guid id)
         {
             var discount = await _context.GetByIdAsync(id);
@@ -125,7 +130,7 @@ namespace FashionShop.ProductService.Controllers
             {
                 return BadRequest("Failed to delete discount.");
             }
-            
+
             return NoContent();
         }
 

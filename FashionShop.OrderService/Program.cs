@@ -1,4 +1,10 @@
 using FashionShop.OrderService.Data;
+using FashionShop.OrderService.Model;
+using FashionShop.OrderService.Repo;
+using FashionShop.OrderService.Repo.Interface;
+using FashionShop.OrderService.Service;
+using FashionShop.OrderService.Service.Interface;
+using FashionShop.ProductService.Repo.Interface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,10 +16,33 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//add caching services
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    string redisConnectionString = builder.Configuration.GetConnectionString("RedisConnection");
+    options.Configuration = redisConnectionString;
+});
 
 //add dbcontext
 builder.Services.AddDbContext<OrderDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//add service for repositories
+builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
+builder.Services.AddScoped<IOrderRepo, OrderRepo>();
+builder.Services.AddScoped<IOrderItemRepo, OrderItemRepo>();
+builder.Services.AddScoped<IPaymentDetailRepo, PaymentDetailRepo>();
+builder.Services.AddScoped(typeof
+    (IRedisCacheManager<>), typeof(RedisCacheManager<>));
+
+
+//add service for services
+builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderItemService, OrderItemService>();
+builder.Services.AddScoped<IPaymentDetailService, PaymentDetailService>();
+
+
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {

@@ -4,7 +4,7 @@ using FashionShop.ProductService.Repo.Interface;
 
 namespace FashionShop.OrderService.Service
 {
-    public abstract class BaseService<T> : IBaseService<T> where T : BaseEntity
+    public class BaseService<T> : IBaseService<T> where T : BaseEntity
     {
         private readonly IGenericRepo<T> _genericRepo;
 

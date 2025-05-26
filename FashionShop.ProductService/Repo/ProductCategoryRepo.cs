@@ -1,4 +1,5 @@
 ﻿using FashionShop.ProductService.Data;
+using FashionShop.ProductService.DTOs;
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo.Interface;
 using Microsoft.EntityFrameworkCore;
@@ -6,7 +7,7 @@ using Microsoft.Extensions.Caching.Distributed;
 
 namespace FashionShop.ProductService.Repo
 {
-    public class ProductCategoryRepo:GenericRepo<ProductCategory>, IProductCategoryRepo
+    public class ProductCategoryRepo : GenericRepo<ProductCategory>, IProductCategoryRepo
     {
         private readonly ProductDbContext _context;
         private readonly IDistributedCache _cache;
@@ -30,13 +31,51 @@ namespace FashionShop.ProductService.Repo
             }
             return category;
         }
-        public async Task<IEnumerable<ProductCategory>> GetAllCategory()
+        public async Task<ProductCategoryDisplayDTO> GetSubCategoryByIdAsync(Guid id)
         {
-            var categories = await _dbSet
+            string cacheKey = $"{_cachePrefix}_sub_{id}";
+            var cachedData = await _cache.GetStringAsync(cacheKey);
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                return System.Text.Json.JsonSerializer.Deserialize<ProductCategoryDisplayDTO>(cachedData);
+            }
+
+            var category = await _dbSet
                 .Include(c => c.SubCategories)
-                .ToListAsync();
-            return categories;
+                .FirstOrDefaultAsync(c => c.Id == id);
+            if (category == null)
+            {
+                Console.WriteLine($"{_cachePrefix}:--> Get subcategory by id failed, category not found");
+                return null;
+            }
+            var subCategoryDisplayDTO = new ProductCategoryDisplayDTO
+            {
+                Id = category.Id,
+                Name = category.Name,
+                ImageUrl = category.ImageUrl,
+                SubCategory = category.SubCategories.Select(subCategory => new ProductCategoryDisplayDTO
+                {
+                    Id = subCategory.Id,
+                    Name = subCategory.Name,
+                    ImageUrl = subCategory.ImageUrl
+                }).ToList()
+            };
+            var options = GetExpirationOptions();
+            try
+            {
+
+                var jsonData = System.Text.Json.JsonSerializer.Serialize(subCategoryDisplayDTO);
+                await _cache.SetStringAsync(cacheKey, jsonData, options);
+                Console.WriteLine($"{_cachePrefix}:--> Get subcategory by id success, cached data");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"{_cachePrefix}:--> Get subcategory by id failed, {ex.Message}");
+            }
+            return subCategoryDisplayDTO;
+
+
         }
-    
     }
 }

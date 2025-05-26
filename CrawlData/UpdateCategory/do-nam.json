@@ -1,0 +1,55 @@
+{
+  "name": "Đồ nam",
+  "description": "string",
+  "imageUrl": "https://media3.coolmate.me/image/December2024/ao-polo-nam-cafe-essentials-thoang-mat-chong-uv-1_88.jpg",
+  "subCategory": [
+    {
+      "id": "0a2ab5cb-9b63-4193-ba03-396df74d3b2e",
+      "name": "Áo Polo",
+      "imageUrl": "https://media3.coolmate.me/image/December2024/ao-polo-nam-cafe-essentials-thoang-mat-chong-uv-1_88.jpg",
+      "subCategory": null
+    },
+ {
+      "id": "3d278346-89d3-45e8-8096-1aaabdec8101",
+      "name": "Áo TankTop",
+      "imageUrl": "https://media3.coolmate.me//image/May2024/24CMAW.TT004.1.jpg",
+      "subCategory": null
+    },
+ {
+      "id": "701aa0f1-5f23-4fe6-b235-81fe263546d4",
+      "name": "Áo Thể Thao",
+      "imageUrl": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Den_6_(3).jpg",
+      "subCategory":null
+    },
+ {
+      "id": "1476b35f-b3ff-4032-8579-31ff11b306de",
+      "name": "Áo Thun Nam",
+      "imageUrl": "https://media3.coolmate.me//image/August2024/Ao_Thun_Nam_The_Thao_Coolmate_Basics_-_Den_6_(3).jpg",
+      "subCategory":null
+    },
+     {
+      "id": "97a4f803-fbf9-4468-9843-323a0b6b46b6",
+      "name": "Quần Dài Nam",
+      "imageUrl": "https://media3.coolmate.me//image/August2024/qddpden7_25.jpg",
+      "subCategory":null
+    },
+         {
+      "id": "39c1ac30-d885-4031-95af-5645464e50f2",
+      "name": "Quần Jean Nam",
+      "imageUrl": "https://media3.coolmate.me//image/December2024/quan-jeans-nam-dang-straight-sieu-nhe-xanh-wash-1.jpg",
+      "subCategory":null
+    },
+          {
+      "id": "94a40ea1-bd0f-4c66-94e5-92fa38115e0a",
+      "name": "Quần jogger Nam",
+      "imageUrl": "https://media3.coolmate.me//image/December2024/24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+      "subCategory":null
+    },
+            {
+      "id": "9d111558-43ae-4c6c-9b6a-c90f3a20802e",
+      "name": "Quần Sơ Mi Nam",
+      "imageUrl": "https://media3.coolmate.me//image/December2024/24CMCW.SM012---Den-11.jpg",
+      "subCategory":null
+    }
+  ]
+}

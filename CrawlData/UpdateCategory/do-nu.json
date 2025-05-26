@@ -1,0 +1,37 @@
+{
+  "name": "Đồ Nữ",
+  "description": "string",
+  "imageUrl": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-19222.jpg",
+  "subCategory": [
+    {
+      "id": "50cc02e2-3c76-41a0-bbb5-e8096abc7e54",
+      "name": "Áo Crop Top Nữ",
+      "imageUrl": "https://media3.coolmate.me//image/April2025/ao-tank-yoga-slimfit-19222.jpg",
+      "subCategory": null
+    },
+  {
+      "id": "184584aa-9063-4d2a-b761-bb18f290dc00",
+      "name": "Áo Sport Bra",
+      "imageUrl": "https://media3.coolmate.me//image/March2025/combo-singlet-bra-14-den_71.jpg",
+      "subCategory": null
+    },
+  {
+      "id": "5b61df93-4c11-4e6f-896f-4d7e63989cc3",
+      "name": "Áo Thun Nữ",
+      "imageUrl": "https://media3.coolmate.me//image/April2025/ao-thun-nu-chay-bo-race-tee-358-vang_98.jpg",
+      "subCategory": null
+    },
+  {
+      "id": "920ec651-8ac2-4c7a-834f-9dc776aaac1a",
+      "name": "Quần Legging",
+      "imageUrl": "https://media3.coolmate.me//image/March2025/biker-shorts-nu-yoga-8inch-coolflex-light-support-27-xanh-colony-1_40.jpg",
+      "subCategory": null
+    },
+  {
+      "id": "da9bd3c3-e4c6-4485-88d2-60ffd6c0b90a",
+      "name": "Quần Short Nữ",
+      "imageUrl": "https://media3.coolmate.me//image/March2025/quan-shorts-yoga-ribbed-34-be_12.jpg",
+      "subCategory": null
+    }
+  ]
+}
