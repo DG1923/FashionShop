@@ -22,18 +22,66 @@ export class CategoryComponent implements OnInit {
   selectedGender: 'male' | 'female' = 'male';
   isFadeIn = false; 
   isLoading = false;
+  errorMessage: string | null = null; 
+  readonly DO_NAM_ID = '819fe665-9c1a-43a3-bcab-8f45c7b128a4';
+  readonly DO_NU_ID = '731609e6-e745-4b7b-9d19-9029b0006998';
   constructor(private categoryService:CategoryService) { }
 
   ngOnInit(): void {
-    // Simulating API call with delay for demonstration
     this.isLoading = true;
     this.isFadeIn = true;
+    
+    // Gọi cả 2 API
+    this.GetSubCategories(this.DO_NAM_ID);
+    this.GetSubCategories(this.DO_NU_ID);
+    
+    // Tắt loading sau 300ms
     setTimeout(() => {
-      this.loadCategories();
       this.isLoading = false;
     }, 300);
-  }
+}
 
+  GetSubCategories(id: string = this.DO_NAM_ID): void {
+    this.categoryService.getSubCategoryById(id)
+      .subscribe({
+        next: (data) => {
+          console.log("received data from service", data);
+          if (data && data.subCategory) {
+            // Map new categories
+            const newCategories = data.subCategory.map(
+              (subCategory) => ({
+                id: subCategory.id,
+                name: subCategory.name,
+                imageUrl: subCategory.imageUrl,
+                link: this.generateSlug(subCategory.name,subCategory.id),
+                gender: id === this.DO_NAM_ID ? "male" as 'male' : "female" as 'female'
+              })
+            );
+            
+            // Add to existing array instead of replacing
+            this.categories = [...this.categories, ...newCategories];
+            
+            // Filter and show categories
+            this.filterCategories();
+          }
+        },
+        error: (error) => {
+          console.error('Error fetching subcategories with ID ', id, ' :', error);
+          this.errorMessage = 'Không thể tải danh mục sản phẩm';
+        }
+      });
+  }
+    private generateSlug(name: string, id:string): string {
+    return name
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[đĐ]/g, 'd')
+      .replace(/([^0-9a-z-\s])/g, '')
+      .replace(/(\s+)/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-+|-+$/g, '')+"--",id;
+  }
   loadCategories(): void {
     // In a real application, this would be retrieved from a service
     this.categories = [

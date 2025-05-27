@@ -1,14 +1,27 @@
-<h1 class="text-3xl font-bold">{{title}}</h1>
-<!-- Loading state -->
-<div *ngIf="isLoading" class="flex justify-center py-8">
-    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
-</div>
-<!-- Categories list -->
-<div *ngIf="!isLoading" class="flex justify-center py-8">
-    <div #scrollContainer class="flex space-x-4 overflow-x-auto scroll-smooth touch-auto scrollbar-hide" 
-         style="scrollbar-width: none; -ms-overflow-style: none;">
-        <ng-container *ngFor="let i of products">
-            <app-product-card></app-product-card> 
-        </ng-container>
+<div class="mb-8">
+      <!-- Title Section -->
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-bold">{{ title }}</h2>
+        @if(showViewAll) {
+          <a [routerLink]="viewAllLink" class="text-blue-600 hover:text-blue-800">
+            Xem tất cả
+          </a>
+        }
+      </div>
+@if(isLoading==false){      <!-- Products Scroll -->     
+     <div class="flex overflow-x-auto pb-4 snap-x scroll-smooth -mx-4 px-4" 
+        style="scrollbar-width: none;">
+        @for(product of products; track product.id) {
+          <div class="flex-none w-[200px] sm:w-[220px] mr-4 snap-start h-full">
+            <div class="h-full">
+              <app-product-card [product]="product"></app-product-card>
+            </div>
+          </div>
+        }
+      </div>
+    } @else{
+      <div class="flex justify-center items-center h-64">
+        <p class="text-gray-500">Không có sản phẩm nào.</p>
+      </div>
+    }
     </div>
-</div>

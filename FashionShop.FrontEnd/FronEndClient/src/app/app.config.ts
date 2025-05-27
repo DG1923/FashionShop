@@ -14,6 +14,7 @@ export const appConfig: ApplicationConfig = {
             preset: Aura
         }
     }),
+    provideRouter(routes),  
     provideHttpClient()
   ]
 };

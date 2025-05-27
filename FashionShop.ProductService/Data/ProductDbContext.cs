@@ -1,18 +1,18 @@
 ﻿using FashionShop.ProductService.Models;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 
 namespace FashionShop.ProductService.Data
 {
-    public class ProductDbContext: DbContext
+    public class ProductDbContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<ProductVariation> ProductVariations { get; set; }
         public DbSet<Discount> Discounts { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
-        
-        public ProductDbContext( DbContextOptions<ProductDbContext> options):base(options)
+        public DbSet<ProductRating> ProductRatings { get; set; }
+
+        public ProductDbContext(DbContextOptions<ProductDbContext> options) : base(options)
         {
 
         }
@@ -50,6 +50,10 @@ namespace FashionShop.ProductService.Data
                 .HasMany(p => p.ProductVariations)
                 .WithOne(p => p.ProductColor)
                 .HasForeignKey(p => p.ProductColorId);
+            modelBuilder.Entity<Product>()
+                .HasMany(p => p.ProductRatings)
+                .WithOne(p => p.Product)
+                .HasForeignKey(p => p.ProductId);
 
 
             modelBuilder.Entity<Discount>()
@@ -59,10 +63,10 @@ namespace FashionShop.ProductService.Data
             modelBuilder.Entity<Product>()
                 .Property(p => p.BasePrice)
                 .HasColumnType("decimal(18,2)");
-            
+
 
 
         }
-  
+
     }
 }

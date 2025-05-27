@@ -1,0 +1,23 @@
+apiVersion: traefik.io/v1alpha1
+#try traefik.io instead of traefik.containo.us
+kind: Middleware
+metadata:
+  name: cors-headers
+spec:
+  headers:
+    accessControlAllowMethods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+      - OPTIONS
+      - PATCH
+    accessControlAllowHeaders:
+      - "*"
+    accessControlAllowOriginList:
+      - "http://localhost:4200"
+      - "https://localhost:4200"
+    accessControlAllowCredentials: true
+    accessControlMaxAge: 86400
+
+---

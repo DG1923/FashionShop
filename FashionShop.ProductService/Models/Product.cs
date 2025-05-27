@@ -2,7 +2,7 @@
 
 namespace FashionShop.ProductService.Models
 {
-    public class Product:BaseEntity
+    public class Product : BaseEntity
     {
         [Required]
         [MaxLength(500)]
@@ -15,7 +15,7 @@ namespace FashionShop.ProductService.Models
         public decimal BasePrice { get; set; }
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a positive number.")]
         public decimal? DiscountedPrice { get; set; }
-        
+
         [MaxLength(100)]
         public string? SKU { get; set; }
         public int? TotalQuantity { get; set; }
@@ -24,6 +24,8 @@ namespace FashionShop.ProductService.Models
 
 
 
+        //configure the relationship with ProductRating
+        public ICollection<ProductRating>? ProductRatings { get; set; } = new List<ProductRating>();
         //configure the relationship with ProductVariation
         public IEnumerable<ProductColor>? ProductColors { get; set; }
 
@@ -34,7 +36,7 @@ namespace FashionShop.ProductService.Models
         //configure the relationship with ProductCategory
         public Guid? ProductCategoryId { get; set; }
         public ProductCategory? ProductCategory { get; set; }
-        
+
 
 
 

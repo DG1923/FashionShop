@@ -8,6 +8,7 @@ using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
+using System.Linq.Expressions;
 using System.Text.Json;
 
 namespace FashionShop.ProductService.Repo
@@ -48,7 +49,7 @@ namespace FashionShop.ProductService.Repo
                         Description = productDetail.Description,
                         BasePrice = productDetail.BasePrice,
                         MainImageUrl = productDetail.MainImageUrl,
-                        
+
                     };
 
                     // Add product category
@@ -71,7 +72,7 @@ namespace FashionShop.ProductService.Repo
                             await _context.SaveChangesAsync();
                             product.ProductCategory = newCategory;
                         }
-                       
+
                     }
 
                     // Add product colors and variations
@@ -95,7 +96,7 @@ namespace FashionShop.ProductService.Repo
                     }
 
                     product.ProductColors = colorList;
-                     // Save changes for each product 
+                    // Save changes for each product 
                     products.Add(product);
                 }
 
@@ -156,8 +157,8 @@ namespace FashionShop.ProductService.Repo
                     Id = product.Discount.Id,
                     DiscountPercent = product.Discount.DiscountPercent,
                     IsActive = product.Discount.IsActive,
-                }:null,
-                DiscountedPrice = product.Discount != null && product.Discount.IsActive == true?
+                } : null,
+                DiscountedPrice = product.Discount != null && product.Discount.IsActive == true ?
                     product.BasePrice - (product.BasePrice * product.Discount.DiscountPercent / 100) : null,
                 productCategoryDisplayDTO = product.ProductCategory != null ? new ProductCategoryDisplayDTO()
                 {
@@ -181,7 +182,7 @@ namespace FashionShop.ProductService.Repo
                 }).ToList() : null
 
             };
-            if(productDetails == null)
+            if (productDetails == null)
             {
                 throw new ArgumentNullException(nameof(productDetails));
             }
@@ -198,7 +199,7 @@ namespace FashionShop.ProductService.Repo
             catch (Exception ex)
             {
                 Console.WriteLine($"--> Set cache failed ! {ex.Message}");
-                
+
             }
             return productDetails;
         }
@@ -214,12 +215,14 @@ namespace FashionShop.ProductService.Repo
             string cachedData = await _cache.GetStringAsync(cacheKey);
             if (!string.IsNullOrEmpty(cachedData))
             {
+                Console.WriteLine("-->[Product] Get cache products by category success !");
                 return JsonSerializer.Deserialize<IEnumerable<ProductDisplayDTO>>(cachedData);
             }
             var products = await _dbSet
                 .Where(p => p.ProductCategoryId == categoryId)
                 .Include(p => p.Discount)
                 .Include(p => p.ProductCategory)
+                .Select(MapToProductDisplayDTO())
                 .AsNoTracking()
                 .ToListAsync();
 
@@ -227,24 +230,7 @@ namespace FashionShop.ProductService.Repo
             {
                 throw new ArgumentNullException(nameof(products));
             }
-            List<ProductDisplayDTO> productDisplayDTO = products.Select(product => new ProductDisplayDTO()
-            {
-                Id = product.Id,
-                Name = product.Name,
-                BasePrice = product.BasePrice,
-                discountDisplayDTO = product.Discount != null ? new DiscountDisplayDTO()
-                {
-                    Id = product.Discount.Id,
-                    DiscountPercent = product.Discount.DiscountPercent,
-                    IsActive = product.Discount.IsActive,
-                    Name = product.Discount.Name,
-                    
-                } : null,
-                MainImageUrl = product.MainImageUrl,
-                DiscountedPrice = product.Discount != null && product.Discount.IsActive == true?
-                    product.BasePrice - (product.BasePrice * product.Discount.DiscountPercent / 100) : null,
-
-            }).ToList();
+            List<ProductDisplayDTO> productDisplayDTO = products;
 
             //set the expiration time for cache
             var options = GetExpirationOptions();
@@ -253,9 +239,112 @@ namespace FashionShop.ProductService.Repo
             // Store the JSON data in the cache
             await _cache.SetStringAsync(cacheKey, jsonData, options);
             return productDisplayDTO;
+        }
 
+        public async Task<IEnumerable<ProductDisplayDTO>> GetFeaturedProducts(int take)
+        {
+            string cacheKey = $"{_cachePrefix}_featured_{take}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
 
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                Console.WriteLine("-->[Product] Get cache featured products success !");
+                return JsonSerializer.Deserialize<IEnumerable<ProductDisplayDTO>>(cachedData);
+            }
 
+            var products = await _dbSet
+                .Include(p => p.Discount)
+                .OrderByDescending(p => p.CreatedAt)
+                .Take(take)
+                .Select(MapToProductDisplayDTO())
+                .ToListAsync();
+
+            if (products != null)
+            {
+                var options = GetExpirationOptions();
+                await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(products), options);
+            }
+
+            return products;
+        }
+
+        public async Task<IEnumerable<ProductDisplayDTO>> GetNewProducts(int take)
+        {
+            string cacheKey = $"{_cachePrefix}_new_{take}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                Console.WriteLine("-->[Product] Get cache new products success !");
+                return JsonSerializer.Deserialize<IEnumerable<ProductDisplayDTO>>(cachedData);
+            }
+
+            var products = await _dbSet
+                .Include(p => p.Discount)
+                .Include(p => p.ProductRatings)
+                .OrderByDescending(p => p.CreatedAt)
+                .Take(take)
+                .Select(MapToProductDisplayDTO())
+                .ToListAsync();
+
+            if (products != null)
+            {
+                var options = GetExpirationOptions();
+                await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(products), options);
+            }
+
+            return products;
+        }
+
+        public async Task<IEnumerable<ProductDisplayDTO>> GetTopDiscountedProducts(int take)
+        {
+            string cacheKey = $"{_cachePrefix}_top_discounted_{take}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                Console.WriteLine("-->[Product] Get cache top discounted products success !");
+                return JsonSerializer.Deserialize<IEnumerable<ProductDisplayDTO>>(cachedData);
+            }
+
+            var products = await _dbSet
+                .Include(p => p.Discount)
+                .Include(p => p.ProductRatings)
+                .Where(p => p.Discount != null && p.Discount.IsActive)
+                .OrderByDescending(p => p.Discount.DiscountPercent)
+                .Take(take)
+                .Select(MapToProductDisplayDTO())
+                .ToListAsync();
+
+            if (products != null)
+            {
+                var options = GetExpirationOptions();
+                await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(products), options);
+            }
+
+            return products;
+        }
+
+        private static Expression<Func<Product, ProductDisplayDTO>> MapToProductDisplayDTO()
+        {
+            return p => new ProductDisplayDTO
+            {
+                Id = p.Id,
+                Name = p.Name,
+                BasePrice = p.BasePrice,
+                MainImageUrl = p.MainImageUrl,
+                AverageRating = p.ProductRatings.Any() ? p.ProductRatings.Average(r => r.Rating) : null,
+                TotalRating = p.ProductRatings.Any() ? p.ProductRatings.Count() : null,
+                discountDisplayDTO = p.Discount != null ? new DiscountDisplayDTO
+                {
+                    Id = p.Discount.Id,
+                    Name = p.Discount.Name,
+                    DiscountPercent = p.Discount.DiscountPercent,
+                    IsActive = p.Discount.IsActive
+                } : null,
+                DiscountedPrice = p.Discount != null && p.Discount.IsActive ?
+                    p.BasePrice - (p.BasePrice * p.Discount.DiscountPercent / 100) : null
+            };
         }
     }
 }

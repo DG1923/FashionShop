@@ -1,12 +1,11 @@
+
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: traefik-ingress-srv
   annotations:
-    # Traefik annotations
     traefik.ingress.kubernetes.io/router.entrypoints: web
-    # Middleware tùy chọn
-    # traefik.ingress.kubernetes.io/router.middlewares: default-cors@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: default-cors-headers@kubernetescrd
 spec:
   rules:
   - host: dogiap.com
@@ -103,8 +102,6 @@ spec:
             name: cartservice-cluster-ip-srv
             port:
               number: 8080
-              
-              
               
               
 # ---

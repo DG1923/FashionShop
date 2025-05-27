@@ -16,6 +16,8 @@ namespace FashionShop.ProductService.DTOs.ProductDTO
         public decimal BasePrice { get; set; }
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a positive number.")]
         public decimal? DiscountedPrice { get; set; }
+        public decimal? AverageRating { get; set; }
+        public int? TotalRating { get; set; }
 
         public string? MainImageUrl { get; set; }
         public DiscountDisplayDTO? discountDisplayDTO { get; set; }

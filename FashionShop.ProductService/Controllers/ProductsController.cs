@@ -15,6 +15,7 @@ namespace FashionShop.ProductService.Controllers
         {
             _service = service;
         }
+
         [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
@@ -38,6 +39,7 @@ namespace FashionShop.ProductService.Controllers
             }
             return Ok(result);
         }
+
         [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(Guid id)
@@ -56,11 +58,11 @@ namespace FashionShop.ProductService.Controllers
             };
             return Ok(productDisplay);
         }
+
         [AllowAnonymous]
         [HttpGet("{id}/details")]
         public async Task<IActionResult> GetProductDetails(Guid id)
         {
-
             var product = await _service.GetProductDetailService(id);
             if (product == null)
             {
@@ -68,19 +70,55 @@ namespace FashionShop.ProductService.Controllers
             }
             return Ok(product);
         }
+
         [AllowAnonymous]
         [HttpGet("by-category/{categoryId}")]
         public async Task<IActionResult> GetProductsByCategory(Guid categoryId)
         {
-
             var products = await _service.GetProductsByCategoryService(categoryId);
             if (products == null || !products.Any())
             {
                 return NotFound($"No products found for category ID {categoryId}.");
             }
             return Ok(products);
-
         }
+
+        [AllowAnonymous]
+        [HttpGet("featured")]
+        public async Task<IActionResult> GetFeaturedProducts([FromQuery] int take = 10)
+        {
+            var products = await _service.GetFeaturedProductsService(take);
+            if (products == null || !products.Any())
+            {
+                return NotFound("No featured products found.");
+            }
+            return Ok(products);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("new")]
+        public async Task<IActionResult> GetNewProducts([FromQuery] int take = 10)
+        {
+            var products = await _service.GetNewProductsService(take);
+            if (products == null || !products.Any())
+            {
+                return NotFound("No new products found.");
+            }
+            return Ok(products);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("top-discounted")]
+        public async Task<IActionResult> GetTopDiscountedProducts([FromQuery] int take = 10)
+        {
+            var products = await _service.GetTopDiscountedProductsService(take);
+            if (products == null || !products.Any())
+            {
+                return NotFound("No discounted products found.");
+            }
+            return Ok(products);
+        }
+
         [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProduct(ProductCreateDTO productCreateDTO)
@@ -92,11 +130,11 @@ namespace FashionShop.ProductService.Controllers
             }
             return BadRequest("Failed to create product.");
         }
+
         [HttpPost("/add-range")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProductsRange(List<ProductCreateDetailDTO> list)
         {
-
             IEnumerable<ProductCreateDetailDTO> listResult = await _service.AddRangeProductService(list);
             if (listResult == null || !listResult.Any())
             {
@@ -104,6 +142,7 @@ namespace FashionShop.ProductService.Controllers
             }
             return Ok(listResult);
         }
+
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateProduct(Guid id, ProductUpdateNormal productUpdate)
@@ -115,6 +154,7 @@ namespace FashionShop.ProductService.Controllers
             }
             return BadRequest("Failed to update product.");
         }
+
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(Guid id)

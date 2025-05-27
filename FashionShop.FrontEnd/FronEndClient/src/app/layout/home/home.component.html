@@ -1,8 +1,19 @@
-
 <app-slider></app-slider>
 <div class="container mx-auto px-4 md:px-0">
   <app-category></app-category>
-  <app-list-products></app-list-products>
-  <app-list-products></app-list-products>
-  <app-single-product></app-single-product> 
+  
+  <!-- Sản phẩm theo danh mục nam -->
+  <app-list-products 
+    [products]="list_product_by_nam" 
+    title="Sản phẩm cho nam" 
+    [showViewAll]="true"
+    viewAllLink="/collection/new">
+  </app-list-products>
+<!-- Sản phẩm theo danh mục nữ -->
+  <app-list-products 
+    [products]="list_product_by_nu" 
+    title="Sản phẩm cho nữ" 
+    [showViewAll]="true"
+    viewAllLink="/collection/best-sellers">
+  </app-list-products>
 </div>

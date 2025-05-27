@@ -18,7 +18,7 @@ export interface JwtPayload {
 })
 export class AuthService {
 
-  private apiUrl = environment.apiUrl+"/Auth";
+  private apiUrl = environment.apiUrl+"/auth";
   private tokenKey = 'access_token';
   private isLoggedIn$ = new BehaviorSubject<boolean>(this.hasToken());
   
