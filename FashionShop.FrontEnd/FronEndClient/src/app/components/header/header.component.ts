@@ -5,7 +5,9 @@ import { CartService } from '../../services/cart.service';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 import { LoginRequest } from '../../models/auth.model'; 
-
+import { CategoryService } from '../../services/category.service';
+import { Category } from '../../models/category.model';
+import{OnInit} from '@angular/core';
 interface MenuItem {
   title: string;
   link: string;
@@ -38,7 +40,7 @@ interface MenuSubItem {
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   logout() {
     this.authService.logout();
     this.isLogginng = false;
@@ -51,7 +53,10 @@ export class HeaderComponent {
     this.isMobileMenuOpen = !this.isMobileMenuOpen;
   }
   // cartCount$: Observable<number>;
-  
+  CATEGORY_NAM_ID = '819fe665-9c1a-43a3-bcab-8f45c7b128a4';
+  CATEGORY_NU_ID = '731609e6-e745-4b7b-9d19-9029b0006998';
+  MegaMenu: MenuItem[] = [];
+
   menuItems: MenuItem[] = [
     {
       title: 'NAM',
@@ -123,30 +128,67 @@ export class HeaderComponent {
   ];
   
   subMenuCategories = [
-    { title: 'THEO NHU CẦU', link: '/theo-nhu-cau' },
-    { title: 'ĐỒ LÓT', link: '/do-lot' },
-    { title: 'ĐỒ THỂ THAO', link: '/do-the-thao' },
-    { title: 'MẶC HÀNG NGÀY', link: '/mac-hang-ngay' }
   ];
   
-  // constructor(private cartService: CartService) {
-  //   // Use observable for cart count to avoid repeated API calls
-  //   this.cartCount$ = this.cartService.getCartCount().pipe(
-  //     debounceTime(300) // Debounce to prevent rapid UI updates
-  //   );
-  // }
   
   ngOnInit(): void {
-    // Initialization code if needed
+    this.getCategories();
   }
-  /**
-   *
-   */
-  constructor(private authService:AuthService,private router:Router) {
-   this.isLogginng = this.authService.isLoggedIn;
-   this.userName = this.authService.getUserInfo()?.name || ''; // Default to empty string if userName is not available  
+
+  constructor(
+    private authService: AuthService,
+    private router: Router,
+    private categoryService: CategoryService, 
+    private cartService: CartService
+  ) {
+    this.isLogginng = this.authService.isLoggedIn;
+    this.userName = this.authService.getUserInfo()?.name || '';
   }
- 
+
+  getCategories() {
+    // Sử dụng Promise.all để đợi cả 2 category load xong
+    Promise.all([
+      this.LoadCategory(this.CATEGORY_NAM_ID),
+      this.LoadCategory(this.CATEGORY_NU_ID)
+    ]).then(() => {
+      // Chỉ cập nhật menuItems sau khi tất cả categories đã được load
+      if(this.MegaMenu.length > 0) {
+        this.menuItems = [...this.MegaMenu];
+        console.log('MegaMenu initialized:', this.menuItems);
+      }
+    });
+  }
+
+  LoadCategory(id: string): Promise<void> {
+    return new Promise((resolve) => {
+      this.categoryService.getSubCategoryById(id).subscribe({
+        next: (category) => {
+          const temp = [{
+            title: category.name,
+            link: `/category/${category.id}`,
+            columns: category.subCategory?.map((subCat: Category) => ({
+              title: subCat.name,
+              link: `/category/${subCat.id}`,
+              items: subCat.subCategory?.map((subSubCat) => ({
+                title: subSubCat.name,
+                link: `/category/${subSubCat.id}`
+              })) || [],
+              image: {
+                src: subCat.imageUrl,
+                alt: subCat.name,
+                caption: subCat.name,
+                link: `/category/${subCat.id}`
+              }
+            })) || [],
+            isHovered: false
+          }];
+          this.MegaMenu.push(...temp);
+          resolve();
+        },
+        error: () => resolve() // Resolve even on error to prevent hanging
+      });
+    });
+  }
   
   // Handle hover states
   onMenuItemHover(index: number): void {

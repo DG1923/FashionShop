@@ -20,7 +20,10 @@ export class ListProductsComponent  implements OnInit {
   @Input() title: string = 'Sản phẩm';
   @Input() showViewAll: boolean = false;
   @Input() viewAllLink: string = '/collection';
+    @ViewChild('scrollContainer') scrollContainer!: ElementRef;
+
   isLoading: boolean = false; 
+  scrollInterval: any;
    ngOnInit(): void {
     if(!this.products || this.products.length === 0) {
       this.isLoading = true;
@@ -29,6 +32,23 @@ export class ListProductsComponent  implements OnInit {
         this.isLoading = false;
       }, 1000);
     }
+  }
+   private startAutoScroll() {
+    this.scrollInterval = setInterval(() => {
+      const container = this.scrollContainer.nativeElement;
+      const scrollAmount = 300; // Adjust this value based on your card width
+      
+      if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+        // If reached the end, scroll back to start
+        container.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        // Scroll to next position
+        container.scrollTo({
+          left: container.scrollLeft + scrollAmount,
+          behavior: 'smooth'
+        });
+      }
+    }, 3000); // 3 seconds interval
   }
 
 }

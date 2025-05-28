@@ -10,11 +10,18 @@ spec:
   template:
     metadata:
       labels:
-          app: rabbitmq
+        app: rabbitmq
     spec:
       containers:
         - name: rabbitmq
-          image:  rabbitmq:3-management
+          image: rabbitmq:3-management
+          resources:
+            requests:
+              memory: "32Mi"
+              cpu: "5m"
+            limits:
+              memory: "256Mi"
+              cpu: "200m"
           ports:
            - containerPort: 15672
              name: rbmq-mgmt-port

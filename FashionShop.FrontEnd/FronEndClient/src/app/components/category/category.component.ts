@@ -2,13 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CategoryService } from '../../services/category.service';
-interface Category {
-  id: string;
-  name: string;
-  imageUrl: string;
-  link: string;
-  gender: 'male' | 'female';
-}
+import { CategoryDisplayDto } from '../../models/category.model';
 @Component({
   selector: 'app-category',
   imports: [CommonModule,RouterModule],
@@ -17,8 +11,8 @@ interface Category {
   styleUrl: './category.component.css'
 })
 export class CategoryComponent implements OnInit {
-  categories: Category[] = [];
-  filteredCategories: Category[] = [];
+  categories: CategoryDisplayDto[] = [];
+  filteredCategories: CategoryDisplayDto[] = [];
   selectedGender: 'male' | 'female' = 'male';
   isFadeIn = false; 
   isLoading = false;

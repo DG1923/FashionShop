@@ -14,62 +14,64 @@
       </div>
 
       <!-- Main Navigation -->
-      <div class="hidden lg:flex items-center space-x-8">
-        <ng-container *ngFor="let item of menuItems; let i = index">
-          <div class="group py-8" 
-               (mouseenter)="onMenuItemHover(i)" 
-               (mouseleave)="onMenuLeave()"
-               [ngClass]="{'': item.isHovered}"
-               >
-            <!-- Main menu item -->
-            <a routerLink="{{item.link}}" routerLinkActive="active" ariaCurrentWhenActive="page"  class="px-2 py-7 font-medium hover:text-blue-600 transition-colors duration-200"
-              [ngClass]="{'text-blue-600 border-b-1 border-blue-600': item.isHovered}"
-               >
-              {{ item.title }}
-            </a>
-            
-            
-            <!-- Mega menu dropdown -->
-            <div *ngIf="item.isHovered && item.columns" 
-                 class="mega-menu absolute left-0 w-full bg-white z-1 shadow-md rounded-b-lg ct-fade-in"
-                 style="top: 100%; left: 10%; right: 0; width: 80vw; ">
-              <div class="container mx-auto px-4">
-                <div class="grid grid-cols-5 py-8 gap-4">
-                  <ng-container *ngFor="let column of item.columns">
-                    <!-- Text columns -->
-                    <div *ngIf="!column.image" class="flex flex-col">
-                      <a *ngIf="column.title" routerLink="{{column.link}}" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-sm font-bold mb-3 text-blue-600 hover:underline flex items-center">
-                        {{ column.title }}
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
-                      </a>
-                      <ng-container *ngFor="let subItem of column.items">
-                        <a [href]="subItem.link" class="text-sm text-gray-700 hover:text-blue-600 mb-2">{{ subItem.title }}</a>
-                      </ng-container>
-                    </div>
-                    
-                    <!-- Image columns -->
-                    <div *ngIf="column.image" class="flex flex-col">
-                      <a [href]="column.image.link" class="block hover:opacity-90 transition-opacity duration-200">
-                        <img [src]="column.image.src" [alt]="column.image.alt" class="w-full h-40 object-cover rounded">
-                        <p class="text-sm font-medium mt-2">{{ column.image.caption }}</p>
-                      </a>
-                    </div>
-                  </ng-container>
-                </div>
-                
-                <!-- Bottom categories -->
-                <div class="flex border-t border-gray-200 py-4">
-                  <ng-container *ngFor="let category of subMenuCategories">
-                    <a [href]="category.link" class="mr-8 text-sm text-gray-700 hover:text-blue-600">{{ category.title }}</a>
-                  </ng-container>
-                </div>
+    <!-- Container của toàn bộ menu -->
+<div class="hidden lg:flex items-center space-x-8 h-20">
+  <ng-container *ngFor="let item of menuItems; let i = index">
+    <div class="group h-full"
+         (mouseenter)="onMenuItemHover(i)"
+         (mouseleave)="onMenuLeave()">
+
+      <!-- Main category item -->
+      <a [routerLink]="[item.link]"
+         class="flex items-center h-full px-4 font-medium transition-colors duration-200 hover:text-blue-600"
+         [ngClass]="{'text-blue-600 border-b-2 border-blue-600': item.isHovered}">
+        {{ item.title }}
+      </a>
+
+      <!-- Dropdown menu -->
+      <div *ngIf="item.isHovered"
+           class="mega-menu absolute top-full left-1/2 -translate-x-1/2 w-[80vw] max-w-screen-xl bg-white z-50 shadow-lg rounded-b-lg ct-fade-in">
+        <div class="container mx-auto p-6">
+          <div class="grid grid-cols-4 gap-6">
+
+            <!-- Lặp qua các column -->
+            <ng-container *ngFor="let column of item.columns">
+              <!-- Cột text -->
+              <div *ngIf="column.title && !column.image" class="space-y-4">
+                <h3 class="font-medium text-gray-900">
+                  <a [routerLink]="[column.link]" class="hover:text-blue-600">
+                    {{ column.title }}
+                  </a>
+                </h3>
+                <ul class="space-y-2">
+                  <li *ngFor="let subItem of column.items">
+                    <a [routerLink]="[subItem.link]"
+                       class="text-gray-600 hover:text-blue-600 text-sm">
+                      {{ subItem.title }}
+                    </a>
+                  </li>
+                </ul>
               </div>
-            </div>
+
+              <!-- Cột hình ảnh -->
+              <div *ngIf="column.image" class="space-y-2 flex flex-col items-center">
+                <a [routerLink]="[column.image.link]" class="block">
+                  <img [src]="column.image.src"
+                       [alt]="column.image.alt"
+                       class="w-30 h-30 object-cover rounded-lg">
+                  <p class="text-sm text-center mt-2">{{ column.image.caption }}</p>
+                </a>
+              </div>
+            </ng-container>
+
           </div>
-        </ng-container>
+        </div>
       </div>
+
+    </div>
+  </ng-container>
+</div>
+
 
       <!-- Search, User, and Cart Icons -->
       <div class="flex items-center space-x-4">

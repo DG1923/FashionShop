@@ -15,6 +15,13 @@ spec:
       containers:
         - name: userservice
           image: dgiap/fashion-user-service:latest
+          resources:
+            requests:
+              memory: "32Mi"    # Giảm xuống 64MB RAM tối thiểu
+              cpu: "5m"        # Giảm xuống 0.05 core CPU
+            limits:
+              memory: "256Mi"   # Giới hạn ở 128MB RAM
+              cpu: "200m"       # Giới hạn ở 0.1 core CPU
 ---
 apiVersion: v1
 kind: Service

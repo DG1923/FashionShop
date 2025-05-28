@@ -9,7 +9,7 @@
         }
       </div>
 @if(isLoading==false){      <!-- Products Scroll -->     
-     <div class="flex overflow-x-auto pb-4 snap-x scroll-smooth -mx-4 px-4" 
+     <div #scrollContainer class="flex overflow-x-auto pb-4 snap-x scroll-smooth -mx-4 px-4" 
         style="scrollbar-width: none;">
         @for(product of products; track product.id) {
           <div class="flex-none w-[200px] sm:w-[220px] mr-4 snap-start h-full">
