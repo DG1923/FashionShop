@@ -20,6 +20,7 @@ export class ListProductsComponent  implements OnInit {
   @Input() title: string = 'Sản phẩm';
   @Input() showViewAll: boolean = false;
   @Input() viewAllLink: string = '/collection';
+  @Input() categoryId: string = ''; // Thêm input categoryId
     @ViewChild('scrollContainer') scrollContainer!: ElementRef;
 
   isLoading: boolean = false; 

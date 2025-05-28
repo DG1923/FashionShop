@@ -37,7 +37,7 @@
             <!-- Lặp qua các column -->
             <ng-container *ngFor="let column of item.columns">
               <!-- Cột text -->
-              <div *ngIf="column.title && !column.image" class="space-y-4">
+              <div *ngIf="column.title && !column.image" class="space-y-2">
                 <h3 class="font-medium text-gray-900">
                   <a [routerLink]="[column.link]" class="hover:text-blue-600">
                     {{ column.title }}

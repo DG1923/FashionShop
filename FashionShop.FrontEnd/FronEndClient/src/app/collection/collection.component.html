@@ -6,34 +6,11 @@
         <!-- Search -->
         <div class="mb-8">
           <div class="relative">
-            <input type="text" [(ngModel)]="searchTerm" placeholder="Search..." 
+            <input id="searchInput" type="text" [(ngModel)]="searchTerm" placeholder="Tìm kiếm sản phẩm..." 
               class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
             <button class="absolute right-3 top-2">
               <i class="fas fa-search text-gray-500"></i>
             </button>
-          </div>
-        </div>
-
-        <!-- Categories -->
-        <div class="mb-8">
-          <h4 class="text-lg font-semibold mb-4">Categories</h4>
-          <div class="space-y-2">
-            <div *ngFor="let category of categories" 
-              class="flex items-center justify-between cursor-pointer hover:text-blue-600">
-              <span>{{category.name}}</span>
-              <span class="text-gray-500">({{category.count}})</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Brands -->
-        <div class="mb-8">
-          <h4 class="text-lg font-semibold mb-4">Brands</h4>
-          <div class="space-y-2">
-            <div *ngFor="let brand of brands" 
-              class="cursor-pointer hover:text-blue-600">
-              {{brand}}
-            </div>
           </div>
         </div>
 
@@ -67,54 +44,19 @@
       <div class="w-full lg:w-3/4 px-4">
         <!-- Sort Options -->
         <div class="flex justify-between items-center mb-8">
-          <p class="text-gray-600">Showing {{products.length}} products</p>
-          <select [(ngModel)]="sortOption" 
+          <p class="text-gray-600">Có tổng {{products.length}} quần áo </p>
+          <select id="sortSelect" [(ngModel)]="sortOption" 
             class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            <option value="price_asc">Price: Low to High</option>
-            <option value="price_desc">Price: High to Low</option>
-            <option value="newest">Newest</option>
+            <option value="price_asc">Giá: Thấp Tới Cao</option>
+            <option value="price_desc">Giá: Cao Xuống Thấp</option>
+            <option value="newest">Mặc định</option>
           </select>
         </div>
 
         <!-- Products -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div *ngFor="let product of products" class="group">
-            <div class="relative overflow-hidden">
-              <!-- Product Image -->
-              <img [src]="product.image" [alt]="product.name" 
-                class="w-full h-72 object-cover transition duration-300 group-hover:scale-105">
-              
-              <!-- Quick Actions -->
-              <div class="absolute top-4 right-4 space-y-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                <button class="p-2 bg-white rounded-full shadow-lg hover:bg-gray-100">
-                  <i class="fas fa-heart text-gray-600"></i>
-                </button>
-                <button class="p-2 bg-white rounded-full shadow-lg hover:bg-gray-100">
-                  <i class="fas fa-shopping-cart text-gray-600"></i>
-                </button>
-              </div>
-
-              <!-- Sale Badge -->
-              <span *ngIf="product.onSale" 
-                class="absolute top-4 left-4 bg-red-500 text-white px-2 py-1 rounded-md">
-                Sale
-              </span>
-            </div>
-
-            <!-- Product Info -->
-            <div class="mt-4 space-y-2">
-              <h3 class="font-medium">{{product.name}}</h3>
-              <div class="flex items-center space-x-2">
-                <span class="font-semibold">${{product.price}}</span>
-                <span *ngIf="product.oldPrice" class="text-gray-500 line-through">${{product.oldPrice}}</span>
-              </div>
-              <div class="flex items-center">
-                <ng-container *ngFor="let i of [1,2,3,4,5]">
-                  <i class="fas fa-star" [class.text-yellow-400]="i <= product.rating" 
-                    [class.text-gray-300]="i > product.rating"></i>
-                </ng-container>
-              </div>
-            </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div *ngFor="let product of products" class="group w-full">
+            <app-product-card [product]="product"></app-product-card> 
           </div>
         </div>
 

@@ -3,7 +3,8 @@
       <div class="flex justify-between items-center mb-4">
         <h2 class="text-2xl font-bold">{{ title }}</h2>
         @if(showViewAll) {
-          <a [routerLink]="viewAllLink" class="text-blue-600 hover:text-blue-800">
+          <a [queryParams] ="{categoryId:categoryId}" 
+          [routerLink]="viewAllLink" class="text-blue-600 hover:text-blue-800">
             Xem tất cả
           </a>
         }

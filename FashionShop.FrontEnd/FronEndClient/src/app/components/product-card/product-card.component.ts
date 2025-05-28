@@ -1,8 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { Product } from '../../models/product.model';
-
 @Component({
   selector: 'app-product-card',
   standalone: true,
@@ -10,7 +9,10 @@ import { Product } from '../../models/product.model';
   templateUrl: './product-card.component.html'
 })
 export class ProductCardComponent {
+
   @Input() product!: Product;
+  @Input() label: string = 'Hot';
+
 
   get formattedPrice(): string {
     return new Intl.NumberFormat('vi-VN', {

@@ -7,13 +7,15 @@
     [products]="list_product_by_nam" 
     title="Sản phẩm cho nam" 
     [showViewAll]="true"
-    viewAllLink="/collection/new">
+    [categoryId]="CATEGORY_ID_NAM"
+    viewAllLink="/collection">
   </app-list-products>
 <!-- Sản phẩm theo danh mục nữ -->
   <app-list-products 
     [products]="list_product_by_nu" 
     title="Sản phẩm cho nữ" 
+    [categoryId]="CATEGORY_ID_NU" 
     [showViewAll]="true"
-    viewAllLink="/collection/best-sellers">
+    viewAllLink="/collection">
   </app-list-products>
 </div>
