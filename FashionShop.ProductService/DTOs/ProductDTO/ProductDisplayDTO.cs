@@ -18,7 +18,7 @@ namespace FashionShop.ProductService.DTOs.ProductDTO
         public decimal? DiscountedPrice { get; set; }
         public decimal? AverageRating { get; set; }
         public int? TotalRating { get; set; }
-
+        
         public string? MainImageUrl { get; set; }
         public DiscountDisplayDTO? discountDisplayDTO { get; set; }
     }

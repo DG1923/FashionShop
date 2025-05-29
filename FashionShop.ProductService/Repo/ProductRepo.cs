@@ -52,7 +52,7 @@ namespace FashionShop.ProductService.Repo
 
                     };
 
-                    // Add product category
+                    // Add product subCategory
                     if (productDetail.productCategoryDisplayDTO != null)
                     {
                         ProductCategory category = await _context.ProductCategories
@@ -345,6 +345,85 @@ namespace FashionShop.ProductService.Repo
                 DiscountedPrice = p.Discount != null && p.Discount.IsActive ?
                     p.BasePrice - (p.BasePrice * p.Discount.DiscountPercent / 100) : null
             };
+        }
+
+        public async Task<PagedList<ProductDisplayDTO>> GetProductsByCategory(Guid categoryId, int pageNumber, int pageSize = 16)
+        {
+            if (categoryId == Guid.Empty)
+            {
+                throw new ArgumentNullException(nameof(categoryId));
+            }
+
+            string cacheKey = $"{_cachePrefix}_by_category_{categoryId}_page_{pageNumber}_size_{pageSize}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                Console.WriteLine("--> Get cache products by category with pagination success !");
+                return JsonSerializer.Deserialize<PagedList<ProductDisplayDTO>>(cachedData);
+            }
+            var subCategory = await _context.ProductCategories
+                .Include(cat => cat.SubCategories)
+                .FirstOrDefaultAsync(cat => cat.Id == categoryId);
+            if (subCategory == null)
+            {
+                Console.WriteLine("-->Sub Category not found !");
+            }
+            var categoryIds = new List<Guid> { categoryId };
+            if (subCategory != null)
+            {
+                categoryIds.AddRange(subCategory.SubCategories.Select(sub => sub.Id).ToList());
+
+            }
+            string cacheKeyAll = $"{_cachePrefix}_by_category_{categoryId}_all_filter";
+            string cachedDataAll = await _cache.GetStringAsync(cacheKeyAll);
+            List<ProductDisplayDTO> cachedDataAllList;
+
+            if (!string.IsNullOrEmpty(cachedDataAll))
+            {
+                Console.WriteLine("--> Get cache products by category all success!");
+                cachedDataAllList = JsonSerializer.Deserialize<List<ProductDisplayDTO>>(cachedDataAll);
+            }
+            else
+            {
+                Console.WriteLine("--> Cache miss, fetching from database...");
+                cachedDataAllList = await _dbSet
+                    .Where(p => categoryIds.Contains(p.ProductCategoryId.Value))
+                    .Include(p => p.Discount)
+                    .Include(p => p.ProductCategory)
+                    .Include(p => p.ProductRatings)
+                    .Select(MapToProductDisplayDTO())
+                    .AsNoTracking()
+                    .ToListAsync();
+
+                // Only cache if we got data from database
+                if (cachedDataAllList != null && cachedDataAllList.Any())
+                {
+                    await _cache.SetStringAsync(cacheKeyAll,
+                        JsonSerializer.Serialize(cachedDataAllList),
+                        GetExpirationOptions());
+                    Console.WriteLine("--> Set cache products by category all success!");
+                }
+            }
+
+            var totalCount = cachedDataAllList.Count();
+            if (totalCount == 0)
+            {
+                Console.WriteLine("--> No products found for the specified category !");
+                return PagedList<ProductDisplayDTO>.Create(new List<ProductDisplayDTO>(), 0, pageNumber, pageSize);
+            }
+            var products = cachedDataAllList
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize);
+
+            var pagedList = PagedList<ProductDisplayDTO>.Create(products, totalCount, pageNumber, pageSize);
+
+            var options = GetExpirationOptions();
+            var jsonData = JsonSerializer.Serialize(pagedList);
+            await _cache.SetStringAsync(cacheKey, jsonData, options);
+            Console.WriteLine("--> Set cache products by category with pagination success !");
+
+            return pagedList;
         }
     }
 }

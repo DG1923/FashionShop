@@ -8,7 +8,20 @@ import { Category } from '../models/category.model';
 import { Product } from '../models/product.model';
 import { fromEvent } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
-
+interface PriceRange {
+  min: number;
+  max: number | null;
+  label: string;
+}
+export interface PaginatedResponse<T> {
+  currentPage: number;
+  totalPages: number;
+  pageSize: number;
+  totalCount: number;
+  hasPrevious: boolean;
+  hasNext: boolean;
+  items: T[];
+}
 @Component({
   selector: 'app-collection',
   standalone: true, 
@@ -19,33 +32,25 @@ import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 ],
 })
 export class CollectionComponent implements OnInit {
+  // Add Math as a class property
+  protected readonly Math = Math;
+
   @Input() searchTerm: string = '';
+  
   selectedSize: string = '';
   sortOption: string = 'price_asc';
   currentPage: number = 1;
+  totalPages: number = 1;
+  pageSize: number = 16;
+  totalCount: number = 0;
+  hasPrevious: boolean = false;
+  hasNext: boolean = false;
 
-  categories = [
-    { name: 'Men', count: 20 },
-    { name: 'Women', count: 30 },
-    { name: 'Bags', count: 15 },
-    { name: 'Clothing', count: 45 },
-    { name: 'Shoes', count: 25 },
-    { name: 'Accessories', count: 18 }
-  ];
-
-  brands = [
-    'Louis Vuitton',
-    'Chanel',
-    'Hermes',
-    'Gucci'
-  ];
-
-  priceRanges = [
-    '$0.00 - $50.00',
-    '$50.00 - $100.00',
-    '$100.00 - $150.00',
-    '$150.00 - $200.00',
-    '$200.00+'
+  priceRanges: PriceRange[] = [
+    { min: 0, max: 100000, label: '0₫ - 100,000₫' },
+    { min: 100000, max: 200000, label: '100,000₫ - 200,000₫' },
+    { min: 200000, max: 500000, label: '200,000₫ - 500,000₫' },
+    { min: 500000, max: null, label: 'Trên 500,000₫' }
   ];
 
   sizes = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL'];
@@ -53,7 +58,7 @@ export class CollectionComponent implements OnInit {
   products :Product[] = [];  
   allProducts: Product[] = []; // Lưu trữ tất cả sản phẩm gốc
   filteredProducts: Product[] = []; // Lưu trữ sản phẩm đã được lọc
-
+  selectedPriceRange: PriceRange | null = null;
   pages = [1, 2, 3, 4, 5];
 
   constructor(private activatedRoute:ActivatedRoute,private productService:ProductService) { }
@@ -72,6 +77,25 @@ export class CollectionComponent implements OnInit {
     //listen for sort changes
     this.watchSortChanges();
   }
+  filterByPriceRange(range: PriceRange | null):void{
+    
+    if(!range) {
+      this.selectedPriceRange = null; // reset when user click delete filter
+
+      this.products = this.mapProducts([...this.allProducts]); // Hiển thị tất cả sản phẩm nếu không có range
+      return;
+    }
+    this.selectedPriceRange = range;
+    const filteredProducts = this.allProducts.filter(product =>{
+      const price = product.basePrice;  
+      if (range.max === null) {
+        return price >= range.min; // Trả về sản phẩm có giá lớn hơn hoặc bằng min nếu max là null
+      }
+      return price >= range.min && price <= range.max; // Trả về sản phẩm có giá trong khoảng min và max
+    })
+    this.products = this.mapProducts(filteredProducts); // Cập nhật sản phẩm đã lọc 
+
+  }
   watchSortChanges() {
     const sortSelect = document.querySelector('#sortSelect');
     if (sortSelect) {
@@ -85,7 +109,7 @@ export class CollectionComponent implements OnInit {
     }
   }
   sortProducts(sortOption: string) {
-    const sortedProducts = [...this.allProducts]; // Reset to all products before sorting  
+    const sortedProducts = [...this.products]; // Reset to all products before sorting  
     switch (sortOption) {
       case 'price_asc':
         sortedProducts.sort((a, b) => a.basePrice - b.basePrice);
@@ -159,29 +183,60 @@ export class CollectionComponent implements OnInit {
 
   // Cập nhật lại getProductsByCategory
   getProductsByCategory(categoryId: string) {
-    this.productService.getProductsByCategoryId(categoryId).subscribe({
-      next: (products) => {
-        this.allProducts = products;
+    this.productService.getProductsByCategoryId(categoryId, this.currentPage).subscribe({
+      next: (response: PaginatedResponse<Product>) => {
+        this.currentPage = response.currentPage;
+        this.totalPages = response.totalPages;
+        this.pageSize = response.pageSize;
+        this.totalCount = response.totalCount;
+        this.hasPrevious = response.hasPrevious;
+        this.hasNext = response.hasNext;
+        
+        this.allProducts = response.items;
         this.products = this.mapProducts([...this.allProducts]);
-        console.log('Products fetched by category:', this.products);
 
-        // Lọc sản phẩm theo sort option
-        if(this.sortOption !=='default'){
+        // Generate page numbers array
+        this.generatePageNumbers();
+
+        // Apply existing filters
+        if (this.selectedPriceRange) {
+          this.filterByPriceRange(this.selectedPriceRange);
+        }
+        if (this.sortOption !== 'newest') {
           this.sortProducts(this.sortOption);
         }
       },
       error: (error) => {
-        console.error('Error fetching products by category:', error);
+        console.error('Error fetching products:', error);
       }
     });
   }
 
-  selectSize(size: string): void {
-    this.selectedSize = size;
+  generatePageNumbers() {
+    const MAX_VISIBLE_PAGES = 5;
+    const pages: number[] = [];
+    
+    let startPage = Math.max(1, this.currentPage - Math.floor(MAX_VISIBLE_PAGES / 2));
+    let endPage = Math.min(this.totalPages, startPage + MAX_VISIBLE_PAGES - 1);
+
+    if (endPage - startPage + 1 < MAX_VISIBLE_PAGES) {
+      startPage = Math.max(1, endPage - MAX_VISIBLE_PAGES + 1);
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(i);
+    }
+
+    this.pages = pages;
   }
 
-  goToPage(page: number): void {
-    this.currentPage = page;
-    // Implement pagination logic
+  goToPage(page: number) {
+    if (page !== this.currentPage && page >= 1 && page <= this.totalPages) {
+      this.currentPage = page;
+      const categoryId = this.activatedRoute.snapshot.queryParams['categoryId'];
+      if (categoryId) {
+        this.getProductsByCategory(categoryId);
+      }
+    }
   }
 }

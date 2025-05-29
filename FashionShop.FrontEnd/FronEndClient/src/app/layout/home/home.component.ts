@@ -8,6 +8,7 @@ import { SingleProductComponent } from "../../components/single-product/single-p
 import { FooterComponent } from "../../components/footer/footer.component";
 import { Product } from "../../models/product.model"; 
 import { ProductService } from '../../services/product.service';
+import { PaginatedResponse } from '../../models/PaginatedResponse.model';
 @Component({
   selector: 'app-home',
   imports: [HeaderComponent, SliderComponent, CategoryComponent, ListProductsComponent, CollectionComponent, SingleProductComponent, FooterComponent],
@@ -16,8 +17,8 @@ import { ProductService } from '../../services/product.service';
   standalone: true, 
 })
 export class HomeComponent implements OnInit {  
-  list_product_by_nam: Product[]= [];
-  list_product_by_nu: Product[] = [];
+  list_product_by_nam:Product[] = []; ;
+  list_product_by_nu:Product[] = [];  
   CATEGORY_ID_NAM = '0a2ab5cb-9b63-4193-ba03-396df74d3b2e';
   CATEGORY_ID_NU = '5b61df93-4c11-4e6f-896f-4d7e63989cc3';
 
@@ -36,12 +37,12 @@ export class HomeComponent implements OnInit {
     this.productService.getProductsByCategoryId(id).subscribe({
       next: (products) => {
         console.log('Products loaded:', products);
-        if (products && products.length > 0) {
+        if (products.items && products.items.length > 0) {
 
           if(id== this.CATEGORY_ID_NAM) {
-            this.list_product_by_nam = products;
+            this.list_product_by_nam = products.items;
           }else if(id == this.CATEGORY_ID_NU) {
-            this.list_product_by_nu = products;
+            this.list_product_by_nu = products.items;
           }
         } else {
           console.warn('No products found for category:', id);

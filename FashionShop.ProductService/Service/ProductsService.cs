@@ -85,5 +85,14 @@ namespace FashionShop.ProductService.Service
             entity.Description = dto.Description;
             entity.MainImageUrl = dto.MainImageUrl;
         }
+
+        public async Task<PagedList<ProductDisplayDTO>> GetProductsByCategoryService(Guid categoryId, int pageNumber, int pageSize = 16)
+        {
+            if (categoryId == Guid.Empty)
+            {
+                throw new ArgumentNullException(nameof(categoryId), "Category ID cannot be empty");
+            }
+            return await _productRepo.GetProductsByCategory(categoryId, pageNumber, pageSize);
+        }
     }
 }

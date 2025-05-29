@@ -73,14 +73,22 @@ namespace FashionShop.ProductService.Controllers
 
         [AllowAnonymous]
         [HttpGet("by-category/{categoryId}")]
-        public async Task<IActionResult> GetProductsByCategory(Guid categoryId)
+        public async Task<IActionResult> GetProductsByCategory(Guid categoryId, [FromQuery] int pageNumber = 1)
         {
-            var products = await _service.GetProductsByCategoryService(categoryId);
-            if (products == null || !products.Any())
+            var products = await _service.GetProductsByCategoryService(categoryId, pageNumber);
+            if (products == null || !products.Items.Any())
             {
                 return NotFound($"No products found for category ID {categoryId}.");
             }
-            return Ok(products);
+
+            return Ok(new PagedList<ProductDisplayDTO>
+            {
+                CurrentPage = products.CurrentPage,
+                TotalPages = products.TotalPages,
+                PageSize = products.PageSize,
+                TotalCount = products.TotalCount,
+                Items = products.Items
+            });
         }
 
         [AllowAnonymous]
