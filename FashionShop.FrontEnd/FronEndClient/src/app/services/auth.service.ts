@@ -19,7 +19,7 @@ export interface JwtPayload {
 export class AuthService {
 
   private apiUrl = environment.apiUrl+"/auth";
-  private tokenKey = 'access_token';
+  private tokenKey = 'abcd-do-giap-123d-oke-at-random-32-bytes-long';
   private isLoggedIn$ = new BehaviorSubject<boolean>(this.hasToken());
   
   get isLoggedIn(): boolean {
@@ -63,7 +63,14 @@ export class AuthService {
   getToken():string|null{
     return localStorage.getItem(this.tokenKey);
   }
-
+  getUserId():string|null{
+    const token = this.getToken();
+    if (token) {
+      const decodedToken: JwtPayload = jwtDecode(token);
+      return decodedToken.sub; // Assuming 'sub' is the user ID
+    }
+    return null;
+  }
   private handleAuthentication(response: AuthResponse): void {
     if (response.token) {
       localStorage.setItem(this.tokenKey, response.token);

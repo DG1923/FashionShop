@@ -41,7 +41,20 @@ namespace FashionShop.CartService.Controllers
             }
             return Ok(cart);
         }
-
+        [HttpGet("GetCartIdByUserId/{userId}")]
+        public async Task<IActionResult> GetCartIdByUserId(Guid userId)
+        {
+            if (userId == Guid.Empty)
+            {
+                return BadRequest("User ID cannot be empty.");
+            }
+            var cartId = await _cartService.GetCartIdByUserIdAsync(userId);
+            if (cartId == Guid.Empty)
+            {
+                return NotFound($"No cart found for user with ID {userId}.");
+            }
+            return Ok(cartId);
+        }
         // POST api/Cart
         [HttpPost]
         public async Task<IActionResult> CreateCart([FromBody] CartCreateDto cartCreateDto)

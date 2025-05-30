@@ -9,9 +9,18 @@ import { FooterComponent } from "../../components/footer/footer.component";
 import { Product } from "../../models/product.model"; 
 import { ProductService } from '../../services/product.service';
 import { PaginatedResponse } from '../../models/PaginatedResponse.model';
+import { CartComponent } from '../../components/cart/cart.component'; 
 @Component({
   selector: 'app-home',
-  imports: [HeaderComponent, SliderComponent, CategoryComponent, ListProductsComponent, CollectionComponent, SingleProductComponent, FooterComponent],
+  imports: [HeaderComponent, 
+    SliderComponent, 
+    CategoryComponent, 
+    ListProductsComponent, 
+    CollectionComponent, 
+    SingleProductComponent, 
+    FooterComponent,
+    CartComponent
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
   standalone: true, 

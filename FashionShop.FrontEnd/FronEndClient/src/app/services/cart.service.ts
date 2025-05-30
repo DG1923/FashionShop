@@ -3,89 +3,54 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
+import { environment } from "../environments/environment";
 
 interface CartItem {
   id: string;
-  name: string;
-  price: number;
+  cartId: string;
+  productId: string;
+  productName: string;
+  basePrice: number;
+  discountPercent: number;
+  colorName: string;
+  colorCode: string;
+  size: string;
   quantity: number;
   imageUrl: string;
+  inventoryId: string;
+  productColorId: string;
+  productVariationId: string;
 }
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
-  // API endpoints
-  private cartApiUrl = '/api/cart';
-  
-  // Local cart state
-  private cartItemsSubject = new BehaviorSubject<CartItem[]>([]);
-  cartItems$ = this.cartItemsSubject.asObservable();
-  
-  // Cache timeout in milliseconds (5 minutes)
-  private cacheTimeout = 5 * 60 * 1000;
-  private lastFetchTime = 0;
-  
-  constructor(private http: HttpClient) {
-    // Load cart from local storage first for immediate display
-    this.loadCartFromLocalStorage();
-    // Then fetch from API
-    this.fetchCart();
+    private apiUrlCartItem = `${environment.apiUrl}/cartitem`;
+    private apiUrlCart = `${environment.apiUrl}/cart`;
+
+  constructor(private http: HttpClient) {}
+  //cart
+  getCartIdByUserId(userId: string): Observable<string> {
+    return this.http.get<string>(`
+      ${this.apiUrlCart}/GetCartIdByUserId/${userId}`);
   }
-  
-  // Get cart items with caching strategy
-  getCartItems(): Observable<CartItem[]> {
-    const now = Date.now();
-    // Refresh from API if cache is expired
-    if (now - this.lastFetchTime > this.cacheTimeout) {
-      this.fetchCart();
-    }
-    return this.cartItems$;
+
+  //cart item
+  getCartByUserId(cartId: string) {
+    return this.http.get<any>(`${this.apiUrlCartItem}/cart/${cartId}`);
   }
-  
-  // Get cart count for header badge
-  getCartCount(): Observable<number> {
-    return new Observable<number>(observer => {
-      this.cartItems$.subscribe(items => {
-        const count = items.reduce((total, item) => total + item.quantity, 0);
-        observer.next(count);
-      });
-    });
+
+  updateCartItem(itemId: string, updateDto: any) {
+    return this.http.put(`${this.apiUrlCartItem}/${itemId}`, updateDto);
   }
-  
-  // Fetch cart from API
-  private fetchCart(): void {
-    this.http.get<CartItem[]>(this.cartApiUrl)
-      .pipe(
-        tap(() => this.lastFetchTime = Date.now()),
-        catchError(error => {
-          console.error('Error fetching cart', error);
-          // Return cached data on error
-          return this.cartItems$;
-        })
-      )
-      .subscribe(items => {
-        this.cartItemsSubject.next(items);
-        this.saveCartToLocalStorage(items);
-      });
+
+  removeCartItem(itemId: string) {
+    return this.http.delete(`${this.apiUrlCartItem}/${itemId}`);
   }
-  
-  // Save cart to localStorage for offline access
-  private saveCartToLocalStorage(items: CartItem[]): void {
-    localStorage.setItem('cart', JSON.stringify(items));
-  }
-  
-  // Load cart from localStorage
-  private loadCartFromLocalStorage(): void {
-    const savedCart = localStorage.getItem('cart');
-    if (savedCart) {
-      try {
-        const items = JSON.parse(savedCart) as CartItem[];
-        this.cartItemsSubject.next(items);
-      } catch (e) {
-        console.error('Error parsing saved cart', e);
-      }
-    }
+
+  addToCart(cartItem: any) {
+    return this.http.post(this.apiUrlCartItem, cartItem);
   }
 }

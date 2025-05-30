@@ -5,5 +5,6 @@ namespace FashionShop.CartService.Service.Interface
 {
     public interface ICartService : IBaseService<Cart, CartCreateDto, CartUpdateDto>
     {
+        Task<Guid> GetCartIdByUserIdAsync(Guid userId);
     }
 }
