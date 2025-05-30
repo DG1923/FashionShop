@@ -14,15 +14,7 @@ namespace FashionShop.CartService.Service
         {
             return new Cart
             {
-                UserId = dto.UserId,
-                Items = dto.Items == null ? null : dto.Items.Select(i => new CartItem
-                {
-                    ProductId = i.ProductId,
-                    ProductName = i.ProductName,
-                    Price = i.Price,
-                    Quantity = i.Quantity,
-                    ImageUrl = i.ImageUrl
-                }).ToList()
+                UserId = dto.UserId
 
             };
 
@@ -30,14 +22,7 @@ namespace FashionShop.CartService.Service
         public override void MapToExistingEntity(Cart entity, CartUpdateDto dto)
         {
             entity.UserId = dto.UserId;
-            entity.Items = dto.Items == null ? null : dto.Items.Select(i => new CartItem
-            {
-                ProductId = i.ProductId,
-                ProductName = i.ProductName,
-                Price = i.Price,
-                Quantity = i.Quantity,
-                ImageUrl = i.ImageUrl
-            }).ToList();
+            entity.UpdatedAt = DateTime.UtcNow;
 
         }
     }

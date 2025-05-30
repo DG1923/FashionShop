@@ -165,19 +165,19 @@ export class HeaderComponent implements OnInit {
         next: (category) => {
           const temp = [{
             title: category.name,
-            link: `/category/${category.id}`,
+            link: `${category.id}`,
             columns: category.subCategory?.map((subCat: Category) => ({
               title: subCat.name,
-              link: `/category/${subCat.id}`,
+              link: `${subCat.id}`,
               items: subCat.subCategory?.map((subSubCat) => ({
                 title: subSubCat.name,
-                link: `/category/${subSubCat.id}`
+                link: `${subSubCat.id}`
               })) || [],
               image: {
                 src: subCat.imageUrl,
                 alt: subCat.name,
                 caption: subCat.name,
-                link: `/category/${subCat.id}`
+                link: `${subCat.id}`
               }
             })) || [],
             isHovered: false

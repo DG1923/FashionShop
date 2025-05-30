@@ -66,17 +66,43 @@
           <!-- Sizes -->
           <div class="mb-6" *ngIf="selectedColor">
             <h3 class="font-medium mb-2">Kích thước</h3>
-            <div class="flex gap-3">
+            <div class="flex flex-wrap gap-3">
               <button *ngFor="let variation of selectedColor.productVariationDisplayDTOs"
                       (click)="selectSize(variation)"
                       [class.bg-blue-600]="selectedSize === variation"
                       [class.text-white]="selectedSize === variation"
                       [class.cursor-not-allowed]="variation.quantity === 0"
                       [class.opacity-50]="variation.quantity === 0"
-                      class="px-4 py-2 border rounded-lg hover:border-blue-600 transition"
+                      class="relative px-4 py-2 border rounded-lg hover:border-blue-600 transition group"
                       [disabled]="variation.quantity === 0">
-                {{variation.size}}
+                <span>{{variation.size}}</span>
+                <!-- Add quantity indicator -->
+                <span class="text-xs block mt-1 text-gray-500 group-hover:text-blue-600" 
+                      [class.text-white]="selectedSize === variation">
+                  Còn {{variation.quantity}} sản phẩm
+                </span>
               </button>
+            </div>
+          </div>
+
+          <!-- Quantity selector -->
+          <div class="mb-6" *ngIf="selectedSize">
+            <h3 class="font-medium mb-2">Số lượng</h3>
+            <div class="flex items-center gap-4">
+              <div class="flex border rounded-lg">
+                <button class="px-4 py-2 hover:bg-gray-100" 
+                        (click)="decrementQuantity()"
+                        [disabled]="quantity <= 1">-</button>
+                <input type="number" 
+                       [(ngModel)]="quantity" 
+                       class="w-16 text-center border-x"
+                       [max]="selectedSize.quantity"
+                       min="1">
+                <button class="px-4 py-2 hover:bg-gray-100" 
+                        (click)="incrementQuantity()"
+                        [disabled]="quantity >= selectedSize.quantity">+</button>
+              </div>
+              <span class="text-gray-500">Tối đa {{selectedSize.quantity}} sản phẩm</span>
             </div>
           </div>
         </div>

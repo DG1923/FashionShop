@@ -3,6 +3,7 @@ using FashionShop.ProductService.DTOs;
 using FashionShop.ProductService.DTOs.DiscountDTO;
 using FashionShop.ProductService.DTOs.ProductColorDTO;
 using FashionShop.ProductService.DTOs.ProductDTO;
+using FashionShop.ProductService.DTOs.ProductRatingDTO;
 using FashionShop.ProductService.DTOs.ProductVariationDTO;
 using FashionShop.ProductService.Models;
 using FashionShop.ProductService.Repo.Interface;
@@ -136,6 +137,7 @@ namespace FashionShop.ProductService.Repo
             var product = await _dbSet
                 .Include(p => p.ProductCategory)
                 .Include(p => p.Discount)
+                .Include(p => p.ProductRatings)
                 .Include(p => p.ProductColors)
                     .ThenInclude(pc => pc.ProductVariations)
                 .AsSplitQuery()
@@ -164,6 +166,10 @@ namespace FashionShop.ProductService.Repo
                 {
                     Id = product.ProductCategory.Id,
                     Name = product.ProductCategory.Name,
+                } : null,
+                ProductRatingDisplayDTO = product.ProductRatings != null ? new ProductRatingDisplayDTO
+                {
+                    ProductRatings = product.ProductRatings
                 } : null,
                 productColorsDisplayDTO = product.ProductColors != null ? product.ProductColors.Select(pc => new ProductColorDisplayDTO()
                 {

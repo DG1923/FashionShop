@@ -162,6 +162,7 @@ namespace FashionShop.ProductService
             app.UseAuthorization();
 
             app.MapGrpcService<SyncQuantityService>();
+
             app.MapGet("/Protos/SyncQuantity.proto", async context =>
             {
                 await context.Response.WriteAsync("gRPC service is running");

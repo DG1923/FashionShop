@@ -43,6 +43,7 @@ namespace FashionShop.InventoryService.SyncDataService.Grpc.GrpcService
                 {
                     ProductId = inventory.ProductId.ToString(),
                     Quantity = inventory.Quantity,
+                    Result = true,
                 });
             }
             catch (Exception ex)
@@ -81,11 +82,26 @@ namespace FashionShop.InventoryService.SyncDataService.Grpc.GrpcService
                         Result = false,
                     });
                 }
-                inventory.Quantity = request.Quantity;
+                if (request.Quantity >= 0 && request.Quantity <= inventory.Quantity)
+                {
+                    inventory.Quantity -= request.Quantity;
+                }
+                else if (request.Quantity < 0)
+                {
+                    inventory.Quantity += Math.Abs(request.Quantity);
+                }
+                else
+                {
+                    Console.WriteLine($"--> Quantity is not valid !");
+                    return Task.FromResult(new GrpcUpdateQuantityResponse
+                    {
+                        Result = false,
+                    });
+                }
                 UpdateInventoryDto updateInventoryDto = new UpdateInventoryDto
                 {
                     ProductId = Guid.Parse(request.ProductId),
-                    QuantityChange = request.Quantity,
+                    QuantityChange = inventory.Quantity,
                 };
                 var resultUpdate = _service.UpdateInventory(updateInventoryDto).Result;
                 return Task.FromResult(new GrpcUpdateQuantityResponse

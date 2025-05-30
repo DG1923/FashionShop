@@ -31,6 +31,7 @@ namespace FashionShop.CartService.SyncDataService.Grpc
                 var channel = GrpcChannel.ForAddress(grpcAddress);
                 var client = new Protos.GrpcCartItemClient.GrpcCartItemClientClient(channel);
                 var response = client.GrpcGetQuantity(grpcGetQuantityRequest);
+
                 return Task.FromResult(response);
             }
             catch (Exception ex)

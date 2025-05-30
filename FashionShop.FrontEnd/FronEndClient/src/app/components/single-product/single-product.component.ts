@@ -60,21 +60,38 @@ export class SingleProductComponent implements OnInit {
 
   selectSize(variation: ProductVariation) {
     this.selectedSize = variation;
+    // Reset quantity when changing size
+    this.quantity = 1;
   }
 
   incrementQuantity() {
-    this.quantity++;
+     if(this.quantity <= 0){
+      this.quantity = 1; // Reset to 1 if quantity goes below 1
+    }
+    if (this.selectedSize && this.quantity < this.selectedSize.quantity) {
+      this.quantity++;
+    }
+   
   }
 
   decrementQuantity() {
+    if(this.quantity<0){
+      this.quantity = 1; // Reset to 1 if quantity goes below 1
+    }
     if (this.quantity > 1) {
       this.quantity--;
     }
+
   }
 
   addToCart() {
     if (!this.selectedSize) {
-      alert('Please select a size');
+      alert('Vui lòng chọn kích thước');
+      return;
+    }
+
+    if (this.quantity > this.selectedSize.quantity) {
+      alert('Số lượng đã vượt quá số lượng có sẵn');
       return;
     }
 
@@ -83,7 +100,9 @@ export class SingleProductComponent implements OnInit {
       color: this.selectedColor?.colorName,
       size: this.selectedSize.size,
       quantity: this.quantity,
-      total: this.product.discountedPrice==null? this.quantity * this.product.basePrice: this.quantity * this.product.discountedPrice
+      total: this.product.discountedPrice == null ? 
+        this.quantity * this.product.basePrice : 
+        this.quantity * this.product.discountedPrice
     });
   }
 }

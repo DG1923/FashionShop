@@ -122,8 +122,6 @@ namespace FashionShop.CartService.Repo
                     Console.WriteLine($"{_cachePrefix}:--> Get cache success");
                     return cachedEntities;
                 }
-                else
-                    throw new ArgumentNullException(cachedData);
             }
             Console.WriteLine($"{_cachePrefix}:--> Get cache failed");
             // If not found in cache, fetch from database

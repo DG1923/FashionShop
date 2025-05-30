@@ -2,8 +2,10 @@
 
 namespace FashionShop.CartService.DTO.CartItem
 {
-    public class CartItemCreateDto
+    public class CartItemDisplayDto
     {
+        [Required]
+        public Guid Id { get; set; }
         [Required]
         public Guid CartId { get; set; }
         [Required]
@@ -41,5 +43,18 @@ namespace FashionShop.CartService.DTO.CartItem
 
         [Url]
         public string? ImageUrl { get; set; }
+
+        // Computed property for total price
+        public decimal TotalPrice
+        {
+            get
+            {
+                if (DiscountPercent.HasValue && DiscountPercent.Value > 0)
+                {
+                    return BasePrice * Quantity * (1 - DiscountPercent.Value / 100);
+                }
+                return BasePrice * Quantity;
+            }
+        }
     }
 }

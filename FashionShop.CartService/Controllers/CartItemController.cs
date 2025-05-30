@@ -60,17 +60,26 @@ namespace FashionShop.CartService.Controllers
             });
         }
 
+        [HttpGet("cart/{cartId}")]
+        public async Task<IActionResult> GetCartItems(Guid cartId)
+        {
+            var items = await _cartItemService.GetCartItemsByCartIdAsync(cartId);
+            if (!items.Any())
+                return NotFound($"No items found in cart {cartId}");
+            return Ok(items);
+        }
+
         // POST: api/CartItem
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CartItemCreateDto dto)
         {
-            if (dto == null)
+            if (dto == null || dto.Quantity <= 0)
                 return BadRequest("CartItem data is null.");
 
             // Check product quantity before creating cart item
             var quantityRequest = new GrpcGetQuantityRequest
             {
-                ProductId = dto.ProductId.ToString()
+                ProductId = dto.ProductVariationId.ToString()
             };
 
             var quantityResponse = await _grpcCartItemClient.GetQuantityByProductId(quantityRequest);
@@ -88,8 +97,8 @@ namespace FashionShop.CartService.Controllers
             // Update product quantity
             var updateRequest = new GrpcUpdateQuantityRequest
             {
-                ProductId = dto.ProductId.ToString(),
-                Quantity = dto.Quantity
+                ProductId = dto.ProductVariationId.ToString(),
+                Quantity = quantityResponse.Quantity - dto.Quantity
             };
 
             var updateResponse = await _grpcCartItemClient.UpdateQuantity(updateRequest);
@@ -105,84 +114,21 @@ namespace FashionShop.CartService.Controllers
 
         // PUT: api/CartItem/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(Guid id, [FromBody] CartItemUpdateDto dto)
+        public async Task<IActionResult> Update(Guid id, [FromBody] CartItemUpdateDto updateDto)
         {
-            if (dto == null)
-                return BadRequest("CartItem data is null.");
-
-            var existingItem = await _cartItemService.GetByIdServiceAsync(id);
-            if (existingItem == null)
-                return NotFound($"CartItem with ID {id} not found.");
-
-            // Check product quantity before updating
-            var quantityRequest = new GrpcGetQuantityRequest
-            {
-                ProductId = dto.ProductId.ToString()
-            };
-
-            var quantityResponse = await _grpcCartItemClient.GetQuantityByProductId(quantityRequest);
-            if (quantityResponse == null || !quantityResponse.Result)
-                return BadRequest("Failed to verify product quantity.");
-
-            var quantityDifference = dto.Quantity - existingItem.Quantity;
-            if (quantityResponse.Quantity < quantityDifference)
-                return BadRequest($"Insufficient quantity. Available: {quantityResponse.Quantity}");
-
-            var updated = await _cartItemService.UpdateServiceAsync(id, dto);
-            if (updated == null)
-                return NotFound($"CartItem with ID {id} not found.");
-
-            // Update product quantity if quantity has changed
-            if (quantityDifference != 0)
-            {
-                var updateRequest = new GrpcUpdateQuantityRequest
-                {
-                    ProductId = dto.ProductId.ToString(),
-                    Quantity = quantityDifference
-                };
-
-                var updateResponse = await _grpcCartItemClient.UpdateQuantity(updateRequest);
-                if (updateResponse == null || !updateResponse.Result)
-                {
-                    // Rollback to original quantity
-                    await _cartItemService.UpdateServiceAsync(id, new CartItemUpdateDto
-                    {
-                        ProductId = existingItem.ProductId,
-                        Quantity = existingItem.Quantity,
-                        ProductName = existingItem.ProductName,
-                        Price = existingItem.Price,
-                        ImageUrl = existingItem.ImageUrl
-                    });
-                    return BadRequest("Failed to update product quantity.");
-                }
-            }
-
-            return Ok(updated);
+            var result = await _cartItemService.UpdateCartItemByIdAsync(id, updateDto);
+            if (result == null)
+                return BadRequest("Failed to update cart item");
+            return Ok(result);
         }
 
         // DELETE: api/CartItem/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            var item = await _cartItemService.GetByIdServiceAsync(id);
-            if (item == null)
-                return NotFound($"CartItem with ID {id} not found.");
-
-            // Return quantity to product inventory
-            var updateRequest = new GrpcUpdateQuantityRequest
-            {
-                ProductId = item.ProductId.ToString(),
-                Quantity = -item.Quantity // Negative quantity to add back to inventory
-            };
-
-            var updateResponse = await _grpcCartItemClient.UpdateQuantity(updateRequest);
-            if (updateResponse == null || !updateResponse.Result)
-                return BadRequest("Failed to update product quantity.");
-
-            var result = await _cartItemService.DeleteServiceAsync(id);
+            var result = await _cartItemService.RemoveCartItemByIdAsync(id);
             if (!result)
-                return NotFound($"CartItem with ID {id} not found.");
-
+                return NotFound($"CartItem {id} not found or could not be removed");
             return NoContent();
         }
     }

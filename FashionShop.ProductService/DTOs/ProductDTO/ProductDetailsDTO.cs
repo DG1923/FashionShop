@@ -1,7 +1,6 @@
-﻿using FashionShop.ProductService.DTOs.CategoryDTO;
-using FashionShop.ProductService.DTOs.DiscountDTO;
+﻿using FashionShop.ProductService.DTOs.DiscountDTO;
 using FashionShop.ProductService.DTOs.ProductColorDTO;
-using FashionShop.ProductService.Models;
+using FashionShop.ProductService.DTOs.ProductRatingDTO;
 using System.ComponentModel.DataAnnotations;
 
 namespace FashionShop.ProductService.DTOs.ProductDTO
@@ -23,6 +22,7 @@ namespace FashionShop.ProductService.DTOs.ProductDTO
         public string? MainImageUrl { get; set; }
 
 
+        public ProductRatingDisplayDTO? ProductRatingDisplayDTO { get; set; }
         public DiscountDisplayDTO? discountDisplayDTO { get; set; }
 
         public IEnumerable<ProductColorDisplayDTO>? productColorsDisplayDTO { get; set; }

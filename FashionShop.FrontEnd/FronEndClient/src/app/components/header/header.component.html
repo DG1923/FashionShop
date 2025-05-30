@@ -22,7 +22,7 @@
          (mouseleave)="onMenuLeave()">
 
       <!-- Main category item -->
-      <a [routerLink]="[item.link]"
+      <a [queryParams]="{categoryId:item.link}" [routerLink]="['/collection']"
          class="flex items-center h-full px-4 font-medium transition-colors duration-200 hover:text-blue-600"
          [ngClass]="{'text-blue-600 border-b-2 border-blue-600': item.isHovered}">
         {{ item.title }}
@@ -45,7 +45,7 @@
                 </h3>
                 <ul class="space-y-2">
                   <li *ngFor="let subItem of column.items">
-                    <a [routerLink]="[subItem.link]"
+                    <a [queryParams]="{categoryId:subItem.link}"[routerLink]="['/collection']"
                        class="text-gray-600 hover:text-blue-600 text-sm">
                       {{ subItem.title }}
                     </a>
@@ -55,7 +55,7 @@
 
               <!-- Cột hình ảnh -->
               <div *ngIf="column.image" class="space-y-2 flex flex-col items-center">
-                <a [routerLink]="[column.image.link]" class="block">
+                <a [queryParams]="{categoryId:column.image.link}" [routerLink]="['/collection']" class="block">
                   <img [src]="column.image.src"
                        [alt]="column.image.alt"
                        class="w-30 h-30 object-cover rounded-lg">
