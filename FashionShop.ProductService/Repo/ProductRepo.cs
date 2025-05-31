@@ -431,5 +431,69 @@ namespace FashionShop.ProductService.Repo
 
             return pagedList;
         }
+
+        public async Task<PagedList<ProductDisplayDTO>> GetAllProductsPaged(int pageNumber, int pageSize = 16)
+        {
+            string cacheKey = $"{_cachePrefix}_all_page_{pageNumber}_size_{pageSize}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                Console.WriteLine("--> Get cache all products with pagination success!");
+                return JsonSerializer.Deserialize<PagedList<ProductDisplayDTO>>(cachedData);
+            }
+
+            // Get all products from cache or database
+            string cacheKeyAll = $"{_cachePrefix}_all_products";
+            string cachedDataAll = await _cache.GetStringAsync(cacheKeyAll);
+            List<ProductDisplayDTO> cachedDataAllList;
+
+            if (!string.IsNullOrEmpty(cachedDataAll))
+            {
+                Console.WriteLine("--> Get cache all products success!");
+                cachedDataAllList = JsonSerializer.Deserialize<List<ProductDisplayDTO>>(cachedDataAll);
+            }
+            else
+            {
+                Console.WriteLine("--> Cache miss, fetching from database...");
+                cachedDataAllList = await _dbSet
+                    .Include(p => p.Discount)
+                    .Include(p => p.ProductCategory)
+                    .Include(p => p.ProductRatings)
+                    .Select(MapToProductDisplayDTO())
+                    .AsNoTracking()
+                    .ToListAsync();
+
+                // Cache all products if we got data
+                if (cachedDataAllList != null && cachedDataAllList.Any())
+                {
+                    await _cache.SetStringAsync(cacheKeyAll,
+                        JsonSerializer.Serialize(cachedDataAllList),
+                        GetExpirationOptions());
+                    Console.WriteLine("--> Set cache all products success!");
+                }
+            }
+
+            var totalCount = cachedDataAllList.Count();
+            if (totalCount == 0)
+            {
+                Console.WriteLine("--> No products found!");
+                return PagedList<ProductDisplayDTO>.Create(new List<ProductDisplayDTO>(), 0, pageNumber, pageSize);
+            }
+
+            var products = cachedDataAllList
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize);
+
+            var pagedList = PagedList<ProductDisplayDTO>.Create(products, totalCount, pageNumber, pageSize);
+
+            // Cache the paged results
+            var options = GetExpirationOptions();
+            var jsonData = JsonSerializer.Serialize(pagedList);
+            await _cache.SetStringAsync(cacheKey, jsonData, options);
+            Console.WriteLine("--> Set cache products with pagination success!");
+
+            return pagedList;
+        }
     }
 }

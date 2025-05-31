@@ -157,7 +157,7 @@ namespace FashionShop.CartService.Service
                     // Check inventory through gRPC
                     var quantityRequest = new GrpcGetQuantityRequest
                     {
-                        ProductId = existingItem.ProductId.ToString()
+                        ProductId = existingItem.ProductVariationId.ToString()
                     };
 
                     var quantityResponse = await _grpcClient.GetQuantityByProductId(quantityRequest);
@@ -170,7 +170,7 @@ namespace FashionShop.CartService.Service
                     // Update inventory through gRPC
                     var updateRequest = new GrpcUpdateQuantityRequest
                     {
-                        ProductId = existingItem.ProductId.ToString(),
+                        ProductId = existingItem.ProductVariationId.ToString(),
                         Quantity = quantityDifference
                     };
 

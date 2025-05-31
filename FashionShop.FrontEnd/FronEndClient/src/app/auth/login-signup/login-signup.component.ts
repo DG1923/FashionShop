@@ -12,6 +12,7 @@ import { LoginRequest } from '../../models/auth.model';
 })
 export class LoginSignupComponent implements OnInit {
   loginForm: FormGroup;
+isLoading: boolean = false;
 
   constructor(
     private fb: FormBuilder,
@@ -28,6 +29,7 @@ export class LoginSignupComponent implements OnInit {
 
   onSubmit() {
     if (this.loginForm.valid) {
+      this.isLoading = true; // Set loading state
       const loginRequest:LoginRequest ={
          email:this.loginForm.value.username,
           password:this.loginForm.value.password
@@ -43,7 +45,10 @@ export class LoginSignupComponent implements OnInit {
         
       }, error: (error) => {
           console.error('Login error:', error);
-          alert(error);
+      this.isLoading = false; // Reset loading state
+
+          alert("Đăng nhập không thành công, vui lòng kiểm tra lại thông tin đăng nhập của bạn.");
+          
         }});
       let token = this.authService.getToken();
       console.log(token); 

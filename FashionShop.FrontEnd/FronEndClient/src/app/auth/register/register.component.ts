@@ -1,3 +1,4 @@
+// register.component.ts
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -8,12 +9,15 @@ import { HttpClientModule } from '@angular/common/http';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  standalone: true, 
-  imports: [CommonModule,ReactiveFormsModule,RouterLink,HttpClientModule], // Import CommonModule for ngIf and ngFor directives
+  styleUrls: ['./register.component.css'],
+  standalone: true,
+  imports: [CommonModule, ReactiveFormsModule, RouterLink, HttpClientModule],
 })
 export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
-
+  isLoading = false;
+  loadingText = 'Creating your account...';
+  
   constructor(
     private fb: FormBuilder,
     private authService: AuthService,
@@ -35,9 +39,12 @@ export class RegisterComponent implements OnInit {
     return g.get('password')?.value === g.get('confirmPassword')?.value
       ? null : {'mismatch': true};
   }
-	
+
   onSubmit() {
-    if (this.registerForm.valid) {
+    if (this.registerForm.valid && !this.isLoading) {
+      this.isLoading = true;
+      this.loadingText = 'Creating your account...';
+      
       const registerData = {
         userName: this.registerForm.value.username,
         email: this.registerForm.value.email,
@@ -47,11 +54,22 @@ export class RegisterComponent implements OnInit {
       this.authService.register(registerData).subscribe({
         next: (response) => {
           if (response.success) {
-            this.router.navigate(['/']);
+            this.loadingText = 'Account created successfully!';
+            // Small delay to show success message before navigation
+            setTimeout(() => {
+              this.isLoading = false;
+              this.router.navigate(['/']);
+            }, 800);
+          } else {
+            this.isLoading = false;
           }
         },
         error: (error) => {
           console.error('Registration failed:', error);
+          this.loadingText = 'Registration failed. Please try again.';
+          setTimeout(() => {
+            this.isLoading = false;
+          }, 1500);
         }
       });
     }

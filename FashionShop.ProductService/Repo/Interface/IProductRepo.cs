@@ -13,5 +13,6 @@ namespace FashionShop.ProductService.Repo.Interface
         Task<IEnumerable<ProductDisplayDTO>> GetFeaturedProducts(int take);
         Task<IEnumerable<ProductDisplayDTO>> GetNewProducts(int take);
         Task<IEnumerable<ProductDisplayDTO>> GetTopDiscountedProducts(int take);
+        Task<PagedList<ProductDisplayDTO>> GetAllProductsPaged(int pageNumber, int pageSize = 16);
     }
 }

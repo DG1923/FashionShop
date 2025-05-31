@@ -5,6 +5,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { CollectionComponent } from './collection/collection.component';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { SingleProductComponent } from './components/single-product/single-product.component';
+import { CartComponent } from './components/cart/cart.component';
 
 export const routes: Routes = [
     {
@@ -13,7 +14,10 @@ export const routes: Routes = [
         children:[
             {path: '', component: HomeComponent, pathMatch: 'full'},   
             {path: 'collection', component: CollectionComponent},
-            { path: 'product/:id', component: SingleProductComponent }
+            { path: 'product/:id', component: SingleProductComponent },
+            {path: 'collection/:category', component: CollectionComponent},
+            {path:'cart', component: CartComponent},
+
         ]
         
     },

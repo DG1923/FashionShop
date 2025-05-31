@@ -18,26 +18,24 @@ namespace FashionShop.ProductService.Controllers
 
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetAllProducts()
+        public async Task<IActionResult> GetAllProducts([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 16)
         {
-            var products = await _service.GetAllServiceAsync();
-            if (products == null)
+            var products = await _service.GetAllProductsPaged(pageNumber, pageSize);
+            if (products == null || !products.Items.Any())
             {
                 return NotFound("No products found.");
             }
-            List<ProductDisplayDTO> result = new List<ProductDisplayDTO>();
-            foreach (var product in products)
+
+            return Ok(new
             {
-                var productDisplay = new ProductDisplayDTO
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    BasePrice = product.BasePrice,
-                    MainImageUrl = product.MainImageUrl
-                };
-                result.Add(productDisplay);
-            }
-            return Ok(result);
+                CurrentPage = products.CurrentPage,
+                TotalPages = products.TotalPages,
+                PageSize = products.PageSize,
+                TotalCount = products.TotalCount,
+                HasPrevious = products.HasPrevious,
+                HasNext = products.HasNext,
+                Items = products.Items
+            });
         }
 
         [AllowAnonymous]

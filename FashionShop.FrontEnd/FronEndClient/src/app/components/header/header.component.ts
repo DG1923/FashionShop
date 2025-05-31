@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostListener } from '@angular/core';
-import { debounceTime, Observable } from 'rxjs';
+import { Component, HostListener, OnInit, OnDestroy } from '@angular/core';
+import { debounceTime, Observable, Subscription } from 'rxjs';
 import { CartService } from '../../services/cart.service';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 import { LoginRequest } from '../../models/auth.model'; 
 import { CategoryService } from '../../services/category.service';
 import { Category } from '../../models/category.model';
-import{OnInit} from '@angular/core';
+
 interface MenuItem {
   title: string;
   link: string;
@@ -32,29 +32,56 @@ interface MenuSubItem {
   link: string;
 }
 
-
 @Component({
   selector: 'app-header',
-  imports: [CommonModule,RouterOutlet, RouterLink,RouterLinkActive], // Import CommonModule for ngIf and ngFor directives
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
   standalone: true, 
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements OnInit, OnDestroy {
+  cartCount: number = 0;
   cartCount$: Observable<number>;
+  private cartSubscription?: Subscription;
+  private authSubscription?: Subscription;
 
-  logout() {
-    this.authService.logout();
-    this.isLogginng = false;
-    this.router.navigate(['/']);  
+  // Thêm biến để quản lý trạng thái logout
+  isLoggingOut: boolean = false;
+
+  async logout() {
+    try {
+      // Bắt đầu quá trình logout
+      this.isLoggingOut = true;
+      
+      // Thêm delay ngắn để hiển thị hiệu ứng loading
+      await new Promise(resolve => setTimeout(resolve, 800));
+      
+      // Thực hiện logout
+      this.authService.logout();
+      this.isLogginng = false;
+      this.cartService.clearCart();
+      
+      // Navigate về trang chủ
+      await this.router.navigate(['/']);
+      
+      // Reload trang sau khi navigate
+      window.location.reload();
+      
+    } catch (error) {
+      console.error('Logout error:', error);
+    } finally {
+      this.isLoggingOut = false;
+    }
   }
+
   isMobileMenuOpen = false;
-  isLogginng:boolean= false; 
-  userName : string = '';
+  isLogginng: boolean = false; 
+  userName: string = '';
+
   toggleMobileMenu(): void {
     this.isMobileMenuOpen = !this.isMobileMenuOpen;
   }
-  // cartCount$: Observable<number>;
+
   CATEGORY_NAM_ID = '819fe665-9c1a-43a3-bcab-8f45c7b128a4';
   CATEGORY_NU_ID = '731609e6-e745-4b7b-9d19-9029b0006998';
   MegaMenu: MenuItem[] = [];
@@ -93,7 +120,6 @@ export class HeaderComponent implements OnInit {
       link: '/collection',
       isHovered: false,
       columns: [
-        // Similar structure for women's items
         {
           title: 'TẤT CẢ SẢN PHẨM NỮ',
           link: '/collection',
@@ -129,25 +155,51 @@ export class HeaderComponent implements OnInit {
     },
   ];
   
-  subMenuCategories = [
-  ];
-  
+  subMenuCategories = [];
   
   ngOnInit(): void {
     this.getCategories();
-    this.updateCartCount();
+    this.initializeCartCount();
+    
+    // Subscribe to auth changes để update cart khi login/logout
+    this.authSubscription = this.authService.authStateChanged$.subscribe((isLoggedIn) => {
+      this.isLogginng = isLoggedIn;
+      this.userName = this.authService.getUserName() || '';
+      
+      if (isLoggedIn) {
+        this.updateCartCount();
+      } else {
+        this.cartService.clearCart();
+      }
+    });
   }
 
-  updateCartCount() {
+  ngOnDestroy(): void {
+    // Cleanup subscriptions
+    if (this.cartSubscription) {
+      this.cartSubscription.unsubscribe();
+    }
+    if (this.authSubscription) {
+      this.authSubscription.unsubscribe();
+    }
+  }
+
+  initializeCartCount(): void {
+    // Subscribe to cart count changes
+    this.cartCount$ = this.cartService.getCartCount$();
+    this.cartSubscription = this.cartCount$.subscribe(count => {
+      this.cartCount = count;
+    });
+
+    // Load initial cart count if user is logged in
     if (this.isLogginng) {
-      const userId = this.authService.getUserId();
-      if (userId) {
-        this.cartService.getCartIdByUserId(userId).subscribe(cartId => {
-          this.cartService.getCartByUserId(cartId).subscribe(cart => {
-            this.cartService.updateCartCount(cart.items.length);
-          });
-        });
-      }
+      this.updateCartCount();
+    }
+  }
+
+  updateCartCount(): void {
+    if (this.isLogginng) {
+      this.cartService.updateCartCount();
     }
   }
 
@@ -157,18 +209,16 @@ export class HeaderComponent implements OnInit {
     private categoryService: CategoryService, 
     private cartService: CartService
   ) {
-    this.cartCount$ = this.cartService.cartCount$;
     this.isLogginng = this.authService.isLoggedIn;
-    this.userName = this.authService.getUserInfo()?.name || '';
+    this.userName = this.authService.getUserName() || '';
+    this.cartCount$ = this.cartService.getCartCount$();
   }
 
   getCategories() {
-    // Sử dụng Promise.all để đợi cả 2 category load xong
     Promise.all([
       this.LoadCategory(this.CATEGORY_NAM_ID),
       this.LoadCategory(this.CATEGORY_NU_ID)
     ]).then(() => {
-      // Chỉ cập nhật menuItems sau khi tất cả categories đã được load
       if(this.MegaMenu.length > 0) {
         this.menuItems = [...this.MegaMenu];
         console.log('MegaMenu initialized:', this.menuItems);
@@ -202,12 +252,11 @@ export class HeaderComponent implements OnInit {
           this.MegaMenu.push(...temp);
           resolve();
         },
-        error: () => resolve() // Resolve even on error to prevent hanging
+        error: () => resolve()
       });
     });
   }
   
-  // Handle hover states
   onMenuItemHover(index: number): void {
     this.menuItems.forEach((item, i) => {
       item.isHovered = i === index;
@@ -215,12 +264,9 @@ export class HeaderComponent implements OnInit {
   }
   
   onMenuLeave(): void {
-     // Duration for the fade-out effect
-    
     this.menuItems.forEach(item => item.isHovered = false);
   }
   
-  // Close dropdown when clicking outside
   @HostListener('document:click', ['$event'])
   clickOutside(event: Event): void {
     const headerElement = document.querySelector('.header-menu');

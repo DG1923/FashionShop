@@ -7,12 +7,14 @@ import { ProductCardComponent } from "../components/product-card/product-card.co
 import { Category } from '../models/category.model';
 import { Product } from '../models/product.model';
 import { fromEvent } from 'rxjs';
-import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, map, finalize } from 'rxjs/operators';
+
 interface PriceRange {
   min: number;
   max: number | null;
   label: string;
 }
+
 export interface PaginatedResponse<T> {
   currentPage: number;
   totalPages: number;
@@ -22,6 +24,7 @@ export interface PaginatedResponse<T> {
   hasNext: boolean;
   items: T[];
 }
+
 @Component({
   selector: 'app-collection',
   standalone: true, 
@@ -29,7 +32,7 @@ export interface PaginatedResponse<T> {
   imports: [
     FormsModule, CommonModule,
     ProductCardComponent
-],
+  ],
 })
 export class CollectionComponent implements OnInit {
   // Add Math as a class property
@@ -46,6 +49,12 @@ export class CollectionComponent implements OnInit {
   hasPrevious: boolean = false;
   hasNext: boolean = false;
 
+  // Loading states
+  isLoadingProducts: boolean = false;
+  isSearching: boolean = false;
+  isSorting: boolean = false;
+  isPaginating: boolean = false;
+  isLoadingMain: boolean = false;
   priceRanges: PriceRange[] = [
     { min: 0, max: 100000, label: '0₫ - 100,000₫' },
     { min: 100000, max: 200000, label: '100,000₫ - 200,000₫' },
@@ -55,47 +64,113 @@ export class CollectionComponent implements OnInit {
 
   sizes = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL'];
 
-  products :Product[] = [];  
+  products: Product[] = [];  
   allProducts: Product[] = []; // Lưu trữ tất cả sản phẩm gốc
   filteredProducts: Product[] = []; // Lưu trữ sản phẩm đã được lọc
   selectedPriceRange: PriceRange | null = null;
   pages = [1, 2, 3, 4, 5];
 
-  constructor(private activatedRoute:ActivatedRoute,private productService:ProductService) { }
+  constructor(private activatedRoute: ActivatedRoute, private productService: ProductService) { }
 
   ngOnInit(): void {
-    this.activatedRoute.queryParams.subscribe(params =>{
+    this.activatedRoute.queryParams.subscribe(params => {
       const categoryId = params['categoryId'];
       if (categoryId) {
         this.getProductsByCategory(categoryId);
+      }
+      else{
+        this.getAllProducts();
+        
       }
     });
 
     // Listen for search changes
     this.onSearch();
 
-    //listen for sort changes
+    // Listen for sort changes
     this.watchSortChanges();
   }
-  filterByPriceRange(range: PriceRange | null):void{
-    
-    if(!range) {
-      this.selectedPriceRange = null; // reset when user click delete filter
+  getAllProducts() {
+    this.isLoadingProducts = true;  
+    this.productService.getAllProducts(this.currentPage)
+    .pipe(
+      finalize(() => {
+        this.isLoadingProducts = false;
+      })
+    ).subscribe({
+      next: (response: PaginatedResponse<Product>) => {
+        // Add a small delay to show loading animation
+        setTimeout(() => {
+          this.currentPage = response.currentPage;
+          this.totalPages = response.totalPages;
+          this.pageSize = response.pageSize;
+          this.totalCount = response.totalCount;
+          this.hasPrevious = response.hasPrevious;
+          this.hasNext = response.hasNext;
 
-      this.products = this.mapProducts([...this.allProducts]); // Hiển thị tất cả sản phẩm nếu không có range
-      return;
-    }
-    this.selectedPriceRange = range;
-    const filteredProducts = this.allProducts.filter(product =>{
-      const price = product.basePrice;  
-      if (range.max === null) {
-        return price >= range.min; // Trả về sản phẩm có giá lớn hơn hoặc bằng min nếu max là null
-      }
-      return price >= range.min && price <= range.max; // Trả về sản phẩm có giá trong khoảng min và max
+          this.allProducts = response.items;
+          this.products = this.mapProducts([...this.allProducts]);
+
+          // Generate page numbers array
+          this.generatePageNumbers();
+
+          // Apply existing filters
+          if (this.selectedPriceRange) {
+            this.filterByPriceRange(this.selectedPriceRange);
+          }
+          if (this.sortOption !== 'newest') {
+            this.sortProducts(this.sortOption);
+          }
+        }, 600); // Minimum loading time for better UX
+      },
+      error: (error) => {
+        console.error('Error fetching products:', error);
+        // You might want to show an error message to the user here
+      } 
     })
-    this.products = this.mapProducts(filteredProducts); // Cập nhật sản phẩm đã lọc 
-
   }
+
+  // TrackBy functions for better performance
+  trackByProduct(index: number, product: Product): any {
+    return product.id;
+  }
+
+  trackByPriceRange(index: number, range: PriceRange): any {
+    return range.label;
+  }
+
+  trackByPage(index: number, page: number): any {
+    return page;
+  }
+
+  filterByPriceRange(range: PriceRange | null): void {
+    if (this.isLoadingProducts) return;
+
+    // Add a small delay to show smooth transition
+    this.isSorting = true;
+    
+    setTimeout(() => {
+      if (!range) {
+        this.selectedPriceRange = null;
+        this.products = this.mapProducts([...this.allProducts]);
+        this.isSorting = false;
+        return;
+      }
+
+      this.selectedPriceRange = range;
+      const filteredProducts = this.allProducts.filter(product => {
+        const price = product.basePrice;  
+        if (range.max === null) {
+          return price >= range.min;
+        }
+        return price >= range.min && price <= range.max;
+      });
+      
+      this.products = this.mapProducts(filteredProducts);
+      this.isSorting = false;
+    }, 300);
+  }
+
   watchSortChanges() {
     const sortSelect = document.querySelector('#sortSelect');
     if (sortSelect) {
@@ -108,23 +183,33 @@ export class CollectionComponent implements OnInit {
         });
     }
   }
+
   sortProducts(sortOption: string) {
-    const sortedProducts = [...this.products]; // Reset to all products before sorting  
-    switch (sortOption) {
-      case 'price_asc':
-        sortedProducts.sort((a, b) => a.basePrice - b.basePrice);
-        break;
-      case 'price_desc':
-        sortedProducts.sort((a, b) => b.basePrice - a.basePrice);
-        break;
-      default:
-        break;
-    }
-    this.products = this.mapProducts(sortedProducts); // Map lại sau khi sort 
+    if (this.isLoadingProducts) return;
+
+    this.isSorting = true;
+    
+    // Add delay for smooth animation
+    setTimeout(() => {
+      const sortedProducts = [...this.products];
+      
+      switch (sortOption) {
+        case 'price_asc':
+          sortedProducts.sort((a, b) => a.basePrice - b.basePrice);
+          break;
+        case 'price_desc':
+          sortedProducts.sort((a, b) => b.basePrice - a.basePrice);
+          break;
+        default:
+          break;
+      }
+      
+      this.products = this.mapProducts(sortedProducts);
+      this.isSorting = false;
+    }, 400);
   }
 
   onSearch(): void {
-    // Debounce search to avoid too many calls
     const searchInput = document.querySelector('#searchInput');
     if (searchInput) {
       fromEvent(searchInput, 'input')
@@ -143,28 +228,35 @@ export class CollectionComponent implements OnInit {
   private normalizeText(text: string): string {
     return text
       .toLowerCase()
-      .normalize('NFD')                   // Tách dấu thành ký tự riêng
-      .replace(/[\u0300-\u036f]/g, '')   // Loại bỏ dấu
-      .replace(/đ/g, 'd')                // Thay đổi đ thành d
-      .replace(/\s+/g, ' ')              // Chuẩn hóa khoảng trắng
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/\s+/g, ' ')
       .trim();
   }
 
   filterProducts(searchTerm: string): void {
-    if (!searchTerm) {
-      this.products = this.mapProducts([...this.allProducts]);
-      return;
-    }
+    if (this.isLoadingProducts) return;
 
-    const normalizedSearchTerm = this.normalizeText(searchTerm);
+    this.isSearching = true;
     
-    const filteredProducts = this.allProducts.filter(product => {
-      const normalizedProductName = this.normalizeText(product.name);
-      return normalizedProductName.includes(normalizedSearchTerm);
-    });
+    setTimeout(() => {
+      if (!searchTerm) {
+        this.products = this.mapProducts([...this.allProducts]);
+        this.isSearching = false;
+        return;
+      }
 
-    // Áp dụng mapping sau khi filter
-    this.products = this.mapProducts(filteredProducts);
+      const normalizedSearchTerm = this.normalizeText(searchTerm);
+      
+      const filteredProducts = this.allProducts.filter(product => {
+        const normalizedProductName = this.normalizeText(product.name);
+        return normalizedProductName.includes(normalizedSearchTerm);
+      });
+
+      this.products = this.mapProducts(filteredProducts);
+      this.isSearching = false;
+    }, 500);
   }
 
   // Tách logic mapping ra thành method riêng để tái sử dụng
@@ -183,33 +275,45 @@ export class CollectionComponent implements OnInit {
 
   // Cập nhật lại getProductsByCategory
   getProductsByCategory(categoryId: string) {
-    this.productService.getProductsByCategoryId(categoryId, this.currentPage).subscribe({
-      next: (response: PaginatedResponse<Product>) => {
-        this.currentPage = response.currentPage;
-        this.totalPages = response.totalPages;
-        this.pageSize = response.pageSize;
-        this.totalCount = response.totalCount;
-        this.hasPrevious = response.hasPrevious;
-        this.hasNext = response.hasNext;
-        
-        this.allProducts = response.items;
-        this.products = this.mapProducts([...this.allProducts]);
+    this.isLoadingProducts = true;
+    
+    this.productService.getProductsByCategoryId(categoryId, this.currentPage)
+      .pipe(
+        finalize(() => {
+          this.isLoadingProducts = false;
+        })
+      )
+      .subscribe({
+        next: (response: PaginatedResponse<Product>) => {
+          // Add a small delay to show loading animation
+          setTimeout(() => {
+            this.currentPage = response.currentPage;
+            this.totalPages = response.totalPages;
+            this.pageSize = response.pageSize;
+            this.totalCount = response.totalCount;
+            this.hasPrevious = response.hasPrevious;
+            this.hasNext = response.hasNext;
+            
+            this.allProducts = response.items;
+            this.products = this.mapProducts([...this.allProducts]);
 
-        // Generate page numbers array
-        this.generatePageNumbers();
+            // Generate page numbers array
+            this.generatePageNumbers();
 
-        // Apply existing filters
-        if (this.selectedPriceRange) {
-          this.filterByPriceRange(this.selectedPriceRange);
+            // Apply existing filters
+            if (this.selectedPriceRange) {
+              this.filterByPriceRange(this.selectedPriceRange);
+            }
+            if (this.sortOption !== 'newest') {
+              this.sortProducts(this.sortOption);
+            }
+          }, 600); // Minimum loading time for better UX
+        },
+        error: (error) => {
+          console.error('Error fetching products:', error);
+          // You might want to show an error message to the user here
         }
-        if (this.sortOption !== 'newest') {
-          this.sortProducts(this.sortOption);
-        }
-      },
-      error: (error) => {
-        console.error('Error fetching products:', error);
-      }
-    });
+      });
   }
 
   generatePageNumbers() {
@@ -230,13 +334,21 @@ export class CollectionComponent implements OnInit {
     this.pages = pages;
   }
 
-  goToPage(page: number) {
-    if (page !== this.currentPage && page >= 1 && page <= this.totalPages) {
-      this.currentPage = page;
-      const categoryId = this.activatedRoute.snapshot.queryParams['categoryId'];
-      if (categoryId) {
-        this.getProductsByCategory(categoryId);
-      }
+ goToPage(page: number) {
+  if (page !== this.currentPage && page >= 1 && page <= this.totalPages && !this.isPaginating) {
+    this.isPaginating = true;
+    this.currentPage = page;
+    
+    const categoryId = this.activatedRoute.snapshot.queryParams['categoryId'];
+    if (categoryId) {
+      this.getProductsByCategory(categoryId);
+    } else {
+      this.getAllProducts();
     }
+    
+    setTimeout(() => {
+      this.isPaginating = false;
+    }, 800);
   }
+}
 }

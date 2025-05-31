@@ -94,5 +94,15 @@ namespace FashionShop.ProductService.Service
             }
             return await _productRepo.GetProductsByCategory(categoryId, pageNumber, pageSize);
         }
+
+        public async Task<PagedList<ProductDisplayDTO>> GetAllProductsPaged(int pageNumber, int pageSize = 16)
+        {
+            if (pageNumber < 1)
+                throw new ArgumentException("Page number must be greater than 0", nameof(pageNumber));
+            if (pageSize < 1)
+                throw new ArgumentException("Page size must be greater than 0", nameof(pageSize));
+
+            return await _productRepo.GetAllProductsPaged(pageNumber, pageSize);
+        }
     }
 }

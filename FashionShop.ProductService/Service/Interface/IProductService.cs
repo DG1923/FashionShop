@@ -12,4 +12,5 @@ public interface IProductService : IBaseService<Product, ProductCreateDTO, Produ
     Task<IEnumerable<ProductDisplayDTO>> GetFeaturedProductsService(int take);
     Task<IEnumerable<ProductDisplayDTO>> GetNewProductsService(int take);
     Task<IEnumerable<ProductDisplayDTO>> GetTopDiscountedProductsService(int take);
+    Task<PagedList<ProductDisplayDTO>> GetAllProductsPaged(int pageNumber, int pageSize = 16);
 }

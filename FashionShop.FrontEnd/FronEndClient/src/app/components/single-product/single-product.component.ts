@@ -6,7 +6,7 @@ import { ProductService } from '../../services/product.service';
 import { ProductDetails,ProductColor,ProductVariation } from '../../models/product.model';
 import { CartService } from '../../services/cart.service';
 import { ToastService } from '../../services/toast.service';
-import { CartItem } from '../../models/cartItem.model';
+import { CartItemAddDto } from '../../models/cartItem.model';
 import { InventoryService } from '../../services/inventory.service';
 import { AuthService } from '../../services/auth.service';
 import { Inventory } from '../../models/inventory.model';
@@ -142,7 +142,7 @@ isLoadingToCart: boolean = false;
         return;
       }
 
-      const cartItem: CartItem = {
+      const cartItem: CartItemAddDto = {
         cartId: cartId,
         inventoryId: inventory.inventoryId,
         productId: this.product.id,
@@ -157,7 +157,7 @@ isLoadingToCart: boolean = false;
         quantity: this.quantity,
         imageUrl: this.selectedColor!.imageUrlColor
       };
-      await new Promise(resolve => setTimeout(resolve, 5000));
+      await new Promise(resolve => setTimeout(resolve, 1000));
 
       await firstValueFrom(this.cartService.addToCart(cartItem));
       this.toastService.success('Đã thêm vào giỏ hàng');
