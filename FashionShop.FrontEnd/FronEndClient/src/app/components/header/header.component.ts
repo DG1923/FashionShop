@@ -41,6 +41,8 @@ interface MenuSubItem {
   styleUrl: './header.component.css'
 })
 export class HeaderComponent implements OnInit {
+  cartCount$: Observable<number>;
+
   logout() {
     this.authService.logout();
     this.isLogginng = false;
@@ -133,6 +135,20 @@ export class HeaderComponent implements OnInit {
   
   ngOnInit(): void {
     this.getCategories();
+    this.updateCartCount();
+  }
+
+  updateCartCount() {
+    if (this.isLogginng) {
+      const userId = this.authService.getUserId();
+      if (userId) {
+        this.cartService.getCartIdByUserId(userId).subscribe(cartId => {
+          this.cartService.getCartByUserId(cartId).subscribe(cart => {
+            this.cartService.updateCartCount(cart.items.length);
+          });
+        });
+      }
+    }
   }
 
   constructor(
@@ -141,6 +157,7 @@ export class HeaderComponent implements OnInit {
     private categoryService: CategoryService, 
     private cartService: CartService
   ) {
+    this.cartCount$ = this.cartService.cartCount$;
     this.isLogginng = this.authService.isLoggedIn;
     this.userName = this.authService.getUserInfo()?.name || '';
   }

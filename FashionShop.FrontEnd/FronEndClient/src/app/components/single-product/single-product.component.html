@@ -2,111 +2,167 @@
   <div class="container mx-auto max-w-7xl px-4 lg:px-16">
     <!-- Loading state -->
     @if(isLoading) {
-      <div class="flex justify-center items-center min-h-[400px]">
-        <div class="loading-spinner"></div>
-      </div>
+    <div class="flex justify-center items-center min-h-[400px]">
+      <div
+        class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"
+      ></div>
+    </div>
     } @else if(error) {
-      <div class="text-center text-red-600">{{error}}</div>
+    <div class="text-center text-red-600">{{ error }}</div>
     } @else {
-      <!-- Product content -->
-      <div class="flex flex-col md:flex-row gap-8">
-        <!-- Images gallery -->
-        <div class="flex-1 md:w-1/2">
-          <div class="product-gallery flex flex-row items-center gap-4">
-            <div class="flex gap-2 overflow-x-auto flex-col">
-              <ng-container *ngFor="let color of product.productColorsDisplayDTO">
-                <img [src]="color.imageUrlColor" 
-                     [alt]="color.colorName"
-                     (click)="selectColor(color)"
-                     class="m-1 w-15 h-15 object-cover rounded cursor-pointer hover:opacity-75 transition"
-                     [class.ring-2]="selectedColor === color"
-                     [class.ring-blue-600]="selectedColor === color">
-              </ng-container>
-            </div>
-            <img [src]="selectedImage" [alt]="product.name" 
-                 class="w-3/4 rounded-lg mb-4 object-cover">
-            
+    <!-- Product content -->
+    <div class="flex flex-col md:flex-row gap-8">
+      <!-- Images gallery -->
+      <div class="flex-1 md:w-1/2">
+        <div class="product-gallery flex flex-row items-center gap-4">
+          <div class="flex gap-2 overflow-x-auto flex-col">
+            <ng-container *ngFor="let color of product.productColorsDisplayDTO">
+              <img
+                [src]="color.imageUrlColor"
+                [alt]="color.colorName"
+                (click)="selectColor(color)"
+                class="m-1 w-15 h-15 object-cover rounded cursor-pointer hover:opacity-75 transition"
+                [class.ring-2]="selectedColor === color"
+                [class.ring-blue-600]="selectedColor === color"
+              />
+            </ng-container>
           </div>
-        </div>
-
-        <!-- Product info -->
-        <div class="flex-1 md:w-1/2">
-          <h1 class="text-2xl font-bold mb-2">{{product.name}}</h1>
-          <p class="text-gray-500 mb-4">{{product.description}}</p>
-
-          <!-- Price -->
-          <div class="mb-6">
-            <div class="text-3xl font-bold text-blue-600">
-              {{product.discountedPrice || product.basePrice | number}}₫
-            </div>
-            @if(product.discountedPrice) {
-              <div class="text-gray-500 line-through">
-                {{product.basePrice | number}}₫
-              </div>
-            }
-          </div>
-
-          <!-- Colors -->
-          <div class="mb-6" *ngIf="selectedColor">
-            <h3 class="font-medium mb-2">
-              Màu sắc: <span class="text-blue-600">{{selectedColor.colorName}}</span>
-            </h3>
-            <div class="flex gap-3">
-              <button *ngFor="let color of product.productColorsDisplayDTO"
-                      (click)="selectColor(color)"
-                      [class.ring-2]="selectedColor === color"
-                      [class.ring-blue-600]="selectedColor === color"
-                      class="w-10 h-10 rounded-full border shadow-sm hover:opacity-80 transition">
-                <img [src]="color.imageUrlColor" [alt]="color.colorName" 
-                     class="w-full h-full rounded-full object-cover">
-              </button>
-            </div>
-          </div>
-
-          <!-- Sizes -->
-          <div class="mb-6" *ngIf="selectedColor">
-            <h3 class="font-medium mb-2">Kích thước</h3>
-            <div class="flex flex-wrap gap-3">
-              <button *ngFor="let variation of selectedColor.productVariationDisplayDTOs"
-                      (click)="selectSize(variation)"
-                      [class.bg-blue-600]="selectedSize === variation"
-                      [class.text-white]="selectedSize === variation"
-                      [class.cursor-not-allowed]="variation.quantity === 0"
-                      [class.opacity-50]="variation.quantity === 0"
-                      class="relative px-4 py-2 border rounded-lg hover:border-blue-600 transition group"
-                      [disabled]="variation.quantity === 0">
-                <span>{{variation.size}}</span>
-                <!-- Add quantity indicator -->
-                <span class="text-xs block mt-1 text-gray-500 group-hover:text-blue-600" 
-                      [class.text-white]="selectedSize === variation">
-                  Còn {{variation.quantity}} sản phẩm
-                </span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Quantity selector -->
-          <div class="mb-6" *ngIf="selectedSize">
-            <h3 class="font-medium mb-2">Số lượng</h3>
-            <div class="flex items-center gap-4">
-              <div class="flex border rounded-lg">
-                <button class="px-4 py-2 hover:bg-gray-100" 
-                        (click)="decrementQuantity()"
-                        [disabled]="quantity <= 1">-</button>
-                <input type="number" 
-                       [(ngModel)]="quantity" 
-                       class="w-16 text-center border-x"
-                       [max]="selectedSize.quantity"
-                       min="1">
-                <button class="px-4 py-2 hover:bg-gray-100" 
-                        (click)="incrementQuantity()"
-                        [disabled]="quantity >= selectedSize.quantity">+</button>
-              </div>
-              <span class="text-gray-500">Tối đa {{selectedSize.quantity}} sản phẩm</span>
-            </div>
-          </div>
+          <img
+            [src]="selectedImage"
+            [alt]="product.name"
+            class="w-3/4 rounded-lg mb-4 object-cover"
+          />
         </div>
       </div>
+
+      <!-- Product info -->
+      <div class="flex-1 md:w-1/2">
+        <h1 class="text-2xl font-bold mb-2">{{ product.name }}</h1>
+        <p class="text-gray-500 mb-4">{{ product.description }}</p>
+
+        <!-- Price -->
+        <div class="mb-6">
+          <div class="text-3xl font-bold text-blue-600">
+            {{ product.discountedPrice || product.basePrice | number }}₫
+          </div>
+          @if(product.discountedPrice) {
+          <div class="text-gray-500 line-through">
+            {{ product.basePrice | number }}₫
+          </div>
+          }
+        </div>
+
+        <!-- Colors -->
+        <div class="mb-6" *ngIf="selectedColor">
+          <h3 class="font-medium mb-2">
+            Màu sắc:
+            <span class="text-blue-600">{{ selectedColor.colorName }}</span>
+          </h3>
+          <div class="flex gap-3">
+            <button
+              *ngFor="let color of product.productColorsDisplayDTO"
+              (click)="selectColor(color)"
+              [class.ring-2]="selectedColor === color"
+              [class.ring-blue-600]="selectedColor === color"
+              class="w-10 h-10 rounded-full border shadow-sm hover:opacity-80 transition"
+            >
+              <img
+                [src]="color.imageUrlColor"
+                [alt]="color.colorName"
+                class="w-full h-full rounded-full object-cover"
+              />
+            </button>
+          </div>
+        </div>
+
+        <!-- Sizes -->
+        <div class="mb-6" *ngIf="selectedColor">
+          <h3 class="font-medium mb-2">Kích thước</h3>
+          <div class="flex flex-wrap gap-3">
+            <button
+              *ngFor="
+                let variation of selectedColor.productVariationDisplayDTOs
+              "
+              (click)="selectSize(variation)"
+              [class.bg-blue-600]="selectedSize === variation"
+              [class.text-white]="selectedSize === variation"
+              [class.cursor-not-allowed]="variation.quantity === 0"
+              [class.opacity-50]="variation.quantity === 0"
+              class="relative px-4 py-2 border rounded-lg hover:border-blue-600 transition group"
+              [disabled]="variation.quantity === 0"
+            >
+              <span>{{ variation.size }}</span>
+              <!-- Add quantity indicator -->
+              <span
+                class="text-xs block mt-1 text-gray-500 group-hover:text-blue-600"
+                [class.text-white]="selectedSize === variation"
+              >
+                Còn {{ variation.quantity }} sản phẩm
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quantity selector -->
+        <div class="mb-6" *ngIf="selectedSize">
+          <h3 class="font-medium mb-2">Số lượng</h3>
+          <div class="flex items-center gap-4">
+            <div class="flex border rounded-lg">
+              <button
+                class="px-4 py-2 hover:bg-gray-100"
+                (click)="decrementQuantity()"
+                [disabled]="quantity <= 1"
+              >
+                -
+              </button>
+              <input
+                type="number"
+                [(ngModel)]="quantity"
+                class="w-16 text-center border-x"
+                [max]="selectedSize.quantity"
+                min="1"
+              />
+              <button
+                class="px-4 py-2 hover:bg-gray-100"
+                (click)="incrementQuantity()"
+                [disabled]="quantity >= selectedSize.quantity"
+              >
+                +
+              </button>
+            </div>
+            <span class="text-gray-500"
+              >Tối đa {{ selectedSize.quantity }} sản phẩm</span
+            >
+          </div>
+        </div>
+        <div class="mb-6" *ngIf="selectColor">
+          <div class="text-red-500" *ngIf="msgCart">{{ msgCart }}</div>
+          <button
+            (click)="addToCart()"
+            [disabled]="isLoadingToCart"
+            class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition disabled:opacity-75 disabled:cursor-not-allowed relative min-h-[52px] flex items-center justify-center"
+          >
+            <!-- Loading Spinner -->
+            <div
+              *ngIf="isLoadingToCart"
+              class="absolute inset-0 flex items-center justify-center"
+            >
+              <div
+                class="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent"
+              ></div>
+            </div>
+
+            <!-- Button Text -->
+            <span
+              [class.opacity-0]="isLoadingToCart"
+              class="transition-opacity duration-200"
+            >
+              Thêm vào giỏ hàng
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
     }
   </div>
 </section>

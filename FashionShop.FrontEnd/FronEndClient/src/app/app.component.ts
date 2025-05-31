@@ -8,10 +8,11 @@ import { ProductCardComponent } from "./components/product-card/product-card.com
 import { FooterComponent } from "./components/footer/footer.component";
 import { CollectionComponent } from "./collection/collection.component";
 import { SingleProductComponent } from "./components/single-product/single-product.component";
+import { ToastComponent } from "./components/toast.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, ToastComponent],
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

@@ -4,33 +4,36 @@ import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { environment } from "../environments/environment";
-
-interface CartItem {
-  id: string;
-  cartId: string;
-  productId: string;
-  productName: string;
-  basePrice: number;
-  discountPercent: number;
-  colorName: string;
-  colorCode: string;
-  size: string;
-  quantity: number;
-  imageUrl: string;
-  inventoryId: string;
-  productColorId: string;
-  productVariationId: string;
-}
-
+import { CartItem } from '../models/cartItem.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
-    private apiUrlCartItem = `${environment.apiUrl}/cartitem`;
-    private apiUrlCart = `${environment.apiUrl}/cart`;
+  private apiUrlCartItem = `${environment.apiUrl}/cartitem`;
+  private apiUrlCart = `${environment.apiUrl}/cart`;
+  private cartCountSubject = new BehaviorSubject<number>(0);
+  cartCount$ = this.cartCountSubject.asObservable();
 
   constructor(private http: HttpClient) {}
+
+  updateCartCount(count?: number) {
+    if (count !== undefined) {
+      this.cartCountSubject.next(count);
+      return;
+    }
+
+    // If count not provided, fetch from API
+    const userId = localStorage.getItem('userId');
+    if (userId) {
+      this.getCartIdByUserId(userId).subscribe(cartId => {
+        this.getCartByUserId(cartId).subscribe(cart => {
+          this.cartCountSubject.next(cart.items.length);
+        });
+      });
+    }
+  }
+
   //cart
   getCartIdByUserId(userId: string): Observable<string> {
     return this.http.get<string>(`
