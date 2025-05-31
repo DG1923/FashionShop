@@ -75,12 +75,14 @@ export class CollectionComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe(params => {
       const categoryId = params['categoryId'];
-      if (categoryId) {
+      const searchTerm = params['search'];
+      
+      if (searchTerm) {
+        this.searchProducts(searchTerm);
+      } else if (categoryId) {
         this.getProductsByCategory(categoryId);
-      }
-      else{
+      } else {
         this.getAllProducts();
-        
       }
     });
 
@@ -314,6 +316,41 @@ export class CollectionComponent implements OnInit {
           // You might want to show an error message to the user here
         }
       });
+  }
+
+  searchProducts(term: string) {
+    this.isLoadingProducts = true;
+    
+    this.productService.searchProducts(term, this.currentPage)
+      .pipe(
+        finalize(() => {
+          this.isLoadingProducts = false;
+        })
+      )
+      .subscribe({
+        next: (response: PaginatedResponse<Product>) => {
+          setTimeout(() => {
+            this.updateProductsState(response);
+          }, 600);
+        },
+        error: (error) => {
+          console.error('Error searching products:', error);
+        }
+      });
+  }
+
+  private updateProductsState(response: PaginatedResponse<Product>) {
+    this.currentPage = response.currentPage;
+    this.totalPages = response.totalPages;
+    this.pageSize = response.pageSize;
+    this.totalCount = response.totalCount;
+    this.hasPrevious = response.hasPrevious;
+    this.hasNext = response.hasNext;
+    
+    this.allProducts = response.items;
+    this.products = this.mapProducts([...this.allProducts]);
+    
+    this.generatePageNumbers();
   }
 
   generatePageNumbers() {

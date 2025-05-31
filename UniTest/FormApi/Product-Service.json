@@ -5,6 +5,29 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Category/GetSubCategories/{id}": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Category": {
       "get": {
         "tags": [
@@ -320,10 +343,69 @@
         }
       }
     },
+    "/api/Products/search": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "searchTerm",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 16
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Products": {
       "get": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 16
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -481,6 +563,84 @@
             "schema": {
               "type": "string",
               "format": "uuid"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/featured": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/new": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/top-discounted": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "take",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
             }
           }
         ],
@@ -769,6 +929,13 @@
           "imageUrl": {
             "type": "string",
             "nullable": true
+          },
+          "subCategory": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductCategoryDisplayDTO"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -910,6 +1077,13 @@
             "type": "string",
             "nullable": true
           },
+          "productRatings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductRating"
+            },
+            "nullable": true
+          },
           "productColors": {
             "type": "array",
             "items": {
@@ -1009,6 +1183,36 @@
           "imageUrl": {
             "maxLength": 2000,
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductCategoryDisplayDTO": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "maxLength": 500,
+            "minLength": 1,
+            "type": "string"
+          },
+          "imageUrl": {
+            "maxLength": 2000,
+            "type": "string",
+            "nullable": true
+          },
+          "subCategory": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductCategoryDisplayDTO"
+            },
             "nullable": true
           }
         },
@@ -1186,6 +1390,54 @@
           },
           "productCategoryDisplayDTO": {
             "$ref": "#/components/schemas/ProductCategoryCreateDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductRating": {
+        "required": [
+          "id"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "deletedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "productId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "product": {
+            "$ref": "#/components/schemas/Product"
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "rating": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "comment": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

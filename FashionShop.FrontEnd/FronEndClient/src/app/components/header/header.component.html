@@ -76,27 +76,182 @@
       <!-- Search, User, and Cart Icons -->
       <div class="flex items-center space-x-4">
         <!-- Search Bar -->
-        <div class="relative hidden md:block">
-          <input
-            type="text"
-            placeholder="Tìm kiếm sản phẩm..."
-            class="rounded-full border border-gray-300 px-4 py-1 w-64 focus:outline-none focus:ring-2 focus:ring-blue-300"
-          />
-          <button class="absolute right-3 top-1/2 transform -translate-y-1/2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 text-gray-500"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                clip-rule="evenodd"
-              />
+         <!-- Enhanced Search Bar with Animations -->
+<div class="flex items-center space-x-4">
+  <!-- Enhanced Search Container -->
+  <div class="relative hidden md:block">
+    <div class="search-container" 
+         [class.focused]="searchFocused"
+         [class.has-results]="showDropdown">
+      
+      <!-- Search Input with Enhanced Styling -->
+      <div class="relative search-input-wrapper">
+        <input
+          type="text"
+          [(ngModel)]="searchTerm"
+          (input)="onSearchInput($event)"
+          (focus)="onSearchFocus()"
+          (blur)="onSearchBlur()"
+          (keydown.enter)="onSearch()"
+          placeholder="Tìm kiếm sản phẩm thời trang..."
+          class="search-input"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        
+        <!-- Search Button -->
+        <button 
+          (click)="onSearch()" 
+          class="search-button"
+          [disabled]="isSearching">
+          
+          <!-- Loading Spinner -->
+          <div *ngIf="isSearching" class="search-spinner">
+            <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
             </svg>
-          </button>
+          </div>
+          
+          <!-- Search Icon -->
+          <svg *ngIf="!isSearching" 
+               class="search-icon"
+               viewBox="0 0 20 20" 
+               fill="currentColor">
+            <path fill-rule="evenodd" 
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" 
+                  clip-rule="evenodd" />
+          </svg>
+        </button>
+        
+        <!-- Clear Button -->
+        <button *ngIf="searchTerm" 
+                (click)="clearSearch()"
+                class="clear-button">
+          <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" 
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" 
+                  clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Enhanced Search Results Dropdown -->
+      <div *ngIf="showDropdown" 
+           class="search-dropdown"
+           (mouseenter)="onDropdownMouseEnter()"
+           (mouseleave)="onDropdownMouseLeave()">
+        
+        <!-- Loading State -->
+        <div *ngIf="isSearching" class="dropdown-loading">
+          <div class="flex items-center justify-center py-4">
+            <div class="loading-dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <span class="ml-3 text-gray-500">Đang tìm kiếm...</span>
+          </div>
         </div>
+
+        <!-- Search Results -->
+<div *ngIf="!isSearching && searchResults.length > 0" class="dropdown-content">
+  <div class="dropdown-header z-100">
+    <h4 class="text-sm font-semibold text-gray-700 mb-2">Sản phẩm tìm thấy ({{searchResults.length}})</h4>
+  </div>
+  
+  <div class="results-list">
+    <div *ngFor="let product of searchResults; let i = index"
+         (click)="selectResult(product)"
+         class="result-item flex items-center gap-3 p-2 hover:bg-gray-50 cursor-pointer"
+         [style.animation-delay]="(i * 50) + 'ms'">
+      
+      <!-- Product Image -->
+      <div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+        <img [src]="product.mainImageUrl" 
+             [alt]="product.name"
+             class="w-full h-full object-cover">
+      </div>
+      
+      <!-- Product Info -->
+      <div class="flex-grow min-w-0">
+        <!-- Product Name -->
+        <h5 class="text-sm font-medium text-gray-900 truncate mb-1">
+          {{product.name}}
+        </h5>
+        
+        <!-- Price Info -->
+        <div class="flex items-center gap-2">
+          <span class="text-sm font-semibold text-gray-900">
+            {{formatPrice(product.basePrice)}}₫
+          </span>
+          <span *ngIf="product.discountedPrice" 
+                class="text-xs text-gray-500 line-through">
+            {{formatPrice(product.basePrice)}}₫
+          </span>
+          <span *ngIf="product.discountedPrice" 
+                class="text-xs text-red-600">
+            -{{product.discountedPrice}}đ
+          </span>
+        </div>
+      </div>
+
+      <!-- Arrow Icon -->
+      <svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+      </svg>
+    </div>
+  </div>
+</div>
+        <!-- No Results -->
+        <div *ngIf="!isSearching && noResults && searchTerm.length > 0" 
+             class="dropdown-no-results">
+          <div class="no-results-content">
+            <svg class="no-results-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <p class="no-results-text">Không tìm thấy sản phẩm nào</p>
+            <p class="no-results-suggestion">Thử tìm kiếm với từ khóa khác</p>
+          </div>
+        </div>
+
+        <!-- Search History -->
+        <div *ngIf="!isSearching && searchTerm.length === 0 && searchHistory.length > 0" 
+             class="dropdown-content">
+          <div class="dropdown-header">
+            <h4 class="text-sm font-semibold text-gray-700 m-2">Tìm kiếm gần đây</h4>
+          </div>
+          
+          <div class="history-list">
+            <div *ngFor="let term of searchHistory; let i = index"
+                 (click)="searchFromHistory(term)"
+                 class="history-item"
+                 [style.animation-delay]="(i * 30) + 'ms'">
+              
+              <svg class="history-icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" 
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" 
+                      clip-rule="evenodd" />
+              </svg>
+              
+              <span class="history-term">{{term}}</span>
+              
+              <button (click)="removeFromHistory(term, $event)" 
+                      class="history-remove">
+                <svg class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" 
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" 
+                        clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
         <!-- User Icon -->
 <a *ngIf="!isLogginng" routerLink="/login" routerLinkActive="activate" ariaCurrentWhenActive="page" 
@@ -241,9 +396,7 @@
           d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
   </svg>
   
-  <!-- Cart count badge - Có thể dùng cách 1 hoặc cách 2 -->
-  
-  <!-- Cách 1: Sử dụng async pipe với Observable -->
+
   <span *ngIf="(cartCount$ | async) as count">
     <ng-container *ngIf="count > 0">
       <span class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full h-5 w-5 flex items-center justify-center text-xs font-medium">
@@ -252,7 +405,6 @@
     </ng-container>
   </span>
   
-  <!-- Cách 2: Sử dụng property cartCount (đã được subscribe trong component) -->
   <!-- 
   <span *ngIf="cartCount > 0" 
         class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full h-5 w-5 flex items-center justify-center text-xs font-medium">

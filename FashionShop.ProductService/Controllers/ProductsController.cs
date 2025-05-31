@@ -15,7 +15,42 @@ namespace FashionShop.ProductService.Controllers
         {
             _service = service;
         }
+        [AllowAnonymous]
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchProducts(
+            [FromQuery] string searchTerm,
+            [FromQuery] int pageNumber = 1,
+            [FromQuery] int pageSize = 16)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+                return BadRequest("Search term cannot be empty.");
 
+            var products = await _service.SearchProductsService(searchTerm, pageNumber, pageSize);
+
+            if (!products.Items.Any())
+                return Ok(new
+                {
+                    Message = "No products found matching your search.",
+                    CurrentPage = pageNumber,
+                    TotalPages = 0,
+                    PageSize = pageSize,
+                    TotalCount = 0,
+                    HasPrevious = false,
+                    HasNext = false,
+                    Items = new List<ProductDisplayDTO>()
+                });
+
+            return Ok(new
+            {
+                CurrentPage = products.CurrentPage,
+                TotalPages = products.TotalPages,
+                PageSize = products.PageSize,
+                TotalCount = products.TotalCount,
+                HasPrevious = products.HasPrevious,
+                HasNext = products.HasNext,
+                Items = products.Items
+            });
+        }
         [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAllProducts([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 16)

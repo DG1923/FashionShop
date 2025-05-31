@@ -33,4 +33,16 @@ export class ProductService {
   getProductDetails(id: string): Observable<ProductDetails> {
     return this.http.get<ProductDetails>(`${this.apiUrl}/${id}/details`);
   }
+  searchProducts(term: string, pageNumber: number = 1): Observable<PaginatedResponse<Product>> {
+  return this.http.get<PaginatedResponse<Product>>
+    (`${this.apiUrl}/search?searchTerm=${term}&pageNumber=${pageNumber}`);
+}
+
+searchProductsForSuggestions(term: string): Observable<Product[]> {
+  return this.http.get<PaginatedResponse<Product>>
+    (`${this.apiUrl}/search?searchTerm=${term}&pageNumber=1&pageSize=6`)
+    .pipe(
+      map(response => response.items)
+    );
+}
 }

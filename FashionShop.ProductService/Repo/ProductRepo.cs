@@ -495,5 +495,50 @@ namespace FashionShop.ProductService.Repo
 
             return pagedList;
         }
+
+        public async Task<PagedList<ProductDisplayDTO>> SearchProducts(string searchTerm, int pageNumber = 1, int pageSize = 16)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+                return await GetAllProductsPaged(pageNumber, pageSize);
+
+            string cacheKey = $"{_cachePrefix}_search_{searchTerm.ToLower()}_page_{pageNumber}_size_{pageSize}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                Console.WriteLine("--> Get cache search results success!");
+                return JsonSerializer.Deserialize<PagedList<ProductDisplayDTO>>(cachedData);
+            }
+
+            // Normalize search term
+            searchTerm = searchTerm.ToLower().Trim();
+
+            var query = _dbSet
+                .Where(p => p.Name.ToLower().Contains(searchTerm) ||
+                            (p.Description != null && p.Description.ToLower().Contains(searchTerm)) ||
+                            (p.SKU != null && p.SKU.ToLower().Contains(searchTerm)))
+                .Include(p => p.Discount)
+                .Include(p => p.ProductCategory)
+                .Include(p => p.ProductRatings)
+                .AsNoTracking();
+
+            var totalCount = await query.CountAsync();
+
+            var products = await query
+                .OrderByDescending(p => p.Name.ToLower().StartsWith(searchTerm)) // Exact matches first
+                .ThenBy(p => p.Name) // Then alphabetically
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .Select(MapToProductDisplayDTO())
+                .ToListAsync();
+
+            var pagedList = PagedList<ProductDisplayDTO>.Create(products, totalCount, pageNumber, pageSize);
+
+            // Cache the results
+            var options = GetExpirationOptions();
+            await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(pagedList), options);
+
+            return pagedList;
+        }
     }
 }

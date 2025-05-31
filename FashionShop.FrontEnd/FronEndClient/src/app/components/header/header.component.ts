@@ -1,13 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component, HostListener, OnInit, OnDestroy } from '@angular/core';
-import { debounceTime, Observable, Subscription } from 'rxjs';
+import { debounceTime, distinctUntilChanged, filter, finalize, Observable, Subject, Subscription, switchMap } from 'rxjs';
 import { CartService } from '../../services/cart.service';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 import { LoginRequest } from '../../models/auth.model'; 
 import { CategoryService } from '../../services/category.service';
 import { Category } from '../../models/category.model';
-
+import { ProductService } from '../../services/product.service';
+import { Product } from '../../models/product.model';
+import {FormsModule}  from '@angular/forms';
 interface MenuItem {
   title: string;
   link: string;
@@ -34,7 +36,7 @@ interface MenuSubItem {
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, FormsModule],
   standalone: true, 
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
@@ -157,6 +159,16 @@ export class HeaderComponent implements OnInit, OnDestroy {
   
   subMenuCategories = [];
   
+  searchTerm: string = '';
+  searchResults: Product[] = [];
+  isSearching: boolean = false;
+  showDropdown: boolean = false;
+  searchFocused: boolean = false;
+  noResults: boolean = false;
+  searchHistory: string[] = [];
+  private hideDropdownTimeout?: any;
+  private searchSubject = new Subject<string>();
+
   ngOnInit(): void {
     this.getCategories();
     this.initializeCartCount();
@@ -172,6 +184,39 @@ export class HeaderComponent implements OnInit, OnDestroy {
         this.cartService.clearCart();
       }
     });
+
+    // Load search history
+    this.loadSearchHistory();
+
+    // Enhanced search setup
+    this.searchSubject.pipe(
+      debounceTime(400),
+      distinctUntilChanged(),
+      filter(term => term.length >= 2),
+      switchMap(term => {
+        this.isSearching = true;
+        this.noResults = false;
+        return this.productService.searchProductsForSuggestions(term).pipe(
+          finalize(() => {
+            this.isSearching = false;
+          })
+        );
+      })
+    ).subscribe({
+      next: (results) => {
+        this.searchResults = results;
+        this.noResults = results.length === 0;
+        this.showDropdown = true;
+      },
+      error: (error) => {
+        console.error('Search error:', error);
+        this.searchResults = [];
+        this.noResults = true;
+        this.isSearching = false;
+      }
+    });
+
+    this.loadSearchHistory(); // Load search history on init
   }
 
   ngOnDestroy(): void {
@@ -207,7 +252,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
     private authService: AuthService,
     private router: Router,
     private categoryService: CategoryService, 
-    private cartService: CartService
+    private cartService: CartService,
+    private productService: ProductService
   ) {
     this.isLogginng = this.authService.isLoggedIn;
     this.userName = this.authService.getUserName() || '';
@@ -272,6 +318,146 @@ export class HeaderComponent implements OnInit, OnDestroy {
     const headerElement = document.querySelector('.header-menu');
     if (headerElement && !headerElement.contains(event.target as Node)) {
       this.onMenuLeave();
+    }
+  }
+
+  onSearchInput(event: any) {
+    const term = event.target.value.trim();
+    this.searchTerm = term;
+    
+    if (term.length >= 2) {
+      this.searchSubject.next(term);
+    } else if (term.length === 0) {
+      this.clearSearchResults();
+      this.showSearchHistory();
+    } else {
+      this.clearSearchResults();
+    }
+  }
+
+  onSearchFocus() {
+    this.searchFocused = true;
+    
+    if (this.searchTerm.length === 0) {
+      this.showSearchHistory();
+    } else if (this.searchResults.length > 0) {
+      this.showDropdown = true;
+    }
+  }
+
+  onSearchBlur() {
+    this.hideDropdownTimeout = setTimeout(() => {
+      this.searchFocused = false;
+      this.showDropdown = false;
+    }, 200);
+  }
+
+  onDropdownMouseEnter() {
+    if (this.hideDropdownTimeout) {
+      clearTimeout(this.hideDropdownTimeout);
+    }
+  }
+
+  onDropdownMouseLeave() {
+    if (!this.searchFocused) {
+      this.showDropdown = false;
+    }
+  }
+
+  onSearch() {
+    if (this.searchTerm) {
+      this.router.navigate(['/collection'], {
+        queryParams: { search: this.searchTerm }
+      });
+      this.addToSearchHistory(this.searchTerm); // Add to history on search
+      this.searchTerm = '';
+      this.showDropdown = false;
+      this.clearSearchResults();
+    }
+  }
+
+  selectResult(product: Product) {
+    this.router.navigate(['/product', product.id]);
+    this.searchTerm = '';
+    this.showDropdown = false;
+  }
+
+  clearSearch() {
+    this.searchTerm = '';
+    this.clearSearchResults();
+  }
+
+  private clearSearchResults() {
+    this.searchResults = [];
+    this.showDropdown = false;
+    this.noResults = false;
+    this.isSearching = false;
+  }
+
+  private loadSearchHistory() {
+    try {
+      const history = localStorage.getItem('fashion_search_history');
+      if (history) {
+        this.searchHistory = JSON.parse(history).slice(0, 5);
+      }
+    } catch (error) {
+      console.error('Error loading search history:', error);
+      this.searchHistory = [];
+    }
+  }
+
+  private addToSearchHistory(term: string) {
+    if (!term || this.searchHistory.includes(term)) return;
+    
+    this.searchHistory.unshift(term);
+    this.searchHistory = this.searchHistory.slice(0, 5);
+    
+    try {
+      localStorage.setItem('fashion_search_history', JSON.stringify(this.searchHistory));
+    } catch (error) {
+      console.error('Error saving search history:', error);
+    }
+  }
+
+  private showSearchHistory() {
+    if (this.searchHistory.length > 0) {
+      this.showDropdown = true;
+    }
+  }
+
+  searchFromHistory(term: string) {
+    this.searchTerm = term;
+    this.onSearch();
+  }
+
+  removeFromHistory(term: string, event: Event) {
+    event.stopPropagation();
+    this.searchHistory = this.searchHistory.filter(h => h !== term);
+    
+    try {
+      localStorage.setItem('fashion_search_history', JSON.stringify(this.searchHistory));
+    } catch (error) {
+      console.error('Error updating search history:', error);
+    }
+  }
+
+  formatPrice(price: number): string {
+    return new Intl.NumberFormat('vi-VN').format(price);
+  }
+
+  @HostListener('keydown', ['$event'])
+  onKeyDown(event: KeyboardEvent) {
+    if (!this.showDropdown) return;
+
+    if (event.key === 'Escape') {
+      this.clearSearch();
+      return;
+    }
+
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      this.onSearch();
+      return;
     }
   }
 }
