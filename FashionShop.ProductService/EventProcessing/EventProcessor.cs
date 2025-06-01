@@ -1,8 +1,6 @@
 ﻿
 using FashionShop.InventoryService.DTOs;
 using FashionShop.ProductService.DTOs;
-using FashionShop.ProductService.Models;
-using FashionShop.ProductService.Repo.Interface;
 using FashionShop.ProductService.Service.Interface;
 using System.Text.Json;
 
@@ -24,6 +22,9 @@ namespace FashionShop.ProductService.EventProcessing
                 case EventType.InventoryPublished:
                     Console.WriteLine("--> Processing Inventory Published event");
                     UpdataQuantity(message);
+                    break;
+                case EventType.OrderCreated:
+                    Console.WriteLine("--> Processing Inventory when order created !");
                     break;
                 default:
                     Console.WriteLine("--> Event type not recognized");
@@ -67,17 +68,22 @@ namespace FashionShop.ProductService.EventProcessing
                     Console.WriteLine("--> Inventory published event detected");
                     // Handle the event
                     return EventType.InventoryPublished;
-                    
+                case "OrderCreated":
+                    Console.WriteLine("--> Order created event detected");
+                    // Handle the event
+                    return EventType.OrderCreated;
+
                 default:
                     Console.WriteLine("--> Event type not recognized");
                     return EventType.Undetermined;
             }
-        
+
         }
         enum EventType
         {
             InventoryPublished,
+            OrderCreated,
             Undetermined
-        }   
+        }
     }
 }

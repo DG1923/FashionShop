@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "FashionShop.OrderService.Proto";
+service GrpcCartClientService{
+	 rpc GetCartItems(GetCartItemsRequest) returns (CartItemsResponse);
+    rpc ClearCart(ClearListCartItemRequest) returns (ClearCartResponse);
+}
+message GetCartItemsRequest {
+    string cartId = 1;
+}
+
+message CartItemsResponse {
+    repeated CartItemModel items = 1;
+}
+
+message CartItemModel {
+    string productId = 1;
+    string productName = 2;
+    double basePrice = 3;
+    string productColorId = 4;
+    string colorName = 5;
+    string colorCode = 6;
+    string productVariationId = 7;
+    string size = 8;
+    int32 quantity = 9;
+    string imageUrl = 10;
+    string productDiscount = 11;
+    string cartItemId = 12;
+}
+
+message ClearListCartItemRequest {
+    repeated string cartItemIds = 1; // Changed to repeated for multiple items
+}
+message ClearCartItemRequest{
+    string cartItemId = 1;
+}
+
+message ClearCartResponse {
+    bool success = 1;
+}

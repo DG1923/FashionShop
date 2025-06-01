@@ -149,6 +149,7 @@ namespace FashionShop.InventoryService
             //Configure the gRPC service
             app.MapGrpcService<ProductProtoService>();
             app.MapGrpcService<CartProtoServer>();
+            app.MapGrpcService<GrpcOrderServer>();
             app.MapGet("/Protos/ProductProto.proto", async context =>
             {
                 await context.Response.WriteAsync(File.ReadAllText("Proto/ProductProto.proto"));

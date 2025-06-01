@@ -31,8 +31,12 @@
   </ItemGroup>
 	<ItemGroup>
 		<Protobuf Include="Protos\cart.proto" GrpcService="Client" />
+		<Protobuf Include="Protos\GrpcCartServer.proto">
+		  <GrpcService>Client</GrpcService>
+		</Protobuf>
 		<Protobuf Include="Protos\ProtoCreatCart.proto" GrpcService="Server" />
 		<Protobuf Include="Protos\GrpcCartItemClient.proto" GrpcService="Server" />
+		<Protobuf Include="Protos\GrpcCartServer.proto" GrpcService="Server" />
 	</ItemGroup>
 
 </Project>

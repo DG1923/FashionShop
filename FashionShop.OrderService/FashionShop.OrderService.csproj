@@ -32,11 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AsynDataService\" />
-    <Folder Include="DTO\" />
     <Folder Include="EventProcessing\" />
     <Folder Include="SyncDataService\GrpcServer\" />
-    <Folder Include="SyncDataService\GrpcClient\" />
+	  <Protobuf Include="Proto\GrpcCartClient.proto" GrpcService="Client" />
+	  <Protobuf Include="Proto\GrpcInventoryClient.proto" GrpcService="Client" />
   </ItemGroup>
 
 </Project>

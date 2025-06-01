@@ -16,7 +16,7 @@ namespace FashionShop.OrderService.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<OrderItem>()
-                .Property(orderItem => orderItem.Price)
+                .Property(orderItem => orderItem.BasePrice)
                 .HasColumnType("decimal(18,2)");
             modelBuilder.Entity<Order>()
                 .Property(order => order.Total)
@@ -25,6 +25,15 @@ namespace FashionShop.OrderService.Data
                 .Property(paymentDetail => paymentDetail.Amount)
                 .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<Order>()
+                .HasMany(order => order.OrderItems)
+                .WithOne(orderItem => orderItem.Order)
+                .HasForeignKey(orderItem => orderItem.OrderId);
+
+            modelBuilder.Entity<Order>()
+                .HasOne(order => order.PaymentDetail)
+                .WithOne(payment => payment.Order)
+                .HasForeignKey<PaymentDetail>(payment => payment.OrderId); // Fixed the issue by specifying the correct type for the foreign key
         }
     }
 }

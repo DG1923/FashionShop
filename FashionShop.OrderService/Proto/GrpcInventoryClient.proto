@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "FashionShop.OrderService.Proto";
+service GrpcInventoryService {
+    rpc GetInventoryQuantity (InventoryRequest) returns (InventoryResponse);
+    rpc UpdateInventoryQuantity (UpdateInventoryRequest) returns (UpdateInventoryResponse);
+}
+
+message InventoryRequest {
+    string productVariationId = 1;
+}
+
+message InventoryResponse {
+    string productVariationId = 1;
+    int32 quantity = 2;
+    bool result = 3;
+}
+
+message UpdateInventoryRequest {
+    repeated OrderItemRequest items = 1;
+}
+
+message UpdateInventoryResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message OrderItemRequest {
+    string productVariationId = 1;
+    int32 quantity = 2;
+}

@@ -4,6 +4,7 @@ using FashionShop.OrderService.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FashionShop.OrderService.Migrations
 {
     [DbContext(typeof(OrderDbContext))]
-    partial class OrderDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250601070155_updateOrderItemV1.0")]
+    partial class updateOrderItemV10
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,10 +30,6 @@ namespace FashionShop.OrderService.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -66,9 +65,6 @@ namespace FashionShop.OrderService.Migrations
 
                     b.Property<decimal>("BasePrice")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<Guid>("CartItemId")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ColorCode")
                         .HasColumnType("nvarchar(max)");

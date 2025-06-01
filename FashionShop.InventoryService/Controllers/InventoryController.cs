@@ -16,7 +16,7 @@ namespace FashionShop.InventoryService.Controllers
         private readonly IInventoryService _service;
         private readonly IMessageBus _messageBus;
 
-        public InventoryController(IInventoryService service,IMessageBus messageBus)
+        public InventoryController(IInventoryService service, IMessageBus messageBus)
         {
             _service = service;
 
@@ -25,7 +25,7 @@ namespace FashionShop.InventoryService.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            var inventory = await _service.GetAll();    
+            var inventory = await _service.GetAll();
             return Ok(inventory);
         }
         // GET api/<InventoryController>/5
@@ -35,20 +35,22 @@ namespace FashionShop.InventoryService.Controllers
             try
             {
                 var inventory = await _service.GetInventoryByProductIdAsync(id);
-                if (inventory == null) {
+                if (inventory == null)
+                {
                     return NotFound();
                 }
                 return new InventoryDisplayDto
                 {
                     InventoryId = inventory.InventoryId,
                     ProductId = inventory.ProductId,
-                    Quantity = inventory.Quantity,  
+                    Quantity = inventory.Quantity,
                 };
-                    
+
             }
-            catch (Exception ex) { 
-                Console.WriteLine(ex.Message);  
-                return StatusCode(500, ex.Message); 
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, ex.Message);
             }
         }
         [HttpGet("getInventoryByProductId/{productId}")]
@@ -74,8 +76,8 @@ namespace FashionShop.InventoryService.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-            // PUT api/<InventoryController>/5
-            [HttpPut("updateInventory")]
+        // PUT api/<InventoryController>/5
+        [HttpPut("updateInventory")]
         public async Task<ActionResult> Put(UpdateInventoryDto value)
         {
             try
@@ -84,24 +86,7 @@ namespace FashionShop.InventoryService.Controllers
                 var result = await _service.UpdateInventory(value);
                 if (result == true)
                 {
-                    //publish event to RabbitMQ
-                    try
-                    {
-                        var inventory = await _service.GetInventoryByProductIdAsync(value.ProductId);   
-                        var publishInventoryDto = new PublishInventoryDto
-                        {
-                            ProductId = inventory.ProductId,
-                            Quantity = inventory.Quantity,
-                        };
-                        publishInventoryDto.Event = "InventoryPublished";
-                        _messageBus.PublishUpdateQuantity(publishInventoryDto);
 
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("Cound not send event to Product async ",ex.Message);
-                        
-                    }   
                     return Ok();
                 }
                 else
@@ -109,9 +94,10 @@ namespace FashionShop.InventoryService.Controllers
                     return BadRequest();
                 }
             }
-            catch (Exception ex) { 
-                Console.WriteLine($"{ex.Message}"); 
-                return StatusCode(500, ex.Message); 
+            catch (Exception ex)
+            {
+                Console.WriteLine($"{ex.Message}");
+                return StatusCode(500, ex.Message);
             }
         }
     }

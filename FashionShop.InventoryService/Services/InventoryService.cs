@@ -1,19 +1,21 @@
-﻿using FashionShop.InventoryService.Data;
+﻿using FashionShop.InventoryService.AsynDataService;
 using FashionShop.InventoryService.DTOs;
 using FashionShop.InventoryService.Models;
-using FashionShop.InventoryService.Repository;
 using FashionShop.InventoryService.Repository.Interface;
 using FashionShop.InventoryService.Services.Interface;
 
 namespace FashionShop.InventoryService.Services
 {
-    public class InventoryService:IInventoryService
+    public class InventoryService : IInventoryService
     {
         private readonly IInventoryRepo _repo;
-        public InventoryService(IInventoryRepo repo)
+        private readonly IMessageBus _messageBus;
+
+        public InventoryService(IInventoryRepo repo, IMessageBus messageBus)
         {
             _repo = repo;
-            
+            _messageBus = messageBus ?? throw new ArgumentNullException(nameof(messageBus));
+
         }
         public async Task<InventoryDisplayDto> GetByIdAsync(Guid id)
         {
@@ -40,49 +42,75 @@ namespace FashionShop.InventoryService.Services
             try
             {
                 var inventory = await _repo.GetByProductIdAsync(productId);
-                if (inventory == null) {
+                if (inventory == null)
+                {
                     return null;
                 }
                 return new InventoryDisplayDto
                 {
                     InventoryId = inventory.Id,
                     ProductId = productId,
-                    Quantity = inventory.Quantity,  
+                    Quantity = inventory.Quantity,
                 };
 
 
             }
-            catch (Exception ex) { 
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
                 throw;
             }
         }
-
+        //change the way to update inventory
         public async Task<bool> UpdateInventory(UpdateInventoryDto updateInventoryDto)
         {
             try
             {
-                var inventoryExit =await _repo.GetByProductIdAsync(updateInventoryDto.ProductId);
-                if (inventoryExit == null) {
-                    inventoryExit = new Inventory
+                var inventory = await _repo.GetByProductIdAsync(updateInventoryDto.ProductId);
+
+                if (inventory == null)
+                {
+                    inventory = new Inventory
                     {
                         ProductId = updateInventoryDto.ProductId,
                         Quantity = Math.Max(0, updateInventoryDto.QuantityChange),
-                        
                     };
-                    return await _repo.CreateAsync(inventoryExit);  
+                    return await _repo.CreateAsync(inventory);
                 }
                 else
                 {
-                    inventoryExit.Quantity = Math.Max(0, updateInventoryDto.QuantityChange);
-                    return await _repo.UpdateAsync(inventoryExit);  
-                }
+                    //change here
+                    var newQuantity = inventory.Quantity + updateInventoryDto.QuantityChange;
+                    inventory.Quantity = Math.Max(0, newQuantity);
+                    var result = await _repo.UpdateAsync(inventory);
+                    if (result == true)
+                    {
+                        //publish event to RabbitMQ
+                        try
+                        {
+                            var publishInventoryDto = new PublishInventoryDto
+                            {
+                                ProductId = inventory.ProductId,
+                                Quantity = inventory.Quantity,
+                            };
+                            publishInventoryDto.Event = "InventoryPublished";
+                            _messageBus.PublishUpdateQuantity(publishInventoryDto);
 
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Cound not send event to Product async ", ex.Message);
+
+                        }
+                        return true;
+                    }
+                    return false;
+                }
             }
-            catch (Exception ex) { 
-                Console.WriteLine($"{ex.Message}");
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error updating inventory", ex.Message);
                 return false;
-                
             }
         }
 

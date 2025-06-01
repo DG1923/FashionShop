@@ -1,14 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
-namespace FashionShop.OrderService.Model
+namespace FashionShop.OrderService.DTO
 {
-    public class OrderItem : BaseEntity
+    public class OrderItemCreateDto
     {
-        public Guid OrderId { get; set; }
-        [JsonIgnore]
-
-        public Order? Order { get; set; }
 
         public Guid ProductId { get; set; }
         public Guid CartItemId { get; set; }

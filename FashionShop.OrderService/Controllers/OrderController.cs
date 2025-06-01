@@ -1,4 +1,5 @@
-﻿using FashionShop.OrderService.Model;
+﻿using FashionShop.OrderService.DTO;
+using FashionShop.OrderService.Model;
 using FashionShop.OrderService.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 
@@ -65,11 +66,16 @@ namespace FashionShop.OrderService.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<bool>> CreateOrder(Order order)
+        public async Task<ActionResult<bool>> CreateOrder(OrderCreateDto order, Guid cartId)
         {
             try
             {
-                var result = await _orderService.AddAsync(order);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var result = await _orderService.CreateOrderAsync(order, cartId);
                 if (!result)
                     return BadRequest();
                 return Ok(result);
@@ -86,6 +92,11 @@ namespace FashionShop.OrderService.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
                 var result = await _orderService.UpdateOrderStatusAsync(id, status);
                 if (!result)
                     return BadRequest();

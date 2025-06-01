@@ -37,7 +37,11 @@
 		<Protobuf Include="Protos\GrpcCartItemClient.proto">
 		  <GrpcService>Server</GrpcService>
 		</Protobuf>
+		<Protobuf Include="Protos\GrpcInventoryServer.proto">
+		  <GrpcService>Client</GrpcService>
+		</Protobuf>
 		<Protobuf Include="Protos\ProductProto.proto" GrpcService="Server" />
+		<Protobuf Include="Protos\GrpcInventoryServer.proto" GrpcService="Server" />
 		<Protobuf Include="Protos\GrpcCartItemClient.proto" GrpcService="Server" />
 		<Protobuf Include="Protos\SyncQuantity.proto">
 		  <GrpcService>Server</GrpcService>

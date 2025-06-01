@@ -26,7 +26,7 @@ namespace FashionShop.CartService.Service
                 if (cartItems == null)
                     return new List<CartItemDisplayDto>();
 
-                var cartItemsInCart = cartItems.Where(ci => ci.CartId == cartId);
+                var cartItemsInCart = cartItems.Where(ci => ci.CartId == cartId).ToList();
                 foreach (var item in cartItemsInCart)
                 {
                     GrpcGetQuantityRequest grpcGetQuantityRequest = new GrpcGetQuantityRequest
@@ -114,27 +114,24 @@ namespace FashionShop.CartService.Service
         {
             try
             {
+                // First, verify the cart item exists
                 var cartItem = await _repo.GetByIdAsync(cartItemId);
                 if (cartItem == null)
+                {
+                    Console.WriteLine($"--> Cart item with ID {cartItemId} not found");
                     return false;
+                }
 
-                // Return quantity to inventory through gRPC
-                //var updateRequest = new GrpcUpdateQuantityRequest
-                //{
-                //    ProductId = cartItem.ProductVariationId.ToString(),
-                //    Quantity = -cartItem.Quantity // Negative to return to inventory
-                //};
-                //reason why I commented above code is because
-                // cart don't have any responsibility to update quantity to inventory
+                // Use the entity we retrieved to delete
+                var result = await _repo.DeleteAsync(cartItemId);
+                if (!result)
+                {
+                    Console.WriteLine($"--> Failed to delete cart item with ID {cartItemId}");
+                    return false;
+                }
 
-                //var updateResponse = await _grpcClient.UpdateQuantity(updateRequest);
-                //if (!updateResponse.Result)
-                //{
-                //    Console.WriteLine($"--> Failed to return quantity to inventory for product {cartItem.ProductId}");
-                //    return false;
-                //}
-
-                return await _repo.DeleteAsync(cartItemId);
+                Console.WriteLine($"--> Successfully deleted cart item with ID {cartItemId}");
+                return true;
             }
             catch (Exception ex)
             {

@@ -5,6 +5,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ToastService } from '../../services/toast.service';
 
 @Component({
   selector: 'app-register',
@@ -21,7 +22,8 @@ export class RegisterComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private authService: AuthService,
-    private router: Router
+    private router: Router,
+    private toast: ToastService // Assuming you have a ToastService for notifications
   ) {
     this.registerForm = this.fb.group({
       username: ['', Validators.required],
@@ -43,7 +45,7 @@ export class RegisterComponent implements OnInit {
   onSubmit() {
     if (this.registerForm.valid && !this.isLoading) {
       this.isLoading = true;
-      this.loadingText = 'Creating your account...';
+      this.loadingText = 'Đang tạo tài khoản...';
       
       const registerData = {
         userName: this.registerForm.value.username,
@@ -54,7 +56,8 @@ export class RegisterComponent implements OnInit {
       this.authService.register(registerData).subscribe({
         next: (response) => {
           if (response.success) {
-            this.loadingText = 'Account created successfully!';
+            this.loadingText = 'Tạo tài khoản thành công!';
+
             // Small delay to show success message before navigation
             setTimeout(() => {
               this.isLoading = false;
@@ -66,7 +69,9 @@ export class RegisterComponent implements OnInit {
         },
         error: (error) => {
           console.error('Registration failed:', error);
-          this.loadingText = 'Registration failed. Please try again.';
+          
+          this.loadingText = 'Đăng ký thất bại, vui lòng thử lại';
+          this.toast.error('Đăng ký thât bại do '+error.error);
           setTimeout(() => {
             this.isLoading = false;
           }, 1500);

@@ -4,6 +4,8 @@ using FashionShop.OrderService.Repo;
 using FashionShop.OrderService.Repo.Interface;
 using FashionShop.OrderService.Service;
 using FashionShop.OrderService.Service.Interface;
+using FashionShop.OrderService.SyncDataService.GrpcClient;
+using FashionShop.OrderService.SyncDataService.GrpcClient.Interface;
 using FashionShop.ProductService.Repo.Interface;
 using Microsoft.EntityFrameworkCore;
 
@@ -35,6 +37,10 @@ builder.Services.AddScoped<IPaymentDetailRepo, PaymentDetailRepo>();
 builder.Services.AddScoped(typeof
     (IRedisCacheManager<>), typeof(RedisCacheManager<>));
 
+//Add grpc
+builder.Services.AddGrpc();
+builder.Services.AddScoped<IGrpcCartClient, GrpcCartClient>();
+builder.Services.AddScoped<IGrpcInventoryClient, GrpcInventoryClient>();
 
 //add service for services
 builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
