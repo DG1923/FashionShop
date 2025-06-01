@@ -119,18 +119,20 @@ namespace FashionShop.CartService.Service
                     return false;
 
                 // Return quantity to inventory through gRPC
-                var updateRequest = new GrpcUpdateQuantityRequest
-                {
-                    ProductId = cartItem.ProductVariationId.ToString(),
-                    Quantity = -cartItem.Quantity // Negative to return to inventory
-                };
+                //var updateRequest = new GrpcUpdateQuantityRequest
+                //{
+                //    ProductId = cartItem.ProductVariationId.ToString(),
+                //    Quantity = -cartItem.Quantity // Negative to return to inventory
+                //};
+                //reason why I commented above code is because
+                // cart don't have any responsibility to update quantity to inventory
 
-                var updateResponse = await _grpcClient.UpdateQuantity(updateRequest);
-                if (!updateResponse.Result)
-                {
-                    Console.WriteLine($"--> Failed to return quantity to inventory for product {cartItem.ProductId}");
-                    return false;
-                }
+                //var updateResponse = await _grpcClient.UpdateQuantity(updateRequest);
+                //if (!updateResponse.Result)
+                //{
+                //    Console.WriteLine($"--> Failed to return quantity to inventory for product {cartItem.ProductId}");
+                //    return false;
+                //}
 
                 return await _repo.DeleteAsync(cartItemId);
             }
@@ -148,41 +150,20 @@ namespace FashionShop.CartService.Service
                 var existingItem = await _repo.GetByIdAsync(cartItemId);
                 if (existingItem == null)
                     return null;
-
-                // Calculate quantity difference
-                var quantityDifference = cartItemUpdateDto.Quantity - existingItem.Quantity;
-
-                if (quantityDifference != 0)
+                // Check inventory through gRPC
+                var quantityRequest = new GrpcGetQuantityRequest
                 {
-                    // Check inventory through gRPC
-                    var quantityRequest = new GrpcGetQuantityRequest
-                    {
-                        ProductId = existingItem.ProductVariationId.ToString()
-                    };
+                    ProductId = existingItem.ProductVariationId.ToString()
+                };
 
-                    var quantityResponse = await _grpcClient.GetQuantityByProductId(quantityRequest);
-                    if (!quantityResponse.Result || quantityResponse.Quantity < quantityDifference)
-                    {
-                        Console.WriteLine($"--> Insufficient quantity. Available: {quantityResponse.Quantity}");
-                        return null;
-                    }
-
-                    // Update inventory through gRPC
-                    var updateRequest = new GrpcUpdateQuantityRequest
-                    {
-                        ProductId = existingItem.ProductVariationId.ToString(),
-                        Quantity = quantityDifference
-                    };
-
-                    var updateResponse = await _grpcClient.UpdateQuantity(updateRequest);
-                    if (!updateResponse.Result)
-                    {
-                        Console.WriteLine($"--> Failed to update inventory quantity");
-                        return null;
-                    }
+                var quantityResponse = await _grpcClient.GetQuantityByProductId(quantityRequest);
+                if (!quantityResponse.Result || quantityResponse.Quantity < cartItemUpdateDto.Quantity)
+                {
+                    Console.WriteLine($"--> Insufficient quantity. Available: {quantityResponse.Quantity}, Request: {cartItemUpdateDto.Quantity}");
+                    return null;
                 }
-
-                // Update cart item
+                //update only if sufficient stock is available
+                existingItem.Quantity = cartItemUpdateDto.Quantity; // Update quantity if sufficient stock
                 MapToExistingEntity(existingItem, cartItemUpdateDto);
                 var success = await _repo.UpdateAsync(existingItem);
 

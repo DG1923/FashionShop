@@ -110,6 +110,9 @@ app.UseAuthentication();
 app.UseAuthorization();
 await PrepDb.AddSeedData(app);
 app.MapGrpcService<GrpcCreateCart>();
+app.MapGrpcService<GrpcInventoryServer>();
+
+
 app.MapControllers();
 
 app.Run();

@@ -93,21 +93,8 @@ namespace FashionShop.CartService.Controllers
             var created = await _cartItemService.CreateServiceAsync(dto);
             if (created == null)
                 return BadRequest("Failed to create CartItem.");
-
-            // Update product quantity
-            var updateRequest = new GrpcUpdateQuantityRequest
-            {
-                ProductId = dto.ProductVariationId.ToString(),
-                Quantity = quantityResponse.Quantity - dto.Quantity
-            };
-
-            var updateResponse = await _grpcCartItemClient.UpdateQuantity(updateRequest);
-            if (updateResponse == null || !updateResponse.Result)
-            {
-                // Rollback cart item creation if quantity update fails
-                await _cartItemService.DeleteServiceAsync(created.Id);
-                return BadRequest("Failed to update product quantity.");
-            }
+            //reason I delete this line is because cart will not update quantity in inventory service 
+            //I think It will clear to manage stock in inventory service
 
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
