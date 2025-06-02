@@ -1,10 +1,12 @@
 ﻿using FashionShop.OrderService.DTO;
 using FashionShop.OrderService.Model;
 using FashionShop.OrderService.Service.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionShop.OrderService.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderController : ControllerBase
@@ -87,27 +89,27 @@ namespace FashionShop.OrderService.Controllers
             }
         }
 
-        [HttpPut("{id}/status")]
-        public async Task<ActionResult<bool>> UpdateOrderStatus(Guid id, [FromBody] string status)
-        {
-            try
-            {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
+        //[HttpPut("{id}/status")]
+        //public async Task<ActionResult<bool>> UpdateOrderStatus(Guid id, [FromBody] string status)
+        //{
+        //    try
+        //    {
+        //        if (!ModelState.IsValid)
+        //        {
+        //            return BadRequest(ModelState);
+        //        }
 
-                var result = await _orderService.UpdateOrderStatusAsync(id, status);
-                if (!result)
-                    return BadRequest();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return StatusCode(500, "Internal server error");
-            }
-        }
+        //        var result = await _orderService.UpdateOrderStatusAsync(id, status);
+        //        if (!result)
+        //            return BadRequest();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //        return StatusCode(500, "Internal server error");
+        //    }
+        //}
 
         [HttpGet("{id}/total")]
         public async Task<ActionResult<decimal>> GetOrderTotal(Guid id)
@@ -117,6 +119,105 @@ namespace FashionShop.OrderService.Controllers
 
                 var total = await _orderService.CalculateOrderTotalAsync(id);
                 return Ok(total);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
+        }
+        [HttpPost("{id}/return-request")]
+        public async Task<ActionResult<bool>> RequestReturn(Guid id, [FromBody] ReturnRequestDto request)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+
+                var result = await _orderService.RequestReturnAsync(id, request);
+                if (!result)
+                    return BadRequest("Cannot request return for this order");
+
+                return Ok(true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPost("{id}/process-return")]
+        [Authorize(Roles = "Admin")] // Only admin can process return requests
+        public async Task<ActionResult<bool>> ProcessReturn(Guid id, [FromBody] ReturnReviewDto review)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+
+                var result = await _orderService.ProcessReturnRequestAsync(id, review);
+                if (!result)
+                    return BadRequest("Cannot process return request");
+
+                return Ok(true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPut("{id}/status")]
+        [Authorize(Roles = "Admin")] // Only admin can update order status
+        public async Task<ActionResult<bool>> UpdateOrderStatus(Guid id, [FromBody] OrderStatus status)
+        {
+            try
+            {
+                var result = await _orderService.UpdateOrderStatusAsync(id, status);
+                if (!result)
+                    return BadRequest("Cannot update order status");
+
+                return Ok(true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("{id}/status")]
+        public async Task<ActionResult<Order>> GetOrderStatus(Guid id)
+        {
+            try
+            {
+                var order = await _orderService.GetOrderStatusWithHistoryAsync(id);
+                if (order == null)
+                    return NotFound();
+
+                return Ok(order);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("admin/pending")]
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<IEnumerable<Order>>> GetPendingOrders()
+        {
+            try
+            {
+                var orders = await _orderService.GetAllAsync();
+                var pendingOrders = orders.Where(o =>
+                    o.Status == OrderStatus.Pending ||
+                    o.Status == OrderStatus.ReturnRequested);
+
+                return Ok(pendingOrders);
             }
             catch (Exception ex)
             {

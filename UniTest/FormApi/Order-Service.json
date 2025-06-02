@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "FashionShop.OrderService",
-    "version": "1.0"
+    "title": "User Service API",
+    "version": "v1"
   },
   "paths": {
     "/api/Order": {
@@ -46,21 +46,31 @@
         "tags": [
           "Order"
         ],
+        "parameters": [
+          {
+            "name": "cartId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Order"
+                "$ref": "#/components/schemas/OrderCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Order"
+                "$ref": "#/components/schemas/OrderCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Order"
+                "$ref": "#/components/schemas/OrderCreateDto"
               }
             }
           }
@@ -178,65 +188,6 @@
         }
       }
     },
-    "/api/Order/{id}/status": {
-      "put": {
-        "tags": [
-          "Order"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "string"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "string"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "type": "string"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/Order/{id}/total": {
       "get": {
         "tags": [
@@ -273,6 +224,259 @@
                 "schema": {
                   "type": "number",
                   "format": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Order/{id}/return-request": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReturnRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReturnRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReturnRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Order/{id}/process-return": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReturnReviewDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReturnReviewDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReturnReviewDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Order/{id}/status": {
+      "put": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderStatus"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderStatus"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderStatus"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Order"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Order"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Order"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Order/admin/pending": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
                 }
               }
             }
@@ -696,13 +900,33 @@
             "format": "uuid",
             "nullable": true
           },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
           "paymentId": {
             "type": "string",
             "format": "uuid",
             "nullable": true
           },
+          "status": {
+            "$ref": "#/components/schemas/OrderStatus"
+          },
           "orderStatus": {
             "type": "string",
+            "nullable": true
+          },
+          "returnReason": {
+            "type": "string",
+            "nullable": true
+          },
+          "returnRejectionReason": {
+            "type": "string",
+            "nullable": true
+          },
+          "returnRequestDate": {
+            "type": "string",
+            "format": "date-time",
             "nullable": true
           },
           "total": {
@@ -722,9 +946,39 @@
         },
         "additionalProperties": false
       },
+      "OrderCreateDto": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "orderItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItemCreateDto"
+            },
+            "nullable": true
+          },
+          "paymentDetail": {
+            "$ref": "#/components/schemas/PaymentDetailCreateDto"
+          }
+        },
+        "additionalProperties": false
+      },
       "OrderItem": {
         "required": [
-          "id"
+          "basePrice",
+          "colorName",
+          "id",
+          "productColorId",
+          "productName",
+          "productVariationId",
+          "size"
         ],
         "type": "object",
         "properties": {
@@ -749,28 +1003,41 @@
             "type": "string",
             "format": "uuid"
           },
-          "order": {
-            "$ref": "#/components/schemas/Order"
-          },
           "productId": {
             "type": "string",
             "format": "uuid"
           },
-          "productName": {
+          "cartItemId": {
             "type": "string",
+            "format": "uuid"
+          },
+          "productName": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          },
+          "discountId": {
+            "type": "string",
+            "format": "uuid",
             "nullable": true
           },
-          "price": {
+          "basePrice": {
             "type": "number",
             "format": "double"
+          },
+          "discountPercent": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
           },
           "productColorId": {
             "type": "string",
             "format": "uuid"
           },
           "colorName": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
           },
           "colorCode": {
             "type": "string",
@@ -781,19 +1048,120 @@
             "format": "uuid"
           },
           "size": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "inventoryId": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
           "quantity": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32"
           },
           "imageUrl": {
             "type": "string",
+            "format": "uri",
             "nullable": true
           }
         },
         "additionalProperties": false
+      },
+      "OrderItemCreateDto": {
+        "required": [
+          "basePrice",
+          "colorName",
+          "productColorId",
+          "productName",
+          "productVariationId",
+          "size"
+        ],
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "cartItemId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "productName": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          },
+          "discountId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "basePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountPercent": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "productColorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "colorName": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "colorCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "productVariationId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "size": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "inventoryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantity": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderStatus": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "PaymentDetail": {
         "required": [
@@ -848,6 +1216,53 @@
         },
         "additionalProperties": false
       },
+      "PaymentDetailCreateDto": {
+        "type": "object",
+        "properties": {
+          "paymentMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "transactionId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReturnRequestDto": {
+        "required": [
+          "reason"
+        ],
+        "type": "object",
+        "properties": {
+          "reason": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReturnReviewDto": {
+        "required": [
+          "isApproved"
+        ],
+        "type": "object",
+        "properties": {
+          "isApproved": {
+            "type": "boolean"
+          },
+          "rejectionReason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {
@@ -871,6 +1286,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

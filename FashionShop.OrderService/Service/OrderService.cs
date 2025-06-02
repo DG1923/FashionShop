@@ -52,6 +52,7 @@ namespace FashionShop.OrderService.Service
                 {
                     Id = Guid.NewGuid(),
                     UserId = order.UserId,
+                    Status = OrderStatus.Pending,
                     OrderStatus = "Pending",
                     Address = order.Address,
 
@@ -137,12 +138,17 @@ namespace FashionShop.OrderService.Service
                         Console.WriteLine("Failed to clear cart after order creation.");
                         return false;
                     }
-                    List<OrderItem> orderItemsToUpdateInventory = newOrder.OrderItems.ToList();
-                    foreach (var item in orderItemsToUpdateInventory)
-                    {
-                        item.Quantity = item.Quantity * -1; // Negate quantity for inventory update
-                    }
-                    var result_update = await _grpcInventoryClient.UpdateInventoryQuantitiesAsync(orderItemsToUpdateInventory);
+
+                    var result_update = await _grpcInventoryClient.UpdateInventoryQuantitiesAsync(
+                        newOrder.OrderItems.Select(item => new OrderItem
+                        {
+                            ProductId = item.ProductId,
+                            ProductVariationId = item.ProductVariationId,
+                            Quantity = -item.Quantity, // Negate quantity only for inventory update
+                            OrderId = item.OrderId
+                        }).ToList()
+                    );
+
                     if (!result_update)
                     {
                         await _orderRepo.DeleteAsync(newOrder.Id);
@@ -153,11 +159,7 @@ namespace FashionShop.OrderService.Service
                     await _orderRepo.UpdateAsync(newOrder);
                     paymentDetail.Amount = newOrder.Total;
                     await _paymentDetailRepo.CreateAsync(paymentDetail);
-                    foreach (var item in newOrder.OrderItems)
-                    {
-                        item.OrderId = newOrder.Id;
-                        await _orderItemRepo.CreateAsync(item);
-                    }
+
                     //Reason why I didn't send msg to RabbitMQ is because
                     //I did add feature to update inventory when quantity update in inventory
                     //You can see it in InventoryService in inventoryservice project
@@ -191,14 +193,14 @@ namespace FashionShop.OrderService.Service
             return orders.Where(o => o.UserId == userId);
         }
 
-        public async Task<bool> UpdateOrderStatusAsync(Guid orderId, string status)
-        {
-            var order = await GetByIdAsync(orderId);
-            if (order == null) return false;
+        //public async Task<bool> UpdateOrderStatusAsync(Guid orderId, string status)
+        //{
+        //    var order = await GetByIdAsync(orderId);
+        //    if (order == null) return false;
 
-            order.OrderStatus = status;
-            return await UpdateAsync(order);
-        }
+        //    order.OrderStatus = status;
+        //    return await UpdateAsync(order);
+        //}
 
         public async Task<decimal> CalculateOrderTotalAsync(Guid orderId)
         {
@@ -210,6 +212,89 @@ namespace FashionShop.OrderService.Service
                     : 0;
                 return (item.BasePrice - discountAmount) * item.Quantity;
             });
+        }
+        public async Task<bool> RequestReturnAsync(Guid orderId, ReturnRequestDto request)
+        {
+            var order = await GetByIdAsync(orderId);
+            if (order == null || order.Status != OrderStatus.Delivered)
+                return false;
+
+            order.Status = OrderStatus.ReturnRequested;
+            order.ReturnReason = request.Reason;
+            order.ReturnRequestDate = DateTime.UtcNow;
+
+            return await UpdateAsync(order);
+        }
+
+        public async Task<bool> ProcessReturnRequestAsync(Guid orderId, ReturnReviewDto review)
+        {
+            var order = await GetByIdAsync(orderId);
+            if (order == null || order.Status != OrderStatus.ReturnRequested)
+                return false;
+
+            order.Status = review.IsApproved ? OrderStatus.ReturnApproved : OrderStatus.ReturnRejected;
+            if (!review.IsApproved)
+            {
+                order.ReturnRejectionReason = review.RejectionReason;
+            }
+
+            return await UpdateAsync(order);
+        }
+
+        public async Task<bool> UpdateOrderStatusAsync(Guid orderId, OrderStatus status)
+        {
+            var order = await GetByIdAsync(orderId);
+            if (order == null)
+                return false;
+
+            // Validate status transitions
+            if (!IsValidStatusTransition(order.Status, status))
+                return false;
+
+            order.Status = status;
+            return await UpdateAsync(order);
+        }
+
+        private bool IsValidStatusTransition(OrderStatus currentStatus, OrderStatus newStatus)
+        {
+            return (currentStatus, newStatus) switch
+            {
+                // Existing transitions
+                (OrderStatus.Pending, OrderStatus.Confirmed) => true,
+                (OrderStatus.Confirmed, OrderStatus.Shipping) => true,
+                (OrderStatus.Shipping, OrderStatus.Delivered) => true,
+                (OrderStatus.Delivered, OrderStatus.ReturnRequested) => true,
+                (OrderStatus.ReturnRequested, OrderStatus.ReturnApproved) => true,
+                (OrderStatus.ReturnRequested, OrderStatus.ReturnRejected) => true,
+
+                // New transitions for Completed
+                (OrderStatus.Delivered, OrderStatus.Completed) => true,      // Complete after successful delivery
+                (OrderStatus.ReturnRejected, OrderStatus.Completed) => true, // Complete when return request is rejected
+
+                // New transitions for Cancelled
+                (OrderStatus.ReturnApproved, OrderStatus.Cancelled) => true, // Cancel after return request is approved
+                (OrderStatus.Pending, OrderStatus.Cancelled) => true,        // Cancel at initial stage
+                (OrderStatus.Confirmed, OrderStatus.Cancelled) => true,      // Cancel before shipping
+
+                _ => false
+            };
+        }
+
+        public async Task<Order> GetOrderStatusWithHistoryAsync(Guid orderId)
+        {
+            // Get order details including status
+            var order = await GetByIdAsync(orderId);
+            if (order == null)
+                return null;
+
+            // Get associated order items
+            order.OrderItems = await _orderItemRepo.GetOrderItemsByOrderIdAsync(orderId);
+
+            // Get payment details
+            var paymentDetails = await _paymentDetailRepo.GetPaymentDetailsByOrderIdAsync(orderId);
+            order.PaymentDetail = paymentDetails.FirstOrDefault();
+
+            return order;
         }
     }
 }

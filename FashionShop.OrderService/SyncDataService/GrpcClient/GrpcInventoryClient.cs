@@ -73,6 +73,12 @@ namespace FashionShop.OrderService.SyncDataService.GrpcClient
                     ProductVariationId = item.ProductVariationId.ToString(),
                     Quantity = item.Quantity
                 }).ToList();
+
+                foreach (var item in inventoryItems)
+                {
+                    Console.WriteLine($"ProductVariationId: {item.ProductVariationId}, Quantity: {item.Quantity}");
+                }
+
                 var request = new UpdateInventoryRequest
                 {
                     Items = { inventoryItems }
