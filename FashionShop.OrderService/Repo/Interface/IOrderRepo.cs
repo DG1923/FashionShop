@@ -8,6 +8,7 @@ namespace FashionShop.OrderService.Repo.Interface
         Task<IEnumerable<Order>> GetOrdersByUserIdAsync(Guid userId);
         Task<IEnumerable<Order>> GetOrdersByStatusAsync(string status);
         Task<bool> UpdateOrderStatusAsync(Guid id, string status);
+        Task<List<Order>> GetAllOrdersIncludeOrderItems();
     }
 
 }

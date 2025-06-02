@@ -14,6 +14,12 @@ namespace FashionShop.OrderService.Service.Interface
         Task<bool> ProcessReturnRequestAsync(Guid orderId, ReturnReviewDto review);
         Task<bool> UpdateOrderStatusAsync(Guid orderId, OrderStatus status);
         Task<Order> GetOrderStatusWithHistoryAsync(Guid orderId);
+        Task<IEnumerable<OrderDisplayDto>> GetOrdersByStatusAsync(OrderStatus status, Guid userId);
+        Task<PagedList<OrderDisplayDto>> GetAllOrdersPaged(int pageNumber, int pageSize = 16);
+        Task<decimal> GetTotalRevenueAsync(DateTime? startDate = null, DateTime? endDate = null);
+        Task<IDictionary<string, decimal>> GetMonthlyRevenueAsync(int year);
+        Task<IDictionary<int, decimal>> GetYearlyRevenueAsync();
+        Task<IEnumerable<TopSellingProductDto>> GetTopSellingProductsAsync(int limit = 10);
     }
 }
 

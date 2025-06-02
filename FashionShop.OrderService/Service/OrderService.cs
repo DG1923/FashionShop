@@ -4,7 +4,7 @@ using FashionShop.OrderService.Proto;
 using FashionShop.OrderService.Repo.Interface;
 using FashionShop.OrderService.Service.Interface;
 using FashionShop.OrderService.SyncDataService.GrpcClient.Interface;
-using FashionShop.ProductService.Repo.Interface;
+using System.Globalization;
 
 namespace FashionShop.OrderService.Service
 {
@@ -14,10 +14,10 @@ namespace FashionShop.OrderService.Service
         private readonly IPaymentDetailRepo _paymentDetailRepo;
         private readonly IGrpcCartClient _cartCLient;
         private readonly IGrpcInventoryClient _grpcInventoryClient;
-        private readonly IGenericRepo<Order> _orderRepo;
+        private readonly IOrderRepo _orderRepo;
 
         public OrderService(
-            IGenericRepo<Order> orderRepo,
+            IOrderRepo orderRepo,
             IOrderItemRepo orderItemRepo,
             IPaymentDetailRepo paymentDetailRepo,
             IGrpcCartClient cartClient,
@@ -29,6 +29,109 @@ namespace FashionShop.OrderService.Service
             _cartCLient = cartClient;
             _grpcInventoryClient = grpcInventoryClient;
 
+        }
+        public async Task<IEnumerable<TopSellingProductDto>> GetTopSellingProductsAsync(int limit = 10)
+        {
+            var orders = await _orderRepo.GetAllOrdersIncludeOrderItems();
+
+            var topProducts = orders
+                .Where(o => o.Status == OrderStatus.Completed || o.Status == OrderStatus.Delivered)
+                .SelectMany(o => o.OrderItems ?? Enumerable.Empty<OrderItem>())
+                .GroupBy(oi => new { oi.ProductId, oi.ProductName })
+                .Select(g => new TopSellingProductDto
+                {
+                    ProductId = g.Key.ProductId,
+                    ProductName = g.Key.ProductName,
+                    TotalQuantitySold = g.Sum(oi => oi.Quantity)
+                })
+                .OrderByDescending(x => x.TotalQuantitySold)
+                .Take(limit);
+
+            return topProducts;
+        }
+        public async Task<PagedList<OrderDisplayDto>> GetAllOrdersPaged(int pageNumber, int pageSize = 16)
+        {
+            var orders = await _orderRepo.GetAllAsync();
+
+            var totalCount = orders.Count();
+
+            var mappedOrders = orders
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .Select(o => new OrderDisplayDto
+                {
+                    Id = o.Id,
+                    UserId = o.UserId,
+                    Address = o.Address,
+                    Status = o.Status,
+                    Total = o.Total,
+                    FullName = o.FullName,
+                    ContactNumber = o.ContactNumber,
+                    CreatedAt = o.CreatedAt,
+                    OrderItems = o.OrderItems?.Select(oi => new OrderItemDisplayDto
+                    {
+                        Id = oi.Id,
+                        ProductId = oi.ProductId,
+                        ProductName = oi.ProductName,
+                        BasePrice = oi.BasePrice,
+                        DiscountPercent = oi.DiscountPercent,
+                        ProductColorId = oi.ProductColorId
+                    }),
+                    PaymentDetail = o.PaymentDetail != null ? new PaymentDetailDisplayDto
+                    {
+                        Id = o.PaymentDetail.Id,
+                        PaymentStatus = o.PaymentDetail.PaymentStatus
+                    } : null
+                });
+
+            return PagedList<OrderDisplayDto>.Create(mappedOrders, totalCount, pageNumber, pageSize);
+        }
+        public async Task<decimal> GetTotalRevenueAsync(DateTime? startDate = null, DateTime? endDate = null)
+        {
+            var orders = await _orderRepo.GetAllAsync();
+            var completedOrders = orders.Where(o =>
+                o.Status == OrderStatus.Completed ||
+                o.Status == OrderStatus.Delivered);
+
+            if (startDate.HasValue)
+                completedOrders = completedOrders.Where(o => o.CreatedAt >= startDate.Value);
+
+            if (endDate.HasValue)
+                completedOrders = completedOrders.Where(o => o.CreatedAt <= endDate.Value);
+
+            return completedOrders.Sum(o => o.Total);
+        }
+
+        public async Task<IDictionary<string, decimal>> GetMonthlyRevenueAsync(int year)
+        {
+            var orders = await _orderRepo.GetAllAsync();
+            var completedOrders = orders.Where(o =>
+                (o.Status == OrderStatus.Completed || o.Status == OrderStatus.Delivered) &&
+                o.CreatedAt.Year == year);
+
+            return completedOrders
+                .GroupBy(o => o.CreatedAt.ToString("MMMM"))
+                .OrderBy(g => DateTime.ParseExact(g.Key, "MMMM", CultureInfo.InvariantCulture).Month)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.Sum(o => o.Total)
+                );
+        }
+
+        public async Task<IDictionary<int, decimal>> GetYearlyRevenueAsync()
+        {
+            var orders = await _orderRepo.GetAllAsync();
+            var completedOrders = orders.Where(o =>
+                o.Status == OrderStatus.Completed ||
+                o.Status == OrderStatus.Delivered);
+
+            return completedOrders
+                .GroupBy(o => o.CreatedAt.Year)
+                .OrderBy(g => g.Key)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.Sum(o => o.Total)
+                );
         }
         public async Task<bool> CreateOrderAsync(OrderCreateDto order, Guid CartId)
         {
@@ -297,6 +400,39 @@ namespace FashionShop.OrderService.Service
             order.PaymentDetail = paymentDetails.FirstOrDefault();
 
             return order;
+        }
+        public async Task<IEnumerable<OrderDisplayDto>> GetOrdersByStatusAsync(OrderStatus status, Guid userId)
+        {
+            var orders = await _orderRepo.GetAllAsync();
+            var filteredOrders = orders
+                .Where(o => o.Status == status && o.UserId == userId)
+                .Select(o => new OrderDisplayDto
+                {
+                    Id = o.Id,
+                    UserId = o.UserId,
+                    Address = o.Address,
+                    Status = o.Status,
+                    Total = o.Total,
+                    FullName = o.FullName,
+                    ContactNumber = o.ContactNumber,
+                    CreatedAt = o.CreatedAt,
+                    OrderItems = o.OrderItems?.Select(oi => new OrderItemDisplayDto
+                    {
+                        Id = oi.Id,
+                        ProductId = oi.ProductId,
+                        ProductName = oi.ProductName,
+                        BasePrice = oi.BasePrice,
+                        DiscountPercent = oi.DiscountPercent,
+                        ProductColorId = oi.ProductColorId
+                    }),
+                    PaymentDetail = o.PaymentDetail != null ? new PaymentDetailDisplayDto
+                    {
+                        Id = o.PaymentDetail.Id,
+                        PaymentStatus = o.PaymentDetail.PaymentStatus
+                    } : null
+                });
+
+            return filteredOrders;
         }
     }
 }

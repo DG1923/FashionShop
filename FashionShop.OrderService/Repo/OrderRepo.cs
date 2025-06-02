@@ -102,6 +102,41 @@ namespace FashionShop.OrderService.Repo
 
             }
         }
+
+        public async Task<List<Order>> GetAllOrdersIncludeOrderItems()
+        {
+            string cacheKey = $"{_cachePrefix}_all_with_items";
+
+            // Try to get from cache first
+            var cachedOrders = await _redis.GetAsync<List<Order>>(cacheKey);
+            if (cachedOrders != null)
+            {
+                return cachedOrders;
+            }
+
+            // If not in cache, get from database
+            var orders = await _dbSetOrder
+                .Include(o => o.OrderItems)
+                .ToListAsync();
+
+            if (orders == null || !orders.Any())
+            {
+                return new List<Order>();
+            }
+
+            // Cache the result
+            try
+            {
+                await _redis.SetAsync(cacheKey, orders);
+                Console.WriteLine($"[OrderRepo] set cache for key: {cacheKey}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[OrderRepo] Cache operation failed: {ex.Message}");
+            }
+
+            return orders;
+        }
     }
 
 }

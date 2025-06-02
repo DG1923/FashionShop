@@ -1,0 +1,154 @@
+<div class="container mx-auto px-4 py-8">
+  <!-- Page Header -->
+  <div class="mb-8">
+    <h1 class="text-2xl font-bold text-gray-900">Đơn hàng của tôi</h1>
+    <p class="text-gray-600">Theo dõi và quản lý các đơn hàng của bạn</p>
+  </div>
+
+  <!-- Status Filters -->
+  <div class="flex gap-2 mb-6 overflow-x-auto pb-2">
+    <button *ngFor="let status of orderStatuses" 
+            (click)="filterByStatus(status.value)"
+            [class.bg-blue-600]="selectedStatus === status.value"
+            [class.text-white]="selectedStatus === status.value"
+            [class.bg-orange-600]="status.isSpecial && selectedStatus === 'returns'"
+            class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
+                   hover:bg-blue-50 border border-gray-200 whitespace-nowrap">
+      {{ status.label }}
+    </button>
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="isLoading" class="flex justify-center py-12">
+    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+  </div>
+
+  <!-- Error State -->
+  <div *ngIf="error" class="text-center py-12">
+    <div class="text-red-500 mb-4">{{ error }}</div>
+    <button (click)="loadOrders()" 
+            class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Thử lại
+    </button>
+  </div>
+
+  <!-- Orders List -->
+  <div *ngIf="!isLoading && !error" class="space-y-4">
+    <div *ngFor="let order of orders" 
+         class="bg-white rounded-lg shadow-md p-6"
+         [ngClass]="getReturnStatusClass(order.status)">
+      
+      <!-- Order Header -->
+      <div class="flex justify-between items-start mb-4">
+        <div>
+          <h3 class="font-medium text-gray-900">Đơn hàng #{{order.id | slice:0:8}}</h3>
+          <p class="text-sm text-gray-500">{{order.createdAt | date:'dd/MM/yyyy HH:mm'}}</p>
+        </div>
+        <div [ngClass]="getStatusClass(order.status)" 
+             class="px-3 py-1 rounded-full text-sm font-medium">
+          {{getStatusText(order.status)}}
+        </div>
+      </div>
+
+      <!-- Return Status Information -->
+      <div *ngIf="order.status === OrderStatus.ReturnRequested || 
+                  order.status === OrderStatus.ReturnApproved || 
+                  order.status === OrderStatus.ReturnRejected"
+           class="mt-4 p-4 rounded-lg"
+           [ngClass]="{
+             'bg-orange-50': order.status === OrderStatus.ReturnRequested,
+             'bg-green-50': order.status === OrderStatus.ReturnApproved,
+             'bg-red-50': order.status === OrderStatus.ReturnRejected
+           }">
+        <div class="text-sm">
+          <p class="font-medium mb-2">Thông tin hoàn trả:</p>
+          <p class="text-gray-600">Lý do: {{ order.returnReason }}</p>
+          <p class="text-gray-600">Trạng thái: {{ getStatusText(order.status) }}</p>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-100 pt-4">
+        <div class="grid grid-cols-2 gap-4 text-sm">
+          <div>
+            <p class="text-gray-600">Người nhận</p>
+            <p class="font-medium">{{order.fullName}}</p>
+          </div>
+          <div>
+            <p class="text-gray-600">Số điện thoại</p>
+            <p class="font-medium">{{order.contactNumber}}</p>
+          </div>
+          <div class="col-span-2">
+            <p class="text-gray-600">Địa chỉ giao hàng</p>
+            <p class="font-medium">{{order.address}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
+        <div class="text-lg font-bold text-gray-900">
+          {{order.total | currency:'VND':'symbol':'1.0-0'}}
+        </div>
+    
+        <!-- Return Request Button -->
+        <button *ngIf="canRequestReturn(order.status)"
+                (click)="openReturnModal(order.id)"
+                class="px-4 py-2 text-sm font-medium text-red-600 hover:text-red-700
+                       border border-red-200 rounded-lg hover:bg-red-50
+                       transition-colors duration-200">
+          Yêu cầu trả hàng
+        </button>
+      </div>
+    </div>
+
+    <!-- No Orders -->
+    <div *ngIf="orders.length === 0" class="text-center py-12 bg-gray-50 rounded-lg">
+      <p class="text-gray-500">
+        {{ selectedStatus === 'returns' ? 'Không có đơn hàng hoàn trả' : 'Không có đơn hàng nào' }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Return Request Modal -->
+  <div *ngIf="selectedOrderId" 
+       class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg p-6 w-full max-w-md mx-4">
+      <h3 class="text-lg font-semibold mb-4">Yêu cầu trả hàng</h3>
+      
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700 mb-2">
+          Lý do trả hàng
+        </label>
+        <textarea
+          [(ngModel)]="returnReason"
+          rows="4"
+          class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 
+                 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="Vui lòng nhập lý do trả hàng..."
+        ></textarea>
+      </div>
+
+      <div class="flex justify-end gap-3">
+        <button
+          (click)="closeReturnModal()"
+          class="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg
+                 hover:bg-gray-200 transition-colors duration-200">
+          Hủy
+        </button>
+        
+        <button
+          (click)="submitReturnRequest()"
+          [disabled]="isSubmittingReturn || !returnReason.trim()"
+          class="px-4 py-2 text-white bg-red-600 rounded-lg
+                 hover:bg-red-700 transition-colors duration-200
+                 disabled:opacity-50 disabled:cursor-not-allowed
+                 flex items-center gap-2">
+          <span *ngIf="isSubmittingReturn" 
+                class="w-4 h-4 border-2 border-white border-t-transparent 
+                       rounded-full animate-spin">
+          </span>
+          {{ isSubmittingReturn ? 'Đang gửi...' : 'Gửi yêu cầu' }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

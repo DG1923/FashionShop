@@ -1,0 +1,170 @@
+<div class="p-6">
+  <!-- Header -->
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold text-gray-900">Quản lý đơn hàng</h1>
+    <p class="text-gray-600">Quản lý và theo dõi tất cả đơn hàng</p>
+  </div>
+
+  <!-- Status Filter -->
+  <div class="mb-6">
+    <div class="flex flex-wrap gap-2">
+      <button *ngFor="let status of orderStatuses"
+              (click)="onStatusChange(status.value)"
+              [class.bg-blue-600]="selectedStatus === status.value"
+              [class.text-white]="selectedStatus === status.value"
+              [class.hover:bg-blue-700]="selectedStatus === status.value"
+              [class.hover:bg-gray-100]="selectedStatus !== status.value"
+              class="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200
+                     border border-gray-200">
+        {{ status.label }}
+        <span *ngIf="selectedStatus === status.value" 
+              class="ml-2 inline-flex items-center justify-center w-5 h-5 text-xs 
+                     bg-white text-blue-600 rounded-full">
+          ✓
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="isLoading" class="flex justify-center py-12">
+    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+  </div>
+
+  <!-- Error State -->
+  <div *ngIf="error" class="text-center py-12">
+    <div class="text-red-500 mb-4">{{ error }}</div>
+    <button (click)="loadOrders()" 
+            class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Thử lại
+    </button>
+  </div>
+
+
+  <!-- Orders Table -->
+  <div *ngIf="!isLoading && !error" class="bg-white rounded-lg shadow overflow-hidden">
+    <table class="min-w-full divide-y divide-gray-200">
+      <thead class="bg-gray-50">
+        <tr>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Mã đơn hàng
+          </th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Khách hàng
+          </th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Trạng thái
+          </th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Tổng tiền
+          </th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Ngày đặt
+          </th>
+          <!-- Add this column to the table header -->
+          <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Thao tác
+          </th>
+        </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-200">
+        <tr *ngFor="let order of orders">
+          <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+            {{ order.id | slice:0:8 }}
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap">
+            <div class="text-sm font-medium text-gray-900">{{ order.fullName }}</div>
+            <div class="text-sm text-gray-500">{{ order.contactNumber }}</div>
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap">
+            <span [class]="'px-2 inline-flex text-xs leading-5 font-semibold rounded-full ' + getStatusClass(order.status)">
+              {{ getOrderStatusText(order.status) }}
+            </span>
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+            {{ order.total | currency:'VND':'symbol':'1.0-0' }}
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+            {{ order.createdAt | date:'dd/MM/yyyy HH:mm' }}
+          </td>
+          <!-- Add this cell to each row in the table -->
+          <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+            <button (click)="openStatusUpdate(order)"
+                    class="text-indigo-600 hover:text-indigo-900">
+              Cập nhật trạng thái
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pagination -->
+  <div *ngIf="totalPages > 1" class="flex justify-center mt-6 gap-2">
+    <button 
+      (click)="onPageChange(currentPage - 1)"
+      [disabled]="currentPage === 1"
+      class="px-4 py-2 border rounded-lg disabled:opacity-50">
+      Trước
+    </button>
+    
+    <button *ngFor="let page of getPages()"
+            (click)="onPageChange(page)"
+            [class.bg-blue-600]="currentPage === page"
+            [class.text-white]="currentPage === page"
+            class="px-4 py-2 border rounded-lg">
+      {{ page }}
+    </button>
+    
+    <button 
+      (click)="onPageChange(currentPage + 1)"
+      [disabled]="currentPage === totalPages"
+      class="px-4 py-2 border rounded-lg disabled:opacity-50">
+      Sau
+    </button>
+  </div>
+
+  <!-- Add the status update modal -->
+  <div *ngIf="selectedOrder" 
+       class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center">
+    <div class="bg-white rounded-lg p-6 max-w-md w-full">
+      <div class="flex justify-between items-center mb-4">
+        <h3 class="text-lg font-medium">Cập nhật trạng thái đơn hàng</h3>
+        <button (click)="closeStatusUpdate()" class="text-gray-400 hover:text-gray-500">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="mb-4">
+        <p class="text-sm text-gray-500">Trạng thái hiện tại:</p>
+        <p class="font-medium">{{ getOrderStatusText(selectedOrder.status) }}</p>
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700">Trạng thái mới:</label>
+        <select [(ngModel)]="newStatus" 
+                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+          <option [ngValue]="null">Chọn trạng thái</option>
+          <option *ngFor="let status of availableStatuses" [ngValue]="status">
+            {{ getOrderStatusText(status) }}
+          </option>
+        </select>
+      </div>
+
+      <div class="flex justify-end gap-3">
+        <button (click)="closeStatusUpdate()"
+                class="px-4 py-2 border rounded-md text-gray-700 hover:bg-gray-50">
+          Hủy
+        </button>
+        <button (click)="updateOrderStatus()"
+                [disabled]="newStatus === null || isUpdatingStatus"
+                class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 
+                       disabled:opacity-50 disabled:cursor-not-allowed">
+          {{ isUpdatingStatus ? 'Đang cập nhật...' : 'Cập nhật' }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

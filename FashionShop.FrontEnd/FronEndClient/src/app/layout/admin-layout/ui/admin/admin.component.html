@@ -1,0 +1,39 @@
+<div class="flex h-screen bg-gray-100">
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-lg">
+    <div class="p-4 border-b">
+      <h1 class="text-xl font-bold text-gray-800">Admin Dashboard</h1>
+    </div>
+    
+    <nav class="mt-6">
+      <div class="px-4 space-y-2">
+        <a *ngFor="let item of menuItems"
+           [routerLink]="item.path"
+           routerLinkActive="bg-blue-500 text-white"
+           class="flex items-center px-4 py-3 rounded-lg transition-colors duration-200
+                  hover:bg-blue-50 hover:text-blue-600">
+          <i [class]="'feather-' + item.icon" class="h-5 w-5 mr-3"></i>
+          <span class="font-medium">{{ item.label }}</span>
+        </a>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="flex-1 flex flex-col overflow-hidden">
+    <!-- Top Navigation -->
+    <header class="bg-white shadow-sm">
+      <div class="h-16 flex items-center justify-between px-6">
+        <h2 class="text-lg font-semibold text-gray-800">Admin Panel</h2>
+        <div class="flex items-center">
+          <!-- Add user profile/logout button here -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 overflow-auto p-6">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
