@@ -6,6 +6,7 @@ import { CollectionComponent } from './collection/collection.component';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { SingleProductComponent } from './components/single-product/single-product.component';
 import { CartComponent } from './components/cart/cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 export const routes: Routes = [
     {
@@ -17,6 +18,7 @@ export const routes: Routes = [
             { path: 'product/:id', component: SingleProductComponent },
             {path: 'collection/:category', component: CollectionComponent},
             {path:'cart', component: CartComponent},
+            {path:'checkout', component: CheckoutComponent},
 
         ]
         

@@ -1,4 +1,6 @@
-﻿namespace FashionShop.OrderService.Model
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FashionShop.OrderService.Model
 {
     public class Order : BaseEntity
     {
@@ -13,7 +15,11 @@
         public string? ReturnRejectionReason { get; set; }
         public DateTime? ReturnRequestDate { get; set; }
         public decimal Total { get; set; }
+        public string? FullName { get; set; }
+        [Phone]
+        public string? ContactNumber { get; set; }
         public IEnumerable<OrderItem>? OrderItems { get; set; }
+
 
         public PaymentDetail? PaymentDetail { get; set; }
     }

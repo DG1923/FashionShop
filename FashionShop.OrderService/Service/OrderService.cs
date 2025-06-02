@@ -55,6 +55,8 @@ namespace FashionShop.OrderService.Service
                     Status = OrderStatus.Pending,
                     OrderStatus = "Pending",
                     Address = order.Address,
+                    FullName = order.FullName,
+                    ContactNumber = order.ContactNumber,
 
 
                 };

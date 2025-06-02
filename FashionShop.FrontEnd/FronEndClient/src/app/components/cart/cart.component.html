@@ -207,9 +207,9 @@
              class="flex-1 bg-gray-200 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors text-center font-medium">
             Tiếp tục mua sắm
           </a>
-          <button class="flex-1 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transform hover:scale-[1.02] transition-all duration-200 shadow-lg font-medium">
+            <a [routerLink]="['/checkout']" [queryParams]="{ cartId: cartId }" class="flex-1 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transform hover:scale-[1.02] transition-all duration-200 shadow-lg font-medium text-center">
             Thanh toán
-          </button>
+            </a>
         </div>
       </div>
     </div>

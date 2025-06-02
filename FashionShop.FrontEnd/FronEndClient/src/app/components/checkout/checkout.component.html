@@ -1,0 +1,108 @@
+<div class="container mx-auto px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+      <!-- Header -->
+      <div class="p-6 border-b border-gray-200">
+        <h1 class="text-2xl font-bold text-gray-900">Thanh toán</h1>
+      </div>
+
+      <!-- Checkout Form -->
+      <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()" class="p-6">
+        <!-- Shipping Information -->
+        <div class="space-y-6">
+          <div>
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">Thông tin giao hàng</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Họ và tên</label>
+                <input type="text" formControlName="fullName"
+                       class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                @if(checkoutForm.get('fullName')?.errors?.['required'] && checkoutForm.get('fullName')?.touched) {
+                  <p class="text-red-500 text-xs mt-1">Vui lòng nhập họ tên</p>
+                }
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Số điện thoại</label>
+                <input type="tel" formControlName="contactNumber"
+                       class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                @if(checkoutForm.get('contactNumber')?.errors?.['pattern'] && checkoutForm.get('contactNumber')?.touched) {
+                  <p class="text-red-500 text-xs mt-1">Số điện thoại không hợp lệ</p>
+                }
+              </div>
+            </div>
+            <div class="mt-4">
+              <label class="block text-sm font-medium text-gray-700 mb-1">Địa chỉ giao hàng</label>
+              <textarea formControlName="address" rows="3"
+                        class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+            </div>
+          </div>
+
+          <!-- Payment Methods -->
+          <div>
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">Phương thức thanh toán</h2>
+            <div class="space-y-3">
+              @for(method of paymentMethods; track method.id) {
+                <label class="flex items-center p-4 border rounded-lg cursor-pointer hover:bg-gray-50 transition-colors"
+                       [class.border-blue-500]="checkoutForm.get('paymentMethod')?.value === method.id">
+                  <input type="radio" [value]="method.id" formControlName="paymentMethod" class="hidden">
+                  <span class="w-6 h-6 flex items-center justify-center border rounded-full mr-3"
+                        [class.bg-blue-500]="checkoutForm.get('paymentMethod')?.value === method.id">
+                    @if(checkoutForm.get('paymentMethod')?.value === method.id) {
+                      <span class="w-2 h-2 bg-white rounded-full"></span>
+                    }
+                  </span>
+                  <div class="flex-1">
+                    <div class="font-medium">{{method.name}}</div>
+                  </div>
+                </label>
+              }
+            </div>
+          </div>
+
+          <!-- Order Summary -->
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">Tổng quan đơn hàng</h2>
+            <div class="space-y-2">
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-600">Tạm tính:</span>
+                <span class="font-medium">{{878000 | currency:'VND':'symbol':'1.0-0'}}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-600">Phí vận chuyển:</span>
+                <span class="font-medium">{{30000 | currency:'VND':'symbol':'1.0-0'}}</span>
+              </div>
+              <div class="border-t pt-2 mt-2">
+                <div class="flex justify-between">
+                  <span class="font-semibold">Tổng cộng:</span>
+                  <span class="text-xl font-bold text-blue-600">{{908000 | currency:'VND':'symbol':'1.0-0'}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="mt-8">
+          <button type="submit" 
+                  [disabled]="!checkoutForm.valid || isSubmitting"
+                  class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium
+                         hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+                         disabled:opacity-50 disabled:cursor-not-allowed
+                         transform transition-all duration-200 hover:scale-[1.02]">
+            @if(isSubmitting) {
+              <span class="flex items-center justify-center">
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Đang xử lý...
+              </span>
+            } @else {
+              Đặt hàng ({{908000 | currency:'VND':'symbol':'1.0-0'}})
+            }
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

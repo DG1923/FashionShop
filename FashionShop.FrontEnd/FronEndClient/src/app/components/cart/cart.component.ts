@@ -28,6 +28,7 @@ interface NotificationMessage {
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
+  cartId: string = '';
   cartItems: CartItemAddDto[] = [];
   cartItemsDisplay: CartItemState[] = [];
   isLoading = false;
@@ -66,6 +67,7 @@ export class CartComponent implements OnInit {
               hasError: false,
               errorMessage: ''
             }));
+            this.cartId = cartId;
             this.isLoading = false;
           },
           error: (error) => {
