@@ -199,8 +199,8 @@ export class ProducrManagermentComponent implements OnInit {
     }).format(price);
   }
 
-  @HostListener('document:click')
-  closeMenu() {
-    this.selectedProduct = null;
-  }
+  // @HostListener('document:click')
+  // closeMenu() {
+  //   this.selectedProduct = null;
+  // }
 }

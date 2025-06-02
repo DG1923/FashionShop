@@ -1,1 +1,145 @@
-<p>dashboard works!</p>
+<!-- dashboard.component.html -->
+<div class="min-h-screen bg-white p-4 sm:p-6 lg:p-8">
+  <!-- Header -->
+  <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 mb-8 border border-white/20 shadow-xl">
+    <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+      <h1 class="text-2xl sm:text-3xl font-bold text-black flex items-center gap-3">
+        <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
+        </svg>
+        Dashboard - Bán Quần Áo
+      </h1>
+      <button 
+        (click)="refreshData()" 
+        [disabled]="isLoading"
+        class="bg-white/20 hover:bg-white/30 disabled:opacity-50 disabled:cursor-not-allowed border border-white/30 text-white px-4 py-2 rounded-xl transition-all duration-300 hover:scale-105 flex items-center gap-2">
+        <svg 
+          class="w-5 h-5 transition-transform duration-300"
+          [class.animate-spin]="isLoading"
+          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+        </svg>
+        <span class="hidden sm:inline">Làm mới</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="isLoading" class="flex flex-col items-center justify-center py-20">
+    <div class="animate-spin rounded-full h-16 w-16 border-4 border-gray-300 border-t-black mb-4"></div>
+    <p class="text-black text-lg">Đang tải dữ liệu...</p>
+  </div>
+
+  <!-- Error State -->
+  <div *ngIf="error && !isLoading" class="bg-red-50 border border-red-200 rounded-2xl p-8 text-center">
+    <svg class="w-16 h-16 text-red-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"/>
+    </svg>
+    <p class="text-black text-lg mb-4">{{ error }}</p>
+    <button 
+      (click)="refreshData()"
+      class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl transition-colors duration-300 font-semibold">
+      Thử lại
+    </button>
+  </div>
+
+  <!-- Dashboard Content -->
+  <div *ngIf="!isLoading && !error" class="space-y-8">
+    
+    <!-- Total Revenue Card -->
+    <div class="bg-gray-100 border border-gray-200 rounded-2xl p-6 sm:p-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
+      <div class="flex flex-col sm:flex-row items-center gap-6">
+        <div class="bg-gray-200 rounded-2xl p-4 shrink-0">
+          <svg class="w-12 h-12 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+          </svg>
+        </div>
+        <div class="text-center sm:text-left flex-grow">
+          <h3 class="text-gray-700 text-lg sm:text-xl font-semibold mb-2">Tổng Doanh Thu</h3>
+          <p class="text-black text-3xl sm:text-4xl lg:text-5xl font-bold">{{ formatCurrency(totalRevenue) }}</p>
+        </div>
+        <div class="flex items-center gap-2 text-gray-600">
+          <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12"/>
+          </svg>
+          <span class="text-sm">Tất cả thời gian</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Selling Products Section -->
+    <div class="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 shadow-lg">
+      <div class="flex flex-col sm:flex-row justify-between items-center mb-6 pb-4 border-b border-gray-200">
+        <h2 class="text-2xl sm:text-3xl font-bold text-black flex items-center gap-3 mb-4 sm:mb-0">
+          <svg class="w-8 h-8 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd"/>
+          </svg>
+          Top 10 Sản Phẩm Bán Chạy
+        </h2>
+        <span class="bg-gray-100 text-black px-4 py-2 rounded-full text-sm font-semibold border border-gray-200">
+          {{ topSellingProducts.length }} sản phẩm
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div 
+          *ngFor="let product of topSellingProducts; let i = index" 
+          class="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+          [class.ring-2]="i < 3"
+          [class.ring-yellow-400]="i === 0"
+          [class.ring-gray-400]="i === 1"
+          [class.ring-amber-600]="i === 2">
+          
+          <!-- Product Rank -->
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-3">
+              <span 
+                class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold"
+                [ngClass]="getRankClasses(i)">
+                #{{ i + 1 }}
+              </span>
+              <span class="text-2xl" *ngIf="i < 3">{{ getMedalIcon(i) }}</span>
+            </div>
+            <div *ngIf="i < 3" class="text-xs font-semibold px-2 py-1 rounded-full"
+                 [class.bg-yellow-100]="i === 0"
+                 [class.text-yellow-800]="i === 0"
+                 [class.bg-gray-100]="i === 1"
+                 [class.text-gray-800]="i === 1"
+                 [class.bg-amber-100]="i === 2"
+                 [class.text-amber-800]="i === 2">
+              TOP {{ i + 1 }}
+            </div>
+          </div>
+
+          <!-- Product Info -->
+          <div class="mb-4">
+            <h4 class="font-semibold text-black text-lg mb-2 line-clamp-2 leading-tight">
+              {{ product.productName }}
+            </h4>
+            <p class="text-xs text-gray-600 font-mono bg-gray-50 px-2 py-1 rounded border">
+              ID: {{ product.productId }}
+            </p>
+          </div>
+
+          <!-- Product Stats -->
+          <div class="space-y-3 mb-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2 text-gray-600">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 11-4 0v-6m4 0V9a2 2 0 10-4 0v4.01"/>
+                </svg>
+                <span class="text-sm">Đã bán:</span>
+              </div>
+              <span class="font-bold text-green-600">{{ product.totalQuantitySold }}</span>
+            </div>
+            
+          </div>
+
+          <!-- Progress Bar -->
+         
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

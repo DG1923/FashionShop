@@ -32,6 +32,9 @@ export class AuthAdminService {
   isAdmin(): boolean {
     return this.isAdminSubject.value;
   }
+  getAdminToken(): string | null {
+    return localStorage.getItem('admin_token');
+  }
 
   private hasValidAdminToken(): boolean {
     const token = localStorage.getItem('admin_token');
