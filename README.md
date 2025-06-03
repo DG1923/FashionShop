@@ -9,14 +9,14 @@ FashionShop is a complete e-commerce system that allows users to shop for fashio
 ### Technologies Used
 
 - **Backend**: 
-  - .NET 7.0
+  - .NET 8.0
   - Entity Framework Core
   - Redis Cache
   - SQL Server
   - gRPC
   
 - **Frontend**:
-  - Angular 17
+  - Angular 19
   - TailwindCSS
   - TypeScript
 
@@ -55,13 +55,23 @@ FashionShop is a complete e-commerce system that allows users to shop for fashio
    - Price calculations
    - Cart persistence
 
+## Result UI
+![image](https://github.com/user-attachments/assets/09184250-dd07-4599-9c18-4840b51305aa)
+![image](https://github.com/user-attachments/assets/ed5410a8-7774-45b8-9f2a-7745c8c13bdb)
+![image](https://github.com/user-attachments/assets/0711680b-f34b-4f1e-b01f-919cfb4d6f2d)
+![image](https://github.com/user-attachments/assets/6d219bab-d46e-4cea-9548-76b7c2228e92)
+![image](https://github.com/user-attachments/assets/581fd12e-b94b-4787-8581-04a3684d72df)
+
+## Microservice Architecture
+![image](https://github.com/user-attachments/assets/f3a933e1-ff8e-4322-b46e-6f13cc6e51bb)
+
 ## Installation & Deployment
 
 ### System Requirements
 
 - Docker Desktop
 - Kubernetes
-- .NET 7.0 SDK
+- .NET 8.0 SDK
 - Node.js 18+
 - SQL Server
 
