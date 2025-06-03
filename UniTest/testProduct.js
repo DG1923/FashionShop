@@ -10,13 +10,13 @@ export let options = {
         // { duration: '10s', target: 10000 },
         // { duration: '30s', target: 0 },     
           { duration: '10s', target: 2000 }, // Đột ngột 2000 users
-    { duration: '30s', target: 2000 }, // Giữ 2000 users
+    { duration: '30s', target: 10000 }, // Giữ 2000 users
     { duration: '10s', target: 0 },     
     ],
 };
 
 const BASE_URL = 'https://localhost:7179';
-const JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicHBwIiwiZW1haWxhZGRyZXNzIjoibW1tQGdtYWlsLmNvbSIsImp0aSI6IjU3YzlkMDEyLTQyMTgtNDZmMi1iYmQyLTY5ZTk3ZWRhYWViYiIsInN1YiI6IjYzOTQwYTViLTA2YmMtNGE4ZS01MGYwLTA4ZGQ5NmFmYzE3NiIsInJvbGUiOiJDdXN0b21lciIsImV4cCI6MTc0NzY0NzE3NiwiaXNzIjoiRmFzaGlvblNob3AiLCJhdWQiOiJGYXNoaW9uU2hvcCJ9.Ayy6WiVTXuxO69WJmOj2OmynP9VfDR6z4-WE6Mk6y14";
+const JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJlbWFpbGFkZHJlc3MiOiJhZG1pbkBnbWFpbC5jb20iLCJqdGkiOiJjN2NjYjZkNy03YWJjLTRmY2EtODA0ZC02N2Q2OWY0ODVhODgiLCJzdWIiOiIxODAxYjQ4NC0zMzVlLTQ2ZDktMGZjYi0wOGRkODYyNmY0ZGIiLCJyb2xlIjoiQWRtaW4iLCJleHAiOjE3NDg5MTc2NDIsImlzcyI6IkZhc2hpb25TaG9wIiwiYXVkIjoiRmFzaGlvblNob3AifQ.tpUn1CfaNukwzicMXaBefUibKCzQ792hPfRz06qTN2o";
 
 export default function () {
     // GET all products

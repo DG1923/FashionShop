@@ -40,19 +40,19 @@ export class SliderComponent implements OnInit {
       id: 0,
       src: 'https://www.skyweaver.net/images/media/wallpapers/wallpaper1.jpg',
       title: 'Quần áo',
-      subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+      subtitle: ''
     };
     this.slides[1] = {
       id: 1,
       src: 'https://www.skyweaver.net/images/media/wallpapers/wallpaper2.jpg',
       title: 'Thời trang',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      subtitle: ''
     };
     this.slides[2] = {
       id: 2,
       src: 'https://www.skyweaver.net/images/media/wallpapers/wallpaper3.jpg',
       title: 'Thời trang tối giản',
-      subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+      subtitle: ''
     };
   }
 }
