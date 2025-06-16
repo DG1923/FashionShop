@@ -94,7 +94,7 @@ docker push dgiap/fashion-cart-service:latest
 ```
 
 ### Kubernetes Deployment
-demo 
+demo  effefef
 ```bash
 # Deploy services
 cd k8s
