@@ -1,26 +1,21 @@
-name: Ubuntu - LiteManager
+name: Windows – Litemanager
 
 on:
   workflow_dispatch:
 
 jobs:
   build:
-    name: Start Building...
-    runs-on: ubuntu-latest
+    name: Start Building…
+    runs-on: windows-latest
 
     steps:
-    - name: Downloading & installing
-      run: |
-        wget -O Downloads.sh "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat"
-        chmod +x Downloads.sh
-        ./Downloads.sh
+      - name: Downloading & installing
+        run: |
+          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win_10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
 
-    - name: Connect to LiteManager
-      run: |
-        chmod +x show.bat
-        ./show.bat
+      - name: Connect to LiteManager
+        run: cmd /c show.bat
 
-    - name: Time Counter
-      run: |
-        chmod +x loop.bat
-        ./loop.bat
+      - name: Time Counter
+        run: cmd /c loop.bat
