@@ -1,0 +1,26 @@
+name: Ubuntu - LiteManager
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Start Building...
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Downloading & installing
+      run: |
+        wget -O Downloads.sh "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat"
+        chmod +x Downloads.sh
+        ./Downloads.sh
+
+    - name: Connect to LiteManager
+      run: |
+        chmod +x show.bat
+        ./show.bat
+
+    - name: Time Counter
+      run: |
+        chmod +x loop.bat
+        ./loop.bat
